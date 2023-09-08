@@ -1,2 +1,2 @@
 # dtars
-## Danses Traditionnelles d'Alsace - l'héritage Richard Schneider
+## Danses Traditionnelles d'Alsace - l'héritage de Richard Schneider
