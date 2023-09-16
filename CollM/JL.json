@@ -1,0 +1,178 @@
+{
+    "refs": [
+        {
+            "mel": 18,
+            "ref": "JL1.6b",
+            "titre": "Treue Liebe"
+        },
+        {
+            "mel": 324,
+            "ref": "JL1.16",
+            "titre": "Der totwunde Knabe"
+        },
+        {
+            "mel": 55,
+            "ref": "JL1.21",
+            "titre": "Der Hafersack"
+        },
+        {
+            "mel": 131,
+            "ref": "JL1.21a",
+            "titre": "Der Hafersack"
+        },
+        {
+            "mel": 159,
+            "ref": "JL1.45",
+            "titre": "Schäfer und Edelmann"
+        },
+        {
+            "mel": 44,
+            "ref": "JL1.73a",
+            "titre": "Die Fahrt ins Heu"
+        },
+        {
+            "mel": 71,
+            "ref": "JL2.40a",
+            "titre": "Wenn die Trompeten blasen"
+        },
+        {
+            "mel": 71,
+            "ref": "JL2.50a",
+            "titre": "Was batten Dukaten ?"
+        },
+        {
+            "mel": 109,
+            "ref": "JL2.53",
+            "titre": "Ein Schifflein sah ich fahren"
+        },
+        {
+            "mel": 36,
+            "ref": "JL2.59",
+            "titre": "Der Marsch zur Musterungsstadt"
+        },
+        {
+            "mel": 36,
+            "ref": "JL2.75",
+            "titre": "Schatz, reis nicht so weit"
+        },
+        {
+            "mel": 326,
+            "ref": "JL2.103",
+            "titre": "Seemanns Grab"
+        },
+        {
+            "mel": 249,
+            "ref": "JL2.109",
+            "titre": "Mer Lit uf em Land"
+        },
+        {
+            "mel": 61,
+            "ref": "JL2.111",
+            "titre": "Das verliebte Bauernmädchen"
+        },
+        {
+            "mel": 354,
+            "ref": "JL2.114a",
+            "titre": "E Bürebiewala mag i net"
+        },
+        {
+            "mel": 78,
+            "ref": "JL2.114b",
+            "titre": "E Bürebiewala mag i net"
+        },
+        {
+            "mel": 293,
+            "ref": "JL2.121",
+            "titre": "Belacker-Lied"
+        },
+        {
+            "mel": 20,
+            "ref": "JL2.127",
+            "titre": "Die Feldschalmei"
+        },
+        {
+            "mel": 103,
+            "ref": "JL2.189",
+            "page": "2p318",
+            "titre": "Sehnsucht"
+        },
+        {
+            "mel": 358,
+            "ref": "JL3.10",
+            "titre": "Das Duett der Liebe"
+        },
+        {
+            "mel": 91,
+            "ref": "JL3.17",
+            "titre": "Ich halt min Wort"
+        },
+        {
+            "mel": 60,
+            "ref": "JL3.19",
+            "titre": "Treue Liebe"
+        },
+        {
+            "mel": 19,
+            "ref": "JL3.23",
+            "titre": "Heimlich der Deine"
+        },
+        {
+            "mel": 304,
+            "ref": "JL3.24",
+            "titre": "Erste und letzte Liebe"
+        },
+        {
+            "ref": "JL3.57",
+            "titre": "Es war nicht so bös gemeint"
+        },
+        {
+            "mel": 138,
+            "ref": "JL3.58",
+            "titre": "Geh m'r nit über min Mättele"
+        },
+        {
+            "ref": "JL3.60",
+            "titre": "Einladung zum Spazieren und zum Tanz"
+        },
+        {
+            "mel": 108,
+            "ref": "JL3.60a",
+            "titre": "Einladung zum Spazieren und zum Tanz"
+        },
+        {
+            "mel": 108,
+            "ref": "JL3.60b",
+            "titre": "Einladung zum Spazieren und zum Tanz"
+        },
+        {
+            "mel": 170,
+            "ref": "JL3.62.2",
+            "titre": "E Schüssele un e Häfele un e Dekkele dezüe"
+        },
+        {
+            "mel": 120,
+            "ref": "JL3.62.4",
+            "titre": "Wissi Blüemle, roti Blüemle"
+        },
+        {
+            "mel": 371,
+            "ref": "JL3.63",
+            "titre": "Es lebe mein Liebchen"
+        },
+        {
+            "mel": 23,
+            "ref": "JL3.74",
+            "titre": "Liebe und Ehre verloren"
+        },
+        {
+            "mel": 73,
+            "ref": "JL3.166",
+            "titre": "Warnung einer Betrogenen"
+        }
+    ],
+    "prefix": "JL",
+    "name": "Joseph Lefftz",
+    "core": "[123][.][1-9][0-9]{0,2}(a|b|([.][1-9]))?",
+    "colldoc": "1-qayvW-V-bCfQTqde7l8VvJao2BS8KGENidTw1kKtL0",
+    "media": "p"
+}

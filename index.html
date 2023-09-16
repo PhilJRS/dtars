@@ -15,6 +15,10 @@
     <input type="checkbox" id="togglePanel"></input>
     <aside>
       <h2>Options</h2>
+      <div>   
+        <label for="editeur">Editeur</label>
+        <input id="editeur" type="checkbox" onclick="closePanel()" ></input>
+      </div>
       <div>
           <label for="videoOptions">Vidéo :</label>
           <select id="videoOptions" onclick="closePanel()" >
@@ -42,9 +46,11 @@
       function closePanel() {
         makeDocTable('m')
         makeDocTable('c')
-        document.getElementById("togglePanel").checked = false
+        showGraph(curGraph)
+        $('#togglePanel')[0].checked = false
       }
     </script>
+    <button id="saveBtn"></button>
     <div id="DTfamBttns"></div>
     <svg id="fPaper" ></svg>
     <svg height="0">

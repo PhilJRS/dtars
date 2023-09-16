@@ -1,0 +1,137 @@
+{
+    "refs": [
+        {
+            "mel": 318,
+            "ref": "GF1.1",
+            "nomDuGroupe": "Ensemble Musical et Folklorique de Hirsingue"
+        },
+        {
+            "mel": 194,
+            "ref": "GF2.1",
+            "nomDuGroupe": "Groupe folklorique Echo du château de Kaysersberg"
+        },
+        {
+            "mel": 20,
+            "ref": "GF2.2"
+        },
+        {
+            "mel": 162,
+            "ref": "GF2.3"
+        },
+        {
+            "mel": 61,
+            "ref": "GF2.4"
+        },
+        {
+            "mel": 318,
+            "ref": "GF2.5"
+        },
+        {
+            "ref": "GF3.1",
+            "nomDuGroupe": "Groupe folklorique des Marcaires de la Vallée de Munster",
+            "commentaire": "Uff Marsch, Schottisch, Les trois valses, Polka Piquée"
+        },
+        {
+            "mel": 385,
+            "ref": "GF4.1",
+            "titre": "De Buecheleklopfer",
+            "nomDuGroupe": "Groupe Folklorique D’Kochloeffel de Souffelweyersheim",
+            "commentaire": "Audio AH_JPS 2018"
+        },
+        {
+            "mel": 76,
+            "ref": "GF4.2",
+            "titre": "Sarabande d'amour"
+        },
+        {
+            "mel": 194,
+            "ref": "GF4.3",
+            "titre": "Branle des bergers"
+        },
+        {
+            "mel": 129,
+            "ref": "GF4.4",
+            "titre": "Polka des conscrits"
+        },
+        {
+            "mel": 117,
+            "ref": "GF4.5",
+            "titre": "Valse de Munster"
+        },
+        {
+            "mel": 31,
+            "ref": "GF4.6",
+            "titre": "Hischt oder Hott"
+        },
+        {
+            "mel": 316,
+            "ref": "GF4.7",
+            "titre": "Allemande à 4"
+        },
+        {
+            "mel": 259,
+            "ref": "GF4.8",
+            "titre": "S'rappelt uf de Brucke "
+        },
+        {
+            "mel": 295,
+            "ref": "GF4.9",
+            "titre": "Sept pas de Berstett"
+        },
+        {
+            "mel": 79,
+            "ref": "GF4.10",
+            "titre": "La souffel déborde"
+        },
+        {
+            "mel": 319,
+            "ref": "GF4.11",
+            "titre": "L'empoisonneuse"
+        },
+        {
+            "mel": 26,
+            "ref": "GF4.12",
+            "titre": "Scottisch des moissons"
+        },
+        {
+            "mel": 400,
+            "ref": "GF4.13",
+            "titre": "La Souffel déborde ; Joli mai"
+        },
+        {
+            "mel": 401,
+            "ref": "GF4.14",
+            "titre": "Polka des conscrits ; Rhinländer"
+        },
+        {
+            "mel": 146,
+            "ref": "GF4.15",
+            "titre": "Sept Pas Ingolsheim",
+            "commentaire": "AH_JPS 2018"
+        },
+        {
+            "mel": 251,
+            "ref": "GF4.16",
+            "titre": "Allemande (Taubert)  ",
+            "commentaire": "AH_JPS 2018"
+        },
+        {
+            "mel": 87,
+            "ref": "GF4.17",
+            "titre": "Win und Wasser",
+            "commentaire": "AH_JPS 2018"
+        },
+        {
+            "mel": 196,
+            "ref": "GF4.18",
+            "titre": "Donne-moi ton Bouquet",
+            "commentaire": "AH_JPS 2018"
+        }
+    ],
+    "prefix": "GF",
+    "name": "Groupes folkloriques",										
+    "core": "[1-9][0-9]?[.][1-9][0-9]?",
+    "suffix": ",A,B,C,D,E",
+    "media": "v,a,v,v,v,a",
+    "colldoc": "1Oc-WqBEU7O9zkJSOgBlz8trHsd-_zL6oagRU4D8YBPs"
+}

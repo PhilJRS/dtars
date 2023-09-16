@@ -3,7 +3,6 @@ var flatCollFirst=[0]
 
 var curColNb = null
 var curMelNb = null
-var playingAV = null
 var dansesCumReport
 var newMelIndex = []                     // index G-g
 var mels = []
@@ -149,14 +148,11 @@ function audioEnded() {
 function playAV(s, doc) {
   var nouvTitre = doc.ref+(s.label.length==1 ? s.label : '')
   if ($('#titre').text()==nouvTitre && $('#audio')[0].paused ==false)
-    stopAV()
+    $('#audio')[0].pause()
   else {
     $('#audio').attr("src", s.address)
     $('#titre').text(nouvTitre)
   }
-}
-function stopAV(){
-  document.getElementById("audio").pause() 
 }
 
 function showMel(j) {   // param:   j est le n°de mel ou de doc, si > à  mels.length)
@@ -169,6 +165,7 @@ function showMel(j) {   // param:   j est le n°de mel ou de doc, si > à  mels.
       if (doc.sxs[1]?.split(',')[0]) dcfa = doc // s'il a un audio non nul, il faut le jouer
       j= doc.mel
   }
+  $('#audio')[0].pause()
   if (curMelNb && mels[curMelNb].graph) mels[curMelNb].shapes.first().stroke({width:1})//=HighlightOff(j)
   curMelNb = j
   var mel = flatColls[j]
@@ -178,8 +175,7 @@ function showMel(j) {   // param:   j est le n°de mel ou de doc, si > à  mels.
   if (mel.graph != undefined) {
       mel.shapes.first().stroke({width:3})//=HighlightOn(j)
       $('#hdrTab').append($('<div id="famDv"/>').append($('<button id="famBt"/>').text( 'fam '+mel.graph.grp)))
-      document.querySelector('#famBt').addEventListener('click', function() {showGraph(mel.graph.grp)})
-      document.querySelector('#m')
+      $('#famBt').click(()=>$('#fBt'+mel.graph.grp).click())
       function addButtons(key) {  //returns a string of button elements labelled with key and values in Array mel[]
         var relMels =  graph[mel.graph.grp].mels.filter((_m,i)=>mel.graph.rel[i]==key[0]) 
         if (relMels.length==0) return
@@ -228,7 +224,7 @@ function showMel(j) {   // param:   j est le n°de mel ou de doc, si > à  mels.
   if (!dcfa) { // s'il n'y a pas déjà un doc audio à jouer en priorité
     var audioDocs = mel.docs?.filter(d=>(d.sxs!= undefined  && d.sxs[1]!=''))
     if (audioDocs?.length) dcfa = audioDocs[Math.floor(Math.random()*audioDocs.length)]
-  } else stopAV()
+  } else $('#audio')[0].pause()
   
   if (mel.docs?.length ?? 0) {
     $('#mPanel').append($('<tr/>').append($('<table id="mTbl"/>')))

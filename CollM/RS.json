@@ -1,0 +1,5379 @@
+{
+    "refs": [
+        {
+            "mel": 61,
+            "ref": "RSD1",
+            "titre": "Le petit Jean"
+        },
+        {
+            "mel": 353,
+            "ref": "RSD2",
+            "titre": "Charmante Marianne ; Herzig's Marianel"
+        },
+        {
+            "ref": "RSD3",
+            "titre": "L'Alsace est le meilleur pays"
+        },
+        {
+            "mel": 106,
+            "ref": "RSD4",
+            "titre": "L'adieu des conscrits"
+        },
+        {
+            "mel": 213,
+            "ref": "RSD5",
+            "titre": "La chanson des beignets"
+        },
+        {
+            "mel": 283,
+            "ref": "RSD6",
+            "titre": "Baby-polka"
+        },
+        {
+            "mel": 142,
+            "ref": "RSD7",
+            "titre": "Polka Badina"
+        },
+        {
+            "mel": 143,
+            "ref": "RSD8",
+            "titre": "Polka des Bébés"
+        },
+        {
+            "mel": 143,
+            "ref": "RSD9",
+            "titre": "Polka des Bébés"
+        },
+        {
+            "ref": "RSD10",
+            "titre": "Les quatre Pertus"
+        },
+        {
+            "ref": "RSD11",
+            "titre": "L'Aveina"
+        },
+        {
+            "ref": "RSD12",
+            "titre": "La Civaïa"
+        },
+        {
+            "ref": "RSD13",
+            "titre": "La Monaco"
+        },
+        {
+            "ref": "RSD14",
+            "titre": "La Polenta"
+        },
+        {
+            "mel": 343,
+            "ref": "RSD15",
+            "titre": "Un Beau Ciel"
+        },
+        {
+            "ref": "RSD16",
+            "titre": "Comme ils aiment"
+        },
+        {
+            "ref": "RSD17",
+            "titre": "Comme ils aiment"
+        },
+        {
+            "ref": "RSD18",
+            "titre": "La mort de l'âne"
+        },
+        {
+            "ref": "RSD19",
+            "titre": "La mort de l'âne"
+        },
+        {
+            "ref": "RSD20",
+            "titre": "La mort de l'âne"
+        },
+        {
+            "ref": "RSD21",
+            "titre": "La mort de l'âne"
+        },
+        {
+            "mel": 239,
+            "ref": "RSD22",
+            "titre": "Siwenersprung"
+        },
+        {
+            "mel": 240,
+            "ref": "RSD23",
+            "titre": "Siwenersprung"
+        },
+        {
+            "mel": 74,
+            "ref": "RSD24",
+            "titre": "Jibouli Jiboula"
+        },
+        {
+            "mel": 241,
+            "ref": "RSD25",
+            "titre": "De siebente Sprung"
+        },
+        {
+            "ref": "RSD26",
+            "titre": "Adieu, pauvre Carnaval"
+        },
+        {
+            "mel": 218,
+            "ref": "RSD27",
+            "titre": "Siwenersprung ; Danse des sept sauts"
+        },
+        {
+            "ref": "RSD28",
+            "titre": "Le Petit-Jean"
+        },
+        {
+            "ref": "RSD29",
+            "titre": "Branle de Sainte-Foy"
+        },
+        {
+            "mel": 243,
+            "ref": "RSD30",
+            "titre": "Siebenspringer"
+        },
+        {
+            "mel": 244,
+            "ref": "RSD31",
+            "titre": "Sept sauts"
+        },
+        {
+            "mel": 242,
+            "ref": "RSD32",
+            "titre": "Siewenersprung"
+        },
+        {
+            "mel": 246,
+            "ref": "RSD33",
+            "titre": "Siebter Sprung"
+        },
+        {
+            "mel": 245,
+            "ref": "RSD34",
+            "titre": "Sept sauts"
+        },
+        {
+            "mel": 247,
+            "ref": "RSD35",
+            "titre": "Zaspi Jautziak"
+        },
+        {
+            "ref": "RSD36",
+            "titre": "La Lanverne"
+        },
+        {
+            "ref": "RSD37",
+            "titre": "Savez-vous planter les choux"
+        },
+        {
+            "ref": "RSD38",
+            "titre": "Le gai laboureur"
+        },
+        {
+            "ref": "RSD39",
+            "titre": "Le Picoulet"
+        },
+        {
+            "ref": "RSD40",
+            "titre": "Bonjour paysan"
+        },
+        {
+            "mel": 199,
+            "ref": "RSD41",
+            "titre": "Les gens de cette maison ; Où est le maître ?"
+        },
+        {
+            "ref": "RSD42",
+            "titre": "Où sont-ils?"
+        },
+        {
+            "ref": "RSD43",
+            "titre": "Le chouade"
+        },
+        {
+            "ref": "RSD44",
+            "titre": "L'aveine"
+        },
+        {
+            "ref": "RSD45",
+            "titre": "La cibado"
+        },
+        {
+            "ref": "RSD46",
+            "titre": "L'avoène"
+        },
+        {
+            "ref": "RSD47",
+            "titre": "L'avône"
+        },
+        {
+            "ref": "RSD48",
+            "titre": "La cibade"
+        },
+        {
+            "ref": "RSD49",
+            "titre": "Savez-vous comment on sème l'avoine"
+        },
+        {
+            "ref": "RSD50",
+            "titre": "La micht'en l'aire"
+        },
+        {
+            "ref": "RSD51",
+            "titre": "La mistenlaire"
+        },
+        {
+            "ref": "RSD52",
+            "titre": "Bonhomme, savez-vous djouga?"
+        },
+        {
+            "ref": "RSD53",
+            "titre": "La mist'en l'aire"
+        },
+        {
+            "ref": "RSD54",
+            "titre": "La mistenlaire"
+        },
+        {
+            "ref": "RSD55",
+            "titre": "La mistenlaire"
+        },
+        {
+            "ref": "RSD56",
+            "titre": "La ouystanvoire"
+        },
+        {
+            "ref": "RSD57",
+            "titre": "Bonhomme, voulez-vous djouga?"
+        },
+        {
+            "ref": "RSD58",
+            "titre": "Mon père a tué le loup"
+        },
+        {
+            "ref": "RSD59",
+            "titre": "Le curé de paille"
+        },
+        {
+            "mel": 385,
+            "ref": "RSD60",
+            "titre": "De Buechleklopfer"
+        },
+        {
+            "mel": 384,
+            "ref": "RSD61",
+            "titre": "De Haystàll fàllt um"
+        },
+        {
+            "mel": 88,
+            "ref": "RSD62",
+            "titre": "Buchelklobber"
+        },
+        {
+            "mel": 385,
+            "ref": "RSD63",
+            "titre": "D'r Buechelklopfer"
+        },
+        {
+            "ref": "RSD64",
+            "titre": "Hans Orem"
+        },
+        {
+            "ref": "RSD65",
+            "titre": "Hans Adam"
+        },
+        {
+            "ref": "RSD66",
+            "titre": "La ceinture de dix brins"
+        },
+        {
+            "ref": "RSD67",
+            "titre": "Adam et Eve"
+        },
+        {
+            "ref": "RSD68",
+            "titre": "Margot-la-paresse"
+        },
+        {
+            "ref": "RSD69",
+            "titre": "Ma commère quand je danse"
+        },
+        {
+            "ref": "RSD70",
+            "titre": "C'est ici c'est là-bas"
+        },
+        {
+            "ref": "RSD71",
+            "titre": "Lisette aux noix"
+        },
+        {
+            "ref": "RSD72",
+            "titre": "A boulegui, a boulega!"
+        },
+        {
+            "ref": "RSD73",
+            "titre": "Neuf palombes"
+        },
+        {
+            "ref": "RSD74",
+            "titre": "Godalet-dantza"
+        },
+        {
+            "ref": "RSD75",
+            "titre": "Les étudiants conscrits"
+        },
+        {
+            "ref": "RSD76",
+            "titre": "Hirtzmandig"
+        },
+        {
+            "ref": "RSD77",
+            "titre": "Pastourelle"
+        },
+        {
+            "ref": "RSD78",
+            "titre": "L'heureux mendiant"
+        },
+        {
+            "ref": "RSD79",
+            "titre": "La bavarde"
+        },
+        {
+            "mel": 131,
+            "ref": "RSD80",
+            "titre": "La fille du meunier et le prince"
+        },
+        {
+            "ref": "RSD81",
+            "titre": "La troumpuzo"
+        },
+        {
+            "ref": "RSD82",
+            "titre": "Ian petit"
+        },
+        {
+            "ref": "RSD83",
+            "titre": "Procession d'Echternach"
+        },
+        {
+            "ref": "RSD84",
+            "titre": "Procession d'Echternach"
+        },
+        {
+            "ref": "RSD85",
+            "titre": "Procession d'Echternach"
+        },
+        {
+            "ref": "RSD86",
+            "titre": "Hànsel et Gretel"
+        },
+        {
+            "mel": 81,
+            "ref": "RSD87",
+            "titre": "Les deux hirondelles"
+        },
+        {
+            "ref": "RSD88",
+            "titre": "Rums vide bums"
+        },
+        {
+            "ref": "RSD89",
+            "titre": "Krakoviak"
+        },
+        {
+            "ref": "RSD90",
+            "titre": "Les trois cavaliers"
+        },
+        {
+            "ref": "RSD91",
+            "titre": "Mon marle"
+        },
+        {
+            "ref": "RSD92",
+            "titre": "La Verdon"
+        },
+        {
+            "ref": "RSD93",
+            "titre": "Virginie"
+        },
+        {
+            "ref": "RSD94",
+            "titre": "Trobi le renard"
+        },
+        {
+            "ref": "RSD95",
+            "titre": "La belle, j'en suis charmé"
+        },
+        {
+            "ref": "RSD96",
+            "titre": "Les filles de la Ciotat"
+        },
+        {
+            "ref": "RSD97",
+            "titre": "Le meurtre de la fiancée"
+        },
+        {
+            "ref": "RSD98",
+            "titre": "L'alouette et le pinson"
+        },
+        {
+            "ref": "RSD99",
+            "titre": "Lou mes de may"
+        },
+        {
+            "ref": "RSD100",
+            "titre": "Les caillebottes ; Schufelniner ?"
+        },
+        {
+            "ref": "RSD101",
+            "titre": "L'âne à Marianne"
+        },
+        {
+            "ref": "RSD102",
+            "titre": "Le p'tit fusil"
+        },
+        {
+            "mel": 327,
+            "ref": "RSD103",
+            "titre": "Le gai vigneron"
+        },
+        {
+            "mel": 115,
+            "ref": "RSD104",
+            "titre": "La légende de Bacqueville"
+        },
+        {
+            "mel": 115,
+            "ref": "RSD105",
+            "titre": "La légende de Bacqueville"
+        },
+        {
+            "ref": "RSD106",
+            "titre": "L'adieu des conscrits"
+        },
+        {
+            "ref": "RSD107",
+            "titre": "Guillaume et son âne"
+        },
+        {
+            "ref": "RSD108",
+            "titre": "La mau mériäye"
+        },
+        {
+            "mel": 126,
+            "ref": "RSD109",
+            "titre": "Légende hongroise"
+        },
+        {
+            "ref": "RSD110",
+            "titre": "La rose rose"
+        },
+        {
+            "mel": 20,
+            "ref": "RSD111",
+            "titre": "La flûte du berger"
+        },
+        {
+            "ref": "RSD112",
+            "titre": "L'auberge rouge"
+        },
+        {
+            "ref": "RSD113",
+            "titre": "La bourrée d'Auvergne"
+        },
+        {
+            "ref": "RSD114",
+            "titre": "Le vieux mari"
+        },
+        {
+            "mel": 127,
+            "ref": "RSD115",
+            "titre": "Barbe-bleue"
+        },
+        {
+            "ref": "RSD116",
+            "titre": "Jeune Seebach"
+        },
+        {
+            "ref": "RSD117",
+            "titre": "Les claquettes"
+        },
+        {
+            "mel": 71,
+            "ref": "RSD118",
+            "titre": "Réveil au clairon"
+        },
+        {
+            "ref": "RSD119",
+            "titre": "Mille ducats"
+        },
+        {
+            "ref": "RSD120",
+            "titre": "Le tabac"
+        },
+        {
+            "ref": "RSD121",
+            "titre": "Médisance et fidélité"
+        },
+        {
+            "ref": "RSD122",
+            "titre": "Le loup et l'agneau"
+        },
+        {
+            "mel": 416,
+            "ref": "RSD123",
+            "titre": "Régine"
+        },
+        {
+            "mel": 130,
+            "ref": "RSD124",
+            "titre": "Marche des conscrits"
+        },
+        {
+            "ref": "RSD125",
+            "titre": "Joyeux départ"
+        },
+        {
+            "ref": "RSD126",
+            "titre": "Chantons le vin"
+        },
+        {
+            "ref": "RSD127",
+            "titre": "Pourquoi partirais-je?"
+        },
+        {
+            "ref": "RSD128",
+            "titre": "Waterloo"
+        },
+        {
+            "ref": "RSD129",
+            "titre": "Le chasseur et la pucelle"
+        },
+        {
+            "mel": 132,
+            "ref": "RSD130",
+            "titre": "La fille du meunier et le prince"
+        },
+        {
+            "mel": 24,
+            "ref": "RSD131",
+            "titre": "Les trois filles du comte"
+        },
+        {
+            "ref": "RSD132",
+            "titre": "La fileuse"
+        },
+        {
+            "ref": "RSD133",
+            "titre": "Allons à la source"
+        },
+        {
+            "ref": "RSD134",
+            "titre": "Ah quelle mère!"
+        },
+        {
+            "mel": 170,
+            "ref": "RSD135",
+            "titre": "Varsovienne"
+        },
+        {
+            "ref": "RSD136",
+            "titre": "D'r Seppi an d'Leni"
+        },
+        {
+            "mel": 138,
+            "ref": "RSD137",
+            "titre": "Geh m'r nit üewer min Mättele"
+        },
+        {
+            "ref": "RSD138",
+            "titre": "Celle qui me plait"
+        },
+        {
+            "ref": "RSD139",
+            "titre": "Un couple comme il faut"
+        },
+        {
+            "ref": "RSD140",
+            "titre": "La fileuse"
+        },
+        {
+            "ref": "RSD141",
+            "titre": "Les tisseurs de lin"
+        },
+        {
+            "mel": 133,
+            "ref": "RSD142",
+            "titre": "Polka des conscrits"
+        },
+        {
+            "ref": "RSD143",
+            "titre": "Marie, Mara"
+        },
+        {
+            "ref": "RSD144",
+            "titre": "Franche gaité"
+        },
+        {
+            "mel": 134,
+            "ref": "RSD145",
+            "titre": "Newe Almayne ; Proportio in Saltarello"
+        },
+        {
+            "ref": "RSD146",
+            "titre": "Les bavardes"
+        },
+        {
+            "ref": "RSD147",
+            "titre": "Danse des tailleurs"
+        },
+        {
+            "mel": 226,
+            "ref": "RSD148",
+            "titre": "Rutsch hin, rutsch her"
+        },
+        {
+            "ref": "RSD149",
+            "titre": "Douce souvenance"
+        },
+        {
+            "ref": "RSD150",
+            "titre": "Ländler"
+        },
+        {
+            "ref": "RSD151",
+            "titre": "Le départ des conscrits"
+        },
+        {
+            "mel": 264,
+            "ref": "RSD152",
+            "titre": "La quatrième part"
+        },
+        {
+            "ref": "RSD153",
+            "titre": "Branle des conscrits"
+        },
+        {
+            "ref": "RSD154",
+            "titre": "Les émigrants"
+        },
+        {
+            "mel": 38,
+            "ref": "RSD155",
+            "titre": "Batteurs en grange`"
+        },
+        {
+            "ref": "RSD156",
+            "titre": "Quel beau jardin!"
+        },
+        {
+            "mel": 53,
+            "ref": "RSD157",
+            "titre": "La pauvre âme"
+        },
+        {
+            "ref": "RSD158",
+            "titre": "Levez l'ancre"
+        },
+        {
+            "mel": 109,
+            "ref": "RSD159",
+            "titre": "La parisienne"
+        },
+        {
+            "ref": "RSD160",
+            "titre": "Le matelot"
+        },
+        {
+            "ref": "RSD161",
+            "titre": "Branle de la guerre"
+        },
+        {
+            "ref": "RSD162",
+            "titre": "Branle du Poitou Sidoréré"
+        },
+        {
+            "ref": "RSD163",
+            "titre": "Tourdion Silasoldo"
+        },
+        {
+            "ref": "RSD164",
+            "titre": "Brail de Poitou"
+        },
+        {
+            "ref": "RSD165",
+            "titre": "Beauté"
+        },
+        {
+            "ref": "RSD166",
+            "titre": "Branle commun sollasie"
+        },
+        {
+            "ref": "RSD167",
+            "titre": "Branle simple solsol sisi"
+        },
+        {
+            "ref": "RSD168",
+            "titre": "Hélas, madame"
+        },
+        {
+            "ref": "RSD169",
+            "titre": "Filles à marier"
+        },
+        {
+            "ref": "RSD170",
+            "titre": "Jouissance vous donneray a)  ; Jouissance vous donneray b)"
+        },
+        {
+            "ref": "RSD171",
+            "titre": "La traditore my fa morire"
+        },
+        {
+            "ref": "RSD172",
+            "titre": "Anthoinette"
+        },
+        {
+            "ref": "RSD173",
+            "titre": "Corranto"
+        },
+        {
+            "mel": 59,
+            "ref": "RSD174",
+            "titre": "La porte dorée"
+        },
+        {
+            "ref": "RSD175",
+            "titre": "Le rémouleur"
+        },
+        {
+            "ref": "RSD176",
+            "titre": "Le dépit de l'amoureux"
+        },
+        {
+            "ref": "RSD177",
+            "titre": "Soyotte"
+        },
+        {
+            "ref": "RSD178",
+            "titre": "Le petit Hollandais ; Confidelam"
+        },
+        {
+            "mel": 413,
+            "ref": "RSD179",
+            "titre": "Kermesse de Rothlach"
+        },
+        {
+            "ref": "RSD180",
+            "titre": "Le gai chasseur"
+        },
+        {
+            "mel": 28,
+            "ref": "RSD181",
+            "titre": "Herr Schmitt ; Herr Schmidt, Herr Schmidt"
+        },
+        {
+            "ref": "RSD182",
+            "titre": "Mathurins du Rhin"
+        },
+        {
+            "ref": "RSD183",
+            "titre": "Danse de mariage"
+        },
+        {
+            "ref": "RSD184",
+            "titre": "Branle des bergers"
+        },
+        {
+            "mel": 29,
+            "ref": "RSD185",
+            "titre": "De l'autel à l'auberge"
+        },
+        {
+            "ref": "RSD186",
+            "titre": "Les beaux habits"
+        },
+        {
+            "mel": 414,
+            "ref": "RSD187",
+            "titre": "Danse macabre"
+        },
+        {
+            "ref": "RSD188",
+            "titre": "Les filles de Valette"
+        },
+        {
+            "ref": "RSD189",
+            "titre": "Malbrouck"
+        },
+        {
+            "mel": 23,
+            "ref": "RSD190",
+            "titre": "J'entends la faucille"
+        },
+        {
+            "mel": 92,
+            "ref": "RSD191",
+            "titre": "Si tu ne me veux pas"
+        },
+        {
+            "ref": "RSD192",
+            "titre": "Le trousseau"
+        },
+        {
+            "mel": 108,
+            "ref": "RSD193",
+            "titre": "Frédérique"
+        },
+        {
+            "mel": 120,
+            "ref": "RSD194",
+            "titre": "Fleurs blanches, fleurs rouges,"
+        },
+        {
+            "ref": "RSD195",
+            "titre": "Les baisers de l'infidèle"
+        },
+        {
+            "ref": "RSD196",
+            "titre": "A prendre ou à laisser"
+        },
+        {
+            "ref": "RSD197",
+            "titre": "Me prendras-tu?"
+        },
+        {
+            "ref": "RSD198",
+            "titre": "Le joyeux berger"
+        },
+        {
+            "ref": "RSD199",
+            "titre": "La haine dans ton coeur"
+        },
+        {
+            "ref": "RSD200",
+            "titre": "Le prétendant contrarié"
+        },
+        {
+            "ref": "RSD201",
+            "titre": "Margaritin d'amour"
+        },
+        {
+            "ref": "RSD202",
+            "titre": "Viens vers le ruisseau"
+        },
+        {
+            "ref": "RSD203",
+            "titre": "Maïre, si savas"
+        },
+        {
+            "ref": "RSD204",
+            "titre": "La bourrée de nos pères"
+        },
+        {
+            "ref": "RSD205",
+            "titre": "Branle de Savoie"
+        },
+        {
+            "ref": "RSD206",
+            "titre": "Branle de Sainte-Foy"
+        },
+        {
+            "ref": "RSD207",
+            "titre": "Les filles de Lans"
+        },
+        {
+            "ref": "RSD208",
+            "titre": "Le petit Rouen"
+        },
+        {
+            "ref": "RSD209",
+            "titre": "J'ai perdu mon oiseau"
+        },
+        {
+            "ref": "RSD210",
+            "titre": "J'ai un fringaire"
+        },
+        {
+            "ref": "RSD211",
+            "titre": "Les filles sont rares"
+        },
+        {
+            "ref": "RSD212",
+            "titre": "Jeanneton ma mio"
+        },
+        {
+            "ref": "RSD213",
+            "titre": "Pierre de Grenoble"
+        },
+        {
+            "ref": "RSD214",
+            "titre": "La pointue"
+        },
+        {
+            "ref": "RSD215",
+            "titre": "La picouline"
+        },
+        {
+            "ref": "RSD216",
+            "titre": "Danse du moulin"
+        },
+        {
+            "ref": "RSD217",
+            "titre": "Le commis-voyageur"
+        },
+        {
+            "ref": "RSD218",
+            "titre": "La Genevoise b)"
+        },
+        {
+            "ref": "RSD219",
+            "titre": "La promesse"
+        },
+        {
+            "ref": "RSD220",
+            "titre": "Polka des cricris"
+        },
+        {
+            "ref": "RSD221",
+            "titre": "Le mauvais riche"
+        },
+        {
+            "ref": "RSD222",
+            "titre": "La salade"
+        },
+        {
+            "ref": "RSD223",
+            "titre": "La chaîne des dames"
+        },
+        {
+            "ref": "RSD224",
+            "titre": "Nous allons faire une ronde"
+        },
+        {
+            "ref": "RSD225",
+            "titre": "Je ne veux pas vieillir"
+        },
+        {
+            "ref": "RSD226",
+            "titre": "Il est pourtant temps"
+        },
+        {
+            "mel": 96,
+            "ref": "RSD227",
+            "titre": "J'ai fait une maîtresse trois jours y a pas longtemps"
+        },
+        {
+            "ref": "RSD228",
+            "titre": "Les garçons de chez nous"
+        },
+        {
+            "ref": "RSD229",
+            "titre": "Rossignolet du bois"
+        },
+        {
+            "ref": "RSD230",
+            "titre": "Le garçon à la rose"
+        },
+        {
+            "mel": 202,
+            "ref": "RSD231",
+            "titre": "Sarabande à la croix"
+        },
+        {
+            "ref": "RSD232"
+        },
+        {
+            "ref": "RSD233",
+            "titre": "La femme malade"
+        },
+        {
+            "ref": "RSD234",
+            "titre": "Branle de Saint-Martin"
+        },
+        {
+            "ref": "RSD235",
+            "titre": "Le duc de Savoie"
+        },
+        {
+            "ref": "RSD236",
+            "titre": "En queste dans'"
+        },
+        {
+            "ref": "RSD237",
+            "titre": "Le p'tit panier d'osier blanc"
+        },
+        {
+            "ref": "RSD238",
+            "titre": "La belle Flamande"
+        },
+        {
+            "ref": "RSD239",
+            "titre": "Le m'en vais en Allemagne"
+        },
+        {
+            "ref": "RSD240",
+            "titre": "Les filles de Claivoillon"
+        },
+        {
+            "ref": "RSD241",
+            "titre": "Vive le vin, vive l'amour"
+        },
+        {
+            "ref": "RSD242",
+            "titre": "Là où qu'tu cours donc ?"
+        },
+        {
+            "ref": "RSD243",
+            "titre": "Le château d'amour"
+        },
+        {
+            "ref": "RSD244",
+            "titre": "Mon petiot frère"
+        },
+        {
+            "ref": "RSD245",
+            "titre": "La fille à Jean-Pierre"
+        },
+        {
+            "ref": "RSD246",
+            "titre": "Bourrée instrumentale I"
+        },
+        {
+            "ref": "RSD247",
+            "titre": "Bourrée instrumentale II"
+        },
+        {
+            "ref": "RSD248",
+            "titre": "Les épouseux du Berri"
+        },
+        {
+            "ref": "RSD249",
+            "titre": "Fillette"
+        },
+        {
+            "ref": "RSD250",
+            "titre": "Chant des livrées"
+        },
+        {
+            "ref": "RSD251",
+            "titre": "Les amoureux"
+        },
+        {
+            "ref": "RSD252",
+            "titre": "La jeune fille engagée"
+        },
+        {
+            "ref": "RSD253",
+            "titre": "Polka piquée"
+        },
+        {
+            "ref": "RSD254",
+            "titre": "Ton berlingot"
+        },
+        {
+            "ref": "RSD255",
+            "titre": "Bourrée des dindes"
+        },
+        {
+            "ref": "RSD256",
+            "titre": "Valse pointée"
+        },
+        {
+            "ref": "RSD257",
+            "titre": "Polka cafouillée"
+        },
+        {
+            "ref": "RSD258",
+            "titre": "Le cotillon vert"
+        },
+        {
+            "ref": "RSD259",
+            "titre": "Le moulin"
+        },
+        {
+            "ref": "RSD260",
+            "titre": "Bourrée à 6"
+        },
+        {
+            "ref": "RSD261",
+            "titre": "L'ajeasse ou sautaska"
+        },
+        {
+            "ref": "RSD262",
+            "titre": "Casse-nouzille"
+        },
+        {
+            "ref": "RSD263",
+            "titre": "Le palala"
+        },
+        {
+            "ref": "RSD264",
+            "titre": "La quenouillée"
+        },
+        {
+            "ref": "RSD265",
+            "titre": "Bourrée droite"
+        },
+        {
+            "ref": "RSD266",
+            "titre": "Bourrée à 3"
+        },
+        {
+            "ref": "RSD267",
+            "titre": "La moutonne"
+        },
+        {
+            "ref": "RSD268",
+            "titre": "Bourrée de Fontfrein"
+        },
+        {
+            "ref": "RSD269",
+            "titre": "L'auvergnate"
+        },
+        {
+            "ref": "RSD270",
+            "titre": "Bourrée droite valsée"
+        },
+        {
+            "ref": "RSD271",
+            "titre": "La chêvre"
+        },
+        {
+            "ref": "RSD272",
+            "titre": "Bourrée droite"
+        },
+        {
+            "ref": "RSD273",
+            "titre": "Bourrée croisée"
+        },
+        {
+            "ref": "RSD274",
+            "titre": "Le ruban bleu"
+        },
+        {
+            "ref": "RSD275",
+            "titre": "La machtagouine"
+        },
+        {
+            "ref": "RSD276",
+            "titre": "Valsovienne"
+        },
+        {
+            "ref": "RSD277",
+            "titre": "Raisins"
+        },
+        {
+            "ref": "RSD278",
+            "titre": "Mariez-moi"
+        },
+        {
+            "ref": "RSD279",
+            "titre": "Schneider"
+        },
+        {
+            "ref": "RSD280",
+            "titre": "Morbleu, sambleu, Marion !"
+        },
+        {
+            "ref": "RSD281",
+            "titre": "La petite Française"
+        },
+        {
+            "ref": "RSD282",
+            "titre": "Marche d'outre-chaise"
+        },
+        {
+            "ref": "RSD283",
+            "titre": "La pleureuse"
+        },
+        {
+            "ref": "RSD284",
+            "titre": "Danse du balai"
+        },
+        {
+            "ref": "RSD285",
+            "titre": "Rigodigodon"
+        },
+        {
+            "ref": "RSD286",
+            "titre": "La chanson de Nicolas"
+        },
+        {
+            "ref": "RSD287",
+            "titre": "La cotillon vert"
+        },
+        {
+            "ref": "RSD288",
+            "titre": "Mon joli laurier"
+        },
+        {
+            "ref": "RSD289",
+            "titre": "Chaberli"
+        },
+        {
+            "ref": "RSD290",
+            "titre": "L'éveillée"
+        },
+        {
+            "ref": "RSD291",
+            "titre": "L'éveillée"
+        },
+        {
+            "ref": "RSD292",
+            "titre": "Bourrée"
+        },
+        {
+            "ref": "RSD293",
+            "titre": "Bourrée"
+        },
+        {
+            "ref": "RSD294",
+            "titre": "Bourrée"
+        },
+        {
+            "ref": "RSD295",
+            "titre": "Cortège"
+        },
+        {
+            "ref": "RSD296",
+            "titre": "Lo chabro buro"
+        },
+        {
+            "ref": "RSD297",
+            "titre": "Lou manigué"
+        },
+        {
+            "ref": "RSD298",
+            "titre": "La pépue"
+        },
+        {
+            "ref": "RSD299",
+            "titre": "La Boudigueste"
+        },
+        {
+            "ref": "RSD300",
+            "titre": "Digo me bergère"
+        },
+        {
+            "ref": "RSD301",
+            "titre": "Lo figurado"
+        },
+        {
+            "ref": "RSD302",
+            "titre": "Brave capitaine"
+        },
+        {
+            "ref": "RSD303",
+            "titre": "Branle carré de Nanc"
+        },
+        {
+            "ref": "RSD304",
+            "titre": "La fille du meunier et le prince"
+        },
+        {
+            "ref": "RSD305",
+            "titre": "Le retour du marin"
+        },
+        {
+            "ref": "RSD306",
+            "titre": "L'ancien combattant"
+        },
+        {
+            "ref": "RSD307",
+            "titre": "Tristesse de Margot"
+        },
+        {
+            "ref": "RSD308",
+            "titre": "Valse de conscrits"
+        },
+        {
+            "ref": "RSD309",
+            "titre": "Marche des compagnons"
+        },
+        {
+            "ref": "RSD310",
+            "titre": "Le départ des émigrants"
+        },
+        {
+            "mel": 103,
+            "ref": "RSD311",
+            "titre": "Nostalgie"
+        },
+        {
+            "mel": 354,
+            "ref": "RSD312",
+            "titre": "Jamais de paysan !"
+        },
+        {
+            "mel": 78,
+            "ref": "RSD313",
+            "titre": "Jamais de paysan !"
+        },
+        {
+            "ref": "RSD314",
+            "titre": "Le chasseur du bois vert"
+        },
+        {
+            "ref": "RSD315",
+            "titre": "Branle des conscrits"
+        },
+        {
+            "ref": "RSD316",
+            "titre": "Lou panliran"
+        },
+        {
+            "ref": "RSD317",
+            "titre": "Chiberli"
+        },
+        {
+            "mel": 154,
+            "ref": "RSD318",
+            "titre": "Soyotte"
+        },
+        {
+            "ref": "RSD319",
+            "titre": "Soyotte"
+        },
+        {
+            "ref": "RSD320",
+            "titre": "Polka de l'Ardusson"
+        },
+        {
+            "ref": "RSD321",
+            "titre": "Jigue"
+        },
+        {
+            "ref": "RSD322",
+            "titre": "Accrebales"
+        },
+        {
+            "ref": "RSD323",
+            "titre": "Soyotte"
+        },
+        {
+            "ref": "RSD324",
+            "titre": "Soyotte"
+        },
+        {
+            "ref": "RSD325",
+            "titre": "Olivette"
+        },
+        {
+            "ref": "RSD326",
+            "titre": "Bigue-biguette"
+        },
+        {
+            "ref": "RSD327",
+            "titre": "Robe rouge (Rote Rock)"
+        },
+        {
+            "ref": "RSD328",
+            "titre": "L'occasion manquée"
+        },
+        {
+            "ref": "RSD329",
+            "titre": "La Cataqui"
+        },
+        {
+            "ref": "RSD330",
+            "titre": "Le carillon de Dunkerque"
+        },
+        {
+            "ref": "RSD331",
+            "titre": "Lilla Flicka"
+        },
+        {
+            "ref": "RSD332",
+            "titre": "Badoise"
+        },
+        {
+            "ref": "RSD333",
+            "titre": "La chevrière"
+        },
+        {
+            "ref": "RSD334",
+            "titre": "L'Escribeto"
+        },
+        {
+            "ref": "RSD335",
+            "titre": "La cruche cassée"
+        },
+        {
+            "ref": "RSD336",
+            "titre": "Melchior et Balthazar"
+        },
+        {
+            "ref": "RSD337",
+            "titre": "Le mari soumis"
+        },
+        {
+            "ref": "RSD338",
+            "titre": "Ah ! du ruban"
+        },
+        {
+            "ref": "RSD339",
+            "titre": "Polka du fifre"
+        },
+        {
+            "ref": "RSD340",
+            "titre": "Le mariage de la puce"
+        },
+        {
+            "ref": "RSD341",
+            "titre": "S'est coupé l'orteil"
+        },
+        {
+            "ref": "RSD342",
+            "titre": "Le mal d'amour"
+        },
+        {
+            "ref": "RSD343",
+            "titre": "La pauvre bergère"
+        },
+        {
+            "ref": "RSD344",
+            "titre": "Le Noël des oiseaux"
+        },
+        {
+            "ref": "RSD345",
+            "titre": "La Margarideto"
+        },
+        {
+            "ref": "RSD346",
+            "titre": "Qui voudra moudre moudra"
+        },
+        {
+            "ref": "RSD347",
+            "titre": "Le petit homme"
+        },
+        {
+            "ref": "RSD348",
+            "titre": "Les 9 jonquilles"
+        },
+        {
+            "ref": "RSD349",
+            "titre": "A la pointe de l'épée"
+        },
+        {
+            "ref": "RSD350",
+            "titre": "Le coffre à 9 empans"
+        },
+        {
+            "ref": "RSD351",
+            "titre": "La bergère de Paris"
+        },
+        {
+            "ref": "RSD352",
+            "titre": "Pierrot de Brignolles"
+        },
+        {
+            "ref": "RSD353",
+            "titre": "Danse de la souco"
+        },
+        {
+            "ref": "RSD354",
+            "titre": "Branle de la souco"
+        },
+        {
+            "ref": "RSD355",
+            "titre": "Bonjour, le rossignol sauvage"
+        },
+        {
+            "ref": "RSD356",
+            "titre": "Belo Naneto"
+        },
+        {
+            "ref": "RSD357",
+            "titre": "Morbleu Marion"
+        },
+        {
+            "ref": "RSD358",
+            "titre": "La fille du jardinier"
+        },
+        {
+            "ref": "RSD359",
+            "titre": "D'Mey vu Ampfersbach"
+        },
+        {
+            "ref": "RSD360",
+            "titre": "Farigoula"
+        },
+        {
+            "ref": "RSD361",
+            "titre": "Au château de Liandre"
+        },
+        {
+            "ref": "RSD362",
+            "titre": "Papillon, mon bon ami"
+        },
+        {
+            "ref": "RSD363",
+            "titre": "Ballade des 3 meurtriers"
+        },
+        {
+            "mel" :417,
+            "ref": "RSD364",
+            "titre": "La fille aux oranges"
+        },
+        {
+            "ref": "RSD365",
+            "titre": "Hit isch Pfifferdaï"
+        },
+        {
+            "ref": "RSD366",
+            "titre": "Schüttlebüx"
+        },
+        {
+            "ref": "RSD367",
+            "titre": "Ein Ungerischer tantz"
+        },
+        {
+            "ref": "RSD368",
+            "titre": "De Slaapmuts"
+        },
+        {
+            "mel": 68,
+            "ref": "RSD369",
+            "titre": "Lot is dood"
+        },
+        {
+            "ref": "RSD370",
+            "titre": "Zevensprong"
+        },
+        {
+            "ref": "RSD371",
+            "titre": "La danse des morts de Bâle"
+        },
+        {
+            "ref": "RSD372",
+            "titre": "Em bam bé"
+        },
+        {
+            "ref": "RSD373",
+            "titre": "D' flow"
+        },
+        {
+            "mel": 44,
+            "ref": "RSD374",
+            "titre": "L'infidèle démasquée"
+        },
+        {
+            "ref": "RSD375",
+            "titre": "Les mineurs de St Hippolyte"
+        },
+        {
+            "mel": 155,
+            "ref": "RSD376",
+            "titre": "les triolets"
+        },
+        {
+            "ref": "RSD377",
+            "titre": "Jakob ist ein Zottelbär"
+        },
+        {
+            "ref": "RSD378",
+            "titre": "Badoise"
+        },
+        {
+            "mel": 128,
+            "ref": "RSD379",
+            "titre": "Pauvre pélerin"
+        },
+        {
+            "mel": 125,
+            "ref": "RSD380",
+            "titre": "L'enfant trouvé"
+        },
+        {
+            "ref": "RSD381",
+            "titre": "L'enfant trouvé"
+        },
+        {
+            "ref": "RSD382",
+            "titre": "L'enfant trouvé"
+        },
+        {
+            "ref": "RSD383",
+            "titre": "Der Steiger kommt"
+        },
+        {
+            "ref": "RSD384",
+            "titre": "Lazare"
+        },
+        {
+            "ref": "RSD385",
+            "titre": "La cruche cassée"
+        },
+        {
+            "ref": "RSD386",
+            "titre": "Un meurtre"
+        },
+        {
+            "ref": "RSD387",
+            "titre": "L'amant meurtrier"
+        },
+        {
+            "ref": "RSD388",
+            "titre": "Amoureux travesti"
+        },
+        {
+            "ref": "RSD389",
+            "titre": "Die Gemütlichkeit"
+        },
+        {
+            "ref": "RSD390",
+            "titre": "Gavotte"
+        },
+        {
+            "ref": "RSD391",
+            "titre": "Gavotte"
+        },
+        {
+            "ref": "RSD392",
+            "titre": "Gavotte"
+        },
+        {
+            "ref": "RSD393",
+            "titre": "Dans Treger"
+        },
+        {
+            "ref": "RSD394",
+            "titre": "Branle des Grandvalliers"
+        },
+        {
+            "mel": 41,
+            "ref": "RSD395",
+            "titre": "Lo zouli mâ"
+        },
+        {
+            "mel": 47,
+            "ref": "RSD396",
+            "titre": "Ma grand-mère"
+        },
+        {
+            "ref": "RSD397",
+            "titre": "La londge"
+        },
+        {
+            "ref": "RSD398",
+            "titre": "Marion et Robin"
+        },
+        {
+            "ref": "RSD399",
+            "titre": "Les gens de Bouze"
+        },
+        {
+            "mel": 48,
+            "ref": "RSD400",
+            "titre": "La mal mariée"
+        },
+        {
+            "mel": 46,
+            "ref": "RSD401",
+            "titre": "Je t'aurais, ma brunette"
+        },
+        {
+            "ref": "RSD402",
+            "titre": "Branle de Saint-Laurent"
+        },
+        {
+            "ref": "RSD403",
+            "titre": "La belle boiteuse"
+        },
+        {
+            "ref": "RSD404",
+            "titre": "Le branle à six"
+        },
+        {
+            "ref": "RSD405",
+            "titre": "Branle rond"
+        },
+        {
+            "mel": 8,
+            "ref": "RSD406",
+            "titre": "Branle de la Saint-Jean"
+        },
+        {
+            "mel": 39,
+            "ref": "RSD407",
+            "titre": "Les 7 bouquets"
+        },
+        {
+            "ref": "RSD408",
+            "titre": "Badoise Italienne"
+        },
+        {
+            "ref": "RSD409",
+            "titre": "Une méchante affaire"
+        },
+        {
+            "ref": "RSD410",
+            "titre": "Droben auf dem Berge"
+        },
+        {
+            "mel": 149,
+            "ref": "RSD411",
+            "titre": "1,2,3,4,5,6,7"
+        },
+        {
+            "mel": 121,
+            "ref": "RSD412",
+            "titre": "La pierre-borne"
+        },
+        {
+            "ref": "RSD413",
+            "titre": "Hopp Marjänche"
+        },
+        {
+            "ref": "RSD414",
+            "titre": "Lauf, Müller, lauf"
+        },
+        {
+            "ref": "RSD415",
+            "titre": "Der Koneroad"
+        },
+        {
+            "ref": "RSD416",
+            "titre": "Der Obedrauf"
+        },
+        {
+            "ref": "RSD417",
+            "titre": "Ronde de la Saint-Jean"
+        },
+        {
+            "ref": "RSD418",
+            "titre": "Die böse Müllerin"
+        },
+        {
+            "ref": "RSD419",
+            "titre": "Danz, danz, Quiselche"
+        },
+        {
+            "ref": "RSD420",
+            "titre": "Hans Naber"
+        },
+        {
+            "mel": 356,
+            "ref": "RSD421",
+            "titre": "Danz réwer, danz néwer"
+        },
+        {
+            "ref": "RSD422",
+            "titre": "Schnurre"
+        },
+        {
+            "ref": "RSD423",
+            "titre": "Air des sabots"
+        },
+        {
+            "mel": 113,
+            "ref": "RSD424",
+            "titre": "Ungerade"
+        },
+        {
+            "mel": 299,
+            "ref": "RSD425",
+            "titre": "Rekrutenlied"
+        },
+        {
+            "ref": "RSD426",
+            "titre": "La visite nocturne"
+        },
+        {
+            "ref": "RSD427",
+            "titre": "La visite de l'ivrogne"
+        },
+        {
+            "ref": "RSD428",
+            "titre": "Quand j'étais célibataire"
+        },
+        {
+            "ref": "RSD429",
+            "titre": "Gais, gais les célibataires"
+        },
+        {
+            "ref": "RSD430",
+            "titre": "Que manque-t-il à ton bonheur ?"
+        },
+        {
+            "mel": 73,
+            "ref": "RSD431",
+            "titre": "Les suites d'un bal"
+        },
+        {
+            "ref": "RSD432",
+            "titre": "Bergerette Saint-Roch"
+        },
+        {
+            "ref": "RSD433",
+            "titre": "A la noce"
+        },
+        {
+            "ref": "RSD434",
+            "titre": "Inoubliable amie"
+        },
+        {
+            "ref": "RSD435",
+            "titre": "Tant que coule la fontaine"
+        },
+        {
+            "ref": "RSD436",
+            "titre": "Ne m'oublie pas"
+        },
+        {
+            "ref": "RSD437",
+            "titre": "Le pain de sucre"
+        },
+        {
+            "mel": 358,
+            "ref": "RSD438",
+            "titre": "La danse de la couronne"
+        },
+        {
+            "ref": "RSD439",
+            "titre": "Mon Hans"
+        },
+        {
+            "ref": "RSD440",
+            "titre": "Scottisch de Séez (RS)"
+        },
+        {
+            "ref": "RSD441",
+            "titre": "La princesse servante"
+        },
+        {
+            "ref": "RSD442",
+            "titre": "L'amant fidèle"
+        },
+        {
+            "ref": "RSD443",
+            "titre": "Ramoneur (RS)"
+        },
+        {
+            "mel": 122,
+            "ref": "RSD444",
+            "titre": "Le meurtre dans la forêt"
+        },
+        {
+            "ref": "RSD445",
+            "titre": "L'avoine"
+        },
+        {
+            "mel": 55,
+            "ref": "RSD446",
+            "titre": "Ronde du moulin"
+        },
+        {
+            "ref": "RSD447",
+            "titre": "Un soldat revient de guerre"
+        },
+        {
+            "mel": 17,
+            "ref": "RSD448",
+            "titre": "Les guêtres de cuir ; Drey lädriga Strempf"
+        },
+        {
+            "mel": 194,
+            "ref": "RSD449",
+            "titre": "Branle des Bergers"
+        },
+        {
+            "mel": 36,
+            "ref": "RSD450",
+            "titre": "Valse des conscrits"
+        },
+        {
+            "ref": "RSD451",
+            "titre": "La Lauriette"
+        },
+        {
+            "ref": "RSD452",
+            "titre": "Entre deux galants"
+        },
+        {
+            "ref": "RSD453",
+            "titre": "Le p'tit bonhomme"
+        },
+        {
+            "ref": "RSD454",
+            "titre": "Ol est in petit bonhomme"
+        },
+        {
+            "ref": "RSD455",
+            "titre": "Guillaneu"
+        },
+        {
+            "ref": "RSD456",
+            "titre": "Guenillon"
+        },
+        {
+            "ref": "RSD457",
+            "titre": "Margariodoto, lèvo tè"
+        },
+        {
+            "ref": "RSD458",
+            "titre": "Lou saout dou lapin"
+        },
+        {
+            "ref": "RSD459",
+            "titre": "Chaudron percé"
+        },
+        {
+            "ref": "RSD460",
+            "titre": "Le Truquet"
+        },
+        {
+            "ref": "RSD461",
+            "titre": "Gardes les neuf oies"
+        },
+        {
+            "ref": "RSD462",
+            "titre": "Les cinq coups"
+        },
+        {
+            "ref": "RSD463",
+            "titre": "La déclaration d'amour"
+        },
+        {
+            "ref": "RSD464",
+            "titre": "Le garçon à la rose"
+        },
+        {
+            "ref": "RSD465",
+            "titre": "La force de l'amour"
+        },
+        {
+            "ref": "RSD466",
+            "titre": "L'or et l'amour"
+        },
+        {
+            "ref": "RSD467",
+            "titre": "Le petit mari"
+        },
+        {
+            "ref": "RSD468",
+            "titre": "Balthasar"
+        },
+        {
+            "ref": "RSD469",
+            "titre": "La bataille de Leipzig"
+        },
+        {
+            "ref": "RSD470",
+            "titre": "A la fenêtre"
+        },
+        {
+            "ref": "RSD471",
+            "titre": "Celui que j'aime"
+        },
+        {
+            "ref": "RSD472",
+            "titre": "Sans-souci"
+        },
+        {
+            "ref": "RSD473",
+            "titre": "L'éclopé"
+        },
+        {
+            "ref": "RSD474",
+            "titre": "Zäüner Tants"
+        },
+        {
+            "ref": "RSD475",
+            "titre": "Danse du Panier"
+        },
+        {
+            "mel": 98,
+            "ref": "RSD476",
+            "titre": "La diabolique"
+        },
+        {
+            "ref": "RSD477",
+            "titre": "Trois bouquets"
+        },
+        {
+            "ref": "RSD478",
+            "titre": "Chanson de mai"
+        },
+        {
+            "ref": "RSD479",
+            "titre": "L'amour déçu"
+        },
+        {
+            "ref": "RSD480",
+            "titre": "Le divin chasseur"
+        },
+        {
+            "mel": 341,
+            "ref": "RSD481",
+            "titre": "Un bel amour"
+        },
+        {
+            "ref": "RSD482",
+            "titre": "Les Vêpres napoléoniennes"
+        },
+        {
+            "ref": "RSD483",
+            "titre": "Holtzschûedànz"
+        },
+        {
+            "ref": "RSD484",
+            "titre": "Les gaîtés de l'infidèle"
+        },
+        {
+            "ref": "RSD485",
+            "titre": "Pourquoi me boudes-tu ?"
+        },
+        {
+            "ref": "RSD486",
+            "titre": "Celui que je n'aime pas"
+        },
+        {
+            "mel": 43,
+            "ref": "RSD487",
+            "titre": "Kehrus ; De Kehrus"
+        },
+        {
+            "ref": "RSD488",
+            "titre": "Sous sa fenêtre"
+        },
+        {
+            "ref": "RSD489",
+            "titre": "La commission du rossignol"
+        },
+        {
+            "ref": "RSD490",
+            "titre": "Cortège de la mariée"
+        },
+        {
+            "ref": "RSD491",
+            "titre": "L'épreuve"
+        },
+        {
+            "ref": "RSD492",
+            "titre": "La fille du meunier et le prince"
+        },
+        {
+            "ref": "RSD493",
+            "titre": "Le mariage du vannier"
+        },
+        {
+            "ref": "RSD494",
+            "titre": "Le faiseur de balais"
+        },
+        {
+            "ref": "RSD495",
+            "titre": "L'ajasso"
+        },
+        {
+            "ref": "RSD496",
+            "titre": "Quadrille de Hunspach"
+        },
+        {
+            "mel": 146,
+            "ref": "RSD497",
+            "titre": "Danse des sept pas"
+        },
+        {
+            "ref": "RSD498",
+            "titre": "De Bèsedànz"
+        },
+        {
+            "ref": "RSD499",
+            "titre": "Passion"
+        },
+        {
+            "mel": 145,
+            "ref": "RSD500",
+            "titre": "La Bergeronnette"
+        },
+        {
+            "ref": "RSD501",
+            "titre": "La lune n'est plus rose"
+        },
+        {
+            "ref": "RSD502",
+            "titre": "Les conscrits de St-Amarin"
+        },
+        {
+            "ref": "RSD503",
+            "titre": "Chanson de Nouvel An"
+        },
+        {
+            "ref": "RSD504",
+            "titre": "Bal des pauvres"
+        },
+        {
+            "mel": 159,
+            "ref": "RSD505",
+            "titre": "Berger et baron"
+        },
+        {
+            "ref": "RSD506",
+            "titre": "Pastourelle"
+        },
+        {
+            "mel": 293,
+            "ref": "RSD507",
+            "titre": "Le Belacker"
+        },
+        {
+            "ref": "RSD508",
+            "titre": "Rustique gaieté"
+        },
+        {
+            "mel": 292,
+            "ref": "RSD509",
+            "titre": "Napoléon en Russie"
+        },
+        {
+            "ref": "RSD510",
+            "titre": "La Brune-amie"
+        },
+        {
+            "ref": "RSD511",
+            "titre": "La fille au poste de garde"
+        },
+        {
+            "ref": "RSD512",
+            "titre": "Le tailleur qui fait sa cour"
+        },
+        {
+            "ref": "RSD513",
+            "titre": "Joyeux mendiants"
+        },
+        {
+            "mel": 104,
+            "ref": "RSD514",
+            "titre": "Joyeux retour"
+        },
+        {
+            "ref": "RSD515",
+            "titre": "Les roses peintes"
+        },
+        {
+            "ref": "RSD516",
+            "titre": "Loterie des conscrits"
+        },
+        {
+            "mel": 305,
+            "ref": "RSD517",
+            "titre": "Le bavard"
+        },
+        {
+            "mel": 315,
+            "ref": "RSD518",
+            "titre": "La meunière vendue"
+        },
+        {
+            "ref": "RSD519",
+            "titre": "Evocation"
+        },
+        {
+            "ref": "RSD520",
+            "titre": "Marche de Savoie"
+        },
+        {
+            "ref": "RSD521",
+            "titre": "Monférine"
+        },
+        {
+            "ref": "RSD522",
+            "titre": "Monférine au pillage"
+        },
+        {
+            "ref": "RSD523",
+            "titre": "Branle de la Tarentaise"
+        },
+        {
+            "ref": "RSD524",
+            "titre": "Trimazo de Woippy"
+        },
+        {
+            "ref": "RSD525",
+            "titre": "Le dernier baiser"
+        },
+        {
+            "ref": "RSD526",
+            "titre": "La Danse des morts de Bâle"
+        },
+        {
+            "ref": "RSD527",
+            "titre": "La Danse des morts de Bâle"
+        },
+        {
+            "mel": 313,
+            "ref": "RSD528",
+            "titre": "La prière du laboureur"
+        },
+        {
+            "ref": "RSD529",
+            "titre": "La prière du laboureur"
+        },
+        {
+            "ref": "RSD530",
+            "titre": "Les mal mariés"
+        },
+        {
+            "ref": "RSD531",
+            "titre": "Der Deutschkatoliche"
+        },
+        {
+            "ref": "RSD532",
+            "titre": "Klatschtanz"
+        },
+        {
+            "ref": "RSD533",
+            "titre": "Le joli bois"
+        },
+        {
+            "ref": "RSD534",
+            "titre": "Pour passer le Rhin"
+        },
+        {
+            "ref": "RSD535",
+            "titre": "L'avéna"
+        },
+        {
+            "ref": "RSD536",
+            "titre": "La loi nous appelle"
+        },
+        {
+            "ref": "RSD537",
+            "titre": "Polka des bébés"
+        },
+        {
+            "ref": "RSD538",
+            "titre": "Danse des bucherons"
+        },
+        {
+            "ref": "RSD539",
+            "titre": "Helgoländer Söbensprung"
+        },
+        {
+            "ref": "RSD540",
+            "titre": "Siebensprung"
+        },
+        {
+            "ref": "RSD541",
+            "titre": "Bändertanz"
+        },
+        {
+            "ref": "RSD542",
+            "titre": "Quête de Pentecôte"
+        },
+        {
+            "ref": "RSD543",
+            "titre": "Im Maie"
+        },
+        {
+            "ref": "RSD544",
+            "titre": "Trarira"
+        },
+        {
+            "ref": "RSD545",
+            "titre": "Ach Modr"
+        },
+        {
+            "ref": "RSD546",
+            "titre": "Fuchs du hast die Ganz gestohlen"
+        },
+        {
+            "ref": "RSD547",
+            "titre": "Ein Männlein steht im Walde"
+        },
+        {
+            "ref": "RSD548",
+            "titre": "Der Obendrauf"
+        },
+        {
+            "mel": 91,
+            "ref": "RSD549",
+            "titre": "Le retour"
+        },
+        {
+            "mel": 60,
+            "ref": "RSD550",
+            "titre": "L'étoile du soir"
+        },
+        {
+            "mel": 19,
+            "ref": "RSD551",
+            "titre": "L'amour secret"
+        },
+        {
+            "mel": 304,
+            "ref": "RSD552",
+            "titre": "Premier amour, dernier amour"
+        },
+        {
+            "ref": "RSD553",
+            "titre": "Le Petit Homme"
+        },
+        {
+            "ref": "RSD554",
+            "titre": "Las filhetos"
+        },
+        {
+            "ref": "RSD555",
+            "titre": "L'escloupéto"
+        },
+        {
+            "ref": "RSD556",
+            "titre": "Tournejayri"
+        },
+        {
+            "ref": "RSD557",
+            "titre": "De Rommelpot"
+        },
+        {
+            "ref": "RSD558",
+            "titre": "Trimazot"
+        },
+        {
+            "ref": "RSD559",
+            "titre": "Simone"
+        },
+        {
+            "ref": "RSD560",
+            "titre": "Fidélité"
+        },
+        {
+            "ref": "RSD561",
+            "titre": "Dis-moi tu"
+        },
+        {
+            "ref": "RSD562",
+            "titre": "L'épreuve d'amour"
+        },
+        {
+            "ref": "RSD563",
+            "titre": "Le chiffonnier"
+        },
+        {
+            "ref": "RSD564",
+            "titre": "Rigodon"
+        },
+        {
+            "ref": "RSD565",
+            "titre": "La fille de trente ans"
+        },
+        {
+            "ref": "RSD566",
+            "titre": "Petit papillon volage"
+        },
+        {
+            "ref": "RSD567",
+            "titre": "Petit papillon volage"
+        },
+        {
+            "ref": "RSD568",
+            "titre": "Le mari jaloux"
+        },
+        {
+            "ref": "RSD569",
+            "titre": "Y en suis soûl de ma femme"
+        },
+        {
+            "ref": "RSD570",
+            "titre": "Suite Serbe"
+        },
+        {
+            "ref": "RSD571",
+            "titre": "Schwitzemànn"
+        },
+        {
+            "ref": "RSD572",
+            "titre": "Schweitzermann"
+        },
+        {
+            "ref": "RSD573",
+            "titre": "Kilb"
+        },
+        {
+            "ref": "RSD574",
+            "titre": "Die Sieben Sprüng"
+        },
+        {
+            "ref": "RSD575",
+            "titre": "Turlututu"
+        },
+        {
+            "ref": "RSD576",
+            "titre": "Danse indienne"
+        },
+        {
+            "ref": "RSD577",
+            "titre": "Le petit lapin"
+        },
+        {
+            "ref": "RSD578",
+            "titre": "Coccinelle"
+        },
+        {
+            "ref": "RSD579",
+            "titre": "Transformations"
+        },
+        {
+            "ref": "RSD580",
+            "titre": "Guillenlé"
+        },
+        {
+            "ref": "RSD581",
+            "titre": "Mon petit lapin"
+        },
+        {
+            "ref": "RSD582",
+            "titre": "Esquerana"
+        },
+        {
+            "ref": "RSD583",
+            "titre": "Danse des Indiens"
+        },
+        {
+            "ref": "RSD584",
+            "titre": "Papillon vole"
+        },
+        {
+            "ref": "RSD585",
+            "titre": "Drunte im Unterland"
+        },
+        {
+            "ref": "RSD586",
+            "titre": "Attente"
+        },
+        {
+            "ref": "RSD588",
+            "titre": "Klapp Dans"
+        },
+        {
+            "ref": "RSD589",
+            "titre": "Le prétentieux"
+        },
+        {
+            "ref": "RSD590",
+            "titre": "La séparation"
+        },
+        {
+            "ref": "RSD591",
+            "titre": "Quête des rois mages"
+        },
+        {
+            "ref": "RSD592",
+            "titre": "La dot"
+        },
+        {
+            "ref": "RSD593",
+            "titre": "La veste déchirée"
+        },
+        {
+            "ref": "RSD594",
+            "titre": "Danse d'honneur"
+        },
+        {
+            "ref": "RSD595",
+            "titre": "Madeleine"
+        },
+        {
+            "ref": "RSD596",
+            "titre": "Belle fleur"
+        },
+        {
+            "ref": "RSD597",
+            "titre": "Claire de lune"
+        },
+        {
+            "ref": "RSD598",
+            "titre": "La marche de Marie"
+        },
+        {
+            "ref": "RSD599",
+            "titre": "Il faut toujours être joyeux"
+        },
+        {
+            "ref": "RSD600",
+            "titre": "Le tailleur à la noce"
+        },
+        {
+            "ref": "RSD601",
+            "titre": "Madame, Madame"
+        },
+        {
+            "ref": "RSD602",
+            "titre": "Où allez-vous fillette"
+        },
+        {
+            "ref": "RSD603",
+            "titre": "Hora Agadati"
+        },
+        {
+            "ref": "RSD604",
+            "titre": "Mon frère"
+        },
+        {
+            "ref": "RSD605",
+            "titre": "Menteries"
+        },
+        {
+            "ref": "RSD606",
+            "titre": "Les 3 compagnons"
+        },
+        {
+            "ref": "RSD607",
+            "titre": "La belle Alouette"
+        },
+        {
+            "ref": "RSD608",
+            "titre": "Le bien marié"
+        },
+        {
+            "ref": "RSD609",
+            "titre": "Le curé de chez nous"
+        },
+        {
+            "ref": "RSD610",
+            "titre": "Les 3 commères"
+        },
+        {
+            "ref": "RSD611",
+            "titre": "Le galant sans argent"
+        },
+        {
+            "ref": "RSD612",
+            "titre": "L'occasion manquée"
+        },
+        {
+            "mel": 65,
+            "ref": "RSD613",
+            "titre": "D'Gemiatlichkeit"
+        },
+        {
+            "mel": 65,
+            "ref": "RSD614",
+            "titre": "Le bal des vieux"
+        },
+        {
+            "mel": 65,
+            "ref": "RSD615",
+            "titre": "De Gemietlichkeits-Walzer"
+        },
+        {
+            "ref": "RSD617",
+            "titre": "L'inconnue"
+        },
+        {
+            "ref": "RSD618",
+            "titre": "Les amants indifférents"
+        },
+        {
+            "ref": "RSD619",
+            "titre": "Dedans Marseille"
+        },
+        {
+            "ref": "RSD620",
+            "titre": "La complainte des trois orphelins"
+        },
+        {
+            "ref": "RSD621",
+            "titre": "Alin nous bagnolé"
+        },
+        {
+            "ref": "RSD622",
+            "titre": "Notre bon Duc de Savoie"
+        },
+        {
+            "ref": "RSD623",
+            "titre": "Das Steckenpferd"
+        },
+        {
+            "ref": "RSD624",
+            "titre": "Häslein, hüpf"
+        },
+        {
+            "ref": "RSD625",
+            "titre": "Epiphanie"
+        },
+        {
+            "ref": "RSD626",
+            "titre": "Le pont d'Avignon"
+        },
+        {
+            "ref": "RSD627",
+            "titre": "Widewidewitt"
+        },
+        {
+            "ref": "RSD628",
+            "titre": "Dusendschelm"
+        },
+        {
+            "ref": "RSD629",
+            "titre": "Siebenschritt"
+        },
+        {
+            "ref": "RSD630",
+            "titre": "Moder Witsch"
+        },
+        {
+            "ref": "RSD631",
+            "titre": "Nous n'irons plus au bois"
+        },
+        {
+            "ref": "RSD632",
+            "titre": "Le lièvre"
+        },
+        {
+            "ref": "RSD633",
+            "titre": "O Thomas"
+        },
+        {
+            "ref": "RSD634",
+            "titre": "Contredanse du meunier de Plougenas"
+        },
+        {
+            "ref": "RSD635",
+            "titre": "Défilé dans Paris"
+        },
+        {
+            "mel": 160,
+            "ref": "RSD636",
+            "titre": "Bier her"
+        },
+        {
+            "ref": "RSD637",
+            "titre": "Münchner Schäfflertanz"
+        },
+        {
+            "ref": "RSD638",
+            "titre": "Die Gemütlichkeit"
+        },
+        {
+            "mel": 267,
+            "ref": "RSD639",
+            "titre": "Stettiner Kreuzpolka"
+        },
+        {
+            "ref": "RSD640",
+            "titre": "Atchoum"
+        },
+        {
+            "mel": 269,
+            "ref": "RSD641",
+            "titre": "Stettiner Kreuzpolka"
+        },
+        {
+            "mel": 269,
+            "ref": "RSD642",
+            "titre": "Polka croisée"
+        },
+        {
+            "mel": 269,
+            "ref": "RSD643",
+            "titre": "Siehste wohl"
+        },
+        {
+            "ref": "RSD644",
+            "titre": "Le Club des femmes"
+        },
+        {
+            "ref": "RSD645",
+            "titre": "Passez ponpon"
+        },
+        {
+            "mel": 396,
+            "ref": "RSD646",
+            "titre": "Zeigt her eure Füsschen"
+        },
+        {
+            "ref": "RSD647",
+            "titre": "Fideringa"
+        },
+        {
+            "mel": 123,
+            "ref": "RSD648",
+            "titre": "L'adoration des Rois"
+        },
+        {
+            "ref": "RSD649",
+            "titre": "Les filles du village"
+        },
+        {
+            "ref": "RSD650",
+            "titre": "L'escargot"
+        },
+        {
+            "ref": "RSD651",
+            "titre": "Petite poule grise"
+        },
+        {
+            "ref": "RSD652",
+            "titre": "La boulangère"
+        },
+        {
+            "ref": "RSD653",
+            "titre": "La Dérobée"
+        },
+        {
+            "ref": "RSD654",
+            "titre": "Les gars de Locminé ; Stoupik"
+        },
+        {
+            "ref": "RSD655",
+            "titre": "Les sabots"
+        },
+        {
+            "ref": "RSD656",
+            "titre": "Auerhahn- Ländler"
+        },
+        {
+            "ref": "RSD657",
+            "titre": "Leiertanz ; Tampet"
+        },
+        {
+            "ref": "RSD658",
+            "titre": "La grande chêvre"
+        },
+        {
+            "mel": 369,
+            "ref": "RSD659",
+            "titre": "Le plaisir des Dames"
+        },
+        {
+            "mel": 367,
+            "ref": "RSD660",
+            "titre": "s'Meiselocker-Liedel"
+        },
+        {
+            "ref": "RSD661",
+            "titre": "Chant de Mai"
+        },
+        {
+            "mel": 358,
+            "ref": "RSD662",
+            "titre": "Le bouquet"
+        },
+        {
+            "ref": "RSD663",
+            "titre": "Le lever du chasseur"
+        },
+        {
+            "ref": "RSD664",
+            "titre": "Le canapé"
+        },
+        {
+            "ref": "RSD665",
+            "titre": "Malbrough"
+        },
+        {
+            "ref": "RSD666",
+            "titre": "Le joyeux Martin"
+        },
+        {
+            "mel": 120,
+            "ref": "RSD667",
+            "titre": "Kikeriki"
+        },
+        {
+            "ref": "RSD668",
+            "titre": "Les Matelottes"
+        },
+        {
+            "ref": "RSD669",
+            "titre": "Je gardais neuf agneaux"
+        },
+        {
+            "ref": "RSD670",
+            "titre": "La laine du mouton"
+        },
+        {
+            "ref": "RSD671",
+            "titre": "Le curé du Castera"
+        },
+        {
+            "ref": "RSD672",
+            "titre": "Il était un bonhomme"
+        },
+        {
+            "ref": "RSD673",
+            "titre": "Branle"
+        },
+        {
+            "ref": "RSD674",
+            "titre": "Brando de S. Maime"
+        },
+        {
+            "ref": "RSD675",
+            "titre": "La Parisièna"
+        },
+        {
+            "ref": "RSD676",
+            "titre": "La rabiosa"
+        },
+        {
+            "ref": "RSD677",
+            "titre": "Bourée limousine"
+        },
+        {
+            "ref": "RSD678",
+            "titre": "La réveillée"
+        },
+        {
+            "mel": 25,
+            "ref": "RSD679",
+            "titre": "La vanité"
+        },
+        {
+            "mel": 69,
+            "ref": "RSD680",
+            "titre": "Régine"
+        },
+        {
+            "mel": 235,
+            "ref": "RSD681",
+            "titre": "Tais-toi"
+        },
+        {
+            "mel": 4,
+            "ref": "RSD682",
+            "titre": "Adoration de la Croix"
+        },
+        {
+            "ref": "RSD683",
+            "titre": "Chagrin d'amour"
+        },
+        {
+            "mel": 50,
+            "ref": "RSD684",
+            "titre": "Le Royal-Suédois"
+        },
+        {
+            "mel": 253,
+            "ref": "RSD685",
+            "titre": "Fidélité"
+        },
+        {
+            "ref": "RSD686",
+            "titre": "L'amant trompé"
+        },
+        {
+            "ref": "RSD687",
+            "titre": "Schnadahüpfl"
+        },
+        {
+            "ref": "RSD688",
+            "titre": "La bergère Louise"
+        },
+        {
+            "mel": 250,
+            "ref": "RSD689",
+            "titre": "Pst ! Pst !"
+        },
+        {
+            "mel": 339,
+            "ref": "RSD690",
+            "titre": "Le cloutier"
+        },
+        {
+            "ref": "RSD691",
+            "titre": "Le poisson concélébrant"
+        },
+        {
+            "mel": 30,
+            "ref": "RSD692",
+            "titre": "Noël des bergers"
+        },
+        {
+            "ref": "RSD693",
+            "titre": "Les vœux (la marche) de Nouvel An"
+        },
+        {
+            "ref": "RSD694",
+            "titre": "Salade au jambon"
+        },
+        {
+            "mel": 285,
+            "ref": "RSD695",
+            "titre": "Les allumettes"
+        },
+        {
+            "ref": "RSD696",
+            "titre": "Un p'tit doigt qui marche"
+        },
+        {
+            "ref": "RSD697",
+            "titre": "La fermière au marché"
+        },
+        {
+            "ref": "RSD698",
+            "titre": "Le petit train"
+        },
+        {
+            "ref": "RSD699",
+            "titre": "Vu,vu,vu"
+        },
+        {
+            "ref": "RSD700",
+            "titre": "Le palais royal"
+        },
+        {
+            "mel": 298,
+            "ref": "RSD701",
+            "titre": "Das Maisle pfift"
+        },
+        {
+            "mel": 299,
+            "ref": "RSD702",
+            "titre": "Le conscrit de Strasbourg"
+        },
+        {
+            "mel": 331,
+            "ref": "RSD703",
+            "titre": "Polka des Verriers"
+        },
+        {
+            "mel": 262,
+            "ref": "RSD704",
+            "titre": "Mazurka de Schnewele"
+        },
+        {
+            "ref": "RSD705",
+            "titre": "Chrischtkindele"
+        },
+        {
+            "ref": "RSD706",
+            "titre": "Deux valses munstériennes"
+        },
+        {
+            "mel": 11,
+            "ref": "RSD707",
+            "titre": "La Mulhousienne"
+        },
+        {
+            "ref": "RSD708",
+            "titre": "Bonjour ma cousine"
+        },
+        {
+            "ref": "RSD709",
+            "titre": "Gib dem Kind sin Düdele"
+        },
+        {
+            "ref": "RSD710",
+            "titre": "Ronde des légumes"
+        },
+        {
+            "mel": 40,
+            "ref": "RSD711",
+            "titre": "Le juif de Seebach"
+        },
+        {
+            "ref": "RSD712",
+            "titre": "Turlutututu, ma mère voulait me battre"
+        },
+        {
+            "ref": "RSD713",
+            "titre": "La fiancée du diable"
+        },
+        {
+            "ref": "RSD714",
+            "titre": "Mère, mettez le chat cuire"
+        },
+        {
+            "ref": "RSD715",
+            "titre": "Branles sans paroles"
+        },
+        {
+            "ref": "RSD716",
+            "titre": "En passant la rivière, j'ai perdu mes gants"
+        },
+        {
+            "ref": "RSD717",
+            "titre": "Hé you you évotte"
+        },
+        {
+            "mel": 66,
+            "ref": "RSD718",
+            "titre": "Su l'pont du nord un bal y est donné"
+        },
+        {
+            "ref": "RSD720",
+            "titre": "Les hommes de Villette"
+        },
+        {
+            "ref": "RSD721",
+            "titre": "C'est à Fétigny"
+        },
+        {
+            "ref": "RSD722",
+            "titre": "Trois petits cochons"
+        },
+        {
+            "ref": "RSD724",
+            "titre": "Allez au couvent"
+        },
+        {
+            "ref": "RSD725",
+            "titre": "Jean Botiss"
+        },
+        {
+            "ref": "RSD726",
+            "titre": "Piarrou, que ferin-nous"
+        },
+        {
+            "ref": "RSD727",
+            "titre": "Chibreli, Chibrela"
+        },
+        {
+            "ref": "RSD728",
+            "titre": "Fais tourner la meule, Meunière"
+        },
+        {
+            "ref": "RSD729",
+            "titre": "L'alouette sur la branche"
+        },
+        {
+            "ref": "RSD730",
+            "titre": "Trois colombes (a + b)"
+        },
+        {
+            "ref": "RSD731",
+            "titre": "Ri ra rutsch"
+        },
+        {
+            "ref": "RSD732",
+            "titre": "D'r Leffelmann"
+        },
+        {
+            "ref": "RSD733",
+            "titre": "Ronde de Saint Véran"
+        },
+        {
+            "ref": "RSD734",
+            "titre": "Le jambon est bien bon"
+        },
+        {
+            "ref": "RSD735",
+            "titre": "Water music"
+        },
+        {
+            "ref": "RSD736",
+            "titre": "Virginie"
+        },
+        {
+            "ref": "RSD737",
+            "titre": "Eau-de-vie"
+        },
+        {
+            "mel": 12,
+            "ref": "RSD738",
+            "titre": "Joseph en Egypte"
+        },
+        {
+            "ref": "RSD739",
+            "titre": "Le pain pétrifié"
+        },
+        {
+            "ref": "RSD740",
+            "titre": "Appel des Indiens du Polygone"
+        },
+        {
+            "mel": 13,
+            "ref": "RSD741",
+            "titre": "Dampfwalzer"
+        },
+        {
+            "ref": "RSD743",
+            "titre": "Horlepiep"
+        },
+        {
+            "ref": "RSD744",
+            "titre": "Gort met Stroop"
+        },
+        {
+            "ref": "RSD745",
+            "titre": "Rigodon de Veynes"
+        },
+        {
+            "ref": "RSD746",
+            "titre": "La Tornijaire ou Bourrée de Saint Flour"
+        },
+        {
+            "ref": "RSD747",
+            "titre": "La Montagnarde"
+        },
+        {
+            "ref": "RSD748",
+            "titre": "Les filles de Saint-Martin"
+        },
+        {
+            "ref": "RSD749",
+            "titre": "La Crousade"
+        },
+        {
+            "ref": "RSD750",
+            "titre": "Sapte Pasi"
+        },
+        {
+            "ref": "RSD751",
+            "titre": "Ringeltanz"
+        },
+        {
+            "ref": "RSD752",
+            "titre": "Tiroler-Walzer"
+        },
+        {
+            "ref": "RSD753",
+            "titre": "En passant la Lorraine"
+        },
+        {
+            "ref": "RSD754",
+            "titre": "Bäwele"
+        },
+        {
+            "ref": "RSD756",
+            "titre": "Kikeriki"
+        },
+        {
+            "ref": "RSD758",
+            "titre": "D'r Lindewirt"
+        },
+        {
+            "mel": 257,
+            "ref": "RSD759",
+            "titre": "Fade spinne"
+        },
+        {
+            "mel": 89,
+            "ref": "RSD760",
+            "titre": "Un die Butell isch leer"
+        },
+        {
+            "ref": "RSD761",
+            "titre": "D'r hellblöüi Rock"
+        },
+        {
+            "ref": "RSD762",
+            "titre": "Heb de Gülleri"
+        },
+        {
+            "ref": "RSD763",
+            "titre": "Uf d'r Höh"
+        },
+        {
+            "ref": "RSD764",
+            "titre": "Hole Retti"
+        },
+        {
+            "ref": "RSD765",
+            "titre": "Si j'étais célibataire"
+        },
+        {
+            "ref": "RSD766",
+            "titre": "Driekusman ; Vaoder und Mooder"
+        },
+        {
+            "ref": "RSD767",
+            "titre": "Zuckerbrod isch ken Pastet"
+        },
+        {
+            "mel": 193,
+            "ref": "RSD768",
+            "titre": "Rutsch hi, rutsch her"
+        },
+        {
+            "mel": 178,
+            "ref": "RSD769",
+            "titre": "Onze Fikshond"
+        },
+        {
+            "mel": 334,
+            "ref": "RSD770",
+            "titre": "La fille au couvent"
+        },
+        {
+            "mel": 274,
+            "ref": "RSD771",
+            "titre": "Roses peintes"
+        },
+        {
+            "ref": "RSD772",
+            "titre": "Je n'ai que cinq sous"
+        },
+        {
+            "ref": "RSD773",
+            "titre": "Schoenlapper"
+        },
+        {
+            "mel": 97,
+            "ref": "RSD775",
+            "titre": "Napoléon en gloire"
+        },
+        {
+            "mel": 341,
+            "ref": "RSD776",
+            "titre": "Louez le laboureur"
+        },
+        {
+            "mel": 415,
+            "ref": "RSD777",
+            "titre": "Le galant roulier"
+        },
+        {
+            "mel": 136,
+            "ref": "RSD778",
+            "titre": "Le tricot des conscrits"
+        },
+        {
+            "ref": "RSD779",
+            "titre": "Les boxeurs"
+        },
+        {
+            "mel": 80,
+            "ref": "RSD780",
+            "titre": "Danse des tisserands"
+        },
+        {
+            "mel": 290,
+            "ref": "RSD781",
+            "titre": "Branle de Fabricius"
+        },
+        {
+            "ref": "RSD782",
+            "titre": "Viens, mon ami"
+        },
+        {
+            "ref": "RSD783",
+            "titre": "Rosestock, Holderblü"
+        },
+        {
+            "ref": "RSD784",
+            "titre": "Ne vas pas pied nus"
+        },
+        {
+            "ref": "RSD785",
+            "titre": "Seppala"
+        },
+        {
+            "ref": "RSD786",
+            "titre": "Uff de griene Wiese"
+        },
+        {
+            "ref": "RSD787",
+            "titre": "As-tu vu Bismarke"
+        },
+        {
+            "ref": "RSD788",
+            "titre": "Jan Pierewitt"
+        },
+        {
+            "mel": 14,
+            "ref": "RSD789",
+            "titre": "Danse du coq"
+        },
+        {
+            "ref": "RSD790",
+            "titre": "O Filii"
+        },
+        {
+            "mel": 198,
+            "ref": "RSD791",
+            "titre": "Trimaiza"
+        },
+        {
+            "mel": 45,
+            "ref": "RSD792",
+            "titre": "Madeleine et la Mort"
+        },
+        {
+            "ref": "RSD793",
+            "titre": "Trimazo b)"
+        },
+        {
+            "ref": "RSD794",
+            "titre": "Trimazo"
+        },
+        {
+            "ref": "RSD795",
+            "titre": "Zewwelrohr"
+        },
+        {
+            "mel": 337,
+            "ref": "RSD798",
+            "titre": "Sainte Odile"
+        },
+        {
+            "ref": "RSD799",
+            "titre": "Bergeronnette"
+        },
+        {
+            "ref": "RSD800",
+            "titre": "Que faut-il au village ?"
+        },
+        {
+            "mel": 63,
+            "ref": "RSD801",
+            "titre": "Un i hab noch 5,6 Kreuzergeld"
+        },
+        {
+            "ref": "RSD802",
+            "titre": "La vivandière"
+        },
+        {
+            "mel": 397,
+            "ref": "RSD803",
+            "titre": "Müeder i will a Ding"
+        },
+        {
+            "ref": "RSD804",
+            "titre": "Grand'maman va au marché"
+        },
+        {
+            "ref": "RSD805",
+            "titre": "Le ramoneur"
+        },
+        {
+            "ref": "RSD806",
+            "titre": "Le joyeux ramoneur"
+        },
+        {
+            "mel": 150,
+            "ref": "RSD807",
+            "titre": "Mes couleurs"
+        },
+        {
+            "ref": "RSD808",
+            "titre": "Napoléon, prend garde"
+        },
+        {
+            "ref": "RSD809",
+            "titre": "Napoléon à Moscou"
+        },
+        {
+            "mel": 42,
+            "ref": "RSD811",
+            "titre": "Le lampiste"
+        },
+        {
+            "mel": 7,
+            "ref": "RSD812",
+            "titre": "L'amour perdu"
+        },
+        {
+            "ref": "RSD813",
+            "titre": "Le coucou sur la porte"
+        },
+        {
+            "mel": 137,
+            "ref": "RSD814",
+            "titre": "La fille du meunier et le prince"
+        },
+        {
+            "mel": 196,
+            "ref": "RSD815",
+            "titre": "L'invitation à la danse"
+        },
+        {
+            "ref": "RSD816",
+            "titre": "Vive Napoléon"
+        },
+        {
+            "mel": 22,
+            "ref": "RSD818",
+            "titre": "Crêpes à la bavaroise"
+        },
+        {
+            "ref": "RSD819",
+            "titre": "Les voeux de Nouvel An"
+        },
+        {
+            "ref": "RSD820",
+            "titre": "La danse des tailleurs"
+        },
+        {
+            "ref": "RSD821",
+            "titre": "Que dois-je faire"
+        },
+        {
+            "ref": "RSD822",
+            "titre": "Pauvres paysans"
+        },
+        {
+            "ref": "RSD823",
+            "titre": "L'indécise"
+        },
+        {
+            "mel": 311,
+            "ref": "RSD824",
+            "titre": "Les Filles de Thierenbach"
+        },
+        {
+            "mel": 309,
+            "ref": "RSD825",
+            "titre": "Le Valet Rusé"
+        },
+        {
+            "mel": 312,
+            "ref": "RSD826",
+            "titre": "La confession au capitaine"
+        },
+        {
+            "mel": 310,
+            "ref": "RSD827",
+            "titre": "Le Tilleul"
+        },
+        {
+            "ref": "RSD828",
+            "titre": "Le banquet des tailleurs"
+        },
+        {
+            "ref": "RSD829",
+            "titre": "La vie de berger"
+        },
+        {
+            "mel": 124,
+            "ref": "RSD830",
+            "titre": "La complainte du paysan"
+        },
+        {
+            "ref": "RSD831",
+            "titre": "Margot, pourquoi pleures-tu ?"
+        },
+        {
+            "mel": 324,
+            "ref": "RSD832",
+            "titre": "La mort du Soldat"
+        },
+        {
+            "ref": "RSD833",
+            "titre": "Le pourpoint du berger"
+        },
+        {
+            "ref": "RSD834",
+            "titre": "Le mariage du berger"
+        },
+        {
+            "ref": "RSD835",
+            "titre": "A Strasbourg la bourgeoise"
+        },
+        {
+            "ref": "RSD836",
+            "titre": "La paix"
+        },
+        {
+            "ref": "RSD837",
+            "titre": "Dreh dich mol erum"
+        },
+        {
+            "ref": "RSD838",
+            "titre": "Où est ma bien-aimée ?"
+        },
+        {
+            "mel": 135,
+            "ref": "RSD839",
+            "titre": "Un joyeux cimetiere"
+        },
+        {
+            "ref": "RSD840",
+            "titre": "Pêle-mêle"
+        },
+        {
+            "ref": "RSD841",
+            "titre": "Le chasseur au bois vert"
+        },
+        {
+            "mel": 95,
+            "ref": "RSD842",
+            "titre": "E àrmer Büe"
+        },
+        {
+            "ref": "RSD843",
+            "titre": "La fille du meunier et le prince"
+        },
+        {
+            "ref": "RSD844",
+            "titre": "Badoise"
+        },
+        {
+            "ref": "RSD845",
+            "titre": "La belle meunière"
+        },
+        {
+            "ref": "RSD846",
+            "titre": "La bonne Nouvelle"
+        },
+        {
+            "ref": "RSD847",
+            "titre": "Trop tard"
+        },
+        {
+            "mel": 319,
+            "ref": "RSD848",
+            "titre": "L'empoisonneuse"
+        },
+        {
+            "ref": "RSD849",
+            "titre": "Polka militaire"
+        },
+        {
+            "ref": "RSD850",
+            "titre": "Le merluron"
+        },
+        {
+            "ref": "RSD851",
+            "titre": "Louchi Louchat"
+        },
+        {
+            "mel": 151,
+            "ref": "RSD852",
+            "titre": "La chanson du café"
+        },
+        {
+            "ref": "RSD853",
+            "titre": "Juck m'r nit e so, Annemarie"
+        },
+        {
+            "ref": "RSD854",
+            "titre": "Je suis soldat"
+        },
+        {
+            "ref": "RSD855",
+            "titre": "Strip the Willow"
+        },
+        {
+            "ref": "RSD856",
+            "titre": "Il faut croquer la pomme"
+        },
+        {
+            "ref": "RSD857",
+            "titre": "Plus haut le clocher"
+        },
+        {
+            "ref": "RSD858",
+            "titre": "Un conseil de prudence"
+        },
+        {
+            "ref": "RSD859",
+            "titre": "Une dot"
+        },
+        {
+            "ref": "RSD860",
+            "titre": "Je veux rester dans mon pays"
+        },
+        {
+            "ref": "RSD861",
+            "titre": "Was batt mich"
+        },
+        {
+            "ref": "RSD862",
+            "titre": "Un coeur brisé"
+        },
+        {
+            "ref": "RSD863",
+            "titre": "Si tu étais venu"
+        },
+        {
+            "ref": "RSD864",
+            "titre": "Si j'avais su"
+        },
+        {
+            "ref": "RSD865",
+            "titre": "En me retournant"
+        },
+        {
+            "mel": 62,
+            "ref": "RSD866",
+            "titre": "Les bottes cirées"
+        },
+        {
+            "mel": 302,
+            "ref": "RSD867",
+            "titre": "Insouciance"
+        },
+        {
+            "ref": "RSD868",
+            "titre": "S'kommt a Bue và Sondernà"
+        },
+        {
+            "ref": "RSD869",
+            "titre": "Danse de Strasbourg"
+        },
+        {
+            "ref": "RSD870",
+            "titre": "Charlotte"
+        },
+        {
+            "ref": "RSD871",
+            "titre": "Mal mariée"
+        },
+        {
+            "mel": 166,
+            "ref": "RSD872",
+            "titre": "Ma belle-mère"
+        },
+        {
+            "ref": "RSD873",
+            "titre": "Une grand'mère à l'héritage"
+        },
+        {
+            "ref": "RSD874",
+            "titre": "A Strasbourg sur la route"
+        },
+        {
+            "ref": "RSD875",
+            "titre": "Qui te le fera ?"
+        },
+        {
+            "ref": "RSD876",
+            "titre": "Finie la chanson"
+        },
+        {
+            "mel": 152,
+            "ref": "RSD877",
+            "titre": "Le chien en laisse"
+        },
+        {
+            "ref": "RSD878",
+            "titre": "Droulala"
+        },
+        {
+            "ref": "RSD879",
+            "titre": "Le rosier"
+        },
+        {
+            "ref": "RSD880",
+            "titre": "Qu'il pleuve ou qu'il neige"
+        },
+        {
+            "mel": 390,
+            "ref": "RSD881",
+            "titre": "Je suis un jeune homme"
+        },
+        {
+            "ref": "RSD882",
+            "titre": "Als ich noch ledig bin gewenn"
+        },
+        {
+            "ref": "RSD883",
+            "titre": "Comme un poisson dans l'eau"
+        },
+        {
+            "ref": "RSD885",
+            "titre": "Tilleul (Treue Liebe)"
+        },
+        {
+            "ref": "RSD886",
+            "titre": "Sept sauts"
+        },
+        {
+            "ref": "RSD887",
+            "titre": "Gäli Widle"
+        },
+        {
+            "ref": "RSD888",
+            "titre": "Prinz Eugen, der edle Ritter"
+        },
+        {
+            "mel": 326,
+            "ref": "RSD889",
+            "titre": "Aurore en mer"
+        },
+        {
+            "ref": "RSD890",
+            "titre": "Ah, quelle fatigue !"
+        },
+        {
+            "mel": 259,
+            "ref": "RSD891",
+            "titre": "Z'nàcht wenn d'r Mond schint"
+        },
+        {
+            "mel": 182,
+            "ref": "RSD892",
+            "titre": "La corante du Roy"
+        },
+        {
+            "ref": "RSD893",
+            "titre": "D'r Hàwersàck"
+        },
+        {
+            "mel": 93,
+            "ref": "RSD895",
+            "titre": "Die Nacht ist ja stockfinster"
+        },
+        {
+            "ref": "RSD896",
+            "titre": "Mutti, guck"
+        },
+        {
+            "mel": 49,
+            "ref": "RSD897",
+            "titre": "Malbrouck"
+        },
+        {
+            "mel": 68,
+            "ref": "RSD898",
+            "titre": "Danse des 4 pas"
+        },
+        {
+            "mel": 161,
+            "ref": "RSD899",
+            "titre": "Drum si m'r Luschtig"
+        },
+        {
+            "ref": "RSD900",
+            "titre": "Una cosa rara"
+        },
+        {
+            "ref": "RSD901",
+            "titre": "Malbrouk b)"
+        },
+        {
+            "ref": "RSD902",
+            "titre": "Père capucin, savez-vous danser ?"
+        },
+        {
+            "ref": "RSD903",
+            "titre": "Rosi, Rosa"
+        },
+        {
+            "mel": 272,
+            "ref": "RSD904",
+            "titre": "Danse des rubans"
+        },
+        {
+            "ref": "RSD905",
+            "titre": "Musette"
+        },
+        {
+            "ref": "RSD906",
+            "titre": "Jungfer Käthen"
+        },
+        {
+            "mel": 144,
+            "ref": "RSD907",
+            "titre": "Annemarie (Anne-Meyela)"
+        },
+        {
+            "ref": "RSD908",
+            "titre": "Siebesprung"
+        },
+        {
+            "ref": "RSD909",
+            "titre": "Branle de Bourgogne"
+        },
+        {
+            "ref": "RSD910",
+            "titre": "Le menuet de l'oie"
+        },
+        {
+            "mel": 6,
+            "ref": "RSD911",
+            "titre": "Vœux de Nouvel An"
+        },
+        {
+            "ref": "RSD912",
+            "titre": "Branle des chevaux dans les tournois"
+        },
+        {
+            "ref": "RSD913",
+            "titre": "Mäiekäfer frico"
+        },
+        {
+            "ref": "RSD915",
+            "titre": "Schàkebel"
+        },
+        {
+            "ref": "RSD916",
+            "titre": "Albert-Polka"
+        },
+        {
+            "mel": 268,
+            "ref": "RSD917",
+            "titre": "D'r Schwànz ab"
+        },
+        {
+            "ref": "RSD918",
+            "titre": "Duck di, Hasala"
+        },
+        {
+            "mel": 120,
+            "ref": "RSD919",
+            "titre": "Hingerm Hüs un Vorem Hüs"
+        },
+        {
+            "ref": "RSD920",
+            "titre": "Le carnaval de Venise"
+        },
+        {
+            "ref": "RSD921",
+            "titre": "Ich hàb emol e Kätzele ghet"
+        },
+        {
+            "ref": "RSD923",
+            "titre": "Zwiwele witt"
+        },
+        {
+            "ref": "RSD924",
+            "titre": "Bourrée Alsacienne"
+        },
+        {
+            "ref": "RSD925",
+            "titre": "Heinerle"
+        },
+        {
+            "ref": "RSD926",
+            "titre": "Hole mi"
+        },
+        {
+            "ref": "RSD927",
+            "titre": "Kumm, hole mi"
+        },
+        {
+            "ref": "RSD928",
+            "titre": "Anneau roule"
+        },
+        {
+            "ref": "RSD929",
+            "titre": "Passe par ici"
+        },
+        {
+            "ref": "RSD930",
+            "titre": "Les Matelots ; Der Schifferknechte Dantz"
+        },
+        {
+            "ref": "RSD931",
+            "titre": "Schlangentanz"
+        },
+        {
+            "mel": 70,
+            "ref": "RSD932",
+            "titre": "Reihe Reihe Rose"
+        },
+        {
+            "ref": "RSD933",
+            "titre": "La chaine"
+        },
+        {
+            "mel": 297,
+            "ref": "RSD934",
+            "titre": "Hop Marianne"
+        },
+        {
+            "ref": "RSD935",
+            "titre": "Zipfelmütz"
+        },
+        {
+            "mel": 65,
+            "ref": "RSD936",
+            "titre": "D'Gemietlichkeit"
+        },
+        {
+            "ref": "RSD937",
+            "titre": "Badoise"
+        },
+        {
+            "ref": "RSD938",
+            "titre": "Lapin saute"
+        },
+        {
+            "ref": "RSD939",
+            "titre": "Brumm, Kreisel"
+        },
+        {
+            "mel": 105,
+            "ref": "RSD940",
+            "titre": "Un tout petit moulin"
+        },
+        {
+            "mel": 188,
+            "ref": "RSD941",
+            "titre": "Hàns im Schnokeloch"
+        },
+        {
+            "ref": "RSD942",
+            "titre": "Zuckerstängele"
+        },
+        {
+            "ref": "RSD943",
+            "titre": "Der alten Weiber-Tantz"
+        },
+        {
+            "ref": "RSD944",
+            "titre": "D'r Bello"
+        },
+        {
+            "ref": "RSD945",
+            "titre": "Danz réwer, danz néwer"
+        },
+        {
+            "ref": "RSD946",
+            "titre": "E Häri"
+        },
+        {
+            "ref": "RSD947",
+            "titre": "Schwabentanz ; Strassburger"
+        },
+        {
+            "ref": "RSD948",
+            "titre": "Rums vide bums"
+        },
+        {
+            "ref": "RSD949",
+            "titre": "Le Pélélé"
+        },
+        {
+            "ref": "RSD950",
+            "titre": "Aïgo de rotro ; Aïo"
+        },
+        {
+            "ref": "RSD951",
+            "titre": "La Fricassée"
+        },
+        {
+            "ref": "RSD952",
+            "titre": "Tchibourli"
+        },
+        {
+            "ref": "RSD953",
+            "titre": "La Guimbarde"
+        },
+        {
+            "ref": "RSD954",
+            "titre": "La Togne"
+        },
+        {
+            "ref": "RSD956",
+            "titre": "Joseph en Egypte"
+        },
+        {
+            "ref": "RSD957",
+            "titre": "Eau-de-vie"
+        },
+        {
+            "ref": "RSD958",
+            "titre": "Un berger serein"
+        },
+        {
+            "ref": "RSD959",
+            "titre": "Le pain pétrifié"
+        },
+        {
+            "mel": 120,
+            "ref": "RSD960",
+            "titre": "D'r ditsch Polka"
+        },
+        {
+            "ref": "RSD961",
+            "titre": "Le grand cerf"
+        },
+        {
+            "ref": "RSD962",
+            "titre": "Le p'tit prince"
+        },
+        {
+            "ref": "RSD963",
+            "titre": "Sibenthaler"
+        },
+        {
+            "mel": 248,
+            "ref": "RSD964",
+            "titre": "Siebensprung"
+        },
+        {
+            "mel": 149,
+            "ref": "RSD965",
+            "titre": "1,2,3,4,5,6,7"
+        },
+        {
+            "ref": "RSD966",
+            "titre": "Vetter Michel"
+        },
+        {
+            "mel": 177,
+            "ref": "RSD968",
+            "titre": "Jan Piddervitt"
+        },
+        {
+            "ref": "RSD969",
+            "titre": "Ich Seh dich"
+        },
+        {
+            "ref": "RSD970",
+            "titre": "Vogelhochzeit"
+        },
+        {
+            "ref": "RSD971",
+            "titre": "J'aime la galette"
+        },
+        {
+            "ref": "RSD972",
+            "titre": "La fille du coupeur de paille"
+        },
+        {
+            "mel": 153,
+            "ref": "RSD973",
+            "titre": "Gavotte"
+        },
+        {
+            "ref": "RSD974",
+            "titre": "Quand Biron voulut danser"
+        },
+        {
+            "ref": "RSD975",
+            "titre": "Voici z'une belle danse"
+        },
+        {
+            "ref": "RSD976",
+            "titre": "Ah ! si mon moine voulait danser"
+        },
+        {
+            "ref": "RSD977",
+            "titre": "Bougre de rat"
+        },
+        {
+            "ref": "RSD978",
+            "titre": "La gigouillette"
+        },
+        {
+            "ref": "RSD979",
+            "titre": "Bourrée N°1"
+        },
+        {
+            "ref": "RSD980",
+            "titre": "Bourrée N°2"
+        },
+        {
+            "ref": "RSD981",
+            "titre": "Guimbarde"
+        },
+        {
+            "ref": "RSD982",
+            "titre": "Le long de son jardin"
+        },
+        {
+            "ref": "RSD983",
+            "titre": "Hag arlanné oen dimiet"
+        },
+        {
+            "ref": "RSD984",
+            "titre": "Ha me zad hame mamm ; Mon père et ma mère"
+        },
+        {
+            "ref": "RSD985",
+            "titre": "La mal mariée"
+        },
+        {
+            "ref": "RSD986",
+            "titre": "Derrière chez moi y a un étang"
+        },
+        {
+            "ref": "RSD987",
+            "titre": "J'entends le loup, le renard et la belette"
+        },
+        {
+            "ref": "RSD988",
+            "titre": "Payré, Mayré"
+        },
+        {
+            "ref": "RSD989",
+            "titre": "Anèyt, touqueran lou pé à la nobio ; Nous touch'rons ce soir le pied d' la mariée"
+        },
+        {
+            "ref": "RSD990",
+            "titre": "Ay vist lou loup"
+        },
+        {
+            "ref": "RSD991",
+            "titre": "Lo Glaudo ; Claudine"
+        },
+        {
+            "ref": "RSD992",
+            "titre": "Les belles de New York"
+        },
+        {
+            "ref": "RSD993",
+            "titre": "Redowa varsovienne"
+        },
+        {
+            "ref": "RSD994",
+            "titre": "Bavaroise"
+        },
+        {
+            "ref": "RSD995",
+            "titre": "L'avoine"
+        },
+        {
+            "ref": "RSD996",
+            "titre": "Dessus le noste trilhe ; Au d'ssus de notre treille"
+        },
+        {
+            "ref": "RSD997",
+            "titre": "Ma ceinture de laine"
+        },
+        {
+            "ref": "RSD998",
+            "titre": "Titi mati mato"
+        },
+        {
+            "ref": "RSD999",
+            "titre": "Boarhan tér las ; J'ai trois pièges"
+        },
+        {
+            "ref": "RSD1000",
+            "titre": "Hag Arlanné 'oen diméet ; L'année dernière j'étais mariée"
+        },
+        {
+            "ref": "RSD1001",
+            "titre": "A pe oen e foennad ; Quand j'étais au foin"
+        },
+        {
+            "ref": "RSD1002",
+            "titre": "Brins d'or, brins d'amour"
+        },
+        {
+            "ref": "RSD1003",
+            "titre": "Danses des 7 pas"
+        },
+        {
+            "ref": "RSD1004",
+            "titre": "Vu Rixa uf Hàbsa"
+        },
+        {
+            "ref": "RSD1005",
+            "titre": "Quand la Jeanne va-t-au moulin"
+        },
+        {
+            "ref": "RSD1006",
+            "titre": "La bourreio d'Auvergno"
+        },
+        {
+            "ref": "RSD1007",
+            "titre": "M'r sehn di b)"
+        },
+        {
+            "ref": "RSD1008",
+            "titre": "'s böse Ding"
+        },
+        {
+            "ref": "RSD1009",
+            "titre": "De Bumbumstànd"
+        },
+        {
+            "ref": "RSD1010",
+            "titre": "D'r Kinni Dagobert"
+        },
+        {
+            "mel": 361,
+            "ref": "RSD1011",
+            "titre": "D'r Vehrele"
+        },
+        {
+            "ref": "RSD1012",
+            "titre": "Ein sächsisch tänzlin"
+        },
+        {
+            "mel": 120,
+            "ref": "RSD1013",
+            "titre": "Trutz nit so"
+        },
+        {
+            "ref": "RSD1014",
+            "titre": "Judentanz"
+        },
+        {
+            "ref": "RSD1015",
+            "titre": "Schwarz Knab"
+        },
+        {
+            "ref": "RSD1016",
+            "titre": "Sous la fenêtre"
+        },
+        {
+            "ref": "RSD1018",
+            "titre": "Alle mine Antele"
+        },
+        {
+            "ref": "RSD1019",
+            "titre": "La pauvre âme"
+        },
+        {
+            "ref": "RSD1020",
+            "titre": "Hànsele klei"
+        },
+        {
+            "ref": "RSD1021",
+            "titre": "Bettlertanz"
+        },
+        {
+            "ref": "RSD1022",
+            "titre": "Der Bettler"
+        },
+        {
+            "ref": "RSD1023",
+            "titre": "Apolka"
+        },
+        {
+            "ref": "RSD1024",
+            "titre": "Le fermier dans son pré"
+        },
+        {
+            "ref": "RSD1025",
+            "titre": "Sieben Sprüng de Gutach"
+        },
+        {
+            "ref": "RSD1026",
+            "titre": "Rajetropfe"
+        },
+        {
+            "ref": "RSD1027",
+            "titre": "Le rigaudon"
+        },
+        {
+            "ref": "RSD1028",
+            "titre": "Gigel ratze"
+        },
+        {
+            "ref": "RSD1029",
+            "titre": "Noël de Daquin"
+        },
+        {
+            "ref": "RSD1030",
+            "titre": "Joyeux enfants de la Bourgogne"
+        },
+        {
+            "ref": "RSD1031",
+            "titre": "S'Bürebieweli"
+        },
+        {
+            "ref": "RSD1032",
+            "titre": "Marchand vaillant"
+        },
+        {
+            "ref": "RSD1033",
+            "titre": "Äie Bubbäie"
+        },
+        {
+            "ref": "RSD1034",
+            "titre": "Schlof Biäwele"
+        },
+        {
+            "ref": "RSD1035",
+            "titre": "Minschtertäler Martala"
+        },
+        {
+            "ref": "RSD1036",
+            "titre": "Mai revient"
+        },
+        {
+            "ref": "RSD1037",
+            "titre": "Marie assise sur une pierre"
+        },
+        {
+            "ref": "RSD1038",
+            "titre": "D'Wàltermaïdli"
+        },
+        {
+            "mel": 139,
+            "ref": "RSD1039",
+            "titre": "Widele, Wäddele"
+        },
+        {
+            "ref": "RSD1040",
+            "titre": "S'Misele"
+        },
+        {
+            "ref": "RSD1041",
+            "titre": "Oh Susanna"
+        },
+        {
+            "ref": "RSD1042",
+            "titre": "Die heil'gen drei Kenig"
+        },
+        {
+            "ref": "RSD1043",
+            "titre": "Kàntonierfopp"
+        },
+        {
+            "ref": "RSD1044",
+            "titre": "Dein Herz ist mein Herz"
+        },
+        {
+            "ref": "RSD1045",
+            "titre": "Un petit canard"
+        },
+        {
+            "mel": 396,
+            "ref": "RSD1046",
+            "titre": "Les lavandières"
+        },
+        {
+            "ref": "RSD1047",
+            "titre": "Ce qu'ils font"
+        },
+        {
+            "ref": "RSD1048",
+            "titre": "Tressons la cordelle"
+        },
+        {
+            "ref": "RSD1049",
+            "titre": "'s rajt hit uf de Brucke"
+        },
+        {
+            "ref": "RSD1050",
+            "titre": "Le tourniquet"
+        },
+        {
+            "ref": "RSD1051",
+            "titre": "Les filles de Strasbourg"
+        },
+        {
+            "ref": "RSD1052",
+            "titre": "Légionär"
+        },
+        {
+            "mel": 156,
+            "ref": "RSD1053",
+            "titre": "Un d'r Jock"
+        },
+        {
+            "mel": 301,
+            "ref": "RSS1054",
+            "titre": "Suite Hop Marianne"
+        },
+        {
+            "ref": "RSD1055",
+            "titre": "Der Schnider het a Floh"
+        },
+        {
+            "ref": "RSD1056",
+            "titre": "Kasatchok"
+        },
+        {
+            "ref": "RSD1057",
+            "titre": "Joyeuse noce"
+        },
+        {
+            "ref": "RSD1058",
+            "titre": "De Weil, de Bloch un de Blum"
+        },
+        {
+            "ref": "RSD1059",
+            "titre": "Wir sind die drei König"
+        },
+        {
+            "ref": "RSD1060",
+            "titre": "Le siège de Lille"
+        },
+        {
+            "ref": "RSD1061",
+            "titre": "La chanson du chevrier"
+        },
+        {
+            "ref": "RSD1062",
+            "titre": "Bonjour Joséphine"
+        },
+        {
+            "ref": "RSD1063",
+            "titre": "Maieresele"
+        },
+        {
+            "ref": "RSD1064",
+            "titre": "Ochsentanz"
+        },
+        {
+            "ref": "RSD1065",
+            "titre": "Der Schäffer aus der newen Stadt"
+        },
+        {
+            "ref": "RSD1066",
+            "titre": "Schüfel-Niner"
+        },
+        {
+            "ref": "RSD1067",
+            "titre": "La violette double"
+        },
+        {
+            "ref": "RSD1068",
+            "titre": "Le rosier"
+        },
+        {
+            "ref": "RSD1069",
+            "titre": "En passant par la Lorraine"
+        },
+        {
+            "ref": "RSD1070",
+            "titre": "Le pont d'Avignon"
+        },
+        {
+            "ref": "RSD1071",
+            "titre": "Die Goldene Brücke"
+        },
+        {
+            "ref": "RSD1072",
+            "titre": "Die goldne Brücke"
+        },
+        {
+            "ref": "RSD1073",
+            "titre": "Le jeu des métiers"
+        },
+        {
+            "ref": "RSD1074",
+            "titre": "Ah vous dirai-je maman"
+        },
+        {
+            "ref": "RSD1075",
+            "titre": "Branle des Lavandières"
+        },
+        {
+            "ref": "RSD1076",
+            "titre": "Branle des chevaux"
+        },
+        {
+            "ref": "RSD1077",
+            "titre": "Branle de la Montarde"
+        },
+        {
+            "ref": "RSD1078",
+            "titre": "La chanson du semeur"
+        },
+        {
+            "ref": "RSD1079",
+            "titre": "Angèle au couvent"
+        },
+        {
+            "ref": "RSD1080",
+            "titre": "Petite camuson"
+        },
+        {
+            "ref": "RSD1081",
+            "titre": "Branle de la guerre"
+        },
+        {
+            "ref": "RSD1082",
+            "titre": "Allemande courrante"
+        },
+        {
+            "ref": "RSD1083",
+            "titre": "Gaillarde d'Ecosse"
+        },
+        {
+            "mel": 172,
+            "ref": "RSS1084",
+            "titre": "Suite Varsovienne"
+        },
+        {
+            "mel": 169,
+            "ref": "RSD1085",
+            "titre": "Polonaise"
+        },
+        {
+            "mel": 168,
+            "ref": "RSD1086",
+            "titre": "Balivernes ; Ottrotter Roter"
+        },
+        {
+            "ref": "RSD1087",
+            "titre": "Invitation à la valse"
+        },
+        {
+            "mel": 291,
+            "ref": "RSS1088",
+            "titre": "Suite de branles"
+        },
+        {
+            "mel": 183,
+            "ref": "RSS1089",
+            "titre": "Suite Renaissance"
+        },
+        {
+            "mel": 75,
+            "ref": "RSD1090",
+            "titre": "La Salamandre ; Danz Maidel danz"
+        },
+        {
+            "mel": 389,
+            "ref": "RSS1091",
+            "titre": "Suite de valses"
+        },
+        {
+            "mel": 254,
+            "ref": "RSS1092",
+            "titre": "Suite courante"
+        },
+        {
+            "mel": 174,
+            "ref": "RSS1093",
+            "titre": "Suite Polonaises"
+        },
+        {
+            "mel": 238,
+            "ref": "RSS1094",
+            "titre": "Suite Médiévale"
+        },
+        {
+            "mel": 347,
+            "ref": "RSD1095",
+            "titre": "Branle de Laufenberg"
+        },
+        {
+            "mel": 317,
+            "ref": "RSD1097",
+            "titre": "Le pré aux alouettes"
+        },
+        {
+            "mel": 322,
+            "ref": "RSD1098",
+            "titre": "Impaires d'Oderen"
+        },
+        {
+            "ref": "RSD1099",
+            "titre": "Au coucou des bois"
+        },
+        {
+            "mel": 160,
+            "ref": "RSD1101",
+            "titre": "Bier her"
+        },
+        {
+            "mel": 76,
+            "ref": "RSD1102",
+            "titre": "Grâce et modestie"
+        },
+        {
+            "ref": "RSD1103",
+            "titre": "Branle de Saint Elme"
+        },
+        {
+            "mel": 65,
+            "ref": "RSD1104",
+            "titre": "Gemietlichkeit"
+        },
+        {
+            "mel": 195,
+            "ref": "RSD1105",
+            "titre": "De Blosser vun Ittene"
+        },
+        {
+            "mel": 197,
+            "ref": "RSD1106",
+            "titre": "Jurondé"
+        },
+        {
+            "ref": "RSD1107",
+            "titre": "De Zevensprong a)"
+        },
+        {
+            "ref": "RSD1108",
+            "titre": "Hans bleib da!"
+        },
+        {
+            "ref": "RSD1109",
+            "titre": "Neuf orangers"
+        },
+        {
+            "ref": "RSD1110",
+            "titre": "Chant du trouvère"
+        },
+        {
+            "ref": "RSD1111",
+            "titre": "Picouline"
+        },
+        {
+            "ref": "RSD1112",
+            "titre": "Gimple Maïdeli"
+        },
+        {
+            "ref": "RSD1113",
+            "titre": "D'r Pfanneflicker"
+        },
+        {
+            "ref": "RSD1114",
+            "titre": "Ballo dei Gobbi"
+        },
+        {
+            "ref": "RSD1115",
+            "titre": "Lou Baraoutchic"
+        },
+        {
+            "ref": "RSD1116",
+            "titre": "Zwilli wick boum boum"
+        },
+        {
+            "ref": "RSD1117",
+            "titre": "Kochelsberger"
+        },
+        {
+            "mel": 34,
+            "ref": "RSD1118",
+            "titre": "Valse à 10 temps"
+        },
+        {
+            "ref": "RSD1119",
+            "titre": "Die Gans"
+        },
+        {
+            "ref": "RSD1120",
+            "titre": "Neukatholisch"
+        },
+        {
+            "mel": 175,
+            "ref": "RSD1121",
+            "titre": "Marguerite"
+        },
+        {
+            "ref": "RSD1122",
+            "titre": "Branle de village"
+        },
+        {
+            "ref": "RSD1123",
+            "titre": "L'aventurier"
+        },
+        {
+            "ref": "RSD1124",
+            "titre": "Allemande française"
+        },
+        {
+            "ref": "RSD1125",
+            "titre": "Varsovienne de Seez"
+        },
+        {
+            "ref": "RSD1126",
+            "titre": "Trey, plein plat"
+        },
+        {
+            "ref": "RSD1127",
+            "titre": "Badoise de Seez"
+        },
+        {
+            "ref": "RSD1128",
+            "titre": "Je n'ai pas vu mon amant ce matin"
+        },
+        {
+            "ref": "RSD1129",
+            "titre": "Hora"
+        },
+        {
+            "ref": "RSD1130",
+            "titre": "Moresque de Heckel"
+        },
+        {
+            "ref": "RSD1131",
+            "titre": "La Bohémienne"
+        },
+        {
+            "ref": "RSD1132",
+            "titre": "Courante"
+        },
+        {
+            "ref": "RSD1133",
+            "titre": "Ecossaise de Strasbourg"
+        },
+        {
+            "mel": 186,
+            "ref": "RSD1134",
+            "titre": "Es rejt, es schnéit"
+        },
+        {
+            "ref": "RSD1135",
+            "titre": "Polka des cocus"
+        },
+        {
+            "ref": "RSD1136",
+            "titre": "Scharrer"
+        },
+        {
+            "ref": "RSD1137",
+            "titre": "Redowa"
+        },
+        {
+            "ref": "RSD1138",
+            "titre": "Menuet de Lully"
+        },
+        {
+            "ref": "RSD1139",
+            "titre": "Les Bougnettes"
+        },
+        {
+            "ref": "RSD1140",
+            "titre": "Sønderborg"
+        },
+        {
+            "ref": "RSD1141",
+            "titre": "Sept sauts"
+        },
+        {
+            "ref": "RSD1142",
+            "titre": "Valse des 10 mesures"
+        },
+        {
+            "ref": "RSD1143",
+            "titre": "La belle valse"
+        },
+        {
+            "ref": "RSD1144",
+            "titre": "Belle qui tiens ma vie"
+        },
+        {
+            "ref": "RSD1145",
+            "titre": "Barbiertanz"
+        },
+        {
+            "ref": "RSD1146",
+            "titre": "Ecossaise"
+        },
+        {
+            "ref": "RSD1147",
+            "titre": "Etudiants de Vienne"
+        },
+        {
+            "ref": "RSD1148",
+            "titre": "Etudiants"
+        },
+        {
+            "ref": "RSD1149",
+            "titre": "Hupfuff"
+        },
+        {
+            "ref": "RSD1150",
+            "titre": "La Canarie"
+        },
+        {
+            "ref": "RSD1151",
+            "titre": "Heiduckentanz"
+        },
+        {
+            "ref": "RSD1152",
+            "titre": "Hoftanz"
+        },
+        {
+            "ref": "RSD1153",
+            "titre": "Sieben Sprung de Gutach"
+        },
+        {
+            "ref": "RSD1154",
+            "titre": "Courante"
+        },
+        {
+            "ref": "RSD1155",
+            "titre": "Branle des Chevaux"
+        },
+        {
+            "ref": "RSD1156",
+            "titre": "Bentzenauer"
+        },
+        {
+            "ref": "RSD1157",
+            "titre": "Bentzenouver"
+        },
+        {
+            "ref": "RSD1158",
+            "titre": "Westphaler"
+        },
+        {
+            "ref": "RSD1159",
+            "titre": "Danse Bourgeoise"
+        },
+        {
+            "ref": "RSD1160",
+            "titre": "Die Müllerin"
+        },
+        {
+            "ref": "RSD1161",
+            "titre": "La Cassandre"
+        },
+        {
+            "ref": "RSD1162",
+            "titre": "Henri IV"
+        },
+        {
+            "ref": "RSD1163",
+            "titre": "Hacke Toone"
+        },
+        {
+            "ref": "RSD1164",
+            "titre": "Mine Vàtter isch"
+        },
+        {
+            "ref": "RSD1165",
+            "titre": "Alpen"
+        },
+        {
+            "ref": "RSD1166",
+            "titre": "De Siwener Sprung"
+        },
+        {
+            "ref": "RSD1167",
+            "titre": "Danse des sept sauts"
+        },
+        {
+            "ref": "RSD1168",
+            "titre": "Bourrée des 7 sauts"
+        },
+        {
+            "ref": "RSD1169",
+            "titre": "Sewensprune"
+        },
+        {
+            "ref": "RSD1170",
+            "titre": "Sövespröng"
+        },
+        {
+            "ref": "RSD1171",
+            "titre": "Rutsch Her"
+        },
+        {
+            "ref": "RSD1172",
+            "titre": "Danse des tonneliers"
+        },
+        {
+            "mel": 225,
+            "ref": "RSD1173",
+            "titre": "Rutsch hin, rutsch her"
+        },
+        {
+            "ref": "RSD1174",
+            "titre": "Hommage au paysan"
+        },
+        {
+            "ref": "RSD1175",
+            "titre": "Bébé-Polka"
+        },
+        {
+            "ref": "RSD1176",
+            "titre": "Tarata boum diée"
+        },
+        {
+            "ref": "RSD1177",
+            "titre": "La raspa"
+        },
+        {
+            "ref": "RSD1178",
+            "titre": "Frau Grienere"
+        },
+        {
+            "mel": 52,
+            "ref": "RSD1180",
+            "titre": "La marche des pélerins"
+        },
+        {
+            "ref": "RSD1181",
+            "titre": "Menuet de la Reine"
+        },
+        {
+            "ref": "RSD1182",
+            "titre": "Varsovienne"
+        },
+        {
+            "ref": "RSD1183",
+            "titre": "Hansel et Gretel"
+        },
+        {
+            "ref": "RSD1184",
+            "titre": "Je n'ai que 5 sous"
+        },
+        {
+            "ref": "RSD1185",
+            "titre": "Trimeken"
+        },
+        {
+            "ref": "RSD1186",
+            "titre": "Moulinet de Sazos"
+        },
+        {
+            "mel": 15,
+            "ref": "RSD1187",
+            "titre": "La Dernière Danse"
+        },
+        {
+            "ref": "RSD1189",
+            "titre": "Hampelmann"
+        },
+        {
+            "ref": "RSD1190",
+            "titre": "Abendreien"
+        },
+        {
+            "ref": "RSD1191",
+            "titre": "Garde Nationale"
+        },
+        {
+            "ref": "RSD1192",
+            "titre": "Mudder Witsch"
+        },
+        {
+            "ref": "RSD1193",
+            "titre": "Sarabande"
+        },
+        {
+            "ref": "RSD1194",
+            "titre": "Danse des canards"
+        },
+        {
+            "ref": "RSD1195",
+            "titre": "Monsieur l' curé n' veut pas"
+        },
+        {
+            "ref": "RSD1196",
+            "titre": "Mariez-moi"
+        },
+        {
+            "ref": "RSD1197",
+            "titre": "Jäger a.d. Pfalz"
+        },
+        {
+            "ref": "RSD1198",
+            "titre": "Menuet provençal"
+        },
+        {
+            "ref": "RSD1199",
+            "titre": "Bummel- Petrus"
+        },
+        {
+            "ref": "RSD1200",
+            "titre": "Matelote Provence"
+        },
+        {
+            "ref": "RSD1201",
+            "titre": "Alles ei Ding"
+        },
+        {
+            "ref": "RSD1202",
+            "titre": "Les Grenadiers de Reichshoffen"
+        },
+        {
+            "ref": "RSD1203",
+            "titre": "Hornfiffen"
+        },
+        {
+            "ref": "RSD1204",
+            "titre": "Dort in de Wantzenau"
+        },
+        {
+            "ref": "RSD1205",
+            "titre": "Bummel- Petrus"
+        },
+        {
+            "ref": "RSD1206",
+            "titre": "Bummel-Petrus"
+        },
+        {
+            "ref": "RSD1207",
+            "titre": "Bismärkerle"
+        },
+        {
+            "ref": "RSD1208",
+            "titre": "Hochzeit machen"
+        },
+        {
+            "ref": "RSD1209",
+            "titre": "Der Uhu-Hu"
+        },
+        {
+            "ref": "RSD1210",
+            "titre": "E bràver Spitzbüe"
+        },
+        {
+            "ref": "RSD1211",
+            "titre": "Flieje"
+        },
+        {
+            "ref": "RSD1212",
+            "titre": "Pyritzer Kuckuk"
+        },
+        {
+            "ref": "RSD1213",
+            "titre": "Tampet"
+        },
+        {
+            "ref": "RSD1214",
+            "titre": "Quête du 1er mai"
+        },
+        {
+            "mel": 350,
+            "ref": "RSS1215",
+            "titre": "Suite Les Impaires d'Oderen"
+        },
+        {
+            "mel": 281,
+            "ref": "RSD1216",
+            "titre": "d'Schlumpf-Trappler"
+        },
+        {
+            "mel": 157,
+            "ref": "RSD1217",
+            "titre": "Ballade de Ste-Odile"
+        },
+        {
+            "ref": "RSD1218",
+            "titre": "Catherine"
+        },
+        {
+            "mel": 323,
+            "ref": "RSD1219",
+            "titre": "Vingt meurtriers"
+        },
+        {
+            "mel": 273,
+            "ref": "RSD1220",
+            "titre": "Catherine et Théodore"
+        },
+        {
+            "ref": "RSD1221",
+            "titre": "Scottisch-Valse"
+        },
+        {
+            "mel": 205,
+            "ref": "RSD1222",
+            "titre": "Le bain de la belle"
+        },
+        {
+            "mel": 114,
+            "ref": "RSD1223",
+            "titre": "Pantalon"
+        },
+        {
+            "mel": 307,
+            "ref": "RSS1224",
+            "titre": "Suite La Noce du Diable"
+        },
+        {
+            "mel": 395,
+            "ref": "RSS1225",
+            "titre": "Suite Premier amour, dernier amour"
+        },
+        {
+            "mel": 129,
+            "ref": "RSJ1226",
+            "titre": "Polka des conscrits"
+        },
+        {
+            "mel": 385,
+            "ref": "RSJ1227",
+            "titre": "Danse des Casses-Faînes"
+        },
+        {
+            "mel": 115,
+            "ref": "RSEp2241.1",
+            "titre": "La légende de Bacqueville"
+        },
+        {
+            "mel": 66,
+            "ref": "RSEp2241.2",
+            "titre": "Su'l' pont du nord un bal y est donné"
+        },
+        {
+            "mel": 339,
+            "ref": "RSEp2245.1",
+            "titre": "Le cloutier"
+        },
+        {
+            "mel": 218,
+            "ref": "RSEp2245.2",
+            "titre": "Siwenersprung"
+        },
+        {
+            "mel": 80,
+            "ref": "RSEp2245.3",
+            "titre": "Danse des tisserands"
+        },
+        {
+            "mel": 93,
+            "ref": "RSEp2246.1",
+            "titre": "Die Nacht ist ja stockfinster"
+        },
+        {
+            "mel": 326,
+            "ref": "RSEp2246.2",
+            "titre": "La tombe du marin"
+        },
+        {
+            "mel": 385,
+            "ref": "RSEp2249.1",
+            "titre": "De Haystàll fällt um"
+        },
+        {
+            "mel": 182,
+            "ref": "RSEp2249.2",
+            "titre": "La Corante du Roy"
+        },
+        {
+            "mel": 71,
+            "ref": "RSEp2253.1",
+            "titre": "Réveil au clairon"
+        },
+        {
+            "mel": 324,
+            "ref": "RSEp2253.2",
+            "titre": "La mort du soldat"
+        },
+        {
+            "mel": 60,
+            "ref": "RSEp2254",
+            "titre": "L'étoile du soir"
+        },
+        {
+            "mel": 135,
+            "ref": "RSEp2255",
+            "titre": "Un joyeux cimetière"
+        },
+        {
+            "mel": 134,
+            "ref": "RSEp2256",
+            "titre": "Newe Almayne"
+        },
+        {
+            "mel": 7,
+            "ref": "RSEp2257.1",
+            "titre": "L'amour perdu"
+        },
+        {
+            "mel": 65,
+            "ref": "RSEp2257.2",
+            "titre": "De Gemietlichkeit’s Walzer"
+        },
+        {
+            "mel": 53,
+            "ref": "RSEp2258.1",
+            "titre": "La pauvre âme"
+        },
+        {
+            "mel": 23,
+            "ref": "RSEp2258.2",
+            "titre": "J'entends la faucille"
+        },
+        {
+            "mel": 20,
+            "ref": "RSEp2260.1",
+            "titre": "La flûte du berger"
+        },
+        {
+            "mel": 92,
+            "ref": "RSEp2260.2",
+            "titre": "Si tu ne me veux pas"
+        },
+        {
+            "mel": 151,
+            "ref": "RSEp2263.1",
+            "titre": "La chanson du café"
+        },
+        {
+            "mel": 22,
+            "ref": "RSEp2263.2",
+            "titre": "Crêpes à la bavaroise"
+        },
+        {
+            "mel": 91,
+            "ref": "RSEp2264",
+            "titre": "Le retour"
+        },
+        {
+            "mel": 272,
+            "ref": "RSEp2265.1",
+            "titre": "Danse des rubans"
+        },
+        {
+            "mel": 95,
+            "ref": "RSEp2265.2",
+            "titre": "E àrmer Büe"
+        },
+        {
+            "mel": 50,
+            "ref": "RSEp2266.1",
+            "titre": "Le Royal-Suédois"
+        },
+        {
+            "mel": 28,
+            "ref": "RSEp2266.2",
+            "titre": "Herr Schmitt"
+        },
+        {
+            "mel": 36,
+            "ref": "RSEp2267.1",
+            "titre": "Valse des conscrits"
+        },
+        {
+            "mel": 89,
+            "ref": "RSEp2267.2",
+            "titre": "Un die Butell isch leer"
+        },
+        {
+            "mel": 133,
+            "ref": "RSEp2268.1",
+            "titre": "Polka des conscrits"
+        },
+        {
+            "mel": 269,
+            "ref": "RSEp2268.2",
+            "titre": "Polka croisée"
+        },
+        {
+            "mel": 68,
+            "ref": "RSEp2269.1",
+            "titre": "Danse des 4 pas"
+        },
+        {
+            "mel": 40,
+            "ref": "RSEp2269.2",
+            "titre": "Le juif de Seebach"
+        },
+        {
+            "mel": 62,
+            "ref": "RSEp2269.3",
+            "titre": "Les bottes cirées"
+        },
+        {
+            "mel": 161,
+            "ref": "RSEp2270.1",
+            "titre": "Drum si m'r Luschtig"
+        },
+        {
+            "mel": 103,
+            "ref": "RSEp2270.2",
+            "titre": "Nostalgie"
+        },
+        {
+            "mel": 43,
+            "ref": "RSEp2271",
+            "titre": "De Kehrüs"
+        },
+        {
+            "mel": 218,
+            "ref": "RSFp64",
+            "titre": "Danse des sept sauts",
+            "mm75": "p10"
+        },
+        {
+            "mel": 233,
+            "ref": "RSFp71",
+            "titre": "Schwitzemann",
+            "mm75": "p13"
+        },
+        {
+            "mel": 6,
+            "ref": "RSFp73",
+            "titre": "Courante de nouvel-an",
+            "mm75": "p15"
+        },
+        {
+            "mel": 154,
+            "ref": "RSFp75",
+            "titre": "Soyotte",
+            "mm75": "p17"
+        },
+        {
+            "mel": 225,
+            "ref": "RSFp76",
+            "titre": "Rutsch hin, Rutsch her",
+            "mm75": "p18"
+        },
+        {
+            "mel": 43,
+            "ref": "RSFp83",
+            "titre": "La balayeuse",
+            "mm75": "p25"
+        },
+        {
+            "mel": 14,
+            "ref": "RSFp84",
+            "titre": "La danse du coq",
+            "mm75": "p26"
+        },
+        {
+            "mel": 213,
+            "ref": "RSFp87",
+            "titre": "Quête du mardi-gras",
+            "mm75": "p29"
+        },
+        {
+            "mel": 45,
+            "ref": "RSFp88.1",
+            "titre": "Madeleine et la mort",
+            "mm75": "p30.1"
+        },
+        {
+            "mel": 138,
+            "ref": "RSFp88.2",
+            "titre": "Geh m'r nit uewer min Mattele",
+            "mm75": "p30.2"
+        },
+        {
+            "mel": 194,
+            "ref": "RSFp89",
+            "titre": "Danse des bergers",
+            "mm75": "p31"
+        },
+        {
+            "mel": 70,
+            "ref": "RSFp110",
+            "titre": "Ronde des roses",
+            "mm75": "p52"
+        },
+        {
+            "mel": 105,
+            "ref": "RSFp115",
+            "titre": "Le petit moulin",
+            "mm75": "p57"
+        },
+        {
+            "mel": 170,
+            "ref": "RSFp117",
+            "titre": "La varsovienne",
+            "mm75": "p59"
+        },
+        {
+            "mel": 19,
+            "ref": "RSFp118",
+            "titre": "L'amour secret",
+            "mm75": "p60"
+        },
+        {
+            "mel": 258,
+            "ref": "RSFp119",
+            "titre": "Scottischs Alsaciennes",
+            "mm75": "p61"
+        },
+        {
+            "mel": 255,
+            "ref": "RSFp119.1",
+            "titre": "Dü bisch min",
+            "mm75": "p61.1"
+        },
+        {
+            "mel": 256,
+            "ref": "RSFp119.2",
+            "titre": "Alle Owe",
+            "mm75": "p61.2"
+        },
+        {
+            "mel": 257,
+            "ref": "RSFp119.3",
+            "titre": "Fàda spinna",
+            "mm75": "p61.3"
+        },
+        {
+            "mel": 146,
+            "ref": "RSFp122",
+            "titre": "Danse des sept pas",
+            "mm75": "p64"
+        },
+        {
+            "mel": 297,
+            "ref": "RSFp123.1",
+            "titre": "Hop Marianne",
+            "mm75": "p69.1"
+        },
+        {
+            "mel": 17,
+            "ref": "RSFp123.2",
+            "titre": "Trois guêtres de cuir",
+            "mm75": "p69.2"
+        }
+    ],
+    "prefix": "RS",
+    "name": "Richard Schneider",
+    "core": "((D|J|S)[1-9][0-9]{0,3})|(Ep22[0-9][0-9]([.][1-3])?)|(Fp[1-9][0-9]{1,2}([.][123])?)",
+    "suffix": ",A,C,R",
+    "media": "p,a,p,p",
+    "colldoc": "14pQTDeRUwxLMFhM6jGwS3pvnLz4I88iPBHXAqX8qVV4"
+}

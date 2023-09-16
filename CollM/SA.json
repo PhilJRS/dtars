@@ -1,0 +1,2191 @@
+{
+    "refs": [
+        {
+		"ref": "SA1",
+		"titre": "Abmarsch in den krieg",
+		"url": "abmarsch-den-krieg"
+	},{
+		"ref": "SA2",
+		"titre": "Abmarsch ins feld",
+		"url": "abmarsch-ins-feld"
+	},{
+		"ref": "SA3",
+		"titre": "Abmarsch zur Fahne",
+		"url": "abmarsch-zur-fahne"
+	},{
+		"ref": "SA4",
+		"titre": "Abreise aus der Heimat",
+		"url": "abreise-aus-der-heimat"
+	},{
+		"ref": "SA5",
+		"titre": "Abreise nach Amerika",
+		"url": "abreise-nach-amerika"
+	},{
+		"ref": "SA6",
+		"titre": "Abschied",
+		"url": "abschied"
+	},{
+		"ref": "SA7",
+		"titre": "Abschied beim abmarsch",
+		"url": "abschied-beim-abmarsch"
+	},{
+		"ref": "SA8",
+		"titre": "Abschied der rekruten",
+		"url": "abschied-der-rekruten"
+	},{
+		"ref": "SA9",
+		"titre": "Abschied für immer",
+		"url": "abschied-fur-immer"
+	},{
+		"ref": "SA10",
+		"titre": "Abschied im urlaub",
+		"url": "abschied-im-urlaub"
+	},{
+		"ref": "SA11",
+		"titre": "Abschied von der Geliebten",
+		"url": "abschied-von-der-geliebten"
+	},{
+		"ref": "SA12",
+		"titre": "Abschied von der Geliebten (A)",
+		"url": "abschied-von-der-geliebten-a"
+	},{
+		"ref": "SA13",
+		"titre": "Abschied von der Geliebten (B)",
+		"url": "abschied-von-der-geliebten-b",
+		"commentaire": "Incipit : Hilf, o Himmel, ich muss scheiden, mais pas m253"
+	},{
+		"ref": "SA14",
+		"titre": "Abschied von der Kaufmanns-Mamsell",
+		"url": "abschied-von-der-kaufmanns-mamsell"
+	},{
+		"ref": "SA15",
+		"titre": "Abschiedstag (am)",
+		"url": "abschiedstag-am"
+	},{
+		"ref": "SA16",
+		"titre": "Abschiedstunde naht (die)",
+		"url": "abschiedstunde-naht-die"
+	},{
+		"ref": "SA17",
+		"titre": "Ach Schäfer, wo fahrest du hin",
+		"url": "ach-schafer-wo-fahrest-du-hin"
+	},{
+		"ref": "SA18",
+		"titre": "Ach, bleib bei mir",
+		"url": "ach-bleib-bei-mir"
+	},{
+		"ref": "SA19",
+		"titre": "Aie Bubbaie",
+		"url": "aie-bubbaie"
+	},{
+		"ref": "SA20",
+		"titre": "Als ich bei meinen Schafen wacht",
+		"url": "als-ich-bei-meinen-schafen-wacht"
+	},{
+		"ref": "SA21",
+		"titre": "Alte conscrits-liedchen",
+		"url": "alte-conscrits-liedchen"
+	},{
+		"ref": "SA22",
+		"titre": "Alte Krieger (der)",
+		"url": "alte-krieger-der"
+	},{
+		"mel": 170,
+		"ref": "SA23",
+		"titre": "Altes Paar Ochse",
+		"url": "altes-paar-ochse"
+	},{
+		"ref": "SA24",
+		"titre": "Am Abend",
+		"url": "am-abend"
+	},{
+		"ref": "SA25",
+		"titre": "Am Hemmel steht a Starn",
+		"url": "am-hemmel-steht-a-starn"
+	},{
+		"ref": "SA26",
+		"titre": "Am Morgen",
+		"url": "am-morgen"
+	},{
+		"ref": "SA27",
+		"titre": "Am Seil",
+		"url": "am-seil"
+	},{
+		"ref": "SA28",
+		"titre": "Amerika-Lied A",
+		"url": "amerika-lied-a"
+	},{
+		"ref": "SA29",
+		"titre": "Amerika-Lied B",
+		"url": "amerika-lied-b"
+	},{
+		"ref": "SA30",
+		"titre": "Anne Marianele",
+		"url": "anne-marianele"
+	},{
+		"mel": 144,
+		"ref": "SA31",
+		"titre": "Ànnemeiala läj dich à",
+		"url": "annemeiala-laj-dich-a"
+	},{
+		"ref": "SA32",
+		"titre": "Arm und ehrbar",
+		"url": "arm-und-ehrbar"
+	},{
+		"ref": "SA33",
+		"titre": "Arme Fischer (der)",
+		"url": "arme-fischer-der"
+	},{
+		"ref": "SA34",
+		"titre": "Arme Hirtensohn (der) a",
+		"url": "arme-hirtensohn-der-a"
+	},{
+		"ref": "SA35",
+		"titre": "Arme Hirtensohn (der) b",
+		"url": "arme-hirtensohn-der-b"
+	},{
+		"ref": "SA36",
+		"titre": "As ìsch a Beck uff Matzeràl",
+		"url": "isch-a-beck-uff-matzeral"
+	},{
+		"ref": "SA37",
+		"titre": "As isch kei Äpfele noch so rund...",
+		"url": "isch-kei-apfele-noch-so-rund"
+	},{
+		"mel": 77,
+		"ref": "SA38",
+		"titre": "As kommt a Schiff Galàda",
+		"url": "kommt-a-schiff-galada"
+	},{
+		"ref": "SA39",
+		"titre": "Auf einem Wasen",
+		"url": "auf-einem-wasen"
+	},{
+		"ref": "SA40",
+		"titre": "Bange Ahnung",
+		"url": "bange-ahnung"
+	},{
+		"ref": "SA41",
+		"titre": "Basebinde",
+		"url": "basebinde"
+	},{
+		"ref": "SA42",
+		"titre": "Bauernhut (der)",
+		"url": "bauernhut-der"
+	},{
+		"ref": "SA43",
+		"titre": "Bauernkrieg",
+		"url": "bauernkrieg"
+	},{
+		"ref": "SA44",
+		"titre": "Bei dir allein",
+		"url": "bei-dir-allein"
+	},{
+		"ref": "SA45",
+		"titre": "Bei Sedan auf der Höhe",
+		"url": "bei-sedan-auf-der-hohe"
+	},{
+		"ref": "SA46",
+		"titre": "Bei Strassburg am Rhein 1870",
+		"url": "bei-strassburg-am-rhein-1870"
+	},{
+		"mel": 293,
+		"ref": "SA47",
+		"titre": "Belackerlied",
+		"url": "belackerlied"
+	},{
+		"ref": "SA48",
+		"titre": "Belagerung von Philippsburg 1799 (die)",
+		"url": "belagerung-von-philippsburg-1799-die"
+	},{
+		"ref": "SA49",
+		"titre": "Bergleute (Lied der)",
+		"url": "bergleute-lied-der"
+	},{
+		"ref": "SA50",
+		"titre": "Bergmann (der)",
+		"url": "bergmann-der"
+	},{
+		"ref": "SA51",
+		"titre": "Bergmann kommt (der) b",
+		"url": "bergmann-kommt-der-b"
+	},{
+		"ref": "SA52",
+		"titre": "Bergmannslied",
+		"url": "bergmannslied"
+	},{
+		"ref": "SA53",
+		"titre": "Bertrands Abschied",
+		"url": "bertrands-abschied"
+	},{
+		"ref": "SA54",
+		"titre": "Besenbinderlied",
+		"url": "besenbinderlied"
+	},{
+		"ref": "SA55",
+		"titre": "Besuch beim Schätzchen",
+		"url": "besuch-beim-schatzchen"
+	},{
+		"ref": "SA56",
+		"titre": "Betrogene Mädchen (das)",
+		"url": "betrogene-madchen-das"
+	},{
+		"mel": 158,
+		"ref": "SA57",
+		"titre": "Bettellied",
+		"url": "bettellied"
+	},{
+		"ref": "SA58",
+		"titre": "Bettler und Spengler",
+		"url": "bettler-und-spengler"
+	},{
+		"ref": "SA59",
+		"titre": "Bi de Büre a",
+		"url": "bi-de-bure-a"
+	},{
+		"ref": "SA60",
+		"titre": "Bi de Büre b",
+		"url": "bi-de-bure-b"
+	},{
+		"ref": "SA61",
+		"titre": "Bi de Hitte",
+		"url": "bi-de-hitte"
+	},{
+		"mel": 14,
+		"ref": "SA62",
+		"titre": "Bibbeletanz",
+		"url": "bibbeletanz"
+	},{
+		"ref": "SA63",
+		"titre": "Birebauim (der)",
+		"url": "birebauim-der"
+	},{
+		"ref": "SA64",
+		"titre": "Braver Offizier (ein)",
+		"url": "braver-offizier-ein"
+	},{
+		"ref": "SA65",
+		"titre": "Brombeeren (die)",
+		"url": "brombeeren-die"
+	},{
+		"ref": "SA66",
+		"titre": "Brombeeren (die) variante",
+		"url": "brombeeren-die-variante"
+	},{
+		"ref": "SA67",
+		"titre": "Bruder Liederlich",
+		"url": "bruder-liederlich"
+	},{
+		"ref": "SA68",
+		"titre": "Brun-Ammy",
+		"url": "brun-ammy"
+	},{
+		"mel": 354,
+		"ref": "SA69",
+		"titre": "Bürebiewala mag i net (e) a",
+		"url": "burebiewala-mag-i-net-e-a"
+	},{
+		"mel": 354,
+		"ref": "SA70",
+		"titre": "Bürebiewala mag i net (e) b",
+		"url": "burebiewala-mag-i-net-e-b"
+	},{
+		"ref": "SA71",
+		"titre": "ç'a les boubes de Tchièvremont",
+		"url": "ca-les-boubes-de-tchievremont"
+	},{
+		"ref": "SA72",
+		"titre": "Chrischtkatholische Glauiwe (der)",
+		"url": "chrischtkatholische-glauiwe-der"
+	},{
+		"ref": "SA73",
+		"titre": "Christ ist erstanden",
+		"url": "christ-ist-erstanden"
+	},{
+		"ref": "SA74",
+		"titre": "Creutzweeg-Gesang",
+		"url": "creutzweeg-gesang"
+	},{
+		"ref": "SA75",
+		"titre": "D'Rekrüte sin bravi Soldate",
+		"url": "drekrute-sin-bravi-soldate"
+	},{
+		"ref": "SA76",
+		"titre": "D'Stadt Strassburg soll florieren",
+		"url": "dstadt-strassburg-soll-florieren"
+	},{
+		"mel": 358,
+		"ref": "SA77",
+		"titre": "Das Duett der Liebe",
+		"url": "das-duett-der-liebe"
+	},{
+		"mel": 358,
+		"ref": "SA78",
+		"titre": "Das ist die Liebe nicht",
+		"url": "das-ist-die-liebe-nicht"
+	},{
+		"ref": "SA79",
+		"titre": "Das war ärgelich (A)",
+		"url": "das-war-argelich-a"
+	},{
+		"ref": "SA80",
+		"titre": "Das war ärgelich (B)",
+		"url": "das-war-argelich-b"
+	},{
+		"ref": "SA81",
+		"titre": "Dein gedenk ich immer",
+		"url": "dein-gedenk-ich-immer"
+	},{
+		"ref": "SA82",
+		"titre": "Dein vergess ich nimmer",
+		"url": "dein-vergess-ich-nimmer"
+	},{
+		"ref": "SA83",
+		"titre": "Des Räubers Liebchen",
+		"url": "des-raubers-liebchen"
+	},{
+		"ref": "SA84",
+		"titre": "Deserteur (der)",
+		"url": "deserteur-der"
+	},{
+		"ref": "SA85",
+		"titre": "Dragoner Heimkehr (der)",
+		"url": "dragoner-heimkehr-der"
+	},{
+		"mel": 17,
+		"ref": "SA86",
+		"titre": "Drei ladriga Strimpf",
+		"url": "drei-ladriga-strimpf"
+	},{
+		"ref": "SA87",
+		"titre": "Drei Lilien",
+		"url": "drei-lilien"
+	},{
+		"ref": "SA88",
+		"titre": "Drüben wohnt mein Schatz",
+		"url": "druben-wohnt-mein-schatz"
+	},{
+		"ref": "SA89",
+		"titre": "Drunte n'i dam Sewetal",
+		"url": "drunte-ni-dam-sewetal"
+	},{
+		"ref": "SA90",
+		"titre": "Drunten im Unterland",
+		"url": "drunten-im-unterland"
+	},{
+		"mel": 258,
+		"ref": "SA91",
+		"titre": "Dü besch min",
+		"url": "du-besch-min"
+	},{
+		"ref": "SA92",
+		"titre": "Du liegst mir im Herzen",
+		"url": "du-liegst-mir-im-herzen"
+	},{
+		"ref": "SA93",
+		"titre": "Du liegst mir im Herzen",
+		"url": "du-liegst-mir-im-herzen-0"
+	},{
+		"ref": "SA94",
+		"titre": "Du sollst mein Eigen sein I",
+		"url": "du-sollst-mein-eigen-sein-i"
+	},{
+		"ref": "SA95",
+		"titre": "Du sollst mein Eigen sein II",
+		"url": "du-sollst-mein-eigen-sein-ii"
+	},{
+		"ref": "SA96",
+		"titre": "Ehebrecherische Markgräfin (die)",
+		"url": "ehebrecherische-markgrafin-die"
+	},{
+		"ref": "SA97",
+		"titre": "Eiifersüchtige Knabe (der)",
+		"url": "eiifersuchtige-knabe-der"
+	},{
+		"mel": 108,
+		"ref": "SA98",
+		"titre": "Einladung zum Spazieren und zum Tanz",
+		"url": "einladung-zum-spazieren-und-zum-tanz-a"
+	},{
+		"ref": "SA99",
+		"titre": "Einquartierung",
+		"url": "einquartierung"
+	},{
+		"ref": "SA100",
+		"titre": "Einsam und allein",
+		"url": "einsam-und-allein"
+	},{
+		"ref": "SA101",
+		"titre": "Elsass isch das beschte Land (das)",
+		"url": "elsass-isch-das-beschte-land-das"
+	},{
+		"ref": "SA102",
+		"titre": "Elsass ist das beste Land (das)",
+		"url": "elsass-ist-das-beste-land-das"
+	},{
+		"ref": "SA103",
+		"titre": "Elsass unser Ländle (das)",
+		"url": "elsass-unser-landle-das"
+	},{
+		"ref": "SA104",
+		"titre": "Elsässisches Freiheitslied 1848",
+		"url": "elsassisches-freiheitslied-1848"
+	},{
+		"ref": "SA105",
+		"titre": "Englische Gruss (der)",
+		"url": "englische-gruss-der"
+	},{
+		"ref": "SA106",
+		"titre": "Ermordete Braut (die)",
+		"url": "ermordete-braut-die"
+	},{
+		"ref": "SA107",
+		"titre": "Ermordung von Leonie Laubacher (die)",
+		"url": "ermordung-von-leonie-laubacher-die"
+	},{
+		"ref": "SA108",
+		"titre": "Erscheinung auf dem Kirchhofe (die)",
+		"url": "erscheinung-auf-dem-kirchhofe-die"
+	},{
+		"ref": "SA109",
+		"titre": "Erscheinung in der Brautnacht (die)",
+		"url": "erscheinung-der-brautnacht-die"
+	},{
+		"mel": 304,
+		"ref": "SA110",
+		"titre": "Erste und letzte Liebe",
+		"url": "erste-und-letzte-liebe"
+	},{
+		"ref": "SA111",
+		"titre": "Erstürmung von Sebastopol (die)",
+		"url": "ersturmung-von-sebastopol-die"
+	},{
+		"ref": "SA112",
+		"titre": "Es dunkelt in dem Walde",
+		"url": "es-dunkelt-dem-walde"
+	},{
+		"ref": "SA113",
+		"titre": "Es führt drei König Gottes Hand",
+		"url": "es-fuhrt-drei-konig-gottes-hand"
+	},{
+		"ref": "SA114",
+		"titre": "Es hat nicht sollen sein",
+		"url": "es-hat-nicht-sollen-sein"
+	},{
+		"ref": "SA115",
+		"titre": "Es kam ein Abenteurer",
+		"url": "es-kam-ein-abenteurer"
+	},{
+		"ref": "SA116",
+		"titre": "Es kommen drei König'",
+		"url": "es-kommen-drei-konig"
+	},{
+		"ref": "SA117",
+		"titre": "Es kommt ein Schleifer",
+		"url": "es-kommt-ein-schleifer"
+	},{
+		"ref": "SA118",
+		"titre": "Es kumme zwei Maidle",
+		"url": "es-kumme-zwei-maidle"
+	},{
+		"mel": 371,
+		"ref": "SA119",
+		"titre": "Es lebe mein Liebchen",
+		"url": "es-lebe-mein-liebchen"
+	},{
+		"ref": "SA120",
+		"titre": "Es lebe unser Schutzpatron",
+		"url": "es-lebe-unser-schutzpatron"
+	},{
+		"ref": "SA121",
+		"titre": "Es reiten drei Schneider",
+		"url": "es-reiten-drei-schneider"
+	},{
+		"mel": 7,
+		"ref": "SA122",
+		"titre": "Es trug das Mädelein",
+		"url": "es-trug-das-madelein"
+	},{
+		"ref": "SA123",
+		"titre": "Es war ein stolzer Hirtebue",
+		"url": "es-war-ein-stolzer-hirtebue"
+	},{
+		"ref": "SA124",
+		"titre": "Es war einmal eine arme Seel",
+		"url": "es-war-einmal-eine-arme-seel"
+	},{
+		"ref": "SA125",
+		"titre": "Es war nicht so bös gemeint",
+		"url": "es-war-nicht-so-bos-gemeint"
+	},{
+		"mel": 320,
+		"ref": "SA126",
+		"titre": "Es waren einst zwei Bauersöhn",
+		"url": "es-waren-einst-zwei-bauersohn"
+	},{
+		"mel": 55,
+		"ref": "SA127",
+		"titre": "Es wohnt ein Miller",
+		"url": "es-wohnt-ein-miller",
+		"commentaire": "Lire page 300 et non page 200 cf. OLCA"
+	},{
+		"ref": "SA128",
+		"titre": "Es wohnt ein Pfalzgraf",
+		"url": "es-wohnt-ein-pfalzgraf"
+	},{
+		"mel": 299,
+		"ref": "SA129",
+		"titre": "Es, es, es und es",
+		"url": "es-es-es-und-es"
+	},{
+		"ref": "SA130",
+		"titre": "Fabrikarbeiterlied",
+		"url": "fabrikarbeiterlied"
+	},{
+		"ref": "SA131",
+		"titre": "Fahrt ins Heu (die)",
+		"url": "fahrt-ins-heu-die"
+	},{
+		"ref": "SA132",
+		"titre": "Falsche Schwur (der)",
+		"url": "falsche-schwur-der"
+	},{
+		"ref": "SA133",
+		"titre": "Faule Gretele (das)",
+		"url": "faule-gretele-das"
+	},{
+		"ref": "SA134",
+		"titre": "Feierowe",
+		"url": "feierowe"
+	},{
+		"mel": 20,
+		"ref": "SA135",
+		"titre": "Feldschalmei (die)",
+		"url": "feldschalmei-die"
+	},{
+		"ref": "SA136",
+		"titre": "Firowe",
+		"url": "firowe"
+	},{
+		"ref": "SA137",
+		"titre": "Fischer und die Müllerin (der)",
+		"url": "fischer-und-die-mullerin-der"
+	},{
+		"ref": "SA138",
+		"titre": "Fort in den Krieg",
+		"url": "fort-den-krieg"
+	},{
+		"ref": "SA139",
+		"titre": "Freiheitslied 1790",
+		"url": "freiheitslied-1790"
+	},{
+		"ref": "SA140",
+		"titre": "Freiheitsmarsch",
+		"url": "freiheitsmarsch"
+	},{
+		"ref": "SA141",
+		"titre": "Friedenssehnsucht",
+		"url": "friedenssehnsucht"
+	},{
+		"ref": "SA142",
+		"titre": "Frisch auf zum Jagen",
+		"url": "frisch-auf-zum-jagen"
+	},{
+		"ref": "SA143",
+		"titre": "Frisch auf, Soldatenblut",
+		"url": "frisch-auf-soldatenblut"
+	},{
+		"ref": "SA144",
+		"titre": "Frohe Wiedersehen (das)",
+		"url": "frohe-wiedersehen-das"
+	},{
+		"ref": "SA145",
+		"titre": "Froher Mut beim Abschied",
+		"url": "froher-mut-beim-abschied"
+	},{
+		"ref": "SA146",
+		"titre": "Füsiliere (die)",
+		"url": "fusiliere-die"
+	},{
+		"ref": "SA147",
+		"titre": "Galta Müatter as ìsch kä Sìnd",
+		"url": "galta-muatter-isch-ka-sind"
+	},{
+		"mel": 138,
+		"ref": "SA148",
+		"titre": "Gang mer nit iwer mi Mattala",
+		"url": "gang-mer-nit-iwer-mi-mattala-0"
+	},{
+		"mel": 230,
+		"ref": "SA149",
+		"titre": "Gang mer nit iwer mi Mattala",
+		"url": "gang-mer-nit-iwer-mi-mattala-0"
+	},{
+		"ref": "SA150",
+		"titre": "Geboren ist uns ein Kindlein",
+		"url": "geboren-ist-uns-ein-kindlein"
+	},{
+		"ref": "SA151",
+		"titre": "Gefallen in Deutschland",
+		"url": "gefallen-deutschland"
+	},{
+		"ref": "SA152",
+		"titre": "Gefangen",
+		"url": "gefangen"
+	},{
+		"ref": "SA153",
+		"titre": "Geliebte im Kloster (die)",
+		"url": "geliebte-im-kloster-die"
+	},{
+		"ref": "SA154",
+		"titre": "Gelobet seyst du",
+		"url": "gelobet-seyst-du"
+	},{
+		"ref": "SA155",
+		"titre": "Gesellenlied",
+		"url": "gesellenlied"
+	},{
+		"ref": "SA156",
+		"titre": "Gestern Abend",
+		"url": "gestern-abend"
+	},{
+		"ref": "SA157",
+		"titre": "Glückliche Jägersmann (der)",
+		"url": "gluckliche-jagersmann-der"
+	},{
+		"mel": 58,
+		"ref": "SA158",
+		"titre": "Glückselig neues Jahr (ein)",
+		"url": "gluckselig-neues-jahr-ein"
+	},{
+		"ref": "SA159",
+		"titre": "Glücksjäger (der)",
+		"url": "glucksjager-der"
+	},{
+		"ref": "SA160",
+		"titre": "Goldschmied und sein Sohn (der)",
+		"url": "goldschmied-und-sein-sohn-der"
+	},{
+		"ref": "SA161",
+		"titre": "Gott der Herr hat auch ein Sohn",
+		"url": "gott-der-herr-hat-auch-ein-sohn"
+	},{
+		"ref": "SA162",
+		"titre": "Gott weiss, wenn ich will",
+		"url": "gott-weiss-wenn-ich-will"
+	},{
+		"ref": "SA163",
+		"titre": "Gottes Strafe",
+		"url": "gottes-strafe"
+	},{
+		"ref": "SA164",
+		"titre": "Graf Backewil (Wilhelm a)",
+		"url": "graf-backewil-wilhelm-a"
+	},{
+		"ref": "SA165",
+		"titre": "Graf Backewil (Wilhelm b)",
+		"url": "graf-backewil-wilhelm-b"
+	},{
+		"ref": "SA166",
+		"titre": "Graf Backewil (Wilhelm c)",
+		"url": "graf-backewil-wilhelm-c"
+	},{
+		"ref": "SA167",
+		"titre": "Graf Backewil (Wilhelm d)",
+		"url": "graf-backewil-wilhelm-d"
+	},{
+		"ref": "SA168",
+		"titre": "Graf Backewill (Pinck)",
+		"url": "graf-backewill-pinck"
+	},{
+		"ref": "SA169",
+		"titre": "Grausame Buhle (die)",
+		"url": "grausame-buhle-die"
+	},{
+		"ref": "SA170",
+		"titre": "Güete Morge",
+		"url": "guete-morge"
+	},{
+		"mel": 101,
+		"ref": "SA171",
+		"titre": "Gügük im Häfele",
+		"url": "guguk-im-hafele"
+	},{
+		"ref": "SA172",
+		"titre": "Gute Hirt (der)",
+		"url": "gute-hirt-der"
+	},{
+		"ref": "SA173",
+		"titre": "Gute Reiche (der)",
+		"url": "gute-reiche-der"
+	},{
+		"ref": "SA174",
+		"titre": "Hafersack (der)",
+		"url": "hafersack-der"
+	},{
+		"ref": "SA175",
+		"titre": "Handelsmann (der)",
+		"url": "handelsmann-der"
+	},{
+		"ref": "SA176",
+		"titre": "Handwerker als Brautwerber (der)",
+		"url": "handwerker-als-brautwerber-der"
+	},{
+		"mel": 286,
+		"ref": "SA177",
+		"titre": "Hans hat Hosen a (d'r)",
+		"url": "hans-hat-hosen-a-dr"
+	},{
+		"mel": 188,
+		"ref": "SA178",
+		"titre": "Hans im Schnôckeloch",
+		"url": "hans-im-schnockeloch"
+	},{
+		"ref": "SA179",
+		"titre": "He loset, ihr Büäwä",
+		"url": "he-loset-ihr-buawa"
+	},{
+		"ref": "SA180",
+		"titre": "Heiliga drei Kenig (die)",
+		"url": "heiliga-drei-kenig-die"
+	},{
+		"ref": "SA181",
+		"titre": "Heilige drei König (die)",
+		"url": "heilige-drei-konig-die"
+	},{
+		"ref": "SA182",
+		"titre": "Heilige Katharina (die)",
+		"url": "heilige-katharina-die"
+	},{
+		"ref": "SA183",
+		"titre": "Heimat und Fremde",
+		"url": "heimat-und-fremde"
+	},{
+		"ref": "SA184",
+		"titre": "Heimkehr",
+		"url": "heimkehr"
+	},{
+		"ref": "SA185",
+		"titre": "Heimkehr zum Liebchen",
+		"url": "heimkehr-zum-liebchen"
+	},{
+		"ref": "SA186",
+		"titre": "Heimkehrende Wandersmann (der)",
+		"url": "heimkehrende-wandersmann-der"
+	},{
+		"mel": 353,
+		"ref": "SA187",
+		"titre": "Herzigs Marianel",
+		"url": "herzigs-marianel",
+		"commentaire": "3 valses 8 première mesure H autour.../PS: 2 mélodies (1 et 3) sur les 3 de m353"
+	},{
+		"ref": "SA188",
+		"titre": "Hetsch s'kiwele g'riwe",
+		"url": "hetsch-skiwele-griwe"
+	},{
+		"ref": "SA189",
+		"titre": "Himmel (der)",
+		"url": "himmel-der"
+	},{
+		"ref": "SA190",
+		"titre": "Hirtenlied",
+		"url": "hirtenlied"
+	},{
+		"ref": "SA191",
+		"titre": "Hochzeitlied",
+		"url": "hochzeitlied"
+	},{
+		"ref": "SA192",
+		"titre": "Hoffnung im Kerker",
+		"url": "hoffnung-im-kerker"
+	},{
+		"mel": 76,
+		"ref": "SA193",
+		"titre": "Hold und Sittsamkeit",
+		"url": "hold-und-sittsamkeit"
+	},{
+		"mel": 297,
+		"ref": "SA194",
+		"titre": "Hopp Marianele",
+		"url": "hopp-marianele"
+	},{
+		"ref": "SA195",
+		"titre": "Husarenlust",
+		"url": "husarenlust"
+	},{
+		"ref": "SA196",
+		"titre": "Ich bin lusti",
+		"url": "ich-bin-lusti"
+	},{
+		"ref": "SA197",
+		"titre": "Ich bìn’s dr luschtig Malkersbüa",
+		"url": "ich-bins-dr-luschtig-malkersbua"
+	},{
+		"ref": "SA198",
+		"titre": "Ich halt min Wort",
+		"url": "ich-halt-min-wort"
+	},{
+		"ref": "SA199",
+		"titre": "Ich lag in einer Nacht",
+		"url": "ich-lag-einer-nacht"
+	},{
+		"ref": "SA200",
+		"titre": "Ich und mein Hans",
+		"url": "ich-und-mein-hans"
+	},{
+		"mel": 0,
+		"ref": "SA201",
+		"titre": "Ich wünsch euch ein glückhaftigs Jahr",
+		"url": "ich-wunsch-euch-ein-gluckhaftigs-jahr"
+	},{
+		"ref": "SA202",
+		"titre": "Ick bin ein Franzose",
+		"url": "ick-bin-ein-franzose"
+	},{
+		"ref": "SA203",
+		"titre": "Im stillen Tal",
+		"url": "im-stillen-tal"
+	},{
+		"ref": "SA204",
+		"titre": "In der Heimat ist es schön",
+		"url": "der-heimat-ist-es-schon"
+	},{
+		"ref": "SA205",
+		"titre": "In der Verzweiflung",
+		"url": "der-verzweiflung"
+	},{
+		"ref": "SA206",
+		"titre": "In Frankreich gefallen",
+		"url": "frankreich-gefallen"
+	},{
+		"ref": "SA207",
+		"titre": "In Ketten am Eisengitter",
+		"url": "ketten-am-eisengitter"
+	},{
+		"ref": "SA208",
+		"titre": "In Tod vereint",
+		"url": "tod-vereint"
+	},{
+		"ref": "SA209",
+		"titre": "Invalide (der)",
+		"url": "invalide-der"
+	},{
+		"ref": "SA210",
+		"titre": "Invalidenlied vom alten Fritz",
+		"url": "invalidenlied-vom-alten-fritz"
+	},{
+		"ref": "SA211",
+		"titre": "Jagdlied",
+		"url": "jagdlied"
+	},{
+		"ref": "SA212",
+		"titre": "Jagdlust",
+		"url": "jagdlust"
+	},{
+		"ref": "SA213",
+		"titre": "Jagen in der Frühe",
+		"url": "jagen-der-fruhe"
+	},{
+		"ref": "SA214",
+		"titre": "Jäger aus Kurpfalz (ein)",
+		"url": "jager-aus-kurpfalz-ein"
+	},{
+		"ref": "SA215",
+		"titre": "Jäger im Tannenholz (der)",
+		"url": "jager-im-tannenholz-der"
+	},{
+		"ref": "SA216",
+		"titre": "Jäger in dem grünen Wald (der)",
+		"url": "jager-dem-grunen-wald-der"
+	},{
+		"ref": "SA217",
+		"titre": "Jäger und das Mädchen (der)",
+		"url": "jager-und-das-madchen-der"
+	},{
+		"ref": "SA218",
+		"titre": "Jäger und das Mädchen (der)",
+		"url": "jager-und-das-madchen-der-0"
+	},{
+		"ref": "SA219",
+		"titre": "Jäger und das Schäfermädchen (der)",
+		"url": "jager-und-das-schafermadchen-der"
+	},{
+		"ref": "SA220",
+		"titre": "Jäger und die Graserin (der)",
+		"url": "jager-und-die-graserin-der"
+	},{
+		"ref": "SA221",
+		"titre": "Jäger und die Schäferin (der)",
+		"url": "jager-und-die-schaferin-der"
+	},{
+		"ref": "SA222",
+		"titre": "Jägerlied",
+		"url": "jagerlied"
+	},{
+		"ref": "SA223",
+		"titre": "Jägerlied 2",
+		"url": "jagerlied-2"
+	},{
+		"ref": "SA224",
+		"titre": "Jägers Aufenthalt",
+		"url": "jagers-aufenthalt"
+	},{
+		"ref": "SA225",
+		"titre": "Jägersknecht (der)",
+		"url": "jagersknecht-der"
+	},{
+		"ref": "SA226",
+		"titre": "Jägersmann (der)",
+		"url": "jagersmann-der"
+	},{
+		"ref": "SA227",
+		"titre": "Jetz müssen wir fort",
+		"url": "jetz-mussen-wir-fort"
+	},{
+		"ref": "SA228",
+		"titre": "Jetzt muss ich fort",
+		"url": "jetzt-muss-ich-fort"
+	},{
+		"ref": "SA229",
+		"titre": "Jockele (d'r)",
+		"url": "jockele-dr-0"
+	},{
+		"ref": "SA230",
+		"titre": "Joseph in Ägypten",
+		"url": "joseph-agypten"
+	},{
+		"ref": "SA231",
+		"titre": "Joseph von Aegypten",
+		"url": "joseph-von-aegypten"
+	},{
+		"ref": "SA232",
+		"titre": "Judas, der Verräter",
+		"url": "judas-der-verrater"
+	},{
+		"ref": "SA233",
+		"titre": "Jumfrauie - Mette",
+		"url": "jumfrauie-mette"
+	},{
+		"ref": "SA234",
+		"titre": "Junge Graf (der)",
+		"url": "junge-graf-der"
+	},{
+		"ref": "SA235",
+		"titre": "Jungs Bürschtel",
+		"url": "jungs-burschtel"
+	},{
+		"ref": "SA236",
+		"titre": "Kaiser der Napoleon",
+		"url": "kaiser-der-napoleon"
+	},{
+		"ref": "SA237",
+		"titre": "Kampfmut",
+		"url": "kampfmut"
+	},{
+		"ref": "SA238",
+		"titre": "Kätrinele",
+		"url": "katrinele"
+	},{
+		"ref": "SA239",
+		"titre": "Kein besser Leben als Soldatenleben",
+		"url": "kein-besser-leben-als-soldatenleben"
+	},{
+		"ref": "SA240",
+		"titre": "Kindsmörderin (die)",
+		"url": "kindsmorderin-die"
+	},{
+		"ref": "SA241",
+		"titre": "Kinni Dagobär (d'r)",
+		"url": "kinni-dagobar-dr"
+	},{
+		"ref": "SA242",
+		"titre": "Kirchenraub",
+		"url": "kirchenraub"
+	},{
+		"ref": "SA243",
+		"titre": "Kleiderfarben der Handwerkerbräute",
+		"url": "kleiderfarben-der-handwerkerbraute"
+	},{
+		"ref": "SA244",
+		"titre": "Kleines Wasserstelzele",
+		"url": "kleines-wasserstelzele"
+	},{
+		"ref": "SA245",
+		"titre": "Knäblein ging spazieren (ein)",
+		"url": "knablein-ging-spazieren-ein"
+	},{
+		"ref": "SA246",
+		"titre": "Kohlebürebüe (d'r)",
+		"url": "kohleburebue-dr"
+	},{
+		"ref": "SA247",
+		"titre": "König von Rom (der)",
+		"url": "konig-von-rom-der"
+	},{
+		"ref": "SA248",
+		"titre": "Königstochter (die)",
+		"url": "konigstochter-die"
+	},{
+		"ref": "SA249",
+		"titre": "Kriegers Heimkehr",
+		"url": "kriegers-heimkehr"
+	},{
+		"ref": "SA250",
+		"titre": "Kriegers Rückkehr",
+		"url": "kriegers-ruckkehr"
+	},{
+		"ref": "SA251",
+		"titre": "Kriegselend",
+		"url": "kriegselend"
+	},{
+		"ref": "SA252",
+		"titre": "Kriegskrüppel (der)",
+		"url": "kriegskruppel-der"
+	},{
+		"ref": "SA253",
+		"titre": "Kuhreihen-Liedchen I",
+		"url": "kuhreihen-liedchen-i"
+	},{
+		"ref": "SA254",
+		"titre": "Kuhreihen-Liedchen II",
+		"url": "kuhreihen-liedchen-ii"
+	},{
+		"ref": "SA255",
+		"titre": "Kuhreihen-Liedchen III",
+		"url": "kuhreihen-liedchen-iii"
+	},{
+		"ref": "SA256",
+		"titre": "Kuhreihen-Liedchen IV",
+		"url": "kuhreihen-liedchen-iv"
+	},{
+		"ref": "SA257",
+		"titre": "Kuhreihen-Liedchen V",
+		"url": "kuhreihen-liedchen-v"
+	},{
+		"ref": "SA258",
+		"titre": "Ländliches Mädchen (ein)",
+		"url": "landliches-madchen-ein"
+	},{
+		"ref": "SA259",
+		"titre": "Lasst uns gehen",
+		"url": "lasst-uns-gehen"
+	},{
+		"ref": "SA260",
+		"titre": "Leineweber (die)",
+		"url": "leineweber-die"
+	},{
+		"ref": "SA261",
+		"titre": "Leineweber (die)",
+		"url": "leineweber-die-0"
+	},{
+		"ref": "SA262",
+		"titre": "Les galants de Chèvremont",
+		"url": "les-galants-de-chevremont"
+	},{
+		"ref": "SA263",
+		"titre": "Letzten Sieben (die)",
+		"url": "letzten-sieben-die"
+	},{
+		"ref": "SA264",
+		"titre": "Leute höret die Geschichte",
+		"url": "leute-horet-die-geschichte"
+	},{
+		"mel": 18,
+		"ref": "SA265",
+		"titre": "Liebesprobe (die)",
+		"url": "liebesprobe-die"
+	},{
+		"ref": "SA266",
+		"titre": "Lied der Kochersbergerinnen 1813",
+		"url": "lied-der-kochersbergerinnen-1813"
+	},{
+		"ref": "SA267",
+		"titre": "Lied der Krimkrieger",
+		"url": "lied-der-krimkrieger"
+	},{
+		"ref": "SA268",
+		"titre": "Lied der Spinnerin",
+		"url": "lied-der-spinnerin"
+	},{
+		"ref": "SA269",
+		"titre": "Lied eines Kriegskrüppels",
+		"url": "lied-eines-kriegskruppels"
+	},{
+		"ref": "SA270",
+		"titre": "Lied vom Marlborough (das)",
+		"url": "lied-vom-marlborough-das"
+	},{
+		"ref": "SA271",
+		"titre": "Lo ptiot Georgeot",
+		"url": "lo-ptiot-georgeot"
+	},{
+		"ref": "SA272",
+		"titre": "Lob des Bauernstandes",
+		"url": "lob-des-bauernstandes"
+	},{
+		"ref": "SA273",
+		"titre": "Löffelmann (der) b",
+		"url": "loffelmann-der-b"
+	},{
+		"ref": "SA274",
+		"titre": "Lumpenmann (der)",
+		"url": "lumpenmann-der"
+	},{
+		"ref": "SA275",
+		"titre": "Lustig allhier",
+		"url": "lustig-allhier"
+	},{
+		"ref": "SA276",
+		"titre": "Lustig auf dem Lande",
+		"url": "lustig-auf-dem-lande"
+	},{
+		"ref": "SA277",
+		"titre": "Lustige Bauer (der)",
+		"url": "lustige-bauer-der"
+	},{
+		"ref": "SA278",
+		"titre": "Lustige Fuhrmann (der)",
+		"url": "lustige-fuhrmann-der"
+	},{
+		"ref": "SA279",
+		"titre": "Lustiges Hochzeitlied",
+		"url": "lustiges-hochzeitlied"
+	},{
+		"ref": "SA280",
+		"titre": "Lustiges Soldatenleben",
+		"url": "lustiges-soldatenleben"
+	},{
+		"ref": "SA281",
+		"titre": "Mädchenräuber (der)",
+		"url": "madchenrauber-der"
+	},{
+		"ref": "SA282",
+		"titre": "Maïäkäfer frico",
+		"url": "maiakafer-frico"
+	},{
+		"ref": "SA283",
+		"titre": "Maidel, heirat mich !",
+		"url": "maidel-heirat-mich"
+	},{
+		"ref": "SA284",
+		"titre": "Maidla, mach 's Ladele züa",
+		"url": "maidla-mach-s-ladele-zua"
+	},{
+		"mel": 298,
+		"ref": "SA285",
+		"titre": "Maisle pfifft (das)",
+		"url": "maisle-pfifft-das"
+	},{
+		"mel": 13,
+		"ref": "SA286",
+		"titre": "Maria wollt' auswandern",
+		"url": "maria-wollt-auswandern"
+	},{
+		"ref": "SA287",
+		"titre": "Mariannele",
+		"url": "mariannele"
+	},{
+		"ref": "SA288",
+		"titre": "Marie, die Marketenderin",
+		"url": "marie-die-marketenderin"
+	},{
+		"ref": "SA289",
+		"titre": "Marketenderin (die)",
+		"url": "marketenderin-die"
+	},{
+		"ref": "SA290",
+		"titre": "Marsch der Pariser (der)",
+		"url": "marsch-der-pariser-der"
+	},{
+		"ref": "SA291",
+		"titre": "Marsch ins Feld (der)",
+		"url": "marsch-ins-feld-der"
+	},{
+		"mel": 36,
+		"ref": "SA292",
+		"titre": "Marsch zur Musterungsstadt (der)",
+		"url": "marsch-zur-musterungsstadt-der"
+	},{
+		"ref": "SA293",
+		"titre": "Matrose (der)",
+		"url": "matrose-der"
+	},{
+		"ref": "SA294",
+		"titre": "Matrosenlied",
+		"url": "matrosenlied"
+	},{
+		"ref": "SA295",
+		"titre": "Meine Red ist abscheidsvoll",
+		"url": "meine-red-ist-abscheidsvoll"
+	},{
+		"mel": 117,
+		"ref": "SA296",
+		"titre": "Menschtertaler Martale",
+		"url": "menschtertaler-martale"
+	},{
+		"mel": 249,
+		"ref": "SA297",
+		"titre": "Mer Lit uf em Land",
+		"url": "mer-lit-uf-em-land"
+	},{
+		"ref": "SA298",
+		"titre": "Mìr Malker han’s luschtig",
+		"url": "mir-malker-hans-luschtig"
+	},{
+		"ref": "SA299",
+		"titre": "Mìt miner mi Mandolini",
+		"url": "mit-miner-mi-mandolini"
+	},{
+		"mel": 194,
+		"ref": "SA300",
+		"titre": "Mittle in d'r Nacht",
+		"url": "mittle-dr-nacht"
+	},{
+		"ref": "SA301",
+		"titre": "Mord im Haslacher Tal (der)",
+		"url": "mord-im-haslacher-tal-der"
+	},{
+		"ref": "SA302",
+		"titre": "Mordeltern (die)",
+		"url": "mordeltern-die"
+	},{
+		"ref": "SA303",
+		"titre": "Morgens früh auf der Jagd",
+		"url": "morgens-fruh-auf-der-jagd"
+	},{
+		"ref": "SA304",
+		"titre": "Morgesage",
+		"url": "morgesage"
+	},{
+		"ref": "SA305",
+		"titre": "Morja wenn die Sonn erwàcht",
+		"url": "morja-wenn-die-sonn-erwacht"
+	},{
+		"ref": "SA306",
+		"titre": "Müess i jetz",
+		"url": "muess-i-jetz"
+	},{
+		"ref": "SA307",
+		"titre": "Müllers Töchterlein (des)",
+		"url": "mullers-tochterlein-des"
+	},{
+		"ref": "SA308",
+		"titre": "Musterung ist ausgemacht (die)",
+		"url": "musterung-ist-ausgemacht-die"
+	},{
+		"ref": "SA309",
+		"titre": "Nach dem Fall von Sebastopol",
+		"url": "nach-dem-fall-von-sebastopol"
+	},{
+		"ref": "SA310",
+		"titre": "Nachtjäger (der)",
+		"url": "nachtjager-der"
+	},{
+		"ref": "SA311",
+		"titre": "Nachtpatrouille (die)",
+		"url": "nachtpatrouille-die"
+	},{
+		"ref": "SA312",
+		"titre": "Napoleon in der Schlacht",
+		"url": "napoleon-der-schlacht"
+	},{
+		"ref": "SA313",
+		"titre": "Neue gute Jahr (das)",
+		"url": "neue-gute-jahr-das"
+	},{
+		"ref": "SA314",
+		"titre": "Neujahrswunsch",
+		"url": "neujahrswunsch"
+	},{
+		"ref": "SA315",
+		"titre": "Nienets ìsch’s so scheen un luschtig",
+		"url": "nienets-ischs-so-scheen-un-luschtig"
+	},{
+		"ref": "SA316",
+		"titre": "Nü, nü, Bubbele",
+		"url": "nu-nu-bubbele"
+	},{
+		"ref": "SA317",
+		"titre": "Numme einer isch hier",
+		"url": "numme-einer-isch-hier"
+	},{
+		"mel": 1,
+		"ref": "SA318",
+		"titre": "Nun kommt der Heiden Heiland",
+		"url": "nun-kommt-der-heiden-heiland"
+	},{
+		"ref": "SA319",
+		"titre": "Nun, ade !",
+		"url": "nun-ade"
+	},{
+		"ref": "SA320",
+		"titre": "Nur langsam voran",
+		"url": "nur-langsam-voran"
+	},{
+		"ref": "SA321",
+		"titre": "Nur luschtig ihr Briader",
+		"url": "nur-luschtig-ihr-briader"
+	},{
+		"ref": "SA322",
+		"titre": "O du Frankreich",
+		"url": "o-du-frankreich"
+	},{
+		"ref": "SA323",
+		"titre": "O Gott mein Lieb",
+		"url": "o-gott-mein-lieb"
+	},{
+		"mel": 411,
+		"ref": "SA324",
+		"titre": "O Jesulein zart",
+		"url": "o-jesulein-zart"
+	},{
+		"ref": "SA325",
+		"titre": "O Strassburg",
+		"url": "o-strassburg"
+	},{
+		"ref": "SA326",
+		"titre": "O Strassburg, du wunderschöne Stadt",
+		"url": "o-strassburg-du-wunderschone-stadt"
+	},{
+		"ref": "SA327",
+		"titre": "O weh, adje",
+		"url": "o-weh-adje"
+	},{
+		"ref": "SA328",
+		"titre": "Ohne Freude",
+		"url": "ohne-freude"
+	},{
+		"ref": "SA329",
+		"titre": "Pfanneliedel",
+		"url": "pfanneliedel"
+	},{
+		"ref": "SA330",
+		"titre": "Pfannenflicker (der)",
+		"url": "pfannenflicker-der"
+	},{
+		"ref": "SA331",
+		"titre": "Pfeischtmor",
+		"url": "pfeischtmor"
+	},{
+		"ref": "SA332",
+		"titre": "Platz an der Eisenbahn (der)",
+		"url": "platz-der-eisenbahn-der"
+	},{
+		"ref": "SA333",
+		"titre": "Postillon (der) a",
+		"url": "postillon-der-a"
+	},{
+		"ref": "SA334",
+		"titre": "Postillon (der) b",
+		"url": "postillon-der-b"
+	},{
+		"ref": "SA335",
+		"titre": "Postillon (der) c",
+		"url": "postillon-der-c"
+	},{
+		"ref": "SA336",
+		"titre": "Prinz Duk d'Angulem",
+		"url": "prinz-duk-dangulem"
+	},{
+		"ref": "SA337",
+		"titre": "Rachel, Joseph und Kain",
+		"url": "rachel-joseph-und-kain"
+	},{
+		"ref": "SA338",
+		"titre": "Rägä, Rägä, Tropfä",
+		"url": "raga-raga-tropfa"
+	},{
+		"ref": "SA339",
+		"titre": "Rat der Mutter (der)",
+		"url": "rat-der-mutter-der"
+	},{
+		"ref": "SA340",
+		"titre": "Räuberlied",
+		"url": "rauberlied"
+	},{
+		"ref": "SA341",
+		"titre": "Raubmord bei Paris",
+		"url": "raubmord-bei-paris"
+	},{
+		"ref": "SA342",
+		"titre": "Redliches Soldatenleben",
+		"url": "redliches-soldatenleben"
+	},{
+		"ref": "SA343",
+		"titre": "Regina und der Heiland",
+		"url": "regina-und-der-heiland"
+	},{
+		"ref": "SA344",
+		"titre": "Reise nach Jütland 1844 (die)",
+		"url": "reise-nach-jutland-1844-die"
+	},{
+		"ref": "SA345",
+		"titre": "Rekruten (die)",
+		"url": "rekruten-die"
+	},{
+		"ref": "SA346",
+		"titre": "Rekruten-Abschied",
+		"url": "rekruten-abschied"
+	},{
+		"ref": "SA347",
+		"titre": "Rekrutenlied",
+		"url": "rekrutenlied"
+	},{
+		"mel": 29,
+		"ref": "SA348",
+		"titre": "Ring (der)",
+		"url": "ring-der"
+	},{
+		"ref": "SA349",
+		"titre": "Ritte, Ritte, Resslä",
+		"url": "ritte-ritte-ressla"
+	},{
+		"ref": "SA350",
+		"titre": "Ritter Ewald",
+		"url": "ritter-ewald"
+	},{
+		"mel": 225,
+		"ref": "SA351",
+		"titre": "Rutsch hin, rutsch her",
+		"url": "rutsch-hin-rutsch-her"
+	},{
+		"ref": "SA352",
+		"titre": "S'bucklig Mannle",
+		"url": "sbucklig-mannle"
+	},{
+		"mel": 176,
+		"ref": "SA353",
+		"titre": "S'Dundi hat gsait",
+		"url": "sdundi-hat-gsait"
+	},{
+		"mel": 145,
+		"ref": "SA354",
+		"titre": "S'isch noch nit lang",
+		"url": "sisch-noch-nit-lang"
+	},{
+		"ref": "SA355",
+		"titre": "S'isch wohr",
+		"url": "sisch-wohr"
+	},{
+		"ref": "SA356",
+		"titre": "S'letschte G'richt",
+		"url": "sletschte-gricht"
+	},{
+		"mel": 54,
+		"ref": "SA357",
+		"titre": "S'Messti Lied",
+		"url": "smessti-lied"
+	},{
+		"ref": "SA358",
+		"titre": "S'war e mol e kleine Mann",
+		"url": "swar-e-mol-e-kleine-mann"
+	},{
+		"ref": "SA359",
+		"titre": "Sankt Odilia Sage",
+		"url": "sankt-odilia-sage"
+	},{
+		"ref": "SA360",
+		"titre": "Sankt Ottilia",
+		"url": "sankt-ottilia"
+	},{
+		"ref": "SA361",
+		"titre": "Sankt Peters Lied",
+		"url": "sankt-peters-lied"
+	},{
+		"ref": "SA362",
+		"titre": "Sankti Niki Naki",
+		"url": "sankti-niki-naki"
+	},{
+		"ref": "SA363",
+		"titre": "Schäferin (die)",
+		"url": "schaferin-die"
+	},{
+		"ref": "SA364",
+		"titre": "Schäferin (die)",
+		"url": "schaferin-die-0"
+	},{
+		"ref": "SA365",
+		"titre": "Schäferin und Kuckuck",
+		"url": "schaferin-und-kuckuck"
+	},{
+		"ref": "SA366",
+		"titre": "Schäferlied",
+		"url": "schaferlied"
+	},{
+		"mel": 159,
+		"ref": "SA367",
+		"titre": "Schäfersohn und der Edelmann (der)",
+		"url": "schafersohn-und-der-edelmann-der"
+	},{
+		"ref": "SA368",
+		"titre": "Schalldeutungen französischer Militärmusik",
+		"url": "schalldeutungen-franzosischer-militarmusik"
+	},{
+		"ref": "SA369",
+		"titre": "Schatz, ach Schatz, jetzt reis' ich fort",
+		"url": "schatz-ach-schatz-jetzt-reis-ich-fort"
+	},{
+		"mel": 36,
+		"ref": "SA370",
+		"titre": "Schatz, reis nicht so weit",
+		"url": "schatz-reis-nicht-so-weit"
+	},{
+		"ref": "SA371",
+		"titre": "Scherenschleifer (der)",
+		"url": "scherenschleifer-der"
+	},{
+		"mel": 109,
+		"ref": "SA372",
+		"titre": "Schifflein sah ich fahren (ein)",
+		"url": "schifflein-sah-ich-fahren-ein"
+	},{
+		"ref": "SA373",
+		"titre": "Schlacht bei Leipzig (die)",
+		"url": "schlacht-bei-leipzig-die"
+	},{
+		"ref": "SA374",
+		"titre": "Schlacht bei Waterloo (die)",
+		"url": "schlacht-bei-waterloo-die"
+	},{
+		"ref": "SA375",
+		"titre": "Schlacht bei Weissenburg (die)",
+		"url": "schlacht-bei-weissenburg-die"
+	},{
+		"ref": "SA376",
+		"titre": "Schlaf wohl Du Himmels Knabe",
+		"url": "schlaf-wohl-du-himmels-knabe"
+	},{
+		"ref": "SA377",
+		"titre": "Schlaf, mein Kindelein"
+	},{
+		"ref": "SA378",
+		"titre": "Schlangenköchin (die)",
+		"url": "schlangenkochin-die"
+	},{
+		"ref": "SA379",
+		"titre": "Schlof, Biawele, schlof",
+		"url": "schlof-biawele-schlof"
+	},{
+		"ref": "SA380",
+		"titre": "Schlof, Kindele, schlof",
+		"url": "schlof-kindele-schlof"
+	},{
+		"ref": "SA381",
+		"titre": "Schloss in Österreich (das)",
+		"url": "schloss-osterreich-das"
+	},{
+		"ref": "SA382",
+		"titre": "Schnadahupferl",
+		"url": "schnadahupferl"
+	},{
+		"ref": "SA383",
+		"titre": "Schneider-Gastmahl",
+		"url": "schneider-gastmahl"
+	},{
+		"ref": "SA384",
+		"titre": "Schneiderspott",
+		"url": "schneiderspott"
+	},{
+		"ref": "SA385",
+		"titre": "Schnitzelbank (e)",
+		"url": "schnitzelbank-e"
+	},{
+		"ref": "SA386",
+		"titre": "Scholem (der)",
+		"url": "scholem-der"
+	},{
+		"ref": "SA387",
+		"titre": "Schöne Jagd",
+		"url": "schone-jagd"
+	},{
+		"ref": "SA388",
+		"titre": "Schöne Müllerin (die)",
+		"url": "schone-mullerin-die"
+	},{
+		"ref": "SA389",
+		"titre": "Schönste aller Schönen",
+		"url": "schonste-aller-schonen"
+	},{
+		"ref": "SA390",
+		"titre": "Schönste Land (das)",
+		"url": "schonste-land-das"
+	},{
+		"mel": 60,
+		"ref": "SA391",
+		"titre": "Schönstes Röslein rot (treue Liebe)",
+		"url": "schonstes-roslein-rot-treue-liebe"
+	},{
+		"mel": 285,
+		"ref": "SA392",
+		"titre": "Schwafelhelzla",
+		"url": "schwafelhelzla"
+	},{
+		"ref": "SA393",
+		"titre": "Schwatzhafte Gesell (der)",
+		"url": "schwatzhafte-gesell-der"
+	},{
+		"ref": "SA394",
+		"titre": "Schwatzhafte Junggesell (der)",
+		"url": "schwatzhafte-junggesell-der"
+	},{
+		"ref": "SA395",
+		"titre": "Sebastopol",
+		"url": "sebastopol"
+	},{
+		"ref": "SA396",
+		"titre": "Sechs Buckel",
+		"url": "sechs-buckel"
+	},{
+		"mel": 326,
+		"ref": "SA397",
+		"titre": "Seemanns Grab",
+		"url": "seemanns-grab"
+	},{
+		"ref": "SA398",
+		"titre": "Seemanns Heimkehr a",
+		"url": "seemanns-heimkehr-a"
+	},{
+		"ref": "SA399",
+		"titre": "Seemanns Heimkehr b",
+		"url": "seemanns-heimkehr-b"
+	},{
+		"ref": "SA400",
+		"titre": "Sennerin im Frühling (die)",
+		"url": "sennerin-im-fruhling-die"
+	},{
+		"ref": "SA401",
+		"titre": "Soldat auf Posten",
+		"url": "soldat-auf-posten"
+	},{
+		"ref": "SA402",
+		"titre": "Soldatenabschied",
+		"url": "soldatenabschied"
+	},{
+		"ref": "SA403",
+		"titre": "Soldatenleben (das)",
+		"url": "soldatenleben-das"
+	},{
+		"ref": "SA404",
+		"titre": "Soldatenlied nach dem Unglücksjahr 1812",
+		"url": "soldatenlied-nach-dem-unglucksjahr-1812"
+	},{
+		"ref": "SA405",
+		"titre": "Soldatenlust der Studenten",
+		"url": "soldatenlust-der-studenten"
+	},{
+		"ref": "SA406",
+		"titre": "Spottlied auf allerhand Berufe",
+		"url": "spottlied-auf-allerhand-berufe"
+	},{
+		"ref": "SA407",
+		"titre": "Sprung vu Basel (d'r)",
+		"url": "sprung-vu-basel-dr"
+	},{
+		"ref": "SA408",
+		"titre": "Stacklerlied (das)",
+		"url": "stacklerlied-das"
+	},{
+		"ref": "SA409",
+		"titre": "Ständel",
+		"url": "standel"
+	},{
+		"ref": "SA410",
+		"titre": "Sterbende Füsilier (der)",
+		"url": "sterbende-fusilier-der"
+	},{
+		"ref": "SA411",
+		"titre": "Sterbende Geliebte (die)",
+		"url": "sterbende-geliebte-die"
+	},{
+		"ref": "SA412",
+		"titre": "Sterbende Soldat (der)",
+		"url": "sterbende-soldat-der"
+	},{
+		"ref": "SA413",
+		"titre": "Stieg m'r nuff uff die Bari",
+		"url": "stieg-mr-nuff-uff-die-bari"
+	},{
+		"mel": 250,
+		"ref": "SA414",
+		"titre": "Still, still, still",
+		"url": "still-still-still"
+	},{
+		"ref": "SA415",
+		"titre": "Stiller Abend",
+		"url": "stiller-abend"
+	},{
+		"ref": "SA416",
+		"titre": "Stork, Stork, Schniwel, Schnawel",
+		"url": "stork-stork-schniwel-schnawel"
+	},{
+		"ref": "SA417",
+		"titre": "Strassburg muss ich lassen",
+		"url": "strassburg-muss-ich-lassen"
+	},{
+		"ref": "SA418",
+		"titre": "Sträusschen am Hute (ein)",
+		"url": "strausschen-am-hute-ein"
+	},{
+		"ref": "SA419",
+		"titre": "Sundgaulied (das)",
+		"url": "sundgaulied-das"
+	},{
+		"mel": 107,
+		"ref": "SA420",
+		"titre": "Sürkrüt im Häfele",
+		"url": "surkrut-im-hafele"
+	},{
+		"ref": "SA421",
+		"titre": "Tabakspfeife (die)",
+		"url": "tabakspfeife-die"
+	},{
+		"ref": "SA422",
+		"titre": "Tag, der ist so freudenreich (der)",
+		"url": "tag-der-ist-so-freudenreich-der"
+	},{
+		"ref": "SA423",
+		"titre": "Teufelshochzeit",
+		"url": "teufelshochzeit"
+	},{
+		"ref": "SA424",
+		"titre": "Tod vu Basel (der)",
+		"url": "tod-vu-basel-der"
+	},{
+		"ref": "SA425",
+		"titre": "Todesahnung",
+		"url": "todesahnung"
+	},{
+		"mel": 324,
+		"ref": "SA426",
+		"titre": "Todwunde Knabe (der)",
+		"url": "todwunde-knabe-der"
+	},{
+		"ref": "SA427",
+		"titre": "Totenbraut (die)",
+		"url": "totenbraut-die"
+	},{
+		"ref": "SA428",
+		"titre": "Totwunde Knab (der)",
+		"url": "totwunde-knab-der"
+	},{
+		"ref": "SA429",
+		"titre": "Trauriges Leben (ein)",
+		"url": "trauriges-leben-ein"
+	},{
+		"ref": "SA430",
+		"titre": "Trauriges Wiedersehen",
+		"url": "trauriges-wiedersehen"
+	},{
+		"ref": "SA431",
+		"titre": "Trennung für immer",
+		"url": "trennung-fur-immer"
+	},{
+		"ref": "SA432",
+		"titre": "Treue Knabe (der)",
+		"url": "treue-knabe-der"
+	},{
+		"ref": "SA433",
+		"titre": "Treue Liebe",
+		"url": "treue-liebe"
+	},{
+		"ref": "SA434",
+		"titre": "Treue Liebe variante a",
+		"url": "treue-liebe-variante-a"
+	},{
+		"ref": "SA435",
+		"titre": "Treue Liebe variante b",
+		"url": "treue-liebe-variante-b"
+	},{
+		"ref": "SA436",
+		"titre": "Treue Sohn (der)",
+		"url": "treue-sohn-der"
+	},{
+		"ref": "SA437",
+		"titre": "Trommel ruft (die)",
+		"url": "trommel-ruft-die"
+	},{
+		"mel": 120,
+		"ref": "SA438",
+		"titre": "Truz nit so",
+		"url": "truz-nit-so"
+	},{
+		"ref": "SA439",
+		"titre": "Uff d'r Kahlewaser Heh",
+		"url": "uff-dr-kahlewaser-heh"
+	},{
+		"ref": "SA440",
+		"titre": "Uff de Bari esch mi Lawe",
+		"url": "uff-de-bari-esch-mi-lawe"
+	},{
+		"ref": "SA441",
+		"titre": "Und jetzt reisen wir, adie !",
+		"url": "und-jetzt-reisen-wir-adie"
+	},{
+		"ref": "SA442",
+		"titre": "Unglückliche Braut (die)",
+		"url": "ungluckliche-braut-die"
+	},{
+		"ref": "SA443",
+		"titre": "Unglückliche Ehe",
+		"url": "ungluckliche-ehe"
+	},{
+		"ref": "SA444",
+		"titre": "Unglückliche Jagd",
+		"url": "ungluckliche-jagd"
+	},{
+		"ref": "SA445",
+		"titre": "Unglückliche Liebe",
+		"url": "ungluckliche-liebe"
+	},{
+		"ref": "SA446",
+		"titre": "Unglückliche Schuss (der)",
+		"url": "ungluckliche-schuss-der"
+	},{
+		"ref": "SA447",
+		"titre": "Unser Kaiser Naplion",
+		"url": "unser-kaiser-naplion"
+	},{
+		"ref": "SA448",
+		"titre": "Untreue Geliebte (die)",
+		"url": "untreue-geliebte-die"
+	},{
+		"ref": "SA449",
+		"titre": "Untreue Liebe",
+		"url": "untreue-liebe"
+	},{
+		"ref": "SA450",
+		"titre": "Untreue Mädchen (das)",
+		"url": "untreue-madchen-das"
+	},{
+		"ref": "SA451",
+		"titre": "Vater im Kriege (der)",
+		"url": "vater-im-kriege-der"
+	},{
+		"mel": 213,
+		"ref": "SA452",
+		"titre": "Veile, Rose",
+		"url": "veile-rose"
+	},{
+		"ref": "SA453",
+		"titre": "Verbannt nach Sibirien",
+		"url": "verbannt-nach-sibirien"
+	},{
+		"ref": "SA454",
+		"titre": "Vereinigung im Tode",
+		"url": "vereinigung-im-tode"
+	},{
+		"ref": "SA455",
+		"titre": "Verführer (der)",
+		"url": "verfuhrer-der"
+	},{
+		"ref": "SA456",
+		"titre": "Vergebliches Fürbitten",
+		"url": "vergebliches-furbitten"
+	},{
+		"ref": "SA457",
+		"titre": "Vergiftung der Geliebten",
+		"url": "vergiftung-der-geliebten"
+	},{
+		"ref": "SA458",
+		"titre": "Vergissmeinnicht",
+		"url": "vergissmeinnicht"
+	},{
+		"ref": "SA459",
+		"titre": "Verkaufte Müller-Weiblein (das)",
+		"url": "verkaufte-muller-weiblein-das"
+	},{
+		"ref": "SA460",
+		"titre": "Verlassene Mutter (die)",
+		"url": "verlassene-mutter-die"
+	},{
+		"ref": "SA461",
+		"titre": "Verlassene Schloss (das)",
+		"url": "verlassene-schloss-das"
+	},{
+		"mel": 61,
+		"ref": "SA462",
+		"titre": "Verliebte Bauernmädchen (das)",
+		"url": "verliebte-bauernmadchen-das"
+	},{
+		"ref": "SA463",
+		"titre": "Verraten und verkauft",
+		"url": "verraten-und-verkauft"
+	},{
+		"ref": "SA464",
+		"titre": "Verunglückte Freier (der)",
+		"url": "verungluckte-freier-der"
+	},{
+		"ref": "SA465",
+		"titre": "Verwundet und verlassen",
+		"url": "verwundet-und-verlassen"
+	},{
+		"ref": "SA466",
+		"titre": "Verwundete Krieger (der)",
+		"url": "verwundete-krieger-der"
+	},{
+		"ref": "SA467",
+		"titre": "Verzweifelte Mutter (die)",
+		"url": "verzweifelte-mutter-die"
+	},{
+		"ref": "SA468",
+		"titre": "Verzweiflungsvolle Nachricht",
+		"url": "verzweiflungsvolle-nachricht"
+	},{
+		"ref": "SA469",
+		"titre": "Vielleicht zum letzten Mal",
+		"url": "vielleicht-zum-letzten-mal"
+	},{
+		"ref": "SA470",
+		"titre": "Vogel fiks",
+		"url": "vogel-fiks"
+	},{
+		"ref": "SA471",
+		"titre": "Vom Barri komma mìr arà",
+		"url": "vom-barri-komma-mir-ara"
+	},{
+		"ref": "SA472",
+		"titre": "Vom Herrn und seiner Magd",
+		"url": "vom-herrn-und-seiner-magd"
+	},{
+		"ref": "SA473",
+		"titre": "Vom jungen Grafen und der Nonne",
+		"url": "vom-jungen-grafen-und-der-nonne"
+	},{
+		"ref": "SA474",
+		"titre": "Vom jungen Grafen und der Nonne variante a",
+		"url": "vom-jungen-grafen-und-der-nonne-variante-a"
+	},{
+		"ref": "SA475",
+		"titre": "Vom jungen Grafen und der Nonne variante b",
+		"url": "vom-jungen-grafen-und-der-nonne-variante-b"
+	},{
+		"ref": "SA476",
+		"titre": "Vom Pfalzgraf überm Rhein",
+		"url": "vom-pfalzgraf-uberm-rhein"
+	},{
+		"ref": "SA477",
+		"titre": "Vom Wilddieb Utenwatel",
+		"url": "vom-wilddieb-utenwatel"
+	},{
+		"ref": "SA478",
+		"titre": "Vor deiner Krippe",
+		"url": "vor-deiner-krippe"
+	},{
+		"ref": "SA479",
+		"titre": "Vor dem Abmarsch zum Regiment",
+		"url": "vor-dem-abmarsch-zum-regiment"
+	},{
+		"ref": "SA480",
+		"titre": "Wächterlied",
+		"url": "wachterlied"
+	},{
+		"ref": "SA481",
+		"titre": "Wächterlied",
+		"url": "wachterlied-0"
+	},{
+		"ref": "SA482",
+		"titre": "Wächterruf (der)",
+		"url": "wachterruf-der"
+	},{
+		"ref": "SA483",
+		"titre": "Waidmannssohn (der)",
+		"url": "waidmannssohn-der"
+	},{
+		"ref": "SA484",
+		"titre": "Waldabenteuer",
+		"url": "waldabenteuer"
+	},{
+		"ref": "SA485",
+		"titre": "Waldeslust",
+		"url": "waldeslust"
+	},{
+		"ref": "SA486",
+		"titre": "Walzer-Jodler",
+		"url": "walzer-jodler"
+	},{
+		"ref": "SA487",
+		"titre": "Wanderlied",
+		"url": "wanderlied"
+	},{
+		"ref": "SA488",
+		"titre": "Wanderns schönste Zeit (des)",
+		"url": "wanderns-schonste-zeit-des"
+	},{
+		"ref": "SA489",
+		"titre": "Wann geht es in den Krieg",
+		"url": "wann-geht-es-den-krieg"
+	},{
+		"ref": "SA490",
+		"titre": "Warnende Baum (der)",
+		"url": "warnende-baum-der"
+	},{
+		"ref": "SA491",
+		"titre": "Warnung",
+		"url": "warnung"
+	},{
+		"mel": 71,
+		"ref": "SA492",
+		"titre": "Was batten Dukaten",
+		"url": "was-batten-dukaten"
+	},{
+		"ref": "SA493",
+		"titre": "Was braucht man auf dem Bauerndorf",
+		"url": "was-braucht-man-auf-dem-bauerndorf"
+	},{
+		"ref": "SA494",
+		"titre": "Was falsche Liebe tut",
+		"url": "was-falsche-liebe-tut"
+	},{
+		"ref": "SA495",
+		"titre": "Was isch das magerste",
+		"url": "was-isch-das-magerste"
+	},{
+		"mel": 51,
+		"ref": "SA496",
+		"titre": "Was ist das für ein Brausen",
+		"url": "was-ist-das-fur-ein-brausen"
+	},{
+		"ref": "SA497",
+		"titre": "Was soll ich in der Fremde tun",
+		"url": "was-soll-ich-der-fremde-tun"
+	},{
+		"ref": "SA498",
+		"titre": "Was wollen die Hausaren",
+		"url": "was-wollen-die-hausaren"
+	},{
+		"ref": "SA499",
+		"titre": "Waterloo",
+		"url": "waterloo"
+	},{
+		"ref": "SA500",
+		"titre": "Weberlied",
+		"url": "weberlied"
+	},{
+		"ref": "SA501",
+		"titre": "Weh, dass wir scheiden müssen",
+		"url": "weh-dass-wir-scheiden-mussen"
+	},{
+		"ref": "SA502",
+		"titre": "Weihnachts-Singen",
+		"url": "weihnachts-singen"
+	},{
+		"mel": 87,
+		"ref": "SA503",
+		"titre": "Wein und Wasser",
+		"url": "wein-und-wasser"
+	},{
+		"ref": "SA504",
+		"titre": "Welsche Kaufmann (der)",
+		"url": "welsche-kaufmann-der"
+	},{
+		"mel": 146,
+		"ref": "SA505",
+		"titre": "Wenn die Gebirgswiver",
+		"url": "wenn-die-gebirgswiver"
+	},{
+		"ref": "SA506",
+		"titre": "Wenn die Trompeten blasen",
+		"url": "wenn-die-trompeten-blasen"
+	},{
+		"ref": "SA507",
+		"titre": "Wenn ich gleich",
+		"url": "wenn-ich-gleich"
+	},{
+		"ref": "SA508",
+		"titre": "Wenn ich noch ledig wär",
+		"url": "wenn-ich-noch-ledig-war"
+	},{
+		"ref": "SA509",
+		"titre": "Wildschütz (der)",
+		"url": "wildschutz-der"
+	},{
+		"mel": 113,
+		"ref": "SA510",
+		"titre": "Wir Burschen müssen Soldaten sein",
+		"url": "wir-burschen-mussen-soldaten-sein"
+	},{
+		"ref": "SA511",
+		"titre": "Wir kommen daher",
+		"url": "wir-kommen-daher"
+	},{
+		"ref": "SA512",
+		"titre": "Wirtshaus am Rhein (das)",
+		"url": "wirtshaus-am-rhein-das"
+	},{
+		"ref": "SA513",
+		"titre": "Wo ist ein Land so schön",
+		"url": "wo-ist-ein-land-so-schon"
+	},{
+		"ref": "SA514",
+		"titre": "Woher so früeih",
+		"url": "woher-so-frueih"
+	},{
+		"ref": "SA515",
+		"titre": "Woher so früeih",
+		"url": "woher-so-frueih-0"
+	},{
+		"ref": "SA516",
+		"titre": "Wohl auf, nun lasst uns singen all",
+		"url": "wohl-auf-nun-lasst-uns-singen-all"
+	},{
+		"ref": "SA517",
+		"titre": "Wolf und Lamm",
+		"url": "wolf-und-lamm"
+	},{
+		"ref": "SA518",
+		"titre": "Woluf mit richem Schalle",
+		"url": "woluf-mit-richem-schalle"
+	},{
+		"ref": "SA519",
+		"titre": "Wunderschöne Anna (die)",
+		"url": "wunderschone-anna-die"
+	},{
+		"mel": 259,
+		"ref": "SA520",
+		"titre": "Z'Nacht wenn der Mond schynt",
+		"url": "znacht-wenn-der-mond-schynt"
+	},{
+		"ref": "SA521",
+		"titre": "Zigeunerkind",
+		"url": "zigeunerkind"
+	},{
+		"ref": "SA522",
+		"titre": "Zigeunerleben a",
+		"url": "zigeunerleben-a"
+	},{
+		"ref": "SA523",
+		"titre": "Zigeunerleben b",
+		"url": "zigeunerleben-b"
+	},{
+		"ref": "SA524",
+		"titre": "Zigeunerleben c",
+		"url": "zigeunerleben-c"
+	},{
+		"ref": "SA525",
+		"titre": "Zu Strassburg auf der hohen Schanz",
+		"url": "zu-strassburg-auf-der-hohen-schanz"
+	},{
+		"ref": "SA526",
+		"titre": "Zu Strassburg auf der langen Brück",
+		"url": "zu-strassburg-auf-der-langen-bruck"
+	},{
+		"ref": "SA527",
+		"titre": "Zu Strassburg auf der Schanz",
+		"url": "zu-strassburg-auf-der-schanz"
+	},{
+		"ref": "SA528",
+		"titre": "Zwanzig Jahre",
+		"url": "zwanzig-jahre"
+	},{
+		"ref": "SA529",
+		"titre": "Zwei Hase",
+		"url": "zwei-hase"
+	}
+],
+    "prefix": "SA",
+    "name": "OLCA Sàmmle",
+    "core": "[1-9][0-9]?[0-9]?",
+    "media": "p",
+    "urlPref": "http://www.sammle.org/fr/",
+    "colldoc": "1MTlO6A0DLKdKvaTjE5NnOAFAKxjLsAIf9W4wjgbgDAU"
+}

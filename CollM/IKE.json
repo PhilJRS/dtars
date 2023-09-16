@@ -1,0 +1,144 @@
+{
+    "refs": [
+		{
+			"mel": 402,
+			"ref": "IKE1",
+			"titre": "D'Niedsack",
+			"commentaire": "EUL Scottisch,  Chant René Egles"
+		},
+		{
+			"mel": 32,
+			"ref": "IKE2",
+			"titre": "Holdri Boldri",
+			"commentaire": "EUL Zwiefarcher,  Chant René Egles"
+		},
+		{
+			"mel": 322,
+			"ref": "IKE3",
+			"titre": "Les impaires d'Oderen",
+			"commentaire": "D'Rhinwagges arrgt. P. Boistelle"
+		},
+		{
+			"mel": 144,
+			"ref": "IKE4",
+			"titre": "Les 7 pas de Munster",
+			"commentaire": "D'Rhinwagges arrgt. P. Boistelle"
+		},
+		{
+			"mel": 318,
+			"ref": "IKE5",
+			"titre": "Le chant des alouettes",
+			"commentaire": "D'Rhinwagges arrgt. P. Boistelle"
+		},
+		{
+			"mel": 218,
+			"ref": "IKE6",
+			"titre": "7 sauts"
+		},
+		{
+			"mel": 129,
+			"ref": "IKE7",
+			"titre": "Polka des conscrits"
+		},
+		{
+			"mel": 300,
+			"ref": "IKE8",
+			"titre": "PPTB"
+		},
+		{
+			"mel": 331,
+			"ref": "IKE9",
+			"titre": "Verriers"
+		},
+		{
+			"mel": 269,
+			"ref": "IKE10",
+			"titre": "Hoï hoï"
+		},
+		{
+			"mel": 285,
+			"ref": "IKE11",
+			"titre": "Polka des allumettes",
+			"commentaire": "arrgt. P. Boistelle"
+		},
+		{
+			"mel": 90,
+			"ref": "IKE12",
+			"titre": "Danse des moissons",
+			"commentaire": "(Mélodie d'Bäsedanz)"
+		},
+		{
+			"ref": "IKE13",
+			"titre": "De Strohhüet",
+			"commentaire": "Accordéon, Création J.P. Pulfermuller"
+		},
+		{
+			"mel": 118,
+			"ref": "IKE14",
+			"titre": "Komm min Maidele",
+			"commentaire": "Rhinländer (Wichbürscht) est mal-nommé."
+		},
+		{
+			"mel": 27,
+			"ref": "IKE15",
+			"titre": "Heissa Kathrinnele"
+		},
+		{
+			"mel": 76,
+			"ref": "IKE16",
+			"titre": "Sarabande d'amour"
+		},
+		{
+			"mel": 194,
+			"ref": "IKE17",
+			"titre": "Bergers"
+		},
+		{
+			"mel": 295,
+			"ref": "IKE18",
+			"titre": "7 pas"
+		},
+		{
+			"mel": 297,
+			"ref": "IKE19",
+			"titre": "Hop Mariannele"
+		},
+		{
+			"mel": 225,
+			"ref": "IKE20",
+			"titre": "Rutsch hin, Rutsch her",
+			"commentaire": "D'Rhinwagges arrgt. P. Boistelle"
+		},
+		{
+			"mel": 65,
+			"ref": "IKE21",
+			"titre": "Gemütlichkeit"
+		},
+		{
+			"mel": 253,
+			"ref": "IKE22",
+			"titre": "Hilf O himmel"
+		},
+		{
+			"mel": 35,
+			"ref": "IKE23",
+			"titre": "Impaire du moulin"
+		},
+		{
+			"mel": 291,
+			"ref": "IKE24",
+			"titre": "3 branles"
+		},
+		{
+			"mel": 61,
+			"ref": "IKE25",
+			"titre": "Petit Jean"
+		}
+	],
+    "prefix": "IKE",
+	"name": "Intergroupe du Kochersberg et Environs",
+    "core": "[1-9][0-9]?",
+    "colldoc": "1xkfPrwrm0WXLokLGMUAEMCQVrQC44LdUD2yjDVCeGcs",
+    "suffix": ",A,B,C,S",
+    "media": "v,v,v,v,a"
+}

@@ -1,11 +1,11 @@
-var graph = []
-var curGraph //n'a de sens que si & seul graph est visible à la fois.
+var graph = [[]] // le premier graphe est vide:[]
+var curGraph //n'a de sens que si 1 seul graph est visible à la fois.
 const elL = 60, elH = 40 //largeur et hauteur des ellipses
 
 function initGraph() {
   gold.m.refs.filter(m=>m.graph).sort((a,b)=> a.mel-b.mel).forEach(m=>{  //liste triée de toutes les méls "en famille""
     g = m.graph.grp
-    if(!graph[g]) graph[g]={ mels :[], ppr : undefined , rels : []}
+    if(!graph[g]) graph[g]={ mels :[], rels : []}
     graph[g].mels[m.graph.rel.indexOf("m")] = m
   })
 
@@ -20,6 +20,7 @@ function initGraph() {
           curGraph = f
           document.querySelector('#fBt'+curGraph).style.backgroundColor = 'lightgreen';
           $('#fPaper').empty()
+          $('#audio')[0].pause()
           showGraph(f)
 }})})}
  
@@ -37,7 +38,7 @@ function showGraph(f) {
     .height(graphHeigth)
     .append($('<svg id="fPaper'+f+'"/>'))                       //mise en place du papier
  
-  g.ppr2 = SVG().addTo('#fPaper')
+  g.ppr = SVG().addTo('#fPaper')
   function elliPath(ell1, ell2) {
     var x1 = ell1.attr("cx"), y1 = ell1.attr("cy"), x2 = ell2.attr("cx"), y2 = ell2.attr("cy")
     , dx = x2-x1    , dy = y2-y1
@@ -47,7 +48,7 @@ function showGraph(f) {
   }
   
   g.mels.forEach((m,i) =>{                                                       
-    var group = g.ppr2.group()
+    var group = g.ppr.group()
     group.ellipse(elL, elH).stroke({color: '#000',width : 1}).fill(m.graph.rel.includes("p") ? "#d4e1f5" : "#FFF2CC"), // bleu, jaune 
     group.text(m.mel).font('size', 10).center(elL/2, elH/2)
     m.shapes = group.move(m.graph.X, m.graph.Y).attr({cursor: "move"})
@@ -58,7 +59,7 @@ function showGraph(f) {
         g.rels.push({
           from: i, 
           to  : j,
-          line: (g.ppr2.path(elliPath(mels[i].shapes.first(), mels[j].shapes.first())).stroke({width: 2})
+          line: (g.ppr.path(elliPath(mels[i].shapes.first(), mels[j].shapes.first())).stroke({width: 2})
             .stroke(c == "p" ? {color: '#000'} : {color: '#f06', dasharray: '5, 2'})
             .attr("marker-end", "url(#"+(c == "p"? "black": "red")+"Arrow")
   )})}})})
@@ -66,14 +67,33 @@ function showGraph(f) {
     function arrUpdate() { g.rels.filter(c=> c.from==i || c.to ==i).forEach(c =>     //redessine les flèches concernées
         c.line.plot(elliPath(mels[c.from].shapes.first(), mels[c.to].shapes.first()))
     )}
+    function toggleMel() { 
+      if (curMelNb != m.mel) return showMel(m.mel)
+      d=$('#audio')[0]
+      return (d.paused? d.play() : d.pause())
+    }
+    function menu() { 
+      console.log("double-cliqué")
+    }
     m.shapes    //système d'animation:
-    .click(()=>showMel(m.mel))                                       
-    .touchstart(()=>showMel(m.mel))                                       
-    .draggable()
+      .click(toggleMel)
+      .touchstart(toggleMel)
+    if ($('#editeur')[0].checked) m.shapes 
+      .dblclick(menu)
+      .draggable()
       .on('dragmove', e=> arrUpdate())
-      .on('dragend', e=> { arrUpdate(); m.graph.X = e.detail.box.x; m.graph.Y = e.detail.box.y})
+      .on('dragend', e=> { 
+          arrUpdate()
+          m.graph.X = e.detail.box.x; m.graph.Y = e.detail.box.y
+          graph[f].geoChanged = true
+          var changed = graph.map((g,i)=>g.geoChanged?i:0).filter(g=>g!=0).join()
+          $('#saveBtn').text('enregistrer graphe'+(changed.length >2?'s ':' ')+ changed).click(saveGraph)
+      })
     }
   )
 }
 
-//JSON.stringify(graph.map(g=>g.mels.map(m=>({mel : m.mel, X : m.graph.X, Y:m.graph.Y, rel:m.graph.rel}))))
+function saveGraph() {
+  updates=JSON.stringify(graph.map(g=>(g.mels? g.mels.map(m=>({mel : m.mel, X : m.graph.X, Y:m.graph.Y, rel:m.graph.rel})):[])), null, "  ")
+  console.log(updates) 
+}

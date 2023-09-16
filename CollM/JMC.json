@@ -1,0 +1,50 @@
+{
+    "refs": [
+        {
+            "mel": 194,
+            "ref": "JMC13",
+            "titre": "Bergers de Ballersdorf (Les)",
+            "danseJmc": "Branle coupé",
+            "origjmc": "Trad. Alsace",
+            "rangjmcfev2022": 60
+        },
+        {
+            "mel": 125,
+            "ref": "JMC14",
+            "titre": "Fiancée hongroise (La)",
+            "danseJmc": "Valse à 5 temps",
+            "origjmc": "Trad. Alsace",
+            "rangjmcfev2022": 230
+        },
+        {
+            "mel": 45,
+            "ref": "JMC15",
+            "titre": "Madeleine et la mort",
+            "danseJmc": "Branle",
+            "origjmc": "Trad. Alsace",
+            "rangjmcfev2022": 374
+        },
+        {
+            "mel": 76,
+            "ref": "JMC16",
+            "titre": "Sarabande d’amour",
+            "danseJmc": "Danse",
+            "origjmc": "Trad. Alsace",
+            "rangjmcfev2022": 612
+        },
+        {
+            "mel": 333,
+            "ref": "JMC17",
+            "titre": "Valse à 5 temps",
+            "danseJmc": "Valse à 5 temps",
+            "origjmc": "Trad. Alsace",
+            "rangjmcfev2022": 699
+        }
+    ],
+    "prefix": "JMC",
+    "name": "Jeran-Michel Corgeron",
+    "core": "1[3-7]",
+    "suffix": ",T|F",
+    "media": "a",
+    "colldoc": "10fW8wS8snyI1vYyks7zflhJwRq0HmnVUmPm92myF4OE"
+}

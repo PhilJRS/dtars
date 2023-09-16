@@ -1,0 +1,381 @@
+{
+ "refs": [
+        {
+            "mel": 316,
+            "ref": "MD1",
+            "titre": "Allemande à 4",
+            "code": 49473,
+            "DSPSBS": "allemande.a.4"
+        },{
+            "mel": 285,
+            "ref": "MD2",
+            "titre": "Allumettes",
+            "code": 10305,
+            "DSPSBS": "allumettes"
+        },{
+            "ref": "MD3",
+            "titre": "Bassedanz",
+            "code": 33348
+        },{
+            "mel": 160,
+            "ref": "MD4",
+            "titre": "Bier Her",
+            "code": 16913,
+            "DSPSBS": "bier.her"
+        },{
+            "mel": 194,
+            "ref": "MD5",
+            "titre": "Branle des Bergers",
+            "code": 49220,
+            "DSPSBS": "branle.bergers"
+        },{
+            "mel": 232,
+            "ref": "MD6",
+            "titre": "Branle Gai",
+            "code": 8257,
+            "DSPSBS": "#branle.gai"
+        },{
+            "mel": 201,
+            "ref": "MD7",
+            "titre": "Branle des Conscrits",
+            "code": 10306,
+            "DSPSBS": "maitre.maison"
+        },{
+            "mel": 385,
+            "ref": "MD8",
+            "titre": "Buecheleklopfer",
+            "code": 36898,
+            "DSPSBS": "buecheleklopfer"
+        },{
+            "mel": 225,
+            "ref": "MD9",
+            "titre": "Chibreli Alsacien",
+            "code": 34826,
+            "DSPSBS": "rutsch.hin"
+        },{
+            "mel": 220,
+            "ref": "MD10",
+            "titre": "Suite de danses de conscrits de Berstett",
+            "code": 18497,
+            "DSPSBS": "conscrits.trimazo"
+        },{
+            "ref": "MD11",
+            "titre": "Danse du Coq",
+            "code": 36898,
+            "DSPSBS": "danse.coq"
+        },{
+            "ref": "MD12",
+            "titre": "Danse des Epées",
+            "code": 16961,
+            "DSPSBS": "epees"
+        },{
+            "mel": 20,
+            "ref": "MD13",
+            "titre": "Gavotte de Hochfelden",
+            "code": 16706,
+            "DSPSBS": "filles.hochfelden"
+        },{
+            "mel": 65,
+            "ref": "MD14",
+            "titre": "Gemutlichkeit",
+            "code": 33348,
+            "DSPSBS": "gemutlichkeit"
+        },{
+            "ref": "MD15",
+            "titre": "Hammeltanz",
+            "code": 36898
+        },{
+            "mel": 188,
+            "ref": "MD16",
+            "titre": "Hans Im Schnockeloch",
+            "code": 10305,
+            "DSPSBS": "hans.schnockeloch"
+        },{
+            "mel": 253,
+            "ref": "MD17",
+            "titre": "Hilf O Himmel",
+            "code": 8257,
+            "DSPSBS": "hilf.o.himmel"
+        },{
+            "mel": 30,
+            "ref": "MD18",
+            "titre": "Hirte Courante",
+            "code": 8193,
+            "DSPSBS": "hirte.courante"
+        },{
+            "mel": 50,
+            "ref": "MD19",
+            "titre": "Holzapfelmarsch",
+            "code": 33345
+        },{
+            "mel": 297,
+            "ref": "MD20",
+            "titre": "Hop Marianele",
+            "code": 18497,
+            "DSPSBS": "hop.marianele"
+        },{
+            "mel": 322,
+            "ref": "MD21",
+            "titre": "Impaire d’Oderen",
+            "code": 8209,
+            "DSPSBS": "impaire.oderen"
+        },{
+            "ref": "MD22",
+            "titre": "Kisselwalzer",
+            "code": 36898
+        },{
+            "mel": 276,
+            "ref": "MD23",
+            "titre": "Klepermann",
+            "code": 10306,
+            "DSPSBS": "klepermann"
+        },{
+            "mel": 269,
+            "ref": "MD24",
+            "titre": "Kritzpolka hoi-hoi",
+            "code": 34882,
+            "DSPSBS": "kritzpolka"
+        },{
+            "mel": 162,
+            "ref": "MD25",
+            "titre": "Kronewirt (Seebach)",
+            "code": 36898,
+            "DSPSBS": "seebach.danse"
+        },{
+            "ref": "MD26",
+            "titre": "Kuefertanz",
+            "code": 33089
+        },{
+            "mel": 49,
+            "ref": "MD27",
+            "titre": "Malbrough",
+            "code": 8516,
+            "DSPSBS": "malbrough"
+        },{
+            "mel": 262,
+            "ref": "MD28",
+            "titre": "Mazurka",
+            "code": 33314,
+            "DSPSBS": "#mazurka"
+        },{
+            "ref": "MD29",
+            "titre": "Danse des Mineurs",
+            "code": 33089
+        },{
+            "ref": "MD30",
+            "titre": "Mort et résurrection",
+            "code": 39010
+        },{
+            "mel": 55,
+            "ref": "MD31",
+            "titre": "Moulin de Guebwiller",
+            "code": 8516,
+            "DSPSBS": "moulin.guebwiller"
+        },{
+            "mel": 109,
+            "ref": "MD32",
+            "titre": "Parisienne",
+            "code": 10305,
+            "DSPSBS": "parisienne"
+        },{
+            "mel": 61,
+            "ref": "MD33",
+            "titre": "Petit Jean",
+            "code": 10310,
+            "DSPSBS": "petit.jean"
+        },{
+            "mel": 64,
+            "ref": "MD34",
+            "titre": "Polka de Grandfontaine",
+            "code": 18498,
+            "DSPSBS": "polka.grandfontaine"
+        },{
+            "mel": 284,
+            "ref": "MD35",
+            "titre": "Polka des Bébés",
+            "code": 34884,
+            "DSPSBS": "polka.bebes"
+        },{
+            "mel": 129,
+            "ref": "MD36",
+            "titre": "Polka des Conscrits",
+            "code": 18500,
+            "DSPSBS": "polka.conscrits"
+        },{
+            "ref": "MD37",
+            "titre": "Polka Piquée",
+            "code": 18498,
+            "DSPSBS": "#polka.piquee"
+        },{
+            "mel": 300,
+            "ref": "MD38",
+            "titre": "Polka Piquée Tournée de Berstett",
+            "code": 18497,
+            "DSPSBS": "polka.piquee.tournee.berstett"
+        },{
+            "mel": 68,
+            "ref": "MD39",
+            "titre": "Quatre pas",
+            "code": 34882,
+            "DSPSBS": "quatre.pas"
+        },{
+            "mel": 265,
+            "ref": "MD40",
+            "titre": "Rhinlander",
+            "code": 32962,
+            "DSPSBS": "#rhinlander"
+        },{
+            "ref": "MD41",
+            "titre": "Rubans",
+            "code": 34881,
+            "DSPSBS": "#valse"
+        },{
+            "mel": 75,
+            "ref": "MD42",
+            "titre": "Salamandre",
+            "code": 49732,
+            "DSPSBS": "salamandre"
+        },{
+            "mel": 76,
+            "ref": "MD43",
+            "titre": "Sarabande",
+            "code": 8257,
+            "DSPSBS": "#sarabande"
+        },{
+            "mel": 258,
+            "ref": "MD44",
+            "titre": "Schottisch",
+            "code": 33092,
+            "DSPSBS": "#scottisch"
+        },{
+            "mel": 233,
+            "ref": "MD45",
+            "titre": "Schwitzemann",
+            "code": 16452,
+            "DSPSBS": "schwitzemann"
+        },{
+            "mel": 146,
+            "ref": "MD46",
+            "titre": "Sept pas d’Ingolsheim",
+            "code": 34882,
+            "DSPSBS": "sept.pas.ingolsheim"
+        },{
+            "mel": 145,
+            "ref": "MD47",
+            "titre": "Sept Pas de Guebwiller",
+            "code": 34882,
+            "DSPSBS": "sept.pas.guebwiller"
+        },{
+            "mel": 144,
+            "ref": "MD48",
+            "titre": "Sept Pas de Munster",
+            "code": 34882,
+            "DSPSBS": "sept.pas.munster"
+        },{
+            "mel": 295,
+            "ref": "MD49",
+            "titre": "Sept pas de Berstett",
+            "code": 34882,
+            "DSPSBS": "sept.pas.berstett"
+        },{
+            "mel": 218,
+            "ref": "MD50",
+            "titre": "Sept Sauts",
+            "code": 32804,
+            "DSPSBS": "#sept.sauts"
+        },{
+            "ref": "MD51",
+            "titre": "Danse des Tiserands de Grandfontaine",
+            "code": 16961,
+            "DSPSBS": "tisserands"
+        },{
+            "ref": "MD52",
+            "titre": "Danse des Tisserands d’Uhrwiller",
+            "code": 16961,
+            "DSPSBS": "tisserands"
+        },{
+            "mel": 198,
+            "ref": "MD53",
+            "titre": "Trimazo",
+            "code": 16964,
+            "DSPSBS": "trimazo"
+        },{
+            "mel": 291,
+            "ref": "MD54",
+            "titre": "Trois Branles",
+            "code": 8257,
+            "DSPSBS": "trois.branles"
+        },{
+            "mel": 17,
+            "ref": "MD55",
+            "titre": "Trois Guêtres de Cuir",
+            "code": 18500,
+            "DSPSBS": "drei.ladrigi.strempf"
+        },{
+            "mel": 363,
+            "ref": "MD56",
+            "titre": "Trois Valses",
+            "code": 20514,
+            "DSPSBS": "trois.valses"
+        },{
+            "mel": 36,
+            "ref": "MD57",
+            "titre": "Valse des Conscrits",
+            "code": 12322,
+            "DSPSBS": "valse.conscrits"
+        },{
+            "mel": 272,
+            "ref": "MD58",
+            "titre": "Valse des Roses",
+            "code": 36898,
+            "DSPSBS": "valse.roses"
+        },{
+            "mel": 375,
+            "ref": "MD59",
+            "titre": "Valse des Violettes",
+            "code": 20514,
+            "DSPSBS": "valse.violettes"
+        },{
+            "mel": 359,
+            "ref": "MD60",
+            "titre": "Valse Voltée",
+            "code": 36898,
+            "DSPSBS": "valse.voltee"
+        },{
+            "mel": 171,
+            "ref": "MD61",
+            "titre": "Varsovienne Boston",
+            "code": 33826,
+            "DSPSBS": "#varsovienne"
+        },{
+            "mel": 172,
+            "ref": "MD62",
+            "titre": "Varsovienne en ligne de Berstett",
+            "code": 33825,
+            "DSPSBS": "#varsovienne"
+        },{
+            "mel": 331,
+            "ref": "MD63",
+            "titre": "Verriers",
+            "code": 10305,
+            "DSPSBS": "verriers"
+        },{
+            "mel": 250,
+            "ref": "MD64",
+            "titre": "Vogese Allemande",
+            "code": 8193,
+            "DSPSBS": "vogese.allemande"
+        }
+    ],
+    "labels": [
+        "Terroir", "Se prêtant au terroir", "Création", 
+        "Valse", "Polka", "Mazurka", "Marche", "Gavotte", "Rhinlander", 
+        "Mesure à 2 temps", 
+        "Mesure à 3 temps", "Mesure impaire", "Mesure mixte", 
+        "Initiation", "Perfectionnement", "Maîtrise"
+    ],
+    "prefix": "MD",
+    "name": "Marguerite Doerflinger",
+    "core": "[1-9][0-9]?",
+    "colldoc": "131-FQBUO4Mf6i0-lFKKPZBPDg0x6MVbk6GINCUhTb_8"
+}

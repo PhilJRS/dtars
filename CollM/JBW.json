@@ -1,0 +1,215 @@
+{
+    "refs": [
+        {
+            "mel": "77",
+            "ref": "JBW1p12",
+            "titre": "Uns kommt ein Schif gevaren ; Weihnachtslied ; Noël de Tauler",
+            "urlM": "1-012",
+            "gkrs": "p53"
+        },
+        {
+            "mel": 51,
+            "ref": "JBW1p76",
+            "titre": "Mey, was ist das für ein Brausen ; Weihnachtslied ; Noël",
+            "urlM": "1-076",
+            "gkrs": "p65"
+        },
+        {
+            "mel": 1,
+            "ref": "JBW1p82",
+            "titre": "Nun kommt der Heiden Heiland her ; Weihnachtslied ; Noël",
+            "urlM": "1-082",
+            "gkrs": "p66"
+        },
+        {
+            "mel": 411,
+            "ref": "JBW1p86",
+            "titre": "O Jesuslein zart ; Weihnachtslied",
+            "urlM": "1-086 et 088",
+            "gkrs": "p67"
+        },
+        {
+            "mel": 0,
+            "ref": "JBW1p144",
+            "titre": "Neujahrslied ; Chanson de nouvel an",
+            "urlM": "1-144",
+            "gkrs": "p78"
+        },
+        {
+            "mel": 22,
+            "ref": "JBW1p294",
+            "titre": "Nur langsam voran ; N'avançons que lentement",
+            "urlM": "1-294",
+            "gkrs": "p100"
+        },
+        {
+            "mel": 298,
+            "ref": "JBW1p308",
+            "titre": "Das Maisle pfift ; Le pinson chante",
+            "urlM": "1-308",
+            "gkrs": "p103"
+        },
+        {
+            "mel": 297,
+            "ref": "JBW2p20",
+            "titre": "Hopp Marianele ; Saute Mariette",
+            "urlM": "2-020",
+            "gkrs": "p115"
+        },
+        {
+            "mel": 17,
+            "ref": "JBW2p26",
+            "titre": "Drei lädrigä Strîmpf ; Trois bas de cuir",
+            "urlM": "2-026",
+            "gkrs": "p118.1"
+        },
+        {
+            "mel": 286,
+            "ref": "JBW2p30",
+            "titre": "D'r Hans hat Hosen a ; Jean a des pantalons",
+            "urlM": "2-030",
+            "gkrs": "p119"
+        },
+        {
+            "mel": 259,
+            "ref": "JBW2p42",
+            "titre": "Z'Nacht wenn der Mond schynt ; La nuit quand la lune luit",
+            "urlM": "2-042",
+            "gkrs": "p122.2"
+        },
+        {
+            "mel": 213,
+            "ref": "JBW2p78",
+            "titre": "Veile, Rose ; La chanson des beignets",
+            "urlM": "2-078",
+            "gkrs": "p139"
+        },
+        {
+            "mel": 101,
+            "ref": "JBW2p82",
+            "titre": "Gügük im Häfele ; Le coucou",
+            "urlM": "2-082",
+            "gkrs": "p140"
+        },
+        {
+            "mel": 107,
+            "ref": "JBW2p84",
+            "titre": "Sürkrüt im Häfele ; De la choucroute",
+            "urlM": "2-084",
+            "gkrs": "p141.1"
+        },
+        {
+            "mel": 54,
+            "ref": "JBW2p86",
+            "titre": "S'Messti lied ; Ecoute donc Brigitte",
+            "urlM": "2-086",
+            "gkrs": "p142"
+        },
+        {
+            "mel": 14,
+            "ref": "JBW2p100",
+            "titre": "Bibbeletanz ; Danse du coq",
+            "urlM": "2-100",
+            "gkrs": "p141.2"
+        },
+        {
+            "mel": 285,
+            "ref": "JBW2p116",
+            "titre": "Schwäfelhelzlä ; Des allumettes",
+            "urlM": "2-116",
+            "gkrs": "p148"
+        },
+        {
+            "mel": 299,
+            "ref": "JBW2p124",
+            "titre": "Es, es, es und es ; C'est une dure résolution",
+            "urlM": "2-124",
+            "gkrs": "p149"
+        },
+        {
+            "mel": 7,
+            "ref": "JBW2p162",
+            "titre": "Es trug das Mädelein ; La fillette aux cheveux noirs",
+            "urlM": "2-162",
+            "gkrs": "p160"
+        },
+        {
+            "mel": 230,
+            "ref": "JBW2p166",
+            "titre": "Gang mer nît îwer mi Mättälä ; Ne traverse pas mon pré",
+            "urlM": "2-166",
+            "gkrs": "p161"
+        },
+        {
+            "mel": 23,
+            "ref": "JBW2p178",
+            "titre": "Es dunkelt in dem Walde ; Il commence à faire noir",
+            "urlM": "2-178",
+            "gkrs": "p163.2"
+        },
+        {
+            "mel": 353,
+            "ref": "JBW2p202",
+            "titre": "Herzigs Marianel ; Charmante Marianne",
+            "urlM": "2-202",
+            "gkrs": "p168"
+        },
+        {
+            "mel": 76,
+            "ref": "JBW2p210",
+            "titre": "Hold und Sittsamkeit ; Grâce et modestie",
+            "urlM": "2-210",
+            "gkrs": "p170.2"
+        },
+        {
+            "mel": 109,
+            "ref": "JBW2p244",
+            "titre": "Ein Schifflein sah ich fahren ; Je vis flotter un bateau",
+            "urlM": "2-244",
+            "gkrs": "p180"
+        },
+        {
+            "mel": 106,
+            "ref": "JBW2p266",
+            "titre": "O du Frankreich ; O France",
+            "urlM": "2-266",
+            "gkrs": "p187"
+        },
+        {
+            "mel": 55,
+            "ref": "JBW2p300",
+            "titre": "Es wohnt ein Mîller ; Un meunier",
+            "urlM": "2-300",
+            "gkrs": "p200"
+        },
+        {
+            "mel": 145,
+            "ref": "JBW2p318",
+            "titre": "S'îsch noch nît Lang ; Il n'y a pas longtemps",
+            "urlM": "2-318",
+            "gkrs": "p203"
+        },
+        {
+            "mel": 120,
+            "ref": "JBW2p322",
+            "titre": "Truz nît so ; Ne te dépites pas",
+            "urlM": "2-322",
+            "gkrs": "p204"
+        },
+        {
+            "mel": 188,
+            "ref": "JBW2p334",
+            "titre": "Hans îm Schnôckeloch ; Jean du Schnockeloch",
+            "urlM": "2-334",
+            "gkrs": "p207.1"
+        }
+    ],
+    "prefix": "JBW",
+    "name": "Jean-Baptiste Weckerlin",
+    "core": "[12]p[1-9][0-9]{0,2}",
+    "suffix": ",M",
+    "media": "p,p",
+    "colldoc": "1Jtt0zBWsxMMDx8nf6-ZznixUfu817nOaZI4iYpHYCgw",
+    "urlMPref": "https://www.aepem.com/wp-content/uploads/Media/MUS/WeckerlinA-",
+    "urlMSuf": ".myrweb.html"
+}

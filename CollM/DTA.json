@@ -1,0 +1,128 @@
+{
+    "refs": [
+        {
+            "mel": 194,
+            "ref": "DTA76.1",
+            "ordrev": "2",
+            "titre": "Hirtereige vo Ballersdorf"
+        },
+        {
+            "mel": 343,
+            "ref": "DTA76.2",
+            "ordrev": "4",
+            "titre": "Henri vo Laufenberg"
+        },
+        {
+            "mel": 76,
+            "ref": "DTA76.3",
+            "ordrev": "11",
+            "titre": "Sarabande d'amour"
+        },
+        {
+            "mel": 253,
+            "ref": "DTA76.4",
+            "ordrev": "5",
+            "titre": "Hilf O Himmel"
+        },
+        {
+            "mel": 218,
+            "ref": "DTA76.5",
+            "ordrev": "13",
+            "titre": "Sewener Sprung"
+        },
+        {
+            "mel": 60,
+            "ref": "DTA76.6",
+            "titre": "Liewer Owestarn"
+        },
+        {
+            "mel": 30,
+            "ref": "DTA76.7",
+            "titre": "Hirte - Courante"
+        },
+        {
+            "mel": 250,
+            "ref": "DTA76.8",
+            "titre": "Vogese-Allemande"
+        },
+        {
+            "mel": 68,
+            "ref": "DTA76.9",
+            "titre": "D'r Viererschritt"
+        },
+        {
+            "mel": 61,
+            "ref": "DTA76.10",
+            "titre": "D'r Hannes"
+        },
+        {
+            "mel": 75,
+            "ref": "DTA76.11",
+            "titre": "D'r Salamandre"
+        },
+        {
+            "mel": 380,
+            "ref": "DTA76.12",
+            "titre": "Meiselocker-valse"
+        },
+        {
+            "mel": 269,
+            "ref": "DTA76.13",
+            "ordrev": "12",
+            "titre": "Kritzpolka"
+        },
+        {
+            "mel": 49,
+            "ref": "DTA76.14",
+            "titre": "Malbrough Marsch"
+        },
+        {
+            "mel": 343,
+            "ref": "DTA78.1",
+            "ordrev": "1",
+            "commentaire": "5 temps"
+        },
+        {
+            "mel": 109,
+            "ref": "DTA78.3",
+            "ordrev": "3",
+            "titre": "La danse de l'œuf"
+        },
+        {
+            "mel": 202,
+            "ref": "DTA78.6",
+            "ordrev": "6",
+            "commentaire": "Sarabande à la croix"
+        },
+        {
+            "mel": 297,
+            "ref": "DTA78.7",
+            "ordrev": "7",
+            "commentaire": "Hop Marianne"
+        },
+        {
+            "mel": 322,
+            "ref": "DTA78.8",
+            "ordrev": "8",
+            "commentaire": "Impaire d'Oderen"
+        },
+        {
+            "mel": 144,
+            "ref": "DTA78.9",
+            "ordrev": "9",
+            "commentaire": "Sept pas de Munster"
+        },
+        {
+            "mel": 166,
+            "ref": "DTA78.10",
+            "ordrev": "10",
+            "commentaire": "Varsovienne"
+        }
+    ],
+    "prefix": "DTA",
+    "name": "Danses Traditionnelles d'Alsace",
+    "core": "7[68][.][1-9][0-9]?",
+    "suffix": ",V",
+    "media": "a,v",
+    "colldoc": "1PmliVGsi_p7YBoW7sETCzh58taFUpzk0YFOk5AlgOCs"
+}
