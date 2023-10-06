@@ -2,39 +2,39 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>DTA-RS</title> <link href="style.css" rel="stylesheet" type="text/css">
-    <script src="https://cdn.jsdelivr.net/npm/@svgdotjs/svg.js@3.1/dist/svg.min.js"></script>
+    <title>DTA-RS</title> 
+    <link href="style.css" rel="stylesheet" type="text/css">
+     <!--script src="jquery-3.7.0.js"></script-->
+    <script
+			  src="https://code.jquery.com/jquery-3.7.1.js"
+			  integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+			  crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@svgdotjs/svg.js@3.1/dist/svg.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@svgdotjs/svg.draggable.js/dist/svg.draggable.js"></script>
   </head>
   <body> 
-    <script src="jquery-3.7.0.js"></script>
-    <script src="main.js"></script> 
+   
     <script src="famGraph.js"></script> 
-    <div> <p id="DTstats"> </div>
+    <div><p id="DTstats"></div>
     <label for="togglePanel">❔</label>
     <input type="checkbox" id="togglePanel"></input>
-    <aside>
-      <h2>Options</h2>
-      <div>   
-        <label for="editeur">Editeur</label>
+    <aside><h2>Options</h2>
+      <div><label for="editeur">Editeur</label>
         <input id="editeur" type="checkbox" onclick="closePanel()" ></input>
-      </div>
-      <div>
-          <label for="videoOptions">Vidéo :</label>
+      </div><div><label for="videoOptions">Vidéo :</label>
           <select id="videoOptions" onclick="closePanel()" >
               <option value=2>son+image</option>
               <option value=1>son seul</option>
               <option value=0>ignorer</option>
           </select>
-      </div><div>
-          <label for="etcOptions">Détail des documents: </label>
+      </div><div><label for="etcOptions">Détail des documents: </label>
           <select id="etcOptions" onclick="closePanel()" >
               <option value=0>réduits </option>
               <option value=1>colonne 'etc'</option>
               <option value=2>tous</option>
           </select>
-      </div><div>   
-        <label for="msczOptions">Fichiers .mscz</label>
+      </div><div><label for="msczOptions">Fichiers .mscz</label>
         <input id="msczOptions" type="checkbox" onclick="closePanel()" ></input>
       </div>
       <!--form action="enlist.html" method="post">
@@ -52,7 +52,7 @@
     </script>
     <button id="saveBtn"></button>
     <div id="DTfamBttns"></div>
-    <svg id="fPaper" ></svg>
+    <svg id="fPaper" height="0" ></svg>
     <svg height="0">
       <defs>
         <marker
@@ -73,7 +73,7 @@
           onended="audioEnded()">
       </audio>
     </div>
-    <form autocomplete="off" action="/action_page.php">
+    <form autocomplete="off" id="navForm">
       <div class="autocomplete" >
         <input id="saisieMot" type="text" name="monMot" placeholder="mot, ref, ou ds...">
       </div>

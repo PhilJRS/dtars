@@ -1,10 +1,9 @@
-var gold, flatColls, prefixes, dico, dicoArr, collPrfx, newMelIndex = []
+var gold, flatColls, prefixes, dico, dicoArr, collPrfx = []
 var flatCollFirst=[0]
 
 var curColNb = null
 var curMelNb = null
 var dansesCumReport
-var newMelIndex = []                     // index G-g
 var mels = []
 var col = []
 var fams = []
@@ -28,11 +27,7 @@ window.onload = function() {
       flatCollFirst[i+1] = flatCollFirst[i]+gold[prefix].refs.length
       col[i] = gold[prefix]
     })
-    mels.forEach((mel, j) => newMelIndex[mel.oldMel] = j)  //index des anciens n° de mélodies
     mels.forEach(mel => {  //expansions des listes de non-docs   //deréférencement souhaitable?
-      if (mel.fam) {
-        if (mel.hasOwnProperty('par')) { mel.par = mel.par.split(","); mel.par.forEach((el,i, arr) => {arr[i]=Number(el)}) } //arr[i]=mels[el]
-       } 
       if (mel.hasOwnProperty('ds')) mel.ds = mel.ds.split(",")
       if (mel.hasOwnProperty('sxs')) mel.sxs = mel.sxs.split(";")
       //if (mel.hasOwnProperty('titre')) mel.tit = mel.titre.split("_")   //expansion de la liste des titres "manquants" de la mel
@@ -100,7 +95,7 @@ window.onload = function() {
     //console.log(Array.from(mels, mel => mel.gMotsClés))
     dicoArr = Array.from(dico, (dicoWord) => dicoWord.mot)
     autocomplete(document.getElementById("saisieMot"), dicoArr); 
-    showMel(183) //défaut: Fam1 (avant: défaut 75 salamandre
+    showMel(263) //défaut: Fam1 (avant: défaut 75 salamandre
 })}
   
 //réduit une suite de mots-clés (séparés par des blancs) "kwrds" en eliminant les mots des titres "titles" :
@@ -127,20 +122,6 @@ class DicoWord {
     this.refs.push(flatRef)
   }
 }
-
-function dansesHeritees(myMel) {
-  if (myMel.par == undefined) return []
-  var herit =[]
-  myMel.par.forEach(p => herit = herit.concat(dansesCum(p)))
-  return (Array.from(new Set(herit))).sort()
-}
-
-function dansesCum(j) {  //returns an Array of danses
-  var ref = gold.m.refs[j]
-  var cumul = []
-  ref.par?.forEach(p => cumul = cumul.concat(dansesCum(p)))
-  return Array.from(new Set(cumul.concat(ref.ds ?? []))).sort() //removes duplicates
-} 
 
 function audioEnded() {
   console.log("audio ended")
@@ -189,7 +170,6 @@ function showMel(j) {   // param:   j est le n°de mel ou de doc, si > à  mels.
       addButtons('par')
       addButtons('enf') 
       addButtons('sim')
-      $('#hdrTab').append($('<div/>').text('grkey: '+mel.grkey))
   }
   if (mel.mscz != undefined &&  $('#msczOptions')[0].checked) $('#hdrTab').append($('<div/>').text('mscz: '+mel.mscz))
   if (mel.titre != undefined) $('#hdrTab').append($('<div/>').html('titre add: '+mel.titre.replaceAll('_','<br>')))
@@ -207,6 +187,22 @@ function showMel(j) {   // param:   j est le n°de mel ou de doc, si > à  mels.
   $('#mPanel').append($('<td/>').text(mel.music)) //plante probablement si music de type []
   $('#mPanel').append($('<td/>').text(mel.comment))
 
+  
+  function dsHeritage(mel) {  //mel: objet, returns an array of danse numbers
+    return Array.from(new Set(ancestors(mel).reduce((acc, m ) => m?.ds ? acc.concat(m.ds) : acc, [])))
+  }
+
+  function parents(mel) {  //mel :objet, returns an array of mel objects
+    //if(mel.graph==undefined) return []
+    return mel?.graph.rel.split('').reduce((acc, char, i) => char=='p' ? acc.concat([i]) : acc, [])
+      .map(i=>graph[mel.graph.grp].mels[i]) || []
+  }
+
+  function ancestors (mel) { //mel :objet, returns an array of mel objects
+    return (Array.from(new Set(parents(mel).reduce((acc, par)=> acc.concat(ancestors(par)), parents(mel)))))
+  }
+ 
+
   function dsLinks(dsArr) {  
     links=[]
     dsArr.forEach(el => links.push('<a href="'+gold.DS.urlPref+gold.DS.refs[el].url+'">'
@@ -214,10 +210,11 @@ function showMel(j) {   // param:   j est le n°de mel ou de doc, si > à  mels.
     return links.join(', ')
   }
   
-  var dh = dansesHeritees(mel)
-  if (dh.length>0 || mel.ds != undefined) {
+  var dh = dsHeritage(mel)
+  if (dh.length || mel.ds != undefined) {
     $('#mPanel').append($('<tr/>').append($('<table id="dsTab"/>')))
-    if (mel.ds != undefined) $('#dsTab').append($('<div/>').html('Danses propres: '+dsLinks(mel.ds)))
+    if (mel.ds != undefined) 
+      $('#dsTab').append($('<div/>').html('Danses propres: '+dsLinks(mel.ds)))
     if (dh.length) $('#dsTab').append($('<div/>').html('Danses héritées: '+dsLinks(dh)))
   }
   
