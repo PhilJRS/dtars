@@ -214,93 +214,115 @@ gold.m.refs.forEach((mel, i) => {
    })
 })
 
-//D3 : graphes : ventilation des données de graphe vers m.refs   ///faire un e fonction majRefs(i), réutilisée dans D4
-gold.m.graph.forEach((g, i) => g.forEach(m => {
-   if (i) gold.m.refs[m.mel].graph = { grp: i, X: m.X, Y: m.Y, rel: m.rel }
+//D3 : graphes : ventilation des données de graphe vers m.refs  et réciproque
+gold.m.graphs.forEach((g, i) => g.forEach(m => {
+   if (m.grp) {
+      var otherGraph = gold.m.graphs.findIndex(g=>g.includes(m.grp))
+      prompt(`m.json incohérent: mel${m.mel} appears both in graphs ${i} and ${otherGraph}.`)
+   } else m.grp = g
+   if (i) gold.m.refs[m.mel].graph = m  
 }))
 
 //D4 : ajout de relations (et melodies) par l'Utilisateur
 //pour la portabilité du code qui suit, je cherche  
-//la similitude parfaite des structure et nommages de données dans gold.m.refs et gold.m. graph 
+//la similitude parfaite des structure et nommages de données dans gold.m.refs et gold.m. graph
+
+
 function stringMark(rel, index, char) { 
    var arr=rel.split('')
    arr.splice(index,1,char); 
    return arr.join('')
  }
 
-do {
-   var rep2, rep3
-   var rep = prompt(`créer une nouvelle mélodie m${gold.m.refs.length} (m), une nouvelle relation (r) ou sauter cette étape ()?`)
+ function setRel(par, enf, sim) { //prérequis: même graphe!  //sim = opt boolean (not tested yet)
+   var e ='e', p ='p'
+   if (sim) { e = 's'; p = 's'}
+   par.graph.rel = stringMark(par.graph.rel, enf.graph.rel.indexOf("m"), e )
+   enf.graph.rel = stringMark(enf.graph.rel, par.graph.rel.indexOf("m"), p )
+ }
+
+do { 
    var newMel = gold.m.refs.length
-   var melP, melE
-   switch (rep) {
+   var input
+   function melInput(role) {//renvoie objet et n° des mélodies et familles enfant et parent
+      var num
+      while ((num = prompt(`n° de mélodie ${role} ? `)) >= newMel) {
+         console.log("numéro de mél trop élevé")
+      }
+      if (num == '') return [undefined, undefined]
+      var m = gold.m.refs[num]
+      console.log (JSON.stringify(m, ["mel", "music", "rel"], 2))
+      return [m, m?.graph?.grp ?? gold.m.graphs[0]]  
+   }
+   switch (input = prompt(`créer une nouvelle mélodie m${gold.m.refs.length} (m), une nouvelle relation (r) ou sauter cette étape ()?`)) {
       case 'm':
          gold.m.refs[newMel] = { "mel": newMel }
-         if (rep2 = prompt(`commentaire pour m${newMel}?`)) gold.m.refs[newMel].commentaire = rep2
-         if (rep3 = prompt(`musique en ABC pour m${newMel}?`)) gold.m.refs[newMel].music = rep3
+         if (input = prompt(`commentaire pour m${newMel}?`)) gold.m.refs[newMel].commentaire = input
+         if (input = prompt(`musique en ABC pour m${newMel}?`)) gold.m.refs[newMel].music = input
          break
-      case 'r': while ((melP = prompt("n° de mélodie parente (utilisée) ? ")) >= newMel) {console.log("numéro de mél trop élevé")}
-         if (melP == '') break;
-         var fP = gold.m.graph.findIndex(g=> g.map(m=>m.mel).includes(Number(melP)))
-         //if (fP==-1) fP=0
-         var mP = gold.m.refs[melP]
-         while ((melE = prompt(`n° de mélodie enfant (utilisante) ? `)) >= newMel) {console.log("numéro de mél trop élevé") }  
-         if (melE == '') break;
-         var fE = gold.m.graph.findIndex(g=> g.map(m=>m.mel).includes(Number(melE)))
-         //if (fE==-1) fE=0
-         var mE = gold.m.refs[melE]
-         if (fP == fE) {
-            if (fP == 0) {    //cas 1: il faut faire une nouvelle famille
-               fP = gold.m.graph.length
-               mP.graph = { grp: fP, X: 60, Y: 30, rel: "me" }
-               mE.graph = { grp: fP, X: 80, Y: 80, rel: "pm" }
-               [mP, mE].forEach((m, i) =>
-                  gold.m.graph[fP, i] = { mel: m.mel, X: m.graph.X, Y: m.graph.Y, rel: m.graph.rel })
-            } else {       //cas 2 il faut trouver les mappings et màj les rel existants
-               [mP, mE].forEach(m =>
-                  m.graph.rel = stringMark(m.graph.rel, (m = mP ? mE : mP).graph.rel.indexOf("m"), m = mP ? 'e' : 'p'))
-            }
-         } else if (fP * fE == 0) { //cas 3 , faut rattacher la mélodie solitaire mS à la famille f
-            var f = fP + fE     //la famille à rejoindre
-            var mS = fP ? mE : mP //anonymisation de la mélodie solitaire
-            var mF = fP ? mP : mE //... et de la mélodie déjà en famille
-            var imF = mF.graph.rel.indexOf('m') //index dans le groupe de mF
-            gold.m.graph[f].forEach((m,i) => m.rel += (i==imF?(mF==mP? 'e':'p'):'.')) //on rallonge les lignes
-            var newRel = ('.'.repeat(imF) + (mF==mP ? 'p' : 'e')).padEnd(mF.graph.rel.length, '.') + 'm'
-            gold.m.graph[f].push({mel: mS.mel, X: 60, Y: 30, rel: newRel})
-            gold.mE.graph
-            console.log( mS.graph.rel)
-         } else {             //cas 4 : 2 familles non vides à merger!
-            console.log(`cas 4 : 2 familles ${fP} et ${fE} à merger.....sais pas encore faire!`)
+      case 'r': 
+         var [par, pGrp] = melInput('parente (utilisée)')
+         var [enf, eGrp] = melInput('enfant (utilisante)')
+         if (pGrp == eGrp) { 
+            if (pGrp[0]?.rel ?? false) {       //CAS 1: il sont tous deux célibataires, il faut faire une nouvelle famille
+                //new family number
+               var nGrp =[]
+               gold.m.graphs.push(nGrp)
+               nGrp.push(par.graph = { mel: par.mel, X: 60, Y: 30, rel: "me", grp:nGrp })
+               nGrp.push(enf.graph = { mel: enf.mel, X: 80, Y: 80, rel: "pm", grp:nGrp })
+            } 
+            else setRel(par, enf)   //CAS 2: simple màj de la table des rels du graphe
+         } 
+         else if ((pGrp[0]?.rel ?? false )||( eGrp[0]?.rel ?? false)) { //CAS 3 , faut rattacher la mélodie solitaire mS à la famille f
+              //anonymisation des mélodies : SOLitaire (avant) ou GREgaire et du groupe de Destination
+            var [sol, gre, dGrp] = (pGrp[0]?.rel ?? false) ? [enf, par, pGrp] : [par,enf, eGrp]
+            var newsoli = gold.m.graphs[0].findIndex(i=>i.mel == sol.mel)//index de sol dans 0, sa pseudo-famille d'origine
+            gold.m.graphs[0].splice(newsoli, 1) //on sort le solitaire de sa liste du graph[0]
+            var j = gre.graph.rel.indexOf('m') //position de gre dans son groupe (Destination de sol)
+            dGrp.forEach((m,i) => m.rel += (i==j?(gre==par? 'e':'p'):'.')) //on rallonge chaque ligne du groupe
+            dGrp.push(sol.graph = {                                  //on ajoute la nouvelle ligne})
+               mel: sol.mel, X: 60 + (Math.floor(Math.random() *30)), Y: 30+ (Math.floor(Math.random() *30)),
+               rel: ('.'.repeat(j) + (gre==par ? 'p' : 'e')).padEnd(dGrp.length, '.') + 'm' 
+            })
+            console.log(dGrp)
+         } else {                   //CAS 4 : 2 familles non vides à merger!convention: on garde la famille du parent
+            //complète le graphe
+            var newLength = pGrp.length + eGrp.length  
+            offsetX = pGrp.reduce((max, m) => Math.max(m.graph.X, max), 0)
+            offsetY = pGrp.reduce((max, m) => Math.max(m.graph.Y, max), 0)
+            pGrp.forEach(m=>m.rel.padEnd(newLength, '.'))
+            eGrp.forEach(m=>{
+               m.X +=offsetX
+               m.Y +=offsetY
+               m.rel.padStart(newLength, '.')
+            })
+            pGrp.concat(eGrp)
+            setRel(par, enf)
+            gold.m.graphs.splice(gold.m.graphs.indexOf(eGrp),1)  //on libère le groupe vide (pour ne pas laisser [] traîner?)
          }
-         break;
-      default: rep = ''
-   }
-} while (rep != '')
+         //console.log (par)
+         //console.log (enf)
+      }
+} while (input != '')
 
-console.log(`${gold.m.graph.length} graphes pour m.js:`)
+console.log(`${gold.m.graphs.length} graphes pour m.js:`)
 
-if (prompt("enregistrer un melGraph.json o/n? (défaut: oui) ") !='n')
-fs.writeFileSync(path + "melGraph.json", JSON.stringify(gold.m.graph, 
-   [ "mel", "ds", "titre", "commentaire", "music"],  //pas "sxs"
-    2), (err) => {
+
+if (prompt("enregistrer m.graphs.json o/n? (défaut: oui) ") !='n')
+fs.writeFileSync(path + "m.graphs.json", JSON.stringify(gold.m.graphs, ["mel","X","Y","rel"], 2), (err) => {
    if (err) throw err;
 })
 
-//D4 : graphes : ventilation des données de graphe vers m.refs et vérification
-
-gold.m.graph.forEach((g, i) => g.forEach(m => {
-   if (i) gold.m.refs[m.mel].graph = { grp: i, X: m.X, Y: m.Y, rel: m.rel }
-}))
-gold.m.graph = undefined    //allège gold.js
-
 //enregistrer le gold
+
 function replacer(key, value) { // Filtering out properties for JSON.stringify of colls
    switch (key) {
       case 'ds':
       case 'suffix':
       case 'mels':                       //dans DS [et m.fam]
       case 'media': return value?.join()  //break inutile car "return"
+      case 'graph' : return undefined
+      case 'grp' : return undefined
       default: return value;
    }
 }

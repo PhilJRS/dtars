@@ -224,13 +224,7 @@
                 "ds": "2,86",
                 "titre": "Voici venir le joli mai",
                 "music": "ACDECDAA:BBCDCBAGGAAGACG,CCDEEFEDBCDEDCBA",
-                "sxs": "mu.png;;",
-                "graph": {
-                    "grp": 26,
-                    "X": 50,
-                    "Y": 20,
-                    "rel": "m.e"
-                }
+                "sxs": "mu.png;;"
             },
             {
                 "mel": 42,
@@ -423,13 +417,7 @@
             },
             {
                 "mel": 79,
-                "ds": "9,24,139",
-                "graph": {
-                    "grp": 26,
-                    "X": 330,
-                    "Y": 21,
-                    "rel": ".me"
-                }
+                "ds": "9,24,139"
             },
             {
                 "mel": 80,
@@ -529,13 +517,7 @@
             {
                 "mel": 98,
                 "ds": "24",
-                "music": "AABA,GABC,CCDE,EEDE,DCBC,DCBA",
-                "graph": {
-                    "grp": 24,
-                    "X": 50,
-                    "Y": 69,
-                    "rel": "m.e"
-                }
+                "music": "AABA,GABC,CCDE,EEDE,DCBC,DCBA"
             },
             {
                 "mel": 99,
@@ -564,13 +546,7 @@
             },
             {
                 "mel": 103,
-                "ds": "12",
-                "graph": {
-                    "grp": 18,
-                    "X": 60,
-                    "Y": 211,
-                    "rel": "m...e"
-                }
+                "ds": "12"
             },
             {
                 "mel": 104,
@@ -716,13 +692,7 @@
                 "ds": "9,24",
                 "titre": "La fiancée Hongroise",
                 "music": "GGGE,EFED,BCDE,EDCB,EEEA,",
-                "sxs": "mu.png;;",
-                "graph": {
-                    "grp": 24,
-                    "X": 330,
-                    "Y": 21,
-                    "rel": ".me"
-                }
+                "sxs": "mu.png;;"
             },
             {
                 "mel": 127,
@@ -749,13 +719,7 @@
                     "DGF#EEDC#DG,BDCBCE,F#AGF#GB",
                     "CGGG,EEE,CC,EFEDDCDECC"
                 ],
-                "sxs": "m1.png,m2.png,m3.png,m4.png;;",
-                "graph": {
-                    "grp": 7,
-                    "X": 143,
-                    "Y": 26,
-                    "rel": "m..e"
-                }
+                "sxs": "m1.png,m2.png,m3.png,m4.png;;"
             },
             {
                 "mel": 130
@@ -853,13 +817,7 @@
                     "GGCCCBDC,BDCEDCBAG",
                     "DEFFFDDEEECDDDBCEG:"
                 ],
-                "sxs": "m1.png,m2.png;;",
-                "graph": {
-                    "grp": 25,
-                    "X": 50,
-                    "Y": 20,
-                    "rel": "m.e"
-                }
+                "sxs": "m1.png,m2.png;;"
             },
             {
                 "mel": 146,
@@ -973,13 +931,7 @@
                     "GGGEAF,FFFDGE",
                     "EFGCBA,DEFBAG,CDEAGF,DEFDEC"
                 ],
-                "sxs": "m.1.png,m.2.png,m.3.png,m.4.png;;",
-                "graph": {
-                    "grp": 1,
-                    "X": 98,
-                    "Y": 82,
-                    "rel": "m....e........"
-                }
+                "sxs": "m.1.png,m.2.png,m.3.png,m.4.png;;"
             },
             {
                 "mel": 166,
@@ -993,13 +945,7 @@
                     "GGEE,GEE,GGEEFD;GDDGDD,GGDDEC",
                     "GGEE,GEE,GGEEFD;GDDGDD,GGDDEC"
                 ],
-                "sxs": "m.1.png,m.2.png,m.3.png,m.4.png,m.5.png;;",
-                "graph": {
-                    "grp": 1,
-                    "X": 338,
-                    "Y": 86,
-                    "rel": ".m...ee...s..."
-                }
+                "sxs": "m.1.png,m.2.png,m.3.png,m.4.png,m.5.png;;"
             },
             {
                 "mel": 167,
@@ -1010,13 +956,7 @@
                     "EEEEGG,GAAGGFEF,DDDDFF,FBBAAGF#GF",
                     "GCCBBAG#A,CBAEGG,FGG,DEFGABCC"
                 ],
-                "sxs": "m1.png,m2.png;;",
-                "graph": {
-                    "grp": 1,
-                    "X": 606,
-                    "Y": 106,
-                    "rel": "..m...e......."
-                }
+                "sxs": "m1.png,m2.png;;"
             },
             {
                 "mel": 168,
@@ -1027,311 +967,131 @@
                     "AGF#GAGF#GDD,AGF#GAGF#GEE.",
                     "EFF#GAG,CBCED"
                 ],
-                "sxs": "m1.png,m2.png;;",
-                "graph": {
-                    "grp": 1,
-                    "X": 103,
-                    "Y": 222,
-                    "rel": "...m....e....."
-                }
+                "sxs": "m1.png,m2.png;;"
             },
             {
                 "mel": 169,
-                "music": "C,BCDCBAG,F#GAGFEF,EFGFEDC...",
-                "graph": {
-                    "grp": 1,
-                    "X": 30,
-                    "Y": 286,
-                    "rel": "....m....e...."
-                }
+                "music": "C,BCDCBAG,F#GAGFEF,EFGFEDC..."
             },
             {
                 "mel": 170,
-                "titre": "Un a Altes Paar Ochse",
-                "graph": {
-                    "grp": 1,
-                    "X": 239,
-                    "Y": 152,
-                    "rel": "pp...m.e......"
-                }
+                "titre": "Un a Altes Paar Ochse"
             },
             {
-                "mel": 171,
-                "graph": {
-                    "grp": 1,
-                    "X": 472,
-                    "Y": 157,
-                    "rel": ".pp...me......"
-                }
+                "mel": 171
             },
             {
-                "mel": 172,
-                "graph": {
-                    "grp": 1,
-                    "X": 338,
-                    "Y": 222,
-                    "rel": ".....ppme....."
-                }
+                "mel": 172
             },
             {
-                "mel": 173,
-                "graph": {
-                    "grp": 1,
-                    "X": 263,
-                    "Y": 291,
-                    "rel": "...p...pme...."
-                }
+                "mel": 173
             },
             {
-                "mel": 174,
-                "graph": {
-                    "grp": 1,
-                    "X": 130,
-                    "Y": 356,
-                    "rel": "....p...pm...."
-                }
+                "mel": 174
             },
             {
-                "mel": 175,
-                "graph": {
-                    "grp": 1,
-                    "X": 515,
-                    "Y": 20,
-                    "rel": "..........ms.."
-                }
+                "mel": 175
             },
             {
                 "mel": 176,
-                "ds": "12",
-                "graph": {
-                    "grp": 1,
-                    "X": 637,
-                    "Y": 21,
-                    "rel": "...........ms."
-                }
+                "ds": "12"
             },
             {
-                "mel": 177,
-                "graph": {
-                    "grp": 1,
-                    "X": 747,
-                    "Y": 20,
-                    "rel": "............ms"
-                }
+                "mel": 177
             },
             {
-                "mel": 178,
-                "graph": {
-                    "grp": 1,
-                    "X": 866,
-                    "Y": 21,
-                    "rel": ".............m"
-                }
+                "mel": 178
             },
             {
                 "mel": 179,
-                "music": "EECCEDEFGG,GAGABCCBCDCBAG:",
-                "graph": {
-                    "grp": 2,
-                    "X": 70,
-                    "Y": 49,
-                    "rel": "m...e"
-                }
+                "music": "EECCEDEFGG,GAGABCCBCDCBAG:"
             },
             {
                 "mel": 180,
-                "music": "CEDBCEDBCEDCB,GACBAGE:",
-                "graph": {
-                    "grp": 2,
-                    "X": 203,
-                    "Y": 20,
-                    "rel": ".m..e"
-                }
+                "music": "CEDBCEDBCEDCB,GACBAGE:"
             },
             {
                 "mel": 181,
-                "music": "CBCDEEFFE,CBCDEGFEDCD:",
-                "graph": {
-                    "grp": 2,
-                    "X": 438,
-                    "Y": 20,
-                    "rel": "..m.e"
-                }
+                "music": "CBCDEEFFE,CBCDEGFEDCD:"
             },
             {
                 "mel": 182,
-                "ds": "5,54",
-                "graph": {
-                    "grp": 2,
-                    "X": 632,
-                    "Y": 20,
-                    "rel": "...me"
-                }
+                "ds": "5,54"
             },
             {
-                "mel": 183,
-                "graph": {
-                    "grp": 2,
-                    "X": 315,
-                    "Y": 130,
-                    "rel": "ppppm"
-                }
+                "mel": 183
             },
             {
                 "mel": 184,
                 "music": "GCGEDCCDDGGC;EDEFDEFG:",
-                "sxs": "mu.png;;",
-                "graph": {
-                    "grp": 3,
-                    "X": 390,
-                    "Y": 178,
-                    "rel": "m...e.............................................................."
-                }
+                "sxs": "mu.png;;"
             },
             {
                 "mel": 185,
                 "music": "EDEFDEFG:",
-                "sxs": "mu.png;;",
-                "graph": {
-                    "grp": 3,
-                    "X": 224,
-                    "Y": 178,
-                    "rel": ".m..e....................................e........................."
-                }
+                "sxs": "mu.png;;"
             },
             {
                 "mel": 186,
                 "ds": "11",
                 "music": "GCGCGCCCGC",
-                "sxs": "mu.png;;",
-                "graph": {
-                    "grp": 3,
-                    "X": 388,
-                    "Y": 308,
-                    "rel": "..m...e............................................................"
-                }
+                "sxs": "mu.png;;"
             },
             {
                 "mel": 187,
                 "ds": "11",
                 "titre": "Drajt sich langsàm oder schnall",
                 "music": "GFEGCBCDECCBCEDGDGEFEDC",
-                "sxs": "mu.png;;",
-                "graph": {
-                    "grp": 3,
-                    "X": 390,
-                    "Y": 245,
-                    "rel": "...m.e............................................................."
-                }
+                "sxs": "mu.png;;"
             },
             {
                 "mel": 188,
-                "ds": "11,70",
-                "graph": {
-                    "grp": 3,
-                    "X": 308,
-                    "Y": 216,
-                    "rel": "pp..me............................................................."
-                }
+                "ds": "11,70"
             },
             {
-                "mel": 189,
-                "graph": {
-                    "grp": 3,
-                    "X": 308,
-                    "Y": 275,
-                    "rel": "...ppme............................................................"
-                }
+                "mel": 189
             },
             {
-                "mel": 190,
-                "graph": {
-                    "grp": 3,
-                    "X": 308,
-                    "Y": 338,
-                    "rel": "..p..pm............................................................"
-                }
+                "mel": 190
             },
             {
                 "mel": 191,
                 "commentaire": "\"Valse\" en 2;4",
                 "music": "CEGCBFDDFBDGCEGGG",
-                "sxs": "mu.png;;",
-                "graph": {
-                    "grp": 3,
-                    "X": 251,
-                    "Y": 23,
-                    "rel": ".......m.e........................................................."
-                }
+                "sxs": "mu.png;;"
             },
             {
                 "mel": 192,
                 "commentaire": "Chibreli ",
                 "music": "EG,FE,GGFFDAGG",
-                "sxs": "mu.png;;",
-                "graph": {
-                    "grp": 3,
-                    "X": 81,
-                    "Y": 20,
-                    "rel": "........me............................s............................"
-                }
+                "sxs": "mu.png;;"
             },
             {
                 "mel": 193,
-                "ds": "4,125",
-                "graph": {
-                    "grp": 3,
-                    "X": 153,
-                    "Y": 60,
-                    "rel": ".......ppm........................................................."
-                }
+                "ds": "4,125"
             },
             {
                 "mel": 194,
                 "ds": "2,42",
-                "titre": "Bergers de Ballersdorf ; Kindeltänzelin",
-                "graph": {
-                    "grp": 3,
-                    "X": 737,
-                    "Y": 619,
-                    "rel": "..........m...........................................e............"
-                }
+                "titre": "Bergers de Ballersdorf ; Kindeltänzelin"
             },
             {
                 "mel": 195,
                 "commentaire": "Conscrit 2ème mélodie titre ?",
                 "music": "CEDFEGGFEDFFEDCED,CAGGGFEFFFEDEFG",
-                "sxs": "mu.png;;",
-                "graph": {
-                    "grp": 3,
-                    "X": 631,
-                    "Y": 324,
-                    "rel": "...........m.......................e..............................."
-                }
+                "sxs": "mu.png;;"
             },
             {
                 "mel": 196,
                 "ds": "5,6,59",
                 "music": "FFFFGFEED,DDDDCACABA,DDCFGAGFED,GFEDDCDCBC",
-                "sxs": "mu.png;;",
-                "graph": {
-                    "grp": 3,
-                    "X": 1079,
-                    "Y": 143,
-                    "rel": "............m.......e.............................................."
-                }
+                "sxs": "mu.png;;"
             },
             {
                 "mel": 197,
                 "ds": "2,88",
                 "music": "EGECDEDD:GEDC",
-                "sxs": "mu.png;;",
-                "graph": {
-                    "grp": 3,
-                    "X": 736,
-                    "Y": 513,
-                    "rel": ".............m..............e......................................"
-                }
+                "sxs": "mu.png;;"
             },
             {
                 "mel": 198,
@@ -1347,26 +1107,14 @@
                     "EEFGGFEDC:DEDC,EFGFEDC,DDDEDC",
                     "CEGEFDCC;CDCBABCC;FEDC"
                 ],
-                "sxs": "m.1.png,m.2.png,m.3.png,m.4.png,m.5.png,m.6.png;;",
-                "graph": {
-                    "grp": 3,
-                    "X": 793,
-                    "Y": 397,
-                    "rel": "..............m.............e....e..e.................e............"
-                }
+                "sxs": "m.1.png,m.2.png,m.3.png,m.4.png,m.5.png,m.6.png;;"
             },
             {
                 "mel": 199,
                 "ds": "2",
                 "titre": "Où est le maître",
                 "music": "AEEEDECEDCB:CBACBBAAACBBAEDBA",
-                "sxs": "mu.png;;",
-                "graph": {
-                    "grp": 3,
-                    "X": 516,
-                    "Y": 23,
-                    "rel": "...............m.e.........e.........................e............."
-                }
+                "sxs": "mu.png;;"
             },
             {
                 "mel": 200,
@@ -1375,35 +1123,17 @@
                     "AEDEFDCDECBCDBABCAGA",
                     "GEDEFDCDECBCDECBABCAG"
                 ],
-                "sxs": "m.1.png,m.2.png;;",
-                "graph": {
-                    "grp": 3,
-                    "X": 634,
-                    "Y": 23,
-                    "rel": "................me...............e................................."
-                }
+                "sxs": "m.1.png,m.2.png;;"
             },
             {
                 "mel": 201,
-                "ds": "96",
-                "graph": {
-                    "grp": 3,
-                    "X": 572,
-                    "Y": 64,
-                    "rel": "...............ppm................................................."
-                }
+                "ds": "96"
             },
             {
                 "mel": 202,
                 "ds": "19,128",
                 "music": "ABCB,EDECDCBA,CCCCCCCDDE",
-                "sxs": "mu.png;;",
-                "graph": {
-                    "grp": 3,
-                    "X": 947,
-                    "Y": 143,
-                    "rel": "..................m.e............e................................."
-                }
+                "sxs": "mu.png;;"
             },
             {
                 "mel": 203,
@@ -1412,55 +1142,25 @@
                     "ABCADCBCAE,ABCADCBA,",
                     "BCDFE,ECBABCDFEDCDEAGFE"
                 ],
-                "sxs": "m1.png,m2.png;;",
-                "graph": {
-                    "grp": 3,
-                    "X": 1013,
-                    "Y": 280,
-                    "rel": "...................m.............e................................."
-                }
+                "sxs": "m1.png,m2.png;;"
             },
             {
-                "mel": 204,
-                "graph": {
-                    "grp": 3,
-                    "X": 1010,
-                    "Y": 184,
-                    "rel": "............p.....p.m.............................................."
-                }
+                "mel": 204
             },
             {
                 "mel": 205,
                 "ds": "2,32",
                 "music": "EDDCCGFFFAG,EDEFGEDCA",
-                "sxs": "mu.png;;",
-                "graph": {
-                    "grp": 3,
-                    "X": 856,
-                    "Y": 22,
-                    "rel": ".....................m.e.........e................................."
-                }
+                "sxs": "mu.png;;"
             },
             {
                 "mel": 206,
                 "music": "CDCGCDCGCDCGC",
-                "sxs": "mu.png;;",
-                "graph": {
-                    "grp": 3,
-                    "X": 747,
-                    "Y": 24,
-                    "rel": "......................me..........................................."
-                }
+                "sxs": "mu.png;;"
             },
             {
                 "mel": 207,
-                "titre": "Charivari",
-                "graph": {
-                    "grp": 3,
-                    "X": 796,
-                    "Y": 64,
-                    "rel": ".....................ppm..........................................."
-                }
+                "titre": "Charivari"
             },
             {
                 "mel": 208,
@@ -1470,13 +1170,7 @@
                     "EECBAG#BEBCDDGABAG",
                     "GEGEDCBAAGFFEDFBAGDEGC"
                 ],
-                "sxs": "m1.png;;",
-                "graph": {
-                    "grp": 3,
-                    "X": 828,
-                    "Y": 610,
-                    "rel": "........................m.............................e............"
-                }
+                "sxs": "m1.png;;"
             },
             {
                 "mel": 209,
@@ -1484,41 +1178,17 @@
                 "commentaire": "Conscrit 3ème mélodie ",
                 "music": "GGGEGCEDCBCDDBCDEE",
                 "mscz": "",
-                "sxs": "mu.png;;",
-                "graph": {
-                    "grp": 3,
-                    "X": 712,
-                    "Y": 357,
-                    "rel": ".........................m.........e..............................."
-                }
+                "sxs": "mu.png;;"
             },
             {
                 "mel": 210,
-                "music": "EAG#ABCGCDE,EFEEDDEDEDCBABEAAG#GA",
-                "graph": {
-                    "grp": 3,
-                    "X": 405,
-                    "Y": 23,
-                    "rel": "..........................me......................................."
-                }
+                "music": "EAG#ABCGCDE,EFEEDDEDEDCBABEAAG#GA"
             },
             {
-                "mel": 211,
-                "graph": {
-                    "grp": 3,
-                    "X": 454,
-                    "Y": 64,
-                    "rel": "...............p..........pm......................................."
-                }
+                "mel": 211
             },
             {
-                "mel": 212,
-                "graph": {
-                    "grp": 3,
-                    "X": 777,
-                    "Y": 559,
-                    "rel": ".............pp.............m......................................"
-                }
+                "mel": 212
             },
             {
                 "mel": 213,
@@ -1528,26 +1198,14 @@
                     "CDEFGAGEFEFGEDE",
                     "GCCDDEGG,EGC,DDEEGGC"
                 ],
-                "sxs": "m1.png,m2.png;;",
-                "graph": {
-                    "grp": 3,
-                    "X": 553,
-                    "Y": 357,
-                    "rel": ".............................m.....e..............................."
-                }
+                "sxs": "m1.png,m2.png;;"
             },
             {
                 "mel": 214,
                 "ds": "15,123",
                 "titre": "Piquée Lorraine",
                 "music": "EECEDCBACBA,GGCDEE,GGCDE",
-                "sxs": "mu.png;;",
-                "graph": {
-                    "grp": 3,
-                    "X": 1038,
-                    "Y": 333,
-                    "rel": "..............................m..e................................."
-                }
+                "sxs": "mu.png;;"
             },
             {
                 "mel": 215,
@@ -1556,35 +1214,17 @@
                     "GCDCBAGCBCG:GDEFGFEDFD,GDEDCBCDBC",
                     "GCDEFGAGF#G:GAGFEDEFGF,AGFEFGFEDC  "
                 ],
-                "sxs": "m1.png,m2.png;;",
-                "graph": {
-                    "grp": 3,
-                    "X": 1056,
-                    "Y": 377,
-                    "rel": "...............................m.e................................."
-                }
+                "sxs": "m1.png,m2.png;;"
             },
             {
                 "mel": 216,
                 "music": "GCDEFGDDGFED,DFEDECCCDFED,DFEDECCCDEDC\"",
-                "sxs": "mu.png;;",
-                "graph": {
-                    "grp": 3,
-                    "X": 1086,
-                    "Y": 420,
-                    "rel": "................................me................................."
-                }
+                "sxs": "mu.png;;"
             },
             {
                 "mel": 217,
                 "ds": "141",
-                "mscz": "",
-                "graph": {
-                    "grp": 3,
-                    "X": 935,
-                    "Y": 470,
-                    "rel": "..............p.p.pp.p........pppm................................."
-                }
+                "mscz": ""
             },
             {
                 "mel": 218,
@@ -1593,35 +1233,17 @@
                     "CEGGFGFE::",
                     "DDDDEFGEC",
                     "GE::::"
-                ],
-                "graph": {
-                    "grp": 3,
-                    "X": 643,
-                    "Y": 728,
-                    "rel": "..................................m...................es..........."
-                }
+                ]
             },
             {
                 "mel": 219,
                 "ds": "14,50",
-                "titre": "Conscritdanz",
-                "graph": {
-                    "grp": 3,
-                    "X": 627,
-                    "Y": 398,
-                    "rel": "...........p.............p...p.....me.............................."
-                }
+                "titre": "Conscritdanz"
             },
             {
                 "mel": 220,
                 "ds": "51",
-                "titre": "Conscrits-Trimazo Berstett",
-                "graph": {
-                    "grp": 3,
-                    "X": 696,
-                    "Y": 467,
-                    "rel": "..............p....................pm................e............."
-                }
+                "titre": "Conscrits-Trimazo Berstett"
             },
             {
                 "mel": 221,
@@ -1632,79 +1254,37 @@
                     "GE,DEF,DCB,CDE"
                 ],
                 "mscz": "",
-                "sxs": "m1.png,m2.png;;",
-                "graph": {
-                    "grp": 3,
-                    "X": 368,
-                    "Y": 492,
-                    "rel": ".....................................m.....e......................."
-                }
+                "sxs": "m1.png,m2.png;;"
             },
             {
                 "mel": 222,
                 "commentaire": "Chibreli ",
                 "music": "GGFEGGFFAAGG",
-                "sxs": "mu.png;;",
-                "graph": {
-                    "grp": 3,
-                    "X": 74,
-                    "Y": 98,
-                    "rel": "......................................m..ee........................"
-                }
+                "sxs": "mu.png;;"
             },
             {
                 "mel": 223,
                 "ds": "23",
                 "commentaire": "Valse D 1173",
                 "music": "GCCADDBGGAGGF#G",
-                "sxs": "mu.png;;",
-                "graph": {
-                    "grp": 3,
-                    "X": 371,
-                    "Y": 391,
-                    "rel": ".......................................m.e........................."
-                }
+                "sxs": "mu.png;;"
             },
             {
                 "mel": 224,
                 "ds": "23",
                 "music": "DEF,EFG,AGFED,GFEDC",
-                "sxs": "mu.png;;",
-                "graph": {
-                    "grp": 3,
-                    "X": 203,
-                    "Y": 94,
-                    "rel": "........................................m.e........................"
-                }
+                "sxs": "mu.png;;"
             },
             {
                 "mel": 225,
-                "ds": "4,125",
-                "graph": {
-                    "grp": 3,
-                    "X": 192,
-                    "Y": 446,
-                    "rel": ".p....................................pp.m.e.e....................."
-                }
+                "ds": "4,125"
             },
             {
                 "mel": 226,
-                "ds": "4,125",
-                "graph": {
-                    "grp": 3,
-                    "X": 146,
-                    "Y": 134,
-                    "rel": "......................................p.p.m........................"
-                }
+                "ds": "4,125"
             },
             {
-                "mel": 227,
-                "graph": {
-                    "grp": 3,
-                    "X": 332,
-                    "Y": 552,
-                    "rel": ".....................................p...p.m.........e............."
-                }
+                "mel": 227
             },
             {
                 "mel": 228,
@@ -1713,57 +1293,27 @@
                     "CEECFDCBBCDE,ACCADDCBCAG",
                     "ECCA,DBBG,CCECED,BBDBDC"
                 ],
-                "sxs": "m1.png,m2.png;;",
-                "graph": {
-                    "grp": 3,
-                    "X": 99,
-                    "Y": 492,
-                    "rel": "............................................me....................."
-                }
+                "sxs": "m1.png,m2.png;;"
             },
             {
                 "mel": 229,
-                "titre": "Le chibreli alsacien",
-                "graph": {
-                    "grp": 3,
-                    "X": 172,
-                    "Y": 564,
-                    "rel": ".........................................p..pm....................."
-                }
+                "titre": "Le chibreli alsacien"
             },
             {
                 "mel": 230,
                 "ds": "3",
                 "music": "BDCABCDED,",
-                "sxs": "mu.png;;",
-                "graph": {
-                    "grp": 3,
-                    "X": 1115,
-                    "Y": 581,
-                    "rel": "..............................................m.e.................."
-                }
+                "sxs": "mu.png;;"
             },
             {
                 "mel": 231,
                 "ds": "3",
                 "commentaire": "Ch SS",
                 "music": "GCEGCEEDBGBDAGFE,GGGFEEDBGBDFEDC",
-                "sxs": "mu.png;;",
-                "graph": {
-                    "grp": 3,
-                    "X": 1006,
-                    "Y": 581,
-                    "rel": "...............................................me.................."
-                }
+                "sxs": "mu.png;;"
             },
             {
-                "mel": 232,
-                "graph": {
-                    "grp": 3,
-                    "X": 1055,
-                    "Y": 630,
-                    "rel": "..............................................ppm.e.e.............."
-                }
+                "mel": 232
             },
             {
                 "mel": 233,
@@ -1772,22 +1322,10 @@
                     "DGBAG,DACBACBAGGG",
                     "GGGEE,GGGDDBCBCDE"
                 ],
-                "sxs": "m1.png,m2.png;;",
-                "graph": {
-                    "grp": 3,
-                    "X": 944,
-                    "Y": 626,
-                    "rel": ".................................................me...e...........e"
-                }
+                "sxs": "m1.png,m2.png;;"
             },
             {
-                "mel": 234,
-                "graph": {
-                    "grp": 3,
-                    "X": 1019,
-                    "Y": 682,
-                    "rel": "................................................ppm................"
-                }
+                "mel": 234
             },
             {
                 "mel": 235,
@@ -1796,153 +1334,63 @@
                     "CDEFGGCBAGG,GAGFEEDCBCDC",
                     "GGEEEDEFEED"
                 ],
-                "sxs": "m1.png,m2.png;;",
-                "graph": {
-                    "grp": 3,
-                    "X": 1128,
-                    "Y": 632,
-                    "rel": "...................................................me.............."
-                }
+                "sxs": "m1.png,m2.png;;"
             },
             {
-                "mel": 236,
-                "graph": {
-                    "grp": 3,
-                    "X": 1099,
-                    "Y": 682,
-                    "rel": "................................................p..pm.............."
-                }
+                "mel": 236
             },
             {
                 "mel": 237,
-                "ds": "52",
-                "graph": {
-                    "grp": 3,
-                    "X": 487,
-                    "Y": 586,
-                    "rel": "...............p....................p......p.........m............."
-                }
+                "ds": "52"
             },
             {
-                "mel": 238,
-                "graph": {
-                    "grp": 3,
-                    "X": 896,
-                    "Y": 730,
-                    "rel": "..........p...p.........p.........p..............p....m............"
-                }
+                "mel": 238
             },
             {
                 "mel": 239,
-                "ds": "22",
-                "graph": {
-                    "grp": 3,
-                    "X": 554,
-                    "Y": 730,
-                    "rel": ".......................................................ms.........."
-                }
+                "ds": "22"
             },
             {
                 "mel": 240,
-                "ds": "22",
-                "graph": {
-                    "grp": 3,
-                    "X": 456,
-                    "Y": 730,
-                    "rel": "........................................................ms........."
-                }
+                "ds": "22"
             },
             {
                 "mel": 241,
-                "ds": "22",
-                "graph": {
-                    "grp": 3,
-                    "X": 369,
-                    "Y": 731,
-                    "rel": ".........................................................ms........"
-                }
+                "ds": "22"
             },
             {
                 "mel": 242,
-                "ds": "22",
-                "graph": {
-                    "grp": 3,
-                    "X": 271,
-                    "Y": 731,
-                    "rel": "..........................................................ms......."
-                }
+                "ds": "22"
             },
             {
                 "mel": 243,
-                "ds": "22",
-                "graph": {
-                    "grp": 3,
-                    "X": 108,
-                    "Y": 675,
-                    "rel": "...........................................................ms......"
-                }
+                "ds": "22"
             },
             {
                 "mel": 244,
-                "ds": "22",
-                "graph": {
-                    "grp": 3,
-                    "X": 266,
-                    "Y": 679,
-                    "rel": "............................................................ms....."
-                }
+                "ds": "22"
             },
             {
                 "mel": 245,
-                "ds": "22",
-                "graph": {
-                    "grp": 3,
-                    "X": 372,
-                    "Y": 678,
-                    "rel": ".............................................................ms...."
-                }
+                "ds": "22"
             },
             {
                 "mel": 246,
-                "ds": "22",
-                "graph": {
-                    "grp": 3,
-                    "X": 463,
-                    "Y": 679,
-                    "rel": "..............................................................ms..."
-                }
+                "ds": "22"
             },
             {
                 "mel": 247,
-                "ds": "22",
-                "graph": {
-                    "grp": 3,
-                    "X": 541,
-                    "Y": 682,
-                    "rel": "...............................................................ms.."
-                }
+                "ds": "22"
             },
             {
                 "mel": 248,
-                "ds": "22",
-                "graph": {
-                    "grp": 3,
-                    "X": 633,
-                    "Y": 681,
-                    "rel": "................................................................m.."
-                }
+                "ds": "22"
             },
             {
                 "mel": 249,
                 "ds": "5,101",
                 "music": "GCECAFAGABC:CDDEEGFED",
-                "sxs": "mu.png;;",
-                "graph": {
-                    "grp": 4,
-                    "X": 508,
-                    "Y": 22,
-                    "rel": "m....e"
-                }
+                "sxs": "mu.png;;"
             },
             {
                 "mel": 250,
@@ -1951,13 +1399,7 @@
                 "music": [
                     "GFE,GFEGEDCDC",
                     "CDEGEDCDEFED"
-                ],
-                "graph": {
-                    "grp": 4,
-                    "X": 204,
-                    "Y": 20,
-                    "rel": ".m.e.e"
-                }
+                ]
             },
             {
                 "mel": 251,
@@ -1975,86 +1417,38 @@
                         "GFEFEDEDCDCBCBAG,GABCCBCC"
                     ]
                 ],
-                "sxs": "m1.1.png,m1.2.png,m2.1.png,m2.2.png;;",
-                "graph": {
-                    "grp": 4,
-                    "X": 50,
-                    "Y": 23,
-                    "rel": "..me.."
-                }
+                "sxs": "m1.1.png,m1.2.png,m2.1.png,m2.2.png;;"
             },
             {
-                "mel": 252,
-                "graph": {
-                    "grp": 4,
-                    "X": 150,
-                    "Y": 142,
-                    "rel": ".ppm.."
-                }
+                "mel": 252
             },
             {
                 "mel": 253,
                 "ds": "5,73",
                 "titre": "courante",
-                "music": "EFEDCDEAAGCBCDCDEDCB,ABCBDCEAAGACBEDCAGA",
-                "graph": {
-                    "grp": 4,
-                    "X": 356,
-                    "Y": 20,
-                    "rel": "....me"
-                }
+                "music": "EFEDCDEAAGCBCDCDEDCB,ABCBDCEAAGACBEDCAGA"
             },
             {
-                "mel": 254,
-                "graph": {
-                    "grp": 4,
-                    "X": 363,
-                    "Y": 142,
-                    "rel": "pp..pm"
-                }
+                "mel": 254
             },
             {
                 "mel": 255,
                 "ds": "20",
-                "music": "EGDGCBB,GBDFAG,GCEGAG",
-                "graph": {
-                    "grp": 5,
-                    "X": 50,
-                    "Y": 23,
-                    "rel": "m..e..."
-                }
+                "music": "EGDGCBB,GBDFAG,GCEGAG"
             },
             {
                 "mel": 256,
                 "ds": "20",
-                "music": "GGCCEEGG,GFFAAGF#AG,GGGAABBC,CAGEFGE",
-                "graph": {
-                    "grp": 5,
-                    "X": 183,
-                    "Y": 21,
-                    "rel": ".m.e..."
-                }
+                "music": "GGCCEEGG,GFFAAGF#AG,GGGAABBC,CAGEFGE"
             },
             {
                 "mel": 257,
                 "ds": "20",
                 "titre": "Fada spinna kann i nit",
-                "music": "GAGFEEDCCDDGGCEG",
-                "graph": {
-                    "grp": 5,
-                    "X": 318,
-                    "Y": 20,
-                    "rel": "..me.e."
-                }
+                "music": "GAGFEEDCCDDGGCEG"
             },
             {
-                "mel": 258,
-                "graph": {
-                    "grp": 5,
-                    "X": 183,
-                    "Y": 130,
-                    "rel": "pppm..."
-                }
+                "mel": 258
             },
             {
                 "mel": 259,
@@ -2064,33 +1458,15 @@
                     "CDEDG,CDECD,FFFDEEE,DDDBC",
                     "EEEGFDD,CDEFGGEE",
                     "GEEFDD,CEGGGEE"
-                ],
-                "graph": {
-                    "grp": 5,
-                    "X": 531,
-                    "Y": 128,
-                    "rel": "....m.e"
-                }
+                ]
             },
             {
                 "mel": 260,
-                "music": "CCCCEEEEGGGGEEDDGGEC",
-                "graph": {
-                    "grp": 5,
-                    "X": 375,
-                    "Y": 128,
-                    "rel": "..p..me"
-                }
+                "music": "CCCCEEEEGGGGEEDDGGEC"
             },
             {
                 "mel": 261,
-                "ds": "126",
-                "graph": {
-                    "grp": 5,
-                    "X": 442,
-                    "Y": 217,
-                    "rel": "....ppm"
-                }
+                "ds": "126"
             },
             {
                 "mel": 262,
@@ -2099,35 +1475,17 @@
                     "CEBEAEAEGGG,DDCCBA#B,GGFFED#E",
                     "DAAA,GBBB,BAAAACCBBA#B",
                     "GABCCBBAAGGFFEEDGGGGGG..."
-                ],
-                "graph": {
-                    "grp": 6,
-                    "X": 63,
-                    "Y": 40,
-                    "rel": "me"
-                }
+                ]
             },
             {
                 "mel": 263,
-                "music": "EEEDD,FFFEE,GGGFF,GBBAGGbF:GGAGGFEEDC",
-                "graph": {
-                    "grp": 6,
-                    "X": 60,
-                    "Y": 148,
-                    "rel": "pm"
-                }
+                "music": "EEEDD,FFFEE,GGGFF,GBBAGGbF:GGAGGFEEDC"
             },
             {
                 "mel": 264,
                 "ds": "20",
                 "titre": "La quatrième part",
-                "music": "GCBBBABAGG,EEEDDDABDCBAG:",
-                "graph": {
-                    "grp": 7,
-                    "X": 29,
-                    "Y": 29,
-                    "rel": ".me."
-                }
+                "music": "GCBBBABAGG,EEEDDDABDCBAG:"
             },
             {
                 "mel": 265,
@@ -2140,26 +1498,14 @@
                     "CCEDCBDCBAGE,GFEAGE",
                     "GCBBB,FAGGG,GGGGFGEGDGCCBAG"
                 ],
-                "sxs": ".mp3,m1.png,m2.png,m3.png,m4.png;;",
-                "graph": {
-                    "grp": 7,
-                    "X": 73,
-                    "Y": 88,
-                    "rel": ".pme"
-                }
+                "sxs": ".mp3,m1.png,m2.png,m3.png,m4.png;;"
             },
             {
                 "mel": 266,
                 "music": [
                     "EGEE,EGCCB,DFCCB,AAG,AAG",
                     "GGAGFF,GGAGEE,CBBBFAABAGGF#GGEC:"
-                ],
-                "graph": {
-                    "grp": 8,
-                    "X": 50,
-                    "Y": 23,
-                    "rel": "m..e"
-                }
+                ]
             },
             {
                 "mel": 267,
@@ -2167,96 +1513,42 @@
                 "music": [
                     "ossia",
                     "GGAGBB,GGAGCC,CBAGBAG,BAGFAGE:"
-                ],
-                "graph": {
-                    "grp": 8,
-                    "X": 185,
-                    "Y": 20,
-                    "rel": ".m.e"
-                }
+                ]
             },
             {
                 "mel": 268,
                 "ds": "91",
-                "music": "EEFEDG,GGBAGC,EEFEEDD,DDEDDCC",
-                "graph": {
-                    "grp": 8,
-                    "X": 328,
-                    "Y": 28,
-                    "rel": "..me"
-                }
+                "music": "EEFEDG,GGBAGC,EEFEEDD,DDEDDCC"
             },
             {
                 "mel": 269,
                 "ds": "15",
-                "titre": "Berline ; Berlinoise ; Hoï hoï ; Kritzpolka ; Stettiner Polka",
-                "graph": {
-                    "grp": 8,
-                    "X": 183,
-                    "Y": 131,
-                    "rel": "pppm"
-                }
+                "titre": "Berline ; Berlinoise ; Hoï hoï ; Kritzpolka ; Stettiner Polka"
             },
             {
                 "mel": 270,
                 "ds": "23",
-                "music": "ED#EED#EGFED,GCCDDEFED,CCCCCBAGCGE...",
-                "graph": {
-                    "grp": 9,
-                    "X": 50,
-                    "Y": 20,
-                    "rel": "m.e"
-                }
+                "music": "ED#EED#EGFED,GCCDDEFED,CCCCCBAGCGE..."
             },
             {
                 "mel": 271,
                 "ds": "23",
-                "music": "CCCAAAA,CCCGGGG,GGGFGGGFGGGEEFGAG",
-                "graph": {
-                    "grp": 9,
-                    "X": 335,
-                    "Y": 21,
-                    "rel": ".me"
-                }
+                "music": "CCCAAAA,CCCGGGG,GGGFGGGFGGGEEFGAG"
             },
             {
                 "mel": 272,
                 "ds": "152",
-                "titre": "Rosenwalzer",
-                "graph": {
-                    "grp": 9,
-                    "X": 183,
-                    "Y": 128,
-                    "rel": "ppm"
-                }
+                "titre": "Rosenwalzer"
             },
             {
                 "mel": 273,
-                "ds": "14",
-                "graph": {
-                    "grp": 10,
-                    "X": 50,
-                    "Y": 25,
-                    "rel": "m.e"
-                }
+                "ds": "14"
             },
             {
-                "mel": 274,
-                "graph": {
-                    "grp": 10,
-                    "X": 300,
-                    "Y": 20,
-                    "rel": ".me"
-                }
+                "mel": 274
             },
             {
-                "mel": 275,
-                "graph": {
-                    "grp": 10,
-                    "X": 170,
-                    "Y": 129,
-                    "rel": "ppm"
-                }
+                "mel": 275
             },
             {
                 "mel": 276,
@@ -2266,35 +1558,17 @@
                     "EGGGGGEGG,GAAAAFAA,AGGGGEGG,FEEDDC"
                 ],
                 "mscz": "",
-                "sxs": "m1.png,m2.png;;",
-                "graph": {
-                    "grp": 11,
-                    "X": 50,
-                    "Y": 20,
-                    "rel": "m.e"
-                }
+                "sxs": "m1.png,m2.png;;"
             },
             {
                 "mel": 277,
                 "ds": "14",
                 "music": "CCGAAECBBCDECFFFEDEEEGGABC",
-                "sxs": "mu.png;;",
-                "graph": {
-                    "grp": 11,
-                    "X": 303,
-                    "Y": 20,
-                    "rel": ".me"
-                }
+                "sxs": "mu.png;;"
             },
             {
                 "mel": 278,
-                "ds": "4,90",
-                "graph": {
-                    "grp": 11,
-                    "X": 183,
-                    "Y": 128,
-                    "rel": "ppm"
-                }
+                "ds": "4,90"
             },
             {
                 "mel": 279,
@@ -2305,13 +1579,7 @@
                     "GEGGEGHGEF,GEEGEEGDDDD,CCEEGDEDC"
                 ],
                 "mscz": "",
-                "sxs": "m.1.png,m.2.png;;",
-                "graph": {
-                    "grp": 12,
-                    "X": 50,
-                    "Y": 20,
-                    "rel": "m.e"
-                }
+                "sxs": "m.1.png,m.2.png;;"
             },
             {
                 "mel": 280,
@@ -2327,34 +1595,16 @@
                         "GCCCBEEAAAAGCC,BCDEFGAGFE,GFED,G:"
                     ]
                 ],
-                "sxs": "m1.1.png,m1.2.png,m2.1.png,m2.2.png;;",
-                "graph": {
-                    "grp": 12,
-                    "X": 314,
-                    "Y": 22,
-                    "rel": ".me"
-                }
+                "sxs": "m1.1.png,m1.2.png,m2.1.png,m2.2.png;;"
             },
             {
                 "mel": 281,
-                "ds": "23,130",
-                "graph": {
-                    "grp": 12,
-                    "X": 183,
-                    "Y": 128,
-                    "rel": "ppm"
-                }
+                "ds": "23,130"
             },
             {
                 "mel": 282,
                 "music": "GCB,GBA,FAG,GGAGFEF,FFGFEDEFG",
-                "sxs": "mu.png;;",
-                "graph": {
-                    "grp": 13,
-                    "X": 50,
-                    "Y": 20,
-                    "rel": "m.e.."
-                }
+                "sxs": "mu.png;;"
             },
             {
                 "mel": 283,
@@ -2363,23 +1613,11 @@
                     "GGGGAG,EEEEFE,DDDDEDCCG;",
                     "CEG,A,GGE:GCBBB,FAGGG,F#GAAG#ABBABCCC"
                 ],
-                "sxs": "m1.png,m2.png;;",
-                "graph": {
-                    "grp": 13,
-                    "X": 314,
-                    "Y": 22,
-                    "rel": ".me.."
-                }
+                "sxs": "m1.png,m2.png;;"
             },
             {
                 "mel": 284,
-                "ds": "112",
-                "graph": {
-                    "grp": 13,
-                    "X": 183,
-                    "Y": 128,
-                    "rel": "ppm.e"
-                }
+                "ds": "112"
             },
             {
                 "mel": 285,
@@ -2388,36 +1626,18 @@
                     "EGGEDFFDCEECCDBC, AAACGGG,FFFGEEE",
                     "ECFDGEFD:ECDBC,AAABAGGG,FFFGFEEE"
                 ],
-                "sxs": "m1.png,m2.png;;",
-                "graph": {
-                    "grp": 14,
-                    "X": 50,
-                    "Y": 20,
-                    "rel": "m.e"
-                }
+                "sxs": "m1.png,m2.png;;"
             },
             {
                 "mel": 286,
                 "ds": "115",
                 "commentaire": "Mélodie : dans Tanz Maidla Tanz",
                 "music": "CDEDCEDBC,CCDDEDCEDBC;GFDDGECC:",
-                "sxs": "mu.png;;",
-                "graph": {
-                    "grp": 14,
-                    "X": 330,
-                    "Y": 21,
-                    "rel": ".me"
-                }
+                "sxs": "mu.png;;"
             },
             {
                 "mel": 287,
-                "ds": "14,15",
-                "graph": {
-                    "grp": 14,
-                    "X": 183,
-                    "Y": 128,
-                    "rel": "ppm"
-                }
+                "ds": "14,15"
             },
             {
                 "mel": 288,
@@ -2425,13 +1645,7 @@
                 "titre": "Des Knaben Wunderhorn",
                 "music": "CEGGECD::GBDDBGGC,GBDDBGC:",
                 "mscz": "",
-                "sxs": "mu.png;;",
-                "graph": {
-                    "grp": 15,
-                    "X": 50,
-                    "Y": 22,
-                    "rel": "m..e"
-                }
+                "sxs": "mu.png;;"
             },
             {
                 "mel": 289,
@@ -2439,13 +1653,7 @@
                 "titre": "Branle coupé de Walscheid 1900",
                 "music": "GGGDFEFEDC,CFEDCDCBAG,GCCDDGA,GDEFDED",
                 "mscz": "",
-                "sxs": "mu.png;;",
-                "graph": {
-                    "grp": 15,
-                    "X": 200,
-                    "Y": 20,
-                    "rel": ".m.e"
-                }
+                "sxs": "mu.png;;"
             },
             {
                 "mel": 290,
@@ -2455,33 +1663,15 @@
                     "GGEFGAGAF,AGEFDEFEDC,EDBCABCBAG,EDCCBC",
                     "EGDEFEDCDEFDDC#D,DCBCBAG,GFEFEDCEDCCBC"
                 ],
-                "sxs": "m1.png,m2.png;;",
-                "graph": {
-                    "grp": 15,
-                    "X": 363,
-                    "Y": 23,
-                    "rel": "..me"
-                }
+                "sxs": "m1.png,m2.png;;"
             },
             {
                 "mel": 291,
-                "ds": "146",
-                "graph": {
-                    "grp": 15,
-                    "X": 191,
-                    "Y": 132,
-                    "rel": "pppm"
-                }
+                "ds": "146"
             },
             {
                 "mel": 292,
-                "titre": "Setz drum",
-                "graph": {
-                    "grp": 16,
-                    "X": 60,
-                    "Y": 43,
-                    "rel": "m...e.."
-                }
+                "titre": "Setz drum"
             },
             {
                 "mel": 293,
@@ -2493,56 +1683,26 @@
                     "EEEEDEF,FFFFFEFG,EGGGAAG,FFEDCCC",
                     "GCCCBDC,GEEEDFE,GGAGFAG,EDEFAGC"
                 ],
-                "sxs": ".2.mp3,m.1.png,m.2.png,m.3.png,m.4.png;;",
-                "graph": {
-                    "grp": 16,
-                    "X": 328,
-                    "Y": 40,
-                    "rel": ".m.ee.."
-                }
+                "sxs": ".2.mp3,m.1.png,m.2.png,m.3.png,m.4.png;;"
             },
             {
                 "mel": 294,
                 "music": "EGF#GAGF#G,FAG#ABAG#A,BGF#GABCDECBAG;",
                 "mscz": "",
-                "sxs": "mu.png;;",
-                "graph": {
-                    "grp": 16,
-                    "X": 556,
-                    "Y": 43,
-                    "rel": "..me..."
-                }
+                "sxs": "mu.png;;"
             },
             {
                 "mel": 295,
                 "ds": "135",
-                "titre": "Belackerliad",
-                "graph": {
-                    "grp": 16,
-                    "X": 397,
-                    "Y": 116,
-                    "rel": ".ppm..e"
-                }
+                "titre": "Belackerliad"
             },
             {
-                "mel": 296,
-                "graph": {
-                    "grp": 16,
-                    "X": 192,
-                    "Y": 102,
-                    "rel": "pp..m.."
-                }
+                "mel": 296
             },
             {
                 "mel": 297,
                 "ds": "15,77",
-                "titre": "Saute Mariette ; Trempe ton pain Marie",
-                "graph": {
-                    "grp": 17,
-                    "X": 460,
-                    "Y": 79,
-                    "rel": "m...e"
-                }
+                "titre": "Saute Mariette ; Trempe ton pain Marie"
             },
             {
                 "mel": 298,
@@ -2552,13 +1712,7 @@
                     "GEGGGCEC,DEFGABC",
                     "CDEFDEFGDDEFDEDEFGEFFEDFEFEDCAAGGABC"
                 ],
-                "sxs": "m1.png,m2.png;;",
-                "graph": {
-                    "grp": 17,
-                    "X": 50,
-                    "Y": 21,
-                    "rel": ".m.e."
-                }
+                "sxs": "m1.png,m2.png;;"
             },
             {
                 "mel": 299,
@@ -2571,33 +1725,15 @@
                         "CDEEEFEDDDEDCCCDCBCBAG,GCCDDEGFEDC"
                     ]
                 ],
-                "sxs": "m1.png,m2.1.png,m2.2.png;;",
-                "graph": {
-                    "grp": 17,
-                    "X": 261,
-                    "Y": 20,
-                    "rel": "..me."
-                }
+                "sxs": "m1.png,m2.1.png,m2.2.png;;"
             },
             {
                 "mel": 300,
                 "ds": "115",
-                "titre": "PPTB",
-                "graph": {
-                    "grp": 17,
-                    "X": 150,
-                    "Y": 128,
-                    "rel": ".ppme"
-                }
+                "titre": "PPTB"
             },
             {
-                "mel": 301,
-                "graph": {
-                    "grp": 17,
-                    "X": 359,
-                    "Y": 179,
-                    "rel": "p..pm"
-                }
+                "mel": 301
             },
             {
                 "mel": 302,
@@ -2607,120 +1743,54 @@
                     "GAGF,FGFE,EFED,DDEGG:CCAGFBC",
                     "GAGF,FGFE,EEEDD,DDEGG"
                 ],
-                "sxs": "m.1.png,m.2.png;;",
-                "graph": {
-                    "grp": 18,
-                    "X": 50,
-                    "Y": 20,
-                    "rel": ".m.e."
-                }
+                "sxs": "m.1.png,m.2.png;;"
             },
             {
                 "mel": 303,
                 "music": "GGGGABCEG,BDGFABBBC",
-                "sxs": "mu.png;;",
-                "graph": {
-                    "grp": 18,
-                    "X": 335,
-                    "Y": 21,
-                    "rel": "..me."
-                }
+                "sxs": "mu.png;;"
             },
             {
-                "mel": 304,
-                "graph": {
-                    "grp": 18,
-                    "X": 183,
-                    "Y": 211,
-                    "rel": ".ppme"
-                }
+                "mel": 304
             },
             {
                 "mel": 305,
-                "music": "EEEEEEDCEGGFED;CBDDDDGGFEEDDC",
-                "graph": {
-                    "grp": 19,
-                    "X": 50,
-                    "Y": 20,
-                    "rel": "m.e"
-                }
+                "music": "EEEEEEDCEGGFED;CBDDDDGGFEEDDC"
             },
             {
                 "mel": 306,
-                "music": "GAGFDCEDDEFGAG,GCCBBA,G,F,EGCGEGGFGE",
-                "graph": {
-                    "grp": 19,
-                    "X": 335,
-                    "Y": 21,
-                    "rel": ".me"
-                }
+                "music": "GAGFDCEDDEFGAG,GCCBBA,G,F,EGCGEGGFGE"
             },
             {
-                "mel": 307,
-                "graph": {
-                    "grp": 19,
-                    "X": 183,
-                    "Y": 128,
-                    "rel": "ppm"
-                }
+                "mel": 307
             },
             {
                 "mel": 308,
                 "ds": "2,9",
                 "commentaire": "5 tps",
                 "music": "FFACCDBC:",
-                "sxs": "mu.png;;",
-                "graph": {
-                    "grp": 20,
-                    "X": 259,
-                    "Y": 20,
-                    "rel": "meeee"
-                }
+                "sxs": "mu.png;;"
             },
             {
                 "mel": 309,
                 "ds": "148",
                 "music": "FFACBC,GGGBbAGF",
-                "sxs": "mu.png;;",
-                "graph": {
-                    "grp": 20,
-                    "X": 50,
-                    "Y": 209,
-                    "rel": "pm..."
-                }
+                "sxs": "mu.png;;"
             },
             {
                 "mel": 310,
                 "music": "AAAAAACCBbGGGFGA:",
-                "sxs": "mu.png;;",
-                "graph": {
-                    "grp": 20,
-                    "X": 204,
-                    "Y": 222,
-                    "rel": "p.m.."
-                }
+                "sxs": "mu.png;;"
             },
             {
                 "mel": 311,
                 "music": "BbGCBbGCCCAFC:",
-                "sxs": "mu.png;;",
-                "graph": {
-                    "grp": 20,
-                    "X": 396,
-                    "Y": 219,
-                    "rel": "p..m."
-                }
+                "sxs": "mu.png;;"
             },
             {
                 "mel": 312,
                 "music": "ACBbAGFACBbBbAGGFDCBbAFGEF",
-                "sxs": "mu.png;;",
-                "graph": {
-                    "grp": 20,
-                    "X": 562,
-                    "Y": 205,
-                    "rel": "p...m"
-                }
+                "sxs": "mu.png;;"
             },
             {
                 "mel": 313,
@@ -2740,26 +1810,14 @@
                         "EGGCAACG,EGGAGEEGED"
                     ]
                 ],
-                "sxs": "m1.1.png,m1.2.png,m1.3.png,m2.1.png,m2.2.png,m2.3.png;;",
-                "graph": {
-                    "grp": 21,
-                    "X": 284,
-                    "Y": 23,
-                    "rel": "m..ee."
-                }
+                "sxs": "m1.1.png,m1.2.png,m1.3.png,m2.1.png,m2.2.png,m2.3.png;;"
             },
             {
                 "mel": 314,
                 "ds": "20",
                 "commentaire": "A à 4 1ère melodie",
                 "music": "GAGCEEC,GFGFEDAGAGFE",
-                "sxs": "mu.png;;",
-                "graph": {
-                    "grp": 21,
-                    "X": 50,
-                    "Y": 21,
-                    "rel": ".m.e.."
-                }
+                "sxs": "mu.png;;"
             },
             {
                 "mel": 315,
@@ -2771,54 +1829,24 @@
                     "GCCEDDFEDCBCDEFGEAGFEED,",
                     "GCCEDDFEEDCDEFGEAGFEED,"
                 ],
-                "sxs": "m.1.png,m.2.png,m.3.png;;",
-                "graph": {
-                    "grp": 21,
-                    "X": 464,
-                    "Y": 20,
-                    "rel": "..m.e."
-                }
+                "sxs": "m.1.png,m.2.png,m.3.png;;"
             },
             {
                 "mel": 316,
-                "ds": "0,27",
-                "graph": {
-                    "grp": 21,
-                    "X": 149,
-                    "Y": 133,
-                    "rel": "pp.m.e"
-                }
+                "ds": "0,27"
             },
             {
                 "mel": 317,
-                "ds": "0,27",
-                "graph": {
-                    "grp": 21,
-                    "X": 341,
-                    "Y": 131,
-                    "rel": "p.p.me"
-                }
+                "ds": "0,27"
             },
             {
-                "mel": 318,
-                "graph": {
-                    "grp": 21,
-                    "X": 242,
-                    "Y": 224,
-                    "rel": "...ppm"
-                }
+                "mel": 318
             },
             {
                 "mel": 319,
                 "ds": "9,62",
                 "titre": "D'Vergifterin ; La mort de la jeune fille",
-                "music": "GCEDDGABC,BCEBAG,GCCDDEED,EDBC",
-                "graph": {
-                    "grp": 22,
-                    "X": 662,
-                    "Y": 488,
-                    "rel": "m.....e.........................e..."
-                }
+                "music": "GCEDDGABC,BCEBAG,GCCDDEED,EDBC"
             },
             {
                 "mel": 320,
@@ -2828,100 +1856,46 @@
                     "CBCDDCDE,CBCDDEFG,EEGGFAGFE,EEGGFDDEC",
                     "CBCDDCDEEDEFFEFG,EEGGFAGFEEEGGFDEDC"
                 ],
-                "sxs": "m.1.png,m.2.png;;",
-                "graph": {
-                    "grp": 22,
-                    "X": 507,
-                    "Y": 171,
-                    "rel": ".m.e................................"
-                }
+                "sxs": "m.1.png,m.2.png;;"
             },
             {
                 "mel": 321,
                 "ds": "9",
                 "titre": "Ranspach (RS)",
                 "music": "CAACBAG,EGBAGFFAGFEDEFG;",
-                "sxs": "mu.png;;",
-                "graph": {
-                    "grp": 22,
-                    "X": 430,
-                    "Y": 157,
-                    "rel": "..me................................"
-                }
+                "sxs": "mu.png;;"
             },
             {
                 "mel": 322,
-                "ds": "24,83",
-                "graph": {
-                    "grp": 22,
-                    "X": 517,
-                    "Y": 236,
-                    "rel": ".ppm...........................e.e.."
-                }
+                "ds": "24,83"
             },
             {
                 "mel": 323,
                 "ds": "24",
-                "music": "GGABC,DEEDC,CDEGF,EDGC,FEGGFEDFE,DCEEDGDC",
-                "graph": {
-                    "grp": 22,
-                    "X": 165,
-                    "Y": 276,
-                    "rel": "....m...........e.............e....."
-                }
+                "music": "GGABC,DEEDC,CDEGF,EDGC,FEGGFEDFE,DCEEDGDC"
             },
             {
                 "mel": 324,
                 "ds": "9,85",
-                "music": "CDEE:EGGEFD,GGGGCEFGAGFE,EFAGFED,EFAGGFE",
-                "graph": {
-                    "grp": 22,
-                    "X": 739,
-                    "Y": 482,
-                    "rel": ".....me............................."
-                }
+                "music": "CDEE:EGGEFD,GGGGCEFGAGFE,EFAGFED,EFAGGFE"
             },
             {
                 "mel": 325,
                 "ds": "81",
-                "titre": "L'empoisonneuse",
-                "graph": {
-                    "grp": 22,
-                    "X": 710,
-                    "Y": 538,
-                    "rel": "p....pm............................."
-                }
+                "titre": "L'empoisonneuse"
             },
             {
                 "mel": 326,
                 "ds": "9,24",
-                "music": "GGCCBBAA,GFEGCDE;FEDLDDCGGCBAFAG",
-                "graph": {
-                    "grp": 22,
-                    "X": 498,
-                    "Y": 47,
-                    "rel": ".......m.e.........................."
-                }
+                "music": "GGCCBBAA,GFEGCDE;FEDLDDCGGCBAFAG"
             },
             {
                 "mel": 327,
                 "ds": "9,24",
-                "music": "GFECECEAGFD,FEDBDBDGFE",
-                "graph": {
-                    "grp": 22,
-                    "X": 621,
-                    "Y": 41,
-                    "rel": "........me.e.................e......"
-                }
+                "music": "GFECECEAGFD,FEDBDBDGFE"
             },
             {
-                "mel": 328,
-                "graph": {
-                    "grp": 22,
-                    "X": 550,
-                    "Y": 111,
-                    "rel": ".......ppm.........................."
-                }
+                "mel": 328
             },
             {
                 "mel": 329,
@@ -2929,56 +1903,26 @@
                 "music": [
                     "GEEEFEDEC,GEEEFEDC",
                     "BBCDCDEEDEF,BBCDCDEEDC"
-                ],
-                "graph": {
-                    "grp": 22,
-                    "X": 577,
-                    "Y": 182,
-                    "rel": "..........me........................"
-                }
+                ]
             },
             {
-                "mel": 330,
-                "graph": {
-                    "grp": 22,
-                    "X": 627,
-                    "Y": 231,
-                    "rel": "........p.pm.....................e.."
-                }
+                "mel": 330
             },
             {
                 "mel": 331,
                 "ds": "14,158",
                 "titre": "d'Blosgläser ; La danse des verriers",
-                "music": "CCACCACFFFD,DDAEEEDEF;GBDFEDCCA,GGBDFEDC",
-                "graph": {
-                    "grp": 22,
-                    "X": 591,
-                    "Y": 471,
-                    "rel": "............m...................e..."
-                }
+                "music": "CCACCACFFFD,DDAEEEDEF;GBDFEDCCA,GGBDFEDC"
             },
             {
                 "mel": 332,
                 "ds": "24",
-                "music": "GAGEDCBAGFGE:CEGGFEFGBDFEDE;",
-                "graph": {
-                    "grp": 22,
-                    "X": 735,
-                    "Y": 43,
-                    "rel": ".............m...e.................."
-                }
+                "music": "GAGEDCBAGFGE:CEGGFEFGBDFEDE;"
             },
             {
                 "mel": 333,
                 "ds": "24",
-                "music": "GCBDCEEDFE:GFDEC,GFDE",
-                "graph": {
-                    "grp": 22,
-                    "X": 777,
-                    "Y": 111,
-                    "rel": "..............m..e...............e.."
-                }
+                "music": "GCBDCEEDFE:GFDEC,GFDE"
             },
             {
                 "mel": 334,
@@ -2988,69 +1932,29 @@
                     "ossia",
                     "CCDE,DEFAG,EDGF,DDGFE,CCCA,ACAG,EGGGFAGDE",
                     "CCCE,FEFAG,EDGF,DDGFE,CCCA,ACAG,EEGF,AGBC"
-                ],
-                "graph": {
-                    "grp": 22,
-                    "X": 93,
-                    "Y": 276,
-                    "rel": "...............me..................."
-                }
+                ]
             },
             {
-                "mel": 335,
-                "graph": {
-                    "grp": 22,
-                    "X": 114,
-                    "Y": 360,
-                    "rel": "....p..........pm..................."
-                }
+                "mel": 335
             },
             {
                 "mel": 336,
-                "music": "GEEEFEDEC:GBDDCDEEDEFEC",
-                "graph": {
-                    "grp": 22,
-                    "X": 714,
-                    "Y": 151,
-                    "rel": ".............pp..m...........e......"
-                }
+                "music": "GEEEFEDEC:GBDDCDEEDEFEC"
             },
             {
                 "mel": 337,
                 "ds": "9,24",
-                "music": "AGADAAGF,GAGBcAGFED",
-                "graph": {
-                    "grp": 22,
-                    "X": 349,
-                    "Y": 395,
-                    "rel": "..................m......e.........p"
-                }
+                "music": "AGADAAGF,GAGBcAGFED"
             },
             {
                 "mel": 338,
-                "ds": "9",
-                "titre": "Laufenberg v2",
-                "commentaire": 3,
-                "music": "FEDDA,BCBAG,GABCD,EDCBA,G#ADCBACBA,DEFED",
-                "sxs": "mu.png;;",
-                "graph": {
-                    "grp": 22,
-                    "X": 224,
-                    "Y": 457,
-                    "rel": "...................m......e........."
-                }
+                "sxs": "mu.png;;"
             },
             {
                 "mel": 339,
                 "ds": "9,24",
                 "commentaire": "bidon D0690",
-                "music": "GCDEGECD,ECBA,",
-                "graph": {
-                    "grp": 22,
-                    "X": 362,
-                    "Y": 182,
-                    "rel": "....................m..e.......e...."
-                }
+                "music": "GCDEGECD,ECBA,"
             },
             {
                 "mel": 340,
@@ -3062,13 +1966,7 @@
                     "EEEC,EGFED,FEDC,EDCB,GCDEDCBA",
                     "EEECDEEDCB,DDEABCBAG,GCDEDCBA"
                 ],
-                "sxs": "m.1.png,m.2.png;;",
-                "graph": {
-                    "grp": 22,
-                    "X": 44,
-                    "Y": 191,
-                    "rel": ".....................m.e....e......."
-                }
+                "sxs": "m.1.png,m.2.png;;"
             },
             {
                 "mel": 341,
@@ -3085,123 +1983,43 @@
                         "DFGAGGABAGFEGD",
                         "DDDA,GABA,GFEC"
                     ]
-                ],
-                "graph": {
-                    "grp": 22,
-                    "X": 244,
-                    "Y": 356,
-                    "rel": "......................m...e.e.e....p"
-                }
+                ]
             },
             {
                 "mel": 342,
-                "ds": "49",
-                "graph": {
-                    "grp": 22,
-                    "X": 372,
-                    "Y": 279,
-                    "rel": "....................pp.m.e......e..."
-                }
+                "ds": "49"
             },
             {
                 "mel": 343,
-                "ds": "9,24",
-                "music": [
-                    "DDDA,ACDCBABAGAGFEDEFED",
-                    [
-                        "ossia",
-                        "DAADABAGFAFEDCDEFA,AGABAGFED",
-                        "DADDABAGFAFED,CDEFG,AGABAGFED"
-                    ]
-                ],
-                "graph": {
-                    "grp": 22,
-                    "X": 210,
-                    "Y": 508,
-                    "rel": "........................m..ee......."
-                }
+                "ds": "9,24"
             },
             {
-                "mel": 344,
-                "graph": {
-                    "grp": 22,
-                    "X": 434,
-                    "Y": 448,
-                    "rel": "..................p....p.mee........"
-                }
+                "mel": 344
             },
             {
-                "mel": 345,
-                "graph": {
-                    "grp": 22,
-                    "X": 321,
-                    "Y": 497,
-                    "rel": "...................p..p..pm........."
-                }
+                "mel": 345
             },
             {
-                "mel": 346,
-                "graph": {
-                    "grp": 22,
-                    "X": 359,
-                    "Y": 549,
-                    "rel": "........................pp.m........"
-                }
+                "mel": 346
             },
             {
                 "mel": 347,
-                "ds": "80",
-                "graph": {
-                    "grp": 22,
-                    "X": 69,
-                    "Y": 551,
-                    "rel": ".....................pp.p...m.....p"
-                }
+                "ds": "80"
             },
             {
-                "mel": 348,
-                "graph": {
-                    "grp": 22,
-                    "X": 665,
-                    "Y": 194,
-                    "rel": "........p........p...........m......"
-                }
+                "mel": 348
             },
             {
-                "mel": 349,
-                "graph": {
-                    "grp": 22,
-                    "X": 144,
-                    "Y": 413,
-                    "rel": "....p.................p.......m....."
-                }
+                "mel": 349
             },
             {
-                "mel": 350,
-                "graph": {
-                    "grp": 22,
-                    "X": 445,
-                    "Y": 282,
-                    "rel": "...p................p..........m...."
-                }
+                "mel": 350
             },
             {
-                "mel": 351,
-                "graph": {
-                    "grp": 22,
-                    "X": 600,
-                    "Y": 536,
-                    "rel": "p...........p..........p........m..."
-                }
+                "mel": 351
             },
             {
-                "mel": 352,
-                "graph": {
-                    "grp": 22,
-                    "X": 707,
-                    "Y": 291,
-                    "rel": "...p.......p..p..................m.."
-                }
+                "mel": 352
             },
             {
                 "mel": 353,
@@ -3217,25 +2035,13 @@
                     "EFGECD,DEFDFDFEC",
                     "EEEDDDCCCCGGG,CDEC,DEDC"
                 ],
-                "sxs": "m1.1.png,m1.2.png,m2.png,m3.png;;",
-                "graph": {
-                    "grp": 23,
-                    "X": 168,
-                    "Y": 94,
-                    "rel": "m......e.......................s......"
-                }
+                "sxs": "m1.1.png,m1.2.png,m2.png,m3.png;;"
             },
             {
                 "mel": 354,
                 "ds": "23",
                 "music": "EEGEEFDDCEEDCDFFEDEGHG,CAAABCGGG,CBAGGABC",
-                "sxs": "mu.png;;",
-                "graph": {
-                    "grp": 23,
-                    "X": 311,
-                    "Y": 468,
-                    "rel": ".m.............e......................"
-                }
+                "sxs": "mu.png;;"
             },
             {
                 "mel": 355,
@@ -3246,13 +2052,7 @@
                     "GEDCEDCDDGG,GFEDFEDE,GC",
                     "CCDCDEFG;ABCGFEFEDC"
                 ],
-                "sxs": "m1.png,m2.png;;",
-                "graph": {
-                    "grp": 23,
-                    "X": 151,
-                    "Y": 453,
-                    "rel": "..m.........e.......................e."
-                }
+                "sxs": "m1.png,m2.png;;"
             },
             {
                 "mel": 356,
@@ -3267,13 +2067,7 @@
                     ],
                     "GGFFE"
                 ],
-                "sxs": "m1.1.png,m1.2.png,m2.png;;",
-                "graph": {
-                    "grp": 23,
-                    "X": 262,
-                    "Y": 269,
-                    "rel": "...m..ee.............................e"
-                }
+                "sxs": "m1.1.png,m1.2.png,m2.png;;"
             },
             {
                 "mel": 357,
@@ -3284,105 +2078,45 @@
                     "EDEF,FFEFG,GGFGABAAG",
                     "CAAAFG,EDEFGE,..."
                 ],
-                "sxs": "m.2.png;;",
-                "graph": {
-                    "grp": 23,
-                    "X": 373,
-                    "Y": 280,
-                    "rel": "....m.e..............................e"
-                }
+                "sxs": "m.2.png;;"
             },
             {
                 "mel": 358,
                 "ds": "23,152",
                 "music": "CEGDG,GFGFEDCDCBCDEFG,ABCGFEFEDC",
-                "sxs": "mu.png;;",
-                "graph": {
-                    "grp": 23,
-                    "X": 50,
-                    "Y": 289,
-                    "rel": ".....m....e..........................."
-                }
+                "sxs": "mu.png;;"
             },
             {
                 "mel": 359,
-                "ds": "23",
-                "graph": {
-                    "grp": 23,
-                    "X": 274,
-                    "Y": 335,
-                    "rel": "...pp.m..e.e.........................."
-                }
+                "ds": "23"
             },
             {
-                "mel": 360,
-                "graph": {
-                    "grp": 23,
-                    "X": 165,
-                    "Y": 332,
-                    "rel": "p..p...m.ee..........................."
-                }
+                "mel": 360
             },
             {
                 "mel": 361,
                 "ds": "23",
                 "music": "GCCCCCCBBCB,GDDDCDE,EFFFF,DEEEE,CDDDCBG,",
-                "sxs": "mu.png;;",
-                "graph": {
-                    "grp": 23,
-                    "X": 422,
-                    "Y": 356,
-                    "rel": "........m..e.........................."
-                }
+                "sxs": "mu.png;;"
             },
             {
                 "mel": 362,
-                "ds": "147",
-                "graph": {
-                    "grp": 23,
-                    "X": 253,
-                    "Y": 402,
-                    "rel": "......pp.m..e........................."
-                }
+                "ds": "147"
             },
             {
                 "mel": 363,
                 "ds": "147",
-                "titre": "Valses de Munster",
-                "graph": {
-                    "grp": 23,
-                    "X": 70,
-                    "Y": 388,
-                    "rel": ".....p.p..m.........................e."
-                }
+                "titre": "Valses de Munster"
             },
             {
-                "mel": 364,
-                "graph": {
-                    "grp": 23,
-                    "X": 382,
-                    "Y": 430,
-                    "rel": "......p.p..m...e...e.................."
-                }
+                "mel": 364
             },
             {
-                "mel": 365,
-                "graph": {
-                    "grp": 23,
-                    "X": 226,
-                    "Y": 516,
-                    "rel": "..p......p..m........................."
-                }
+                "mel": 365
             },
             {
                 "mel": 366,
-                "music": "CEGCAFCAFCAFCAF,CGECGEC",
-                "graph": {
-                    "grp": 23,
-                    "X": 487,
-                    "Y": 336,
-                    "rel": ".............m.....e...e.e............"
-                }
+                "music": "CEGCAFCAFCAFCAF,CGECGEC"
             },
             {
                 "mel": 367,
@@ -3392,44 +2126,20 @@
                     "GCEGFEGFDC,DEF#GABDCABG;GGGGAGGGGGAG",
                     "GGEEGEAACG,CBAGAGFEDG"
                 ],
-                "sxs": "m1.png,m2.png;;",
-                "graph": {
-                    "grp": 23,
-                    "X": 687,
-                    "Y": 58,
-                    "rel": "..............m..e...................."
-                }
+                "sxs": "m1.png,m2.png;;"
             },
             {
                 "mel": 368,
-                "ds": "152",
-                "graph": {
-                    "grp": 23,
-                    "X": 340,
-                    "Y": 507,
-                    "rel": ".p.........p...m......................"
-                }
+                "ds": "152"
             },
             {
                 "mel": 369,
                 "ds": "23,152",
                 "music": "EEEGG,FFFFFEFGAG:EG,EG,FEDAG:",
-                "sxs": "mu.png;;",
-                "graph": {
-                    "grp": 23,
-                    "X": 790,
-                    "Y": 77,
-                    "rel": "................me......e............."
-                }
+                "sxs": "mu.png;;"
             },
             {
-                "mel": 370,
-                "graph": {
-                    "grp": 23,
-                    "X": 726,
-                    "Y": 157,
-                    "rel": "..............p.pm.........e.........."
-                }
+                "mel": 370
             },
             {
                 "mel": 371,
@@ -3437,22 +2147,10 @@
                 "titre": "La valse des violettes",
                 "music": "GCBCDCDEFED;CEGHGGGFE,FFFFED,EFGGFEDCDC",
                 "mscz": "",
-                "sxs": "mu.png;;",
-                "graph": {
-                    "grp": 23,
-                    "X": 556,
-                    "Y": 189,
-                    "rel": "..................m...e..e.......e...."
-                }
+                "sxs": "mu.png;;"
             },
             {
-                "mel": 372,
-                "graph": {
-                    "grp": 23,
-                    "X": 425,
-                    "Y": 513,
-                    "rel": "...........p.p.....m.................."
-                }
+                "mel": 372
             },
             {
                 "mel": 373,
@@ -3460,87 +2158,33 @@
                     "ossia",
                     "GGGCGE,GGGBGD,...",
                     "GGCEGBDG,BDGCEG"
-                ],
-                "graph": {
-                    "grp": 23,
-                    "X": 649,
-                    "Y": 186,
-                    "rel": "....................m.e....e.........."
-                }
+                ]
             },
             {
                 "mel": 374,
                 "titre": "Bavaroise",
-                "music": "CBAGAB,CBCDE,FEDFEDCEDCBA",
-                "graph": {
-                    "grp": 23,
-                    "X": 588,
-                    "Y": 441,
-                    "rel": ".....................m...ee..........."
-                }
+                "music": "CBAGAB,CBCDE,FEDFEDCEDCBA"
             },
             {
-                "mel": 375,
-                "graph": {
-                    "grp": 23,
-                    "X": 609,
-                    "Y": 284,
-                    "rel": "..................p.p.mee............."
-                }
+                "mel": 375
             },
             {
-                "mel": 376,
-                "graph": {
-                    "grp": 23,
-                    "X": 618,
-                    "Y": 388,
-                    "rel": ".............p........pm....e........."
-                }
+                "mel": 376
             },
             {
-                "mel": 377,
-                "graph": {
-                    "grp": 23,
-                    "X": 759,
-                    "Y": 361,
-                    "rel": "................p.....p.m.e.e........."
-                }
+                "mel": 377
             },
             {
-                "mel": 378,
-                "graph": {
-                    "grp": 23,
-                    "X": 528,
-                    "Y": 520,
-                    "rel": ".............p....p..p...m............"
-                }
+                "mel": 378
             },
             {
-                "mel": 379,
-                "graph": {
-                    "grp": 23,
-                    "X": 689,
-                    "Y": 531,
-                    "rel": ".....................p..p.m..........."
-                }
+                "mel": 379
             },
             {
-                "mel": 380,
-                "graph": {
-                    "grp": 23,
-                    "X": 694,
-                    "Y": 249,
-                    "rel": ".................p..p......m.........."
-                }
+                "mel": 380
             },
             {
-                "mel": 381,
-                "graph": {
-                    "grp": 23,
-                    "X": 670,
-                    "Y": 444,
-                    "rel": ".......................pp...m........."
-                }
+                "mel": 381
             },
             {
                 "mel": 382,
@@ -3548,24 +2192,12 @@
                     "CAAAGFGEFFFEDG,...",
                     "GFEDDFE,GFEFFAG",
                     "GCCCGACBBBDC"
-                ],
-                "graph": {
-                    "grp": 23,
-                    "X": 537,
-                    "Y": 109,
-                    "rel": ".............................m...e...."
-                }
+                ]
             },
             {
                 "mel": 383,
                 "music": "GEGC,EDFA,BBA#BEDCBAG",
-                "sxs": "mu.png;;",
-                "graph": {
-                    "grp": 23,
-                    "X": 463,
-                    "Y": 94,
-                    "rel": "..............................m.e....."
-                }
+                "sxs": "mu.png;;"
             },
             {
                 "mel": 384,
@@ -3573,13 +2205,7 @@
                     "GCCDEFGCG,EGFF,DFEE:",
                     "GGAGF#G..."
                 ],
-                "sxs": "m1.png,m2.png;;",
-                "graph": {
-                    "grp": 23,
-                    "X": 354,
-                    "Y": 96,
-                    "rel": "...............................me....."
-                }
+                "sxs": "m1.png,m2.png;;"
             },
             {
                 "mel": 385,
@@ -3588,22 +2214,10 @@
                 "music": [
                     "GCCDEFGEEFDDECC",
                     "GGAGF#G"
-                ],
-                "graph": {
-                    "grp": 23,
-                    "X": 406,
-                    "Y": 161,
-                    "rel": "..............................ppm..e.."
-                }
+                ]
             },
             {
-                "mel": 386,
-                "graph": {
-                    "grp": 23,
-                    "X": 479,
-                    "Y": 249,
-                    "rel": "..................p..........p...m...."
-                }
+                "mel": 386
             },
             {
                 "mel": 387,
@@ -3612,31 +2226,13 @@
                     "ossia",
                     "GEF#GEED,BCCEDCCBCD",
                     "GEEFGAGF,GDDEFGDE,"
-                ],
-                "graph": {
-                    "grp": 23,
-                    "X": 283,
-                    "Y": 147,
-                    "rel": "..................................me.."
-                }
+                ]
             },
             {
-                "mel": 388,
-                "graph": {
-                    "grp": 23,
-                    "X": 337,
-                    "Y": 210,
-                    "rel": "................................p.pm.."
-                }
+                "mel": 388
             },
             {
-                "mel": 389,
-                "graph": {
-                    "grp": 23,
-                    "X": 94,
-                    "Y": 515,
-                    "rel": "..p.......p.........................m."
-                }
+                "mel": 389
             },
             {
                 "mel": 390,
@@ -3647,31 +2243,13 @@
                 "sxs": "m1.jpg,m1.png,m2.png;;"
             },
             {
-                "mel": 391,
-                "graph": {
-                    "grp": 3,
-                    "X": 949,
-                    "Y": 675,
-                    "rel": ".................................................................me"
-                }
+                "mel": 391
             },
             {
-                "mel": 392,
-                "graph": {
-                    "grp": 3,
-                    "X": 990,
-                    "Y": 727,
-                    "rel": ".................................................p...............pm"
-                }
+                "mel": 392
             },
             {
-                "mel": 393,
-                "graph": {
-                    "grp": 24,
-                    "X": 183,
-                    "Y": 128,
-                    "rel": "ppm"
-                }
+                "mel": 393
             },
             {
                 "mel": 394,
@@ -3679,13 +2257,7 @@
                 "sxs": "mu.png;;"
             },
             {
-                "mel": 395,
-                "graph": {
-                    "grp": 18,
-                    "X": 192,
-                    "Y": 411,
-                    "rel": "p..pm"
-                }
+                "mel": 395
             },
             {
                 "mel": 396
@@ -3695,40 +2267,16 @@
             },
             {
                 "mel": 398,
-                "music": "GCCCECG,EEEDCD;CDEEEGGFFDEFFFAAGG",
-                "graph": {
-                    "grp": 25,
-                    "X": 330,
-                    "Y": 21,
-                    "rel": ".me"
-                }
+                "music": "GCCCECG,EEEDCD;CDEEEGGFFDEFFFAAGG"
             },
             {
-                "mel": 399,
-                "graph": {
-                    "grp": 25,
-                    "X": 183,
-                    "Y": 128,
-                    "rel": "ppm"
-                }
+                "mel": 399
             },
             {
-                "mel": 400,
-                "graph": {
-                    "grp": 26,
-                    "X": 183,
-                    "Y": 128,
-                    "rel": "ppm"
-                }
+                "mel": 400
             },
             {
-                "mel": 401,
-                "graph": {
-                    "grp": 7,
-                    "X": 109,
-                    "Y": 155,
-                    "rel": "p.pm"
-                }
+                "mel": 401
             },
             {
                 "mel": 402,
@@ -3746,49 +2294,19 @@
                 "music": "GGGGGFEEEEFDE,DABGCAG"
             },
             {
-                "mel": 405,
-                "graph": {
-                    "grp": 16,
-                    "X": 527,
-                    "Y": 123,
-                    "rel": ".....me"
-                }
+                "mel": 405
             },
             {
-                "mel": 406,
-                "graph": {
-                    "grp": 16,
-                    "X": 455,
-                    "Y": 186,
-                    "rel": "...p.pm"
-                }
+                "mel": 406
             },
             {
-                "mel": 407,
-                "graph": {
-                    "grp": 23,
-                    "X": 357,
-                    "Y": 340,
-                    "rel": "...pp................................m"
-                }
+                "mel": 407
             },
             {
-                "mel": 408,
-                "graph": {
-                    "grp": 13,
-                    "X": 82,
-                    "Y": 263,
-                    "rel": "...me"
-                }
+                "mel": 408
             },
             {
-                "mel": 409,
-                "graph": {
-                    "grp": 13,
-                    "X": 212,
-                    "Y": 313,
-                    "rel": "..ppm"
-                }
+                "mel": 409
             },
             {
                 "mel": 410
@@ -3818,26 +2336,19 @@
             {
                 "mel": 418,
                 "titre": "Laufenberg v1",
-                "music": "FEDDDA,ACDCBABAGAGFEDEFED",
-                "graph": {
-                    "grp": 22,
-                    "X": 16,
-                    "Y": 466,
-                    "rel": "............................e.....m."
-                }
+                "music": "FEDDDA,ACDCBABAGAGFEDEFED"
             },
             {
                 "mel": 419,
-                "graph": {
-                    "grp": 22,
-                    "X": 264,
-                    "Y": 282,
-                    "rel": "..................e...e............m"
-                }
+                "music": "BCBAG,GABCD,EDCBA,AGADCBACBA,CBAG,DEFED"
             },
             {
                 "mel": 420,
-                "music": "DDDA"
+                "music": [
+                    "ossia",
+                    "DDDA",
+                    "FEDDDA"
+                ]
             },
             {
                 "mel": 421,
@@ -3848,12 +2359,11 @@
                 "music": "GABA,GFED"
             },
             {
-                "mel": 423,
-                "music": "FEDDDA"
+                "mel": 423
             },
             {
                 "mel": 424,
-                "music": "BCBAG,GABCDECCBA,AGADCBACDA,CBAG,AGFDE,DFGA,GGABAGFEGD"
+                "music": "BCBAG,GABCDEDCBA,AGADCBACDA,CBAG,AGFDE,DFGA,GGABAGFEGD"
             },
             {
                 "mel": 425,
@@ -3865,8 +2375,2645 @@
             },
             {
                 "mel": 427,
-                "music": "ACDCBA,BAG,AGFEDEFED,DAADABAGF,AFEDCDEFA,AGABAGFED"
+                "music": [
+                    "ACDCBABAGAGFEDEFED",
+                    [
+                        "ossia",
+                        "DAADABAGFAFEDCDEFA,AGABAGFED",
+                        "DADDABAGFAFED,CDEFG,AGABAGFED"
+                    ]
+                ]
             }
+        ],
+        "graphs": [
+            [
+                {
+                    "mel": 0,
+                    "X": 60,
+                    "Y": 40,
+                    "rel": "m"
+                },
+                {
+                    "mel": 1,
+                    "X": 130,
+                    "Y": 40,
+                    "rel": "m"
+                },
+                {
+                    "mel": 2,
+                    "X": 200,
+                    "Y": 40,
+                    "rel": "m"
+                },
+                {
+                    "mel": 3,
+                    "X": 270,
+                    "Y": 40,
+                    "rel": "m"
+                },
+                {
+                    "mel": 4,
+                    "X": 340,
+                    "Y": 40,
+                    "rel": "m"
+                },
+                {
+                    "mel": 5,
+                    "X": 410,
+                    "Y": 40,
+                    "rel": "m"
+                },
+                {
+                    "mel": 6,
+                    "X": 480,
+                    "Y": 40,
+                    "rel": "m"
+                },
+                {
+                    "mel": 7,
+                    "X": 550,
+                    "Y": 40,
+                    "rel": "m"
+                },
+                {
+                    "mel": 8,
+                    "X": 620,
+                    "Y": 40,
+                    "rel": "m"
+                },
+                {
+                    "mel": 9,
+                    "X": 690,
+                    "Y": 40,
+                    "rel": "m"
+                },
+                {
+                    "mel": 10,
+                    "X": 760,
+                    "Y": 40,
+                    "rel": "m"
+                },
+                {
+                    "mel": 11,
+                    "X": 830,
+                    "Y": 40,
+                    "rel": "m"
+                },
+                {
+                    "mel": 12,
+                    "X": 900,
+                    "Y": 40,
+                    "rel": "m"
+                },
+                {
+                    "mel": 13,
+                    "X": 60,
+                    "Y": 90,
+                    "rel": "m"
+                },
+                {
+                    "mel": 14,
+                    "X": 130,
+                    "Y": 90,
+                    "rel": "m"
+                },
+                {
+                    "mel": 15,
+                    "X": 200,
+                    "Y": 90,
+                    "rel": "m"
+                },
+                {
+                    "mel": 16,
+                    "X": 270,
+                    "Y": 90,
+                    "rel": "m"
+                },
+                {
+                    "mel": 17,
+                    "X": 340,
+                    "Y": 90,
+                    "rel": "m"
+                },
+                {
+                    "mel": 18,
+                    "X": 410,
+                    "Y": 90,
+                    "rel": "m"
+                },
+                {
+                    "mel": 19,
+                    "X": 480,
+                    "Y": 90,
+                    "rel": "m"
+                },
+                {
+                    "mel": 20,
+                    "X": 550,
+                    "Y": 90,
+                    "rel": "m"
+                },
+                {
+                    "mel": 21,
+                    "X": 620,
+                    "Y": 90,
+                    "rel": "m"
+                },
+                {
+                    "mel": 22,
+                    "X": 690,
+                    "Y": 90,
+                    "rel": "m"
+                },
+                {
+                    "mel": 23,
+                    "X": 760,
+                    "Y": 90,
+                    "rel": "m"
+                },
+                {
+                    "mel": 24,
+                    "X": 830,
+                    "Y": 90,
+                    "rel": "m"
+                },
+                {
+                    "mel": 25,
+                    "X": 900,
+                    "Y": 90,
+                    "rel": "m"
+                },
+                {
+                    "mel": 26,
+                    "X": 60,
+                    "Y": 140,
+                    "rel": "m"
+                },
+                {
+                    "mel": 27,
+                    "X": 130,
+                    "Y": 140,
+                    "rel": "m"
+                },
+                {
+                    "mel": 28,
+                    "X": 200,
+                    "Y": 140,
+                    "rel": "m"
+                },
+                {
+                    "mel": 29,
+                    "X": 270,
+                    "Y": 140,
+                    "rel": "m"
+                },
+                {
+                    "mel": 30,
+                    "X": 340,
+                    "Y": 140,
+                    "rel": "m"
+                },
+                {
+                    "mel": 31,
+                    "X": 410,
+                    "Y": 140,
+                    "rel": "m"
+                },
+                {
+                    "mel": 32,
+                    "X": 480,
+                    "Y": 140,
+                    "rel": "m"
+                },
+                {
+                    "mel": 33,
+                    "X": 550,
+                    "Y": 140,
+                    "rel": "m"
+                },
+                {
+                    "mel": 34,
+                    "X": 620,
+                    "Y": 140,
+                    "rel": "m"
+                },
+                {
+                    "mel": 35,
+                    "X": 690,
+                    "Y": 140,
+                    "rel": "m"
+                },
+                {
+                    "mel": 36,
+                    "X": 760,
+                    "Y": 140,
+                    "rel": "m"
+                },
+                {
+                    "mel": 37,
+                    "X": 830,
+                    "Y": 140,
+                    "rel": "m"
+                },
+                {
+                    "mel": 38,
+                    "X": 900,
+                    "Y": 140,
+                    "rel": "m"
+                },
+                {
+                    "mel": 39,
+                    "X": 60,
+                    "Y": 190,
+                    "rel": "m"
+                },
+                {
+                    "mel": 40,
+                    "X": 130,
+                    "Y": 190,
+                    "rel": "m"
+                },
+                {
+                    "mel": 42,
+                    "X": 200,
+                    "Y": 190,
+                    "rel": "m"
+                },
+                {
+                    "mel": 43,
+                    "X": 270,
+                    "Y": 190,
+                    "rel": "m"
+                },
+                {
+                    "mel": 44,
+                    "X": 340,
+                    "Y": 190,
+                    "rel": "m"
+                },
+                {
+                    "mel": 45,
+                    "X": 410,
+                    "Y": 190,
+                    "rel": "m"
+                },
+                {
+                    "mel": 46,
+                    "X": 480,
+                    "Y": 190,
+                    "rel": "m"
+                },
+                {
+                    "mel": 47,
+                    "X": 550,
+                    "Y": 190,
+                    "rel": "m"
+                },
+                {
+                    "mel": 48,
+                    "X": 620,
+                    "Y": 190,
+                    "rel": "m"
+                },
+                {
+                    "mel": 49,
+                    "X": 690,
+                    "Y": 190,
+                    "rel": "m"
+                },
+                {
+                    "mel": 50,
+                    "X": 760,
+                    "Y": 190,
+                    "rel": "m"
+                },
+                {
+                    "mel": 51,
+                    "X": 830,
+                    "Y": 190,
+                    "rel": "m"
+                },
+                {
+                    "mel": 52,
+                    "X": 900,
+                    "Y": 190,
+                    "rel": "m"
+                },
+                {
+                    "mel": 53,
+                    "X": 60,
+                    "Y": 240,
+                    "rel": "m"
+                },
+                {
+                    "mel": 54,
+                    "X": 130,
+                    "Y": 240,
+                    "rel": "m"
+                },
+                {
+                    "mel": 55,
+                    "X": 200,
+                    "Y": 240,
+                    "rel": "m"
+                },
+                {
+                    "mel": 56,
+                    "X": 270,
+                    "Y": 240,
+                    "rel": "m"
+                },
+                {
+                    "mel": 57,
+                    "X": 340,
+                    "Y": 240,
+                    "rel": "m"
+                },
+                {
+                    "mel": 58,
+                    "X": 410,
+                    "Y": 240,
+                    "rel": "m"
+                },
+                {
+                    "mel": 59,
+                    "X": 480,
+                    "Y": 240,
+                    "rel": "m"
+                },
+                {
+                    "mel": 60,
+                    "X": 550,
+                    "Y": 240,
+                    "rel": "m"
+                },
+                {
+                    "mel": 61,
+                    "X": 620,
+                    "Y": 240,
+                    "rel": "m"
+                },
+                {
+                    "mel": 62,
+                    "X": 690,
+                    "Y": 240,
+                    "rel": "m"
+                },
+                {
+                    "mel": 63,
+                    "X": 760,
+                    "Y": 240,
+                    "rel": "m"
+                },
+                {
+                    "mel": 64,
+                    "X": 830,
+                    "Y": 240,
+                    "rel": "m"
+                },
+                {
+                    "mel": 65,
+                    "X": 900,
+                    "Y": 240,
+                    "rel": "m"
+                },
+                {
+                    "mel": 66,
+                    "X": 60,
+                    "Y": 290,
+                    "rel": "m"
+                },
+                {
+                    "mel": 67,
+                    "X": 130,
+                    "Y": 290,
+                    "rel": "m"
+                },
+                {
+                    "mel": 68,
+                    "X": 200,
+                    "Y": 290,
+                    "rel": "m"
+                },
+                {
+                    "mel": 69,
+                    "X": 270,
+                    "Y": 290,
+                    "rel": "m"
+                },
+                {
+                    "mel": 70,
+                    "X": 340,
+                    "Y": 290,
+                    "rel": "m"
+                },
+                {
+                    "mel": 71,
+                    "X": 410,
+                    "Y": 290,
+                    "rel": "m"
+                },
+                {
+                    "mel": 72,
+                    "X": 480,
+                    "Y": 290,
+                    "rel": "m"
+                },
+                {
+                    "mel": 73,
+                    "X": 550,
+                    "Y": 290,
+                    "rel": "m"
+                },
+                {
+                    "mel": 74,
+                    "X": 620,
+                    "Y": 290,
+                    "rel": "m"
+                },
+                {
+                    "mel": 75,
+                    "X": 690,
+                    "Y": 290,
+                    "rel": "m"
+                },
+                {
+                    "mel": 76,
+                    "X": 760,
+                    "Y": 290,
+                    "rel": "m"
+                },
+                {
+                    "mel": 77,
+                    "X": 830,
+                    "Y": 290,
+                    "rel": "m"
+                },
+                {
+                    "mel": 78,
+                    "X": 900,
+                    "Y": 290,
+                    "rel": "m"
+                },
+                {
+                    "mel": 80,
+                    "X": 60,
+                    "Y": 340,
+                    "rel": "m"
+                },
+                {
+                    "mel": 81,
+                    "X": 130,
+                    "Y": 340,
+                    "rel": "m"
+                },
+                {
+                    "mel": 82,
+                    "X": 200,
+                    "Y": 340,
+                    "rel": "m"
+                },
+                {
+                    "mel": 83,
+                    "X": 270,
+                    "Y": 340,
+                    "rel": "m"
+                },
+                {
+                    "mel": 84,
+                    "X": 340,
+                    "Y": 340,
+                    "rel": "m"
+                },
+                {
+                    "mel": 85,
+                    "X": 410,
+                    "Y": 340,
+                    "rel": "m"
+                },
+                {
+                    "mel": 86,
+                    "X": 480,
+                    "Y": 340,
+                    "rel": "m"
+                },
+                {
+                    "mel": 87,
+                    "X": 550,
+                    "Y": 340,
+                    "rel": "m"
+                },
+                {
+                    "mel": 88,
+                    "X": 620,
+                    "Y": 340,
+                    "rel": "m"
+                },
+                {
+                    "mel": 89,
+                    "X": 690,
+                    "Y": 340,
+                    "rel": "m"
+                },
+                {
+                    "mel": 90,
+                    "X": 760,
+                    "Y": 340,
+                    "rel": "m"
+                },
+                {
+                    "mel": 91,
+                    "X": 830,
+                    "Y": 340,
+                    "rel": "m"
+                },
+                {
+                    "mel": 92,
+                    "X": 900,
+                    "Y": 340,
+                    "rel": "m"
+                },
+                {
+                    "mel": 93,
+                    "X": 60,
+                    "Y": 390,
+                    "rel": "m"
+                },
+                {
+                    "mel": 94,
+                    "X": 130,
+                    "Y": 390,
+                    "rel": "m"
+                },
+                {
+                    "mel": 95,
+                    "X": 200,
+                    "Y": 390,
+                    "rel": "m"
+                },
+                {
+                    "mel": 96,
+                    "X": 270,
+                    "Y": 390,
+                    "rel": "m"
+                },
+                {
+                    "mel": 97,
+                    "X": 340,
+                    "Y": 390,
+                    "rel": "m"
+                },
+                {
+                    "mel": 99,
+                    "X": 410,
+                    "Y": 390,
+                    "rel": "m"
+                },
+                {
+                    "mel": 100,
+                    "X": 480,
+                    "Y": 390,
+                    "rel": "m"
+                },
+                {
+                    "mel": 101,
+                    "X": 550,
+                    "Y": 390,
+                    "rel": "m"
+                },
+                {
+                    "mel": 102,
+                    "X": 620,
+                    "Y": 390,
+                    "rel": "m"
+                },
+                {
+                    "mel": 104,
+                    "X": 690,
+                    "Y": 390,
+                    "rel": "m"
+                },
+                {
+                    "mel": 105,
+                    "X": 760,
+                    "Y": 390,
+                    "rel": "m"
+                },
+                {
+                    "mel": 106,
+                    "X": 830,
+                    "Y": 390,
+                    "rel": "m"
+                },
+                {
+                    "mel": 107,
+                    "X": 900,
+                    "Y": 390,
+                    "rel": "m"
+                },
+                {
+                    "mel": 108,
+                    "X": 60,
+                    "Y": 440,
+                    "rel": "m"
+                },
+                {
+                    "mel": 109,
+                    "X": 130,
+                    "Y": 440,
+                    "rel": "m"
+                },
+                {
+                    "mel": 110,
+                    "X": 200,
+                    "Y": 440,
+                    "rel": "m"
+                },
+                {
+                    "mel": 111,
+                    "X": 270,
+                    "Y": 440,
+                    "rel": "m"
+                },
+                {
+                    "mel": 112,
+                    "X": 340,
+                    "Y": 440,
+                    "rel": "m"
+                },
+                {
+                    "mel": 113,
+                    "X": 410,
+                    "Y": 440,
+                    "rel": "m"
+                },
+                {
+                    "mel": 114,
+                    "X": 480,
+                    "Y": 440,
+                    "rel": "m"
+                },
+                {
+                    "mel": 115,
+                    "X": 550,
+                    "Y": 440,
+                    "rel": "m"
+                },
+                {
+                    "mel": 116,
+                    "X": 620,
+                    "Y": 440,
+                    "rel": "m"
+                },
+                {
+                    "mel": 117,
+                    "X": 690,
+                    "Y": 440,
+                    "rel": "m"
+                },
+                {
+                    "mel": 118,
+                    "X": 760,
+                    "Y": 440,
+                    "rel": "m"
+                },
+                {
+                    "mel": 119,
+                    "X": 830,
+                    "Y": 440,
+                    "rel": "m"
+                },
+                {
+                    "mel": 120,
+                    "X": 900,
+                    "Y": 440,
+                    "rel": "m"
+                },
+                {
+                    "mel": 121,
+                    "X": 60,
+                    "Y": 490,
+                    "rel": "m"
+                },
+                {
+                    "mel": 122,
+                    "X": 130,
+                    "Y": 490,
+                    "rel": "m"
+                },
+                {
+                    "mel": 123,
+                    "X": 200,
+                    "Y": 490,
+                    "rel": "m"
+                },
+                {
+                    "mel": 124,
+                    "X": 270,
+                    "Y": 490,
+                    "rel": "m"
+                },
+                {
+                    "mel": 125,
+                    "X": 340,
+                    "Y": 490,
+                    "rel": "m"
+                },
+                {
+                    "mel": 127,
+                    "X": 410,
+                    "Y": 490,
+                    "rel": "m"
+                },
+                {
+                    "mel": 128,
+                    "X": 480,
+                    "Y": 490,
+                    "rel": "m"
+                },
+                {
+                    "mel": 130,
+                    "X": 550,
+                    "Y": 490,
+                    "rel": "m"
+                },
+                {
+                    "mel": 131,
+                    "X": 620,
+                    "Y": 490,
+                    "rel": "m"
+                },
+                {
+                    "mel": 132,
+                    "X": 690,
+                    "Y": 490,
+                    "rel": "m"
+                },
+                {
+                    "mel": 133,
+                    "X": 760,
+                    "Y": 490,
+                    "rel": "m"
+                },
+                {
+                    "mel": 134,
+                    "X": 830,
+                    "Y": 490,
+                    "rel": "m"
+                },
+                {
+                    "mel": 135,
+                    "X": 900,
+                    "Y": 490,
+                    "rel": "m"
+                },
+                {
+                    "mel": 136,
+                    "X": 60,
+                    "Y": 540,
+                    "rel": "m"
+                },
+                {
+                    "mel": 137,
+                    "X": 130,
+                    "Y": 540,
+                    "rel": "m"
+                },
+                {
+                    "mel": 138,
+                    "X": 200,
+                    "Y": 540,
+                    "rel": "m"
+                },
+                {
+                    "mel": 139,
+                    "X": 270,
+                    "Y": 540,
+                    "rel": "m"
+                },
+                {
+                    "mel": 140,
+                    "X": 340,
+                    "Y": 540,
+                    "rel": "m"
+                },
+                {
+                    "mel": 141,
+                    "X": 410,
+                    "Y": 540,
+                    "rel": "m"
+                },
+                {
+                    "mel": 142,
+                    "X": 480,
+                    "Y": 540,
+                    "rel": "m"
+                },
+                {
+                    "mel": 143,
+                    "X": 550,
+                    "Y": 540,
+                    "rel": "m"
+                },
+                {
+                    "mel": 144,
+                    "X": 620,
+                    "Y": 540,
+                    "rel": "m"
+                },
+                {
+                    "mel": 146,
+                    "X": 690,
+                    "Y": 540,
+                    "rel": "m"
+                },
+                {
+                    "mel": 147,
+                    "X": 760,
+                    "Y": 540,
+                    "rel": "m"
+                },
+                {
+                    "mel": 148,
+                    "X": 830,
+                    "Y": 540,
+                    "rel": "m"
+                },
+                {
+                    "mel": 149,
+                    "X": 900,
+                    "Y": 540,
+                    "rel": "m"
+                },
+                {
+                    "mel": 150,
+                    "X": 60,
+                    "Y": 590,
+                    "rel": "m"
+                },
+                {
+                    "mel": 151,
+                    "X": 130,
+                    "Y": 590,
+                    "rel": "m"
+                },
+                {
+                    "mel": 152,
+                    "X": 200,
+                    "Y": 590,
+                    "rel": "m"
+                },
+                {
+                    "mel": 153,
+                    "X": 270,
+                    "Y": 590,
+                    "rel": "m"
+                },
+                {
+                    "mel": 154,
+                    "X": 340,
+                    "Y": 590,
+                    "rel": "m"
+                },
+                {
+                    "mel": 155,
+                    "X": 410,
+                    "Y": 590,
+                    "rel": "m"
+                },
+                {
+                    "mel": 156,
+                    "X": 480,
+                    "Y": 590,
+                    "rel": "m"
+                },
+                {
+                    "mel": 157,
+                    "X": 550,
+                    "Y": 590,
+                    "rel": "m"
+                },
+                {
+                    "mel": 158,
+                    "X": 620,
+                    "Y": 590,
+                    "rel": "m"
+                },
+                {
+                    "mel": 159,
+                    "X": 690,
+                    "Y": 590,
+                    "rel": "m"
+                },
+                {
+                    "mel": 160,
+                    "X": 760,
+                    "Y": 590,
+                    "rel": "m"
+                },
+                {
+                    "mel": 161,
+                    "X": 830,
+                    "Y": 590,
+                    "rel": "m"
+                },
+                {
+                    "mel": 162,
+                    "X": 900,
+                    "Y": 590,
+                    "rel": "m"
+                },
+                {
+                    "mel": 163,
+                    "X": 60,
+                    "Y": 640,
+                    "rel": "m"
+                },
+                {
+                    "mel": 164,
+                    "X": 130,
+                    "Y": 640,
+                    "rel": "m"
+                },
+                {
+                    "mel": 390,
+                    "X": 200,
+                    "Y": 640,
+                    "rel": "m"
+                },
+                {
+                    "mel": 394,
+                    "X": 270,
+                    "Y": 640,
+                    "rel": "m"
+                },
+                {
+                    "mel": 396,
+                    "X": 340,
+                    "Y": 640,
+                    "rel": "m"
+                },
+                {
+                    "mel": 397,
+                    "X": 410,
+                    "Y": 640,
+                    "rel": "m"
+                },
+                {
+                    "mel": 402,
+                    "X": 480,
+                    "Y": 640,
+                    "rel": "m"
+                },
+                {
+                    "mel": 403,
+                    "X": 550,
+                    "Y": 640,
+                    "rel": "m"
+                },
+                {
+                    "mel": 404,
+                    "X": 620,
+                    "Y": 640,
+                    "rel": "m"
+                },
+                {
+                    "mel": 410,
+                    "X": 690,
+                    "Y": 640,
+                    "rel": "m"
+                },
+                {
+                    "mel": 411,
+                    "X": 760,
+                    "Y": 640,
+                    "rel": "m"
+                },
+                {
+                    "mel": 412,
+                    "X": 830,
+                    "Y": 640,
+                    "rel": "m"
+                },
+                {
+                    "mel": 413,
+                    "X": 900,
+                    "Y": 640,
+                    "rel": "m"
+                },
+                {
+                    "mel": 414,
+                    "X": 60,
+                    "Y": 690,
+                    "rel": "m"
+                },
+                {
+                    "mel": 415,
+                    "X": 130,
+                    "Y": 690,
+                    "rel": "m"
+                },
+                {
+                    "mel": 416,
+                    "X": 200,
+                    "Y": 690,
+                    "rel": "m"
+                },
+                {
+                    "mel": 417,
+                    "X": 270,
+                    "Y": 690,
+                    "rel": "m"
+                },
+                {
+                    "mel": 420,
+                    "X": 340,
+                    "Y": 690,
+                    "rel": "m"
+                },
+                {
+                    "mel": 423,
+                    "X": 410,
+                    "Y": 690,
+                    "rel": "m"
+                },
+                {
+                    "mel": 427,
+                    "X": 480,
+                    "Y": 690,
+                    "rel": "m"
+                }
+            ],
+            [
+                {
+                    "mel": 165,
+                    "X": 128,
+                    "Y": 102,
+                    "rel": "m....e........"
+                },
+                {
+                    "mel": 166,
+                    "X": 368,
+                    "Y": 106,
+                    "rel": ".m...ee...s..."
+                },
+                {
+                    "mel": 167,
+                    "X": 636,
+                    "Y": 126,
+                    "rel": "..m...e......."
+                },
+                {
+                    "mel": 168,
+                    "X": 133,
+                    "Y": 242,
+                    "rel": "...m....e....."
+                },
+                {
+                    "mel": 169,
+                    "X": 60,
+                    "Y": 306,
+                    "rel": "....m....e...."
+                },
+                {
+                    "mel": 170,
+                    "X": 269,
+                    "Y": 172,
+                    "rel": "pp...m.e......"
+                },
+                {
+                    "mel": 171,
+                    "X": 502,
+                    "Y": 177,
+                    "rel": ".pp...me......"
+                },
+                {
+                    "mel": 172,
+                    "X": 368,
+                    "Y": 242,
+                    "rel": ".....ppme....."
+                },
+                {
+                    "mel": 173,
+                    "X": 293,
+                    "Y": 311,
+                    "rel": "...p...pme...."
+                },
+                {
+                    "mel": 174,
+                    "X": 160,
+                    "Y": 376,
+                    "rel": "....p...pm...."
+                },
+                {
+                    "mel": 175,
+                    "X": 545,
+                    "Y": 40,
+                    "rel": "..........ms.."
+                },
+                {
+                    "mel": 176,
+                    "X": 667,
+                    "Y": 41,
+                    "rel": "...........ms."
+                },
+                {
+                    "mel": 177,
+                    "X": 777,
+                    "Y": 40,
+                    "rel": "............ms"
+                },
+                {
+                    "mel": 178,
+                    "X": 896,
+                    "Y": 41,
+                    "rel": ".............m"
+                }
+            ],
+            [
+                {
+                    "mel": 179,
+                    "X": 60,
+                    "Y": 69,
+                    "rel": "m...e"
+                },
+                {
+                    "mel": 180,
+                    "X": 193,
+                    "Y": 40,
+                    "rel": ".m..e"
+                },
+                {
+                    "mel": 181,
+                    "X": 428,
+                    "Y": 40,
+                    "rel": "..m.e"
+                },
+                {
+                    "mel": 182,
+                    "X": 622,
+                    "Y": 40,
+                    "rel": "...me"
+                },
+                {
+                    "mel": 183,
+                    "X": 305,
+                    "Y": 150,
+                    "rel": "ppppm"
+                }
+            ],
+            [
+                {
+                    "mel": 184,
+                    "X": 376,
+                    "Y": 198,
+                    "rel": "m...e.............................................................."
+                },
+                {
+                    "mel": 185,
+                    "X": 210,
+                    "Y": 198,
+                    "rel": ".m..e....................................e........................."
+                },
+                {
+                    "mel": 186,
+                    "X": 374,
+                    "Y": 328,
+                    "rel": "..m...e............................................................"
+                },
+                {
+                    "mel": 187,
+                    "X": 376,
+                    "Y": 265,
+                    "rel": "...m.e............................................................."
+                },
+                {
+                    "mel": 188,
+                    "X": 294,
+                    "Y": 236,
+                    "rel": "pp..me............................................................."
+                },
+                {
+                    "mel": 189,
+                    "X": 294,
+                    "Y": 295,
+                    "rel": "...ppme............................................................"
+                },
+                {
+                    "mel": 190,
+                    "X": 294,
+                    "Y": 358,
+                    "rel": "..p..pm............................................................"
+                },
+                {
+                    "mel": 191,
+                    "X": 237,
+                    "Y": 43,
+                    "rel": ".......m.e........................................................."
+                },
+                {
+                    "mel": 192,
+                    "X": 67,
+                    "Y": 40,
+                    "rel": "........me............................s............................"
+                },
+                {
+                    "mel": 193,
+                    "X": 139,
+                    "Y": 80,
+                    "rel": ".......ppm........................................................."
+                },
+                {
+                    "mel": 194,
+                    "X": 723,
+                    "Y": 639,
+                    "rel": "..........m...........................................e............"
+                },
+                {
+                    "mel": 195,
+                    "X": 617,
+                    "Y": 344,
+                    "rel": "...........m.......................e..............................."
+                },
+                {
+                    "mel": 196,
+                    "X": 1065,
+                    "Y": 163,
+                    "rel": "............m.......e.............................................."
+                },
+                {
+                    "mel": 197,
+                    "X": 722,
+                    "Y": 533,
+                    "rel": ".............m..............e......................................"
+                },
+                {
+                    "mel": 198,
+                    "X": 779,
+                    "Y": 417,
+                    "rel": "..............m.............e....e..e.................e............"
+                },
+                {
+                    "mel": 199,
+                    "X": 502,
+                    "Y": 43,
+                    "rel": "...............m.e.........e.........................e............."
+                },
+                {
+                    "mel": 200,
+                    "X": 620,
+                    "Y": 43,
+                    "rel": "................me...............e................................."
+                },
+                {
+                    "mel": 201,
+                    "X": 558,
+                    "Y": 84,
+                    "rel": "...............ppm................................................."
+                },
+                {
+                    "mel": 202,
+                    "X": 933,
+                    "Y": 163,
+                    "rel": "..................m.e............e................................."
+                },
+                {
+                    "mel": 203,
+                    "X": 999,
+                    "Y": 300,
+                    "rel": "...................m.............e................................."
+                },
+                {
+                    "mel": 204,
+                    "X": 996,
+                    "Y": 204,
+                    "rel": "............p.....p.m.............................................."
+                },
+                {
+                    "mel": 205,
+                    "X": 842,
+                    "Y": 42,
+                    "rel": ".....................m.e.........e................................."
+                },
+                {
+                    "mel": 206,
+                    "X": 733,
+                    "Y": 44,
+                    "rel": "......................me..........................................."
+                },
+                {
+                    "mel": 207,
+                    "X": 782,
+                    "Y": 84,
+                    "rel": ".....................ppm..........................................."
+                },
+                {
+                    "mel": 208,
+                    "X": 814,
+                    "Y": 630,
+                    "rel": "........................m.............................e............"
+                },
+                {
+                    "mel": 209,
+                    "X": 698,
+                    "Y": 377,
+                    "rel": ".........................m.........e..............................."
+                },
+                {
+                    "mel": 210,
+                    "X": 391,
+                    "Y": 43,
+                    "rel": "..........................me......................................."
+                },
+                {
+                    "mel": 211,
+                    "X": 440,
+                    "Y": 84,
+                    "rel": "...............p..........pm......................................."
+                },
+                {
+                    "mel": 212,
+                    "X": 763,
+                    "Y": 579,
+                    "rel": ".............pp.............m......................................"
+                },
+                {
+                    "mel": 213,
+                    "X": 539,
+                    "Y": 377,
+                    "rel": ".............................m.....e..............................."
+                },
+                {
+                    "mel": 214,
+                    "X": 1024,
+                    "Y": 353,
+                    "rel": "..............................m..e................................."
+                },
+                {
+                    "mel": 215,
+                    "X": 1042,
+                    "Y": 397,
+                    "rel": "...............................m.e................................."
+                },
+                {
+                    "mel": 216,
+                    "X": 1072,
+                    "Y": 440,
+                    "rel": "................................me................................."
+                },
+                {
+                    "mel": 217,
+                    "X": 921,
+                    "Y": 490,
+                    "rel": "..............p.p.pp.p........pppm................................."
+                },
+                {
+                    "mel": 218,
+                    "X": 629,
+                    "Y": 748,
+                    "rel": "..................................m...................es..........."
+                },
+                {
+                    "mel": 219,
+                    "X": 613,
+                    "Y": 418,
+                    "rel": "...........p.............p...p.....me.............................."
+                },
+                {
+                    "mel": 220,
+                    "X": 682,
+                    "Y": 487,
+                    "rel": "..............p....................pm................e............."
+                },
+                {
+                    "mel": 221,
+                    "X": 354,
+                    "Y": 512,
+                    "rel": ".....................................m.....e......................."
+                },
+                {
+                    "mel": 222,
+                    "X": 60,
+                    "Y": 118,
+                    "rel": "......................................m..ee........................"
+                },
+                {
+                    "mel": 223,
+                    "X": 357,
+                    "Y": 411,
+                    "rel": ".......................................m.e........................."
+                },
+                {
+                    "mel": 224,
+                    "X": 189,
+                    "Y": 114,
+                    "rel": "........................................m.e........................"
+                },
+                {
+                    "mel": 225,
+                    "X": 178,
+                    "Y": 466,
+                    "rel": ".p....................................pp.m.e.e....................."
+                },
+                {
+                    "mel": 226,
+                    "X": 132,
+                    "Y": 154,
+                    "rel": "......................................p.p.m........................"
+                },
+                {
+                    "mel": 227,
+                    "X": 318,
+                    "Y": 572,
+                    "rel": ".....................................p...p.m.........e............."
+                },
+                {
+                    "mel": 228,
+                    "X": 85,
+                    "Y": 512,
+                    "rel": "............................................me....................."
+                },
+                {
+                    "mel": 229,
+                    "X": 158,
+                    "Y": 584,
+                    "rel": ".........................................p..pm....................."
+                },
+                {
+                    "mel": 230,
+                    "X": 1101,
+                    "Y": 601,
+                    "rel": "..............................................m.e.................."
+                },
+                {
+                    "mel": 231,
+                    "X": 992,
+                    "Y": 601,
+                    "rel": "...............................................me.................."
+                },
+                {
+                    "mel": 232,
+                    "X": 1041,
+                    "Y": 650,
+                    "rel": "..............................................ppm.e.e.............."
+                },
+                {
+                    "mel": 233,
+                    "X": 930,
+                    "Y": 646,
+                    "rel": ".................................................me...e...........e"
+                },
+                {
+                    "mel": 234,
+                    "X": 1005,
+                    "Y": 702,
+                    "rel": "................................................ppm................"
+                },
+                {
+                    "mel": 235,
+                    "X": 1114,
+                    "Y": 652,
+                    "rel": "...................................................me.............."
+                },
+                {
+                    "mel": 236,
+                    "X": 1085,
+                    "Y": 702,
+                    "rel": "................................................p..pm.............."
+                },
+                {
+                    "mel": 237,
+                    "X": 473,
+                    "Y": 606,
+                    "rel": "...............p....................p......p.........m............."
+                },
+                {
+                    "mel": 238,
+                    "X": 882,
+                    "Y": 750,
+                    "rel": "..........p...p.........p.........p..............p....m............"
+                },
+                {
+                    "mel": 239,
+                    "X": 540,
+                    "Y": 750,
+                    "rel": ".......................................................ms.........."
+                },
+                {
+                    "mel": 240,
+                    "X": 442,
+                    "Y": 750,
+                    "rel": "........................................................ms........."
+                },
+                {
+                    "mel": 241,
+                    "X": 355,
+                    "Y": 751,
+                    "rel": ".........................................................ms........"
+                },
+                {
+                    "mel": 242,
+                    "X": 257,
+                    "Y": 751,
+                    "rel": "..........................................................ms......."
+                },
+                {
+                    "mel": 243,
+                    "X": 94,
+                    "Y": 695,
+                    "rel": "...........................................................ms......"
+                },
+                {
+                    "mel": 244,
+                    "X": 252,
+                    "Y": 699,
+                    "rel": "............................................................ms....."
+                },
+                {
+                    "mel": 245,
+                    "X": 358,
+                    "Y": 698,
+                    "rel": ".............................................................ms...."
+                },
+                {
+                    "mel": 246,
+                    "X": 449,
+                    "Y": 699,
+                    "rel": "..............................................................ms..."
+                },
+                {
+                    "mel": 247,
+                    "X": 527,
+                    "Y": 702,
+                    "rel": "...............................................................ms.."
+                },
+                {
+                    "mel": 248,
+                    "X": 619,
+                    "Y": 701,
+                    "rel": "................................................................m.."
+                },
+                {
+                    "mel": 391,
+                    "X": 935,
+                    "Y": 695,
+                    "rel": ".................................................................me"
+                },
+                {
+                    "mel": 392,
+                    "X": 976,
+                    "Y": 747,
+                    "rel": ".................................................p...............pm"
+                }
+            ],
+            [
+                {
+                    "mel": 249,
+                    "X": 518,
+                    "Y": 42,
+                    "rel": "m....e"
+                },
+                {
+                    "mel": 250,
+                    "X": 214,
+                    "Y": 40,
+                    "rel": ".m.e.e"
+                },
+                {
+                    "mel": 251,
+                    "X": 60,
+                    "Y": 43,
+                    "rel": "..me.."
+                },
+                {
+                    "mel": 252,
+                    "X": 160,
+                    "Y": 162,
+                    "rel": ".ppm.."
+                },
+                {
+                    "mel": 253,
+                    "X": 366,
+                    "Y": 40,
+                    "rel": "....me"
+                },
+                {
+                    "mel": 254,
+                    "X": 373,
+                    "Y": 162,
+                    "rel": "pp..pm"
+                }
+            ],
+            [
+                {
+                    "mel": 255,
+                    "X": 60,
+                    "Y": 43,
+                    "rel": "m..e..."
+                },
+                {
+                    "mel": 256,
+                    "X": 193,
+                    "Y": 41,
+                    "rel": ".m.e..."
+                },
+                {
+                    "mel": 257,
+                    "X": 328,
+                    "Y": 40,
+                    "rel": "..me.e."
+                },
+                {
+                    "mel": 258,
+                    "X": 193,
+                    "Y": 150,
+                    "rel": "pppm..."
+                },
+                {
+                    "mel": 259,
+                    "X": 541,
+                    "Y": 148,
+                    "rel": "....m.e"
+                },
+                {
+                    "mel": 260,
+                    "X": 385,
+                    "Y": 148,
+                    "rel": "..p..me"
+                },
+                {
+                    "mel": 261,
+                    "X": 452,
+                    "Y": 237,
+                    "rel": "....ppm"
+                }
+            ],
+            [
+                {
+                    "mel": 262,
+                    "X": 63,
+                    "Y": 40,
+                    "rel": "me"
+                },
+                {
+                    "mel": 263,
+                    "X": 60,
+                    "Y": 148,
+                    "rel": "pm"
+                }
+            ],
+            [
+                {
+                    "mel": 129,
+                    "X": 174,
+                    "Y": 40,
+                    "rel": "m..e"
+                },
+                {
+                    "mel": 264,
+                    "X": 60,
+                    "Y": 43,
+                    "rel": ".me."
+                },
+                {
+                    "mel": 265,
+                    "X": 104,
+                    "Y": 102,
+                    "rel": ".pme"
+                },
+                {
+                    "mel": 401,
+                    "X": 140,
+                    "Y": 169,
+                    "rel": "p.pm"
+                }
+            ],
+            [
+                {
+                    "mel": 266,
+                    "X": 50,
+                    "Y": 23,
+                    "rel": "m..e"
+                },
+                {
+                    "mel": 267,
+                    "X": 185,
+                    "Y": 20,
+                    "rel": ".m.e"
+                },
+                {
+                    "mel": 268,
+                    "X": 328,
+                    "Y": 28,
+                    "rel": "..me"
+                },
+                {
+                    "mel": 269,
+                    "X": 183,
+                    "Y": 131,
+                    "rel": "pppm"
+                }
+            ],
+            [
+                {
+                    "mel": 270,
+                    "X": 50,
+                    "Y": 20,
+                    "rel": "m.e"
+                },
+                {
+                    "mel": 271,
+                    "X": 335,
+                    "Y": 21,
+                    "rel": ".me"
+                },
+                {
+                    "mel": 272,
+                    "X": 183,
+                    "Y": 128,
+                    "rel": "ppm"
+                }
+            ],
+            [
+                {
+                    "mel": 273,
+                    "X": 50,
+                    "Y": 25,
+                    "rel": "m.e"
+                },
+                {
+                    "mel": 274,
+                    "X": 300,
+                    "Y": 20,
+                    "rel": ".me"
+                },
+                {
+                    "mel": 275,
+                    "X": 170,
+                    "Y": 129,
+                    "rel": "ppm"
+                }
+            ],
+            [
+                {
+                    "mel": 276,
+                    "X": 50,
+                    "Y": 20,
+                    "rel": "m.e"
+                },
+                {
+                    "mel": 277,
+                    "X": 303,
+                    "Y": 20,
+                    "rel": ".me"
+                },
+                {
+                    "mel": 278,
+                    "X": 183,
+                    "Y": 128,
+                    "rel": "ppm"
+                }
+            ],
+            [
+                {
+                    "mel": 279,
+                    "X": 50,
+                    "Y": 20,
+                    "rel": "m.e"
+                },
+                {
+                    "mel": 280,
+                    "X": 314,
+                    "Y": 22,
+                    "rel": ".me"
+                },
+                {
+                    "mel": 281,
+                    "X": 183,
+                    "Y": 128,
+                    "rel": "ppm"
+                }
+            ],
+            [
+                {
+                    "mel": 282,
+                    "X": 50,
+                    "Y": 20,
+                    "rel": "m.e.."
+                },
+                {
+                    "mel": 283,
+                    "X": 314,
+                    "Y": 22,
+                    "rel": ".me.."
+                },
+                {
+                    "mel": 284,
+                    "X": 183,
+                    "Y": 128,
+                    "rel": "ppm.e"
+                },
+                {
+                    "mel": 408,
+                    "X": 82,
+                    "Y": 263,
+                    "rel": "...me"
+                },
+                {
+                    "mel": 409,
+                    "X": 212,
+                    "Y": 313,
+                    "rel": "..ppm"
+                }
+            ],
+            [
+                {
+                    "mel": 285,
+                    "X": 50,
+                    "Y": 20,
+                    "rel": "m.e"
+                },
+                {
+                    "mel": 286,
+                    "X": 330,
+                    "Y": 21,
+                    "rel": ".me"
+                },
+                {
+                    "mel": 287,
+                    "X": 183,
+                    "Y": 128,
+                    "rel": "ppm"
+                }
+            ],
+            [
+                {
+                    "mel": 288,
+                    "X": 50,
+                    "Y": 22,
+                    "rel": "m..e"
+                },
+                {
+                    "mel": 289,
+                    "X": 200,
+                    "Y": 20,
+                    "rel": ".m.e"
+                },
+                {
+                    "mel": 290,
+                    "X": 363,
+                    "Y": 23,
+                    "rel": "..me"
+                },
+                {
+                    "mel": 291,
+                    "X": 191,
+                    "Y": 132,
+                    "rel": "pppm"
+                }
+            ],
+            [
+                {
+                    "mel": 292,
+                    "X": 60,
+                    "Y": 43,
+                    "rel": "m...e.."
+                },
+                {
+                    "mel": 293,
+                    "X": 328,
+                    "Y": 40,
+                    "rel": ".m.ee.."
+                },
+                {
+                    "mel": 294,
+                    "X": 556,
+                    "Y": 43,
+                    "rel": "..me..."
+                },
+                {
+                    "mel": 295,
+                    "X": 397,
+                    "Y": 116,
+                    "rel": ".ppm..e"
+                },
+                {
+                    "mel": 296,
+                    "X": 192,
+                    "Y": 102,
+                    "rel": "pp..m.."
+                },
+                {
+                    "mel": 405,
+                    "X": 527,
+                    "Y": 123,
+                    "rel": ".....me"
+                },
+                {
+                    "mel": 406,
+                    "X": 455,
+                    "Y": 186,
+                    "rel": "...p.pm"
+                }
+            ],
+            [
+                {
+                    "mel": 297,
+                    "X": 460,
+                    "Y": 79,
+                    "rel": "m...e"
+                },
+                {
+                    "mel": 298,
+                    "X": 50,
+                    "Y": 21,
+                    "rel": ".m.e."
+                },
+                {
+                    "mel": 299,
+                    "X": 261,
+                    "Y": 20,
+                    "rel": "..me."
+                },
+                {
+                    "mel": 300,
+                    "X": 150,
+                    "Y": 128,
+                    "rel": ".ppme"
+                },
+                {
+                    "mel": 301,
+                    "X": 359,
+                    "Y": 179,
+                    "rel": "p..pm"
+                }
+            ],
+            [
+                {
+                    "mel": 103,
+                    "X": 60,
+                    "Y": 211,
+                    "rel": "m...e"
+                },
+                {
+                    "mel": 302,
+                    "X": 50,
+                    "Y": 20,
+                    "rel": ".m.e."
+                },
+                {
+                    "mel": 303,
+                    "X": 335,
+                    "Y": 21,
+                    "rel": "..me."
+                },
+                {
+                    "mel": 304,
+                    "X": 183,
+                    "Y": 211,
+                    "rel": ".ppme"
+                },
+                {
+                    "mel": 395,
+                    "X": 192,
+                    "Y": 411,
+                    "rel": "p..pm"
+                }
+            ],
+            [
+                {
+                    "mel": 305,
+                    "X": 50,
+                    "Y": 20,
+                    "rel": "m.e"
+                },
+                {
+                    "mel": 306,
+                    "X": 335,
+                    "Y": 21,
+                    "rel": ".me"
+                },
+                {
+                    "mel": 307,
+                    "X": 183,
+                    "Y": 128,
+                    "rel": "ppm"
+                }
+            ],
+            [
+                {
+                    "mel": 308,
+                    "X": 259,
+                    "Y": 20,
+                    "rel": "meeee"
+                },
+                {
+                    "mel": 309,
+                    "X": 50,
+                    "Y": 209,
+                    "rel": "pm..."
+                },
+                {
+                    "mel": 310,
+                    "X": 204,
+                    "Y": 222,
+                    "rel": "p.m.."
+                },
+                {
+                    "mel": 311,
+                    "X": 396,
+                    "Y": 219,
+                    "rel": "p..m."
+                },
+                {
+                    "mel": 312,
+                    "X": 562,
+                    "Y": 205,
+                    "rel": "p...m"
+                }
+            ],
+            [
+                {
+                    "mel": 313,
+                    "X": 294,
+                    "Y": 43,
+                    "rel": "m..ee."
+                },
+                {
+                    "mel": 314,
+                    "X": 60,
+                    "Y": 41,
+                    "rel": ".m.e.."
+                },
+                {
+                    "mel": 315,
+                    "X": 474,
+                    "Y": 40,
+                    "rel": "..m.e."
+                },
+                {
+                    "mel": 316,
+                    "X": 159,
+                    "Y": 153,
+                    "rel": "pp.m.e"
+                },
+                {
+                    "mel": 317,
+                    "X": 351,
+                    "Y": 151,
+                    "rel": "p.p.me"
+                },
+                {
+                    "mel": 318,
+                    "X": 252,
+                    "Y": 244,
+                    "rel": "...ppm"
+                }
+            ],
+            [
+                {
+                    "mel": 319,
+                    "X": 1145,
+                    "Y": 503,
+                    "rel": "m.....e.........................e........."
+                },
+                {
+                    "mel": 320,
+                    "X": 967,
+                    "Y": 206.51666259765625,
+                    "rel": ".m.e......................................"
+                },
+                {
+                    "mel": 321,
+                    "X": 890,
+                    "Y": 192.51666259765625,
+                    "rel": "..me......................................"
+                },
+                {
+                    "mel": 322,
+                    "X": 977,
+                    "Y": 271.51666259765625,
+                    "rel": ".ppm...........................e.e........"
+                },
+                {
+                    "mel": 323,
+                    "X": 873,
+                    "Y": 629,
+                    "rel": "....m...........e.............e..........."
+                },
+                {
+                    "mel": 324,
+                    "X": 1222,
+                    "Y": 497,
+                    "rel": ".....me..................................."
+                },
+                {
+                    "mel": 325,
+                    "X": 1193,
+                    "Y": 553,
+                    "rel": "p....pm..................................."
+                },
+                {
+                    "mel": 326,
+                    "X": 958,
+                    "Y": 82.51666259765625,
+                    "rel": ".......m.e................................"
+                },
+                {
+                    "mel": 327,
+                    "X": 1081,
+                    "Y": 76.51666259765625,
+                    "rel": "........me.e.................e............"
+                },
+                {
+                    "mel": 328,
+                    "X": 1010,
+                    "Y": 146.51666259765625,
+                    "rel": ".......ppm................................"
+                },
+                {
+                    "mel": 329,
+                    "X": 1037,
+                    "Y": 217.51666259765625,
+                    "rel": "..........me.............................."
+                },
+                {
+                    "mel": 330,
+                    "X": 1087,
+                    "Y": 266.51666259765625,
+                    "rel": "........p.pm.....................e........"
+                },
+                {
+                    "mel": 331,
+                    "X": 1074,
+                    "Y": 486,
+                    "rel": "............m...................e........."
+                },
+                {
+                    "mel": 332,
+                    "X": 1195,
+                    "Y": 78.51666259765625,
+                    "rel": ".............m...e........................"
+                },
+                {
+                    "mel": 333,
+                    "X": 1237,
+                    "Y": 146.51666259765625,
+                    "rel": "..............m..e...............e........"
+                },
+                {
+                    "mel": 334,
+                    "X": 358,
+                    "Y": 588,
+                    "rel": "...............me........................."
+                },
+                {
+                    "mel": 335,
+                    "X": 820,
+                    "Y": 695,
+                    "rel": "....p..........pm........................."
+                },
+                {
+                    "mel": 336,
+                    "X": 1174,
+                    "Y": 186.51666259765625,
+                    "rel": ".............pp..m...........e............"
+                },
+                {
+                    "mel": 337,
+                    "X": 442,
+                    "Y": 185,
+                    "rel": "..................m......e..........p...pp"
+                },
+                {
+                    "mel": 338,
+                    "X": 729,
+                    "Y": 418,
+                    "rel": "...................m......e..............."
+                },
+                {
+                    "mel": 339,
+                    "X": 822,
+                    "Y": 217.51666259765625,
+                    "rel": "....................m..e.......e.........."
+                },
+                {
+                    "mel": 340,
+                    "X": 629,
+                    "Y": 298,
+                    "rel": ".....................m.e....e............."
+                },
+                {
+                    "mel": 341,
+                    "X": 263,
+                    "Y": 101,
+                    "rel": "......................m...e.e.e.....ppp..."
+                },
+                {
+                    "mel": 342,
+                    "X": 748,
+                    "Y": 356,
+                    "rel": "....................pp.m.e......e........."
+                },
+                {
+                    "mel": 343,
+                    "X": 465,
+                    "Y": 444,
+                    "rel": "........................m..ee.......p....."
+                },
+                {
+                    "mel": 344,
+                    "X": 575,
+                    "Y": 446,
+                    "rel": "..................p....p.mee.............."
+                },
+                {
+                    "mel": 345,
+                    "X": 673,
+                    "Y": 469,
+                    "rel": "...................p..p..pm..............."
+                },
+                {
+                    "mel": 346,
+                    "X": 533,
+                    "Y": 535,
+                    "rel": "........................pp.m.............."
+                },
+                {
+                    "mel": 347,
+                    "X": 183,
+                    "Y": 568,
+                    "rel": ".....................pp.p...m.....p......"
+                },
+                {
+                    "mel": 348,
+                    "X": 1125,
+                    "Y": 229.51666259765625,
+                    "rel": "........p........p...........m............"
+                },
+                {
+                    "mel": 349,
+                    "X": 895,
+                    "Y": 699,
+                    "rel": "....p.................p.......m..........."
+                },
+                {
+                    "mel": 350,
+                    "X": 905,
+                    "Y": 317.51666259765625,
+                    "rel": "...p................p..........m.........."
+                },
+                {
+                    "mel": 351,
+                    "X": 1083,
+                    "Y": 551,
+                    "rel": "p...........p..........p........m........."
+                },
+                {
+                    "mel": 352,
+                    "X": 1167,
+                    "Y": 326.51666259765625,
+                    "rel": "...p.......p..p..................m........"
+                },
+                {
+                    "mel": 418,
+                    "X": 119,
+                    "Y": 495,
+                    "rel": "............................e.....m......."
+                },
+                {
+                    "mel": 419,
+                    "X": 116,
+                    "Y": 224,
+                    "rel": "...................................mp..p.."
+                },
+                {
+                    "mel": 420,
+                    "X": 60,
+                    "Y": 47,
+                    "rel": "..................e...e.e..........em....."
+                },
+                {
+                    "mel": 422,
+                    "X": 300,
+                    "Y": 40,
+                    "rel": "......................e..............m...."
+                },
+                {
+                    "mel": 421,
+                    "X": 213,
+                    "Y": 43,
+                    "rel": "......................e...............m..."
+                },
+                {
+                    "mel": 424,
+                    "X": 128,
+                    "Y": 163,
+                    "rel": "...................................e...m.."
+                },
+                {
+                    "mel": 425,
+                    "X": 404,
+                    "Y": 110,
+                    "rel": "..................e.....................m."
+                },
+                {
+                    "mel": 426,
+                    "X": 500,
+                    "Y": 111,
+                    "rel": "..................e......................m"
+                }
+            ],
+            [
+                {
+                    "mel": 353,
+                    "X": 178,
+                    "Y": 76,
+                    "rel": "m......e.......................s......"
+                },
+                {
+                    "mel": 354,
+                    "X": 305,
+                    "Y": 442,
+                    "rel": ".m.............e......................"
+                },
+                {
+                    "mel": 355,
+                    "X": 161,
+                    "Y": 435,
+                    "rel": "..m.........e.......................e."
+                },
+                {
+                    "mel": 356,
+                    "X": 272,
+                    "Y": 251,
+                    "rel": "...m..ee.............................e"
+                },
+                {
+                    "mel": 357,
+                    "X": 383,
+                    "Y": 262,
+                    "rel": "....m.e..............................e"
+                },
+                {
+                    "mel": 358,
+                    "X": 60,
+                    "Y": 271,
+                    "rel": ".....m....e..........................."
+                },
+                {
+                    "mel": 359,
+                    "X": 284,
+                    "Y": 317,
+                    "rel": "...pp.m..e.e.........................."
+                },
+                {
+                    "mel": 360,
+                    "X": 175,
+                    "Y": 314,
+                    "rel": "p..p...m.ee..........................."
+                },
+                {
+                    "mel": 361,
+                    "X": 432,
+                    "Y": 338,
+                    "rel": "........m..e.........................."
+                },
+                {
+                    "mel": 362,
+                    "X": 263,
+                    "Y": 384,
+                    "rel": "......pp.m..e........................."
+                },
+                {
+                    "mel": 363,
+                    "X": 80,
+                    "Y": 370,
+                    "rel": ".....p.p..m.........................e."
+                },
+                {
+                    "mel": 364,
+                    "X": 392,
+                    "Y": 412,
+                    "rel": "......p.p..m...e...e.................."
+                },
+                {
+                    "mel": 365,
+                    "X": 236,
+                    "Y": 498,
+                    "rel": "..p......p..m........................."
+                },
+                {
+                    "mel": 366,
+                    "X": 497,
+                    "Y": 318,
+                    "rel": ".............m.....e...e.e............"
+                },
+                {
+                    "mel": 367,
+                    "X": 697,
+                    "Y": 40,
+                    "rel": "..............m..e...................."
+                },
+                {
+                    "mel": 368,
+                    "X": 354,
+                    "Y": 497,
+                    "rel": ".p.........p...m......................"
+                },
+                {
+                    "mel": 369,
+                    "X": 800,
+                    "Y": 59,
+                    "rel": "................me......e............."
+                },
+                {
+                    "mel": 370,
+                    "X": 736,
+                    "Y": 139,
+                    "rel": "..............p.pm.........e.........."
+                },
+                {
+                    "mel": 371,
+                    "X": 566,
+                    "Y": 171,
+                    "rel": "..................m...e..e.......e...."
+                },
+                {
+                    "mel": 372,
+                    "X": 435,
+                    "Y": 495,
+                    "rel": "...........p.p.....m.................."
+                },
+                {
+                    "mel": 373,
+                    "X": 659,
+                    "Y": 168,
+                    "rel": "....................m.e....e.........."
+                },
+                {
+                    "mel": 374,
+                    "X": 598,
+                    "Y": 423,
+                    "rel": ".....................m...ee..........."
+                },
+                {
+                    "mel": 375,
+                    "X": 619,
+                    "Y": 266,
+                    "rel": "..................p.p.mee............."
+                },
+                {
+                    "mel": 376,
+                    "X": 628,
+                    "Y": 370,
+                    "rel": ".............p........pm....e........."
+                },
+                {
+                    "mel": 377,
+                    "X": 769,
+                    "Y": 343,
+                    "rel": "................p.....p.m.e.e........."
+                },
+                {
+                    "mel": 378,
+                    "X": 538,
+                    "Y": 502,
+                    "rel": ".............p....p..p...m............"
+                },
+                {
+                    "mel": 379,
+                    "X": 699,
+                    "Y": 513,
+                    "rel": ".....................p..p.m..........."
+                },
+                {
+                    "mel": 380,
+                    "X": 704,
+                    "Y": 231,
+                    "rel": ".................p..p......m.........."
+                },
+                {
+                    "mel": 381,
+                    "X": 680,
+                    "Y": 426,
+                    "rel": ".......................pp...m........."
+                },
+                {
+                    "mel": 382,
+                    "X": 547,
+                    "Y": 91,
+                    "rel": ".............................m...e...."
+                },
+                {
+                    "mel": 383,
+                    "X": 473,
+                    "Y": 76,
+                    "rel": "..............................m.e....."
+                },
+                {
+                    "mel": 384,
+                    "X": 364,
+                    "Y": 78,
+                    "rel": "...............................me....."
+                },
+                {
+                    "mel": 385,
+                    "X": 416,
+                    "Y": 143,
+                    "rel": "..............................ppm..e.."
+                },
+                {
+                    "mel": 386,
+                    "X": 489,
+                    "Y": 231,
+                    "rel": "..................p..........p...m...."
+                },
+                {
+                    "mel": 387,
+                    "X": 293,
+                    "Y": 129,
+                    "rel": "..................................me.."
+                },
+                {
+                    "mel": 388,
+                    "X": 347,
+                    "Y": 192,
+                    "rel": "................................p.pm.."
+                },
+                {
+                    "mel": 389,
+                    "X": 104,
+                    "Y": 497,
+                    "rel": "..p.......p.........................m."
+                },
+                {
+                    "mel": 407,
+                    "X": 367,
+                    "Y": 322,
+                    "rel": "...pp................................m"
+                }
+            ],
+            [
+                {
+                    "mel": 98,
+                    "X": 60,
+                    "Y": 88,
+                    "rel": "m.e"
+                },
+                {
+                    "mel": 126,
+                    "X": 340,
+                    "Y": 40,
+                    "rel": ".me"
+                },
+                {
+                    "mel": 393,
+                    "X": 193,
+                    "Y": 147,
+                    "rel": "ppm"
+                }
+            ],
+            [
+                {
+                    "mel": 145,
+                    "X": 60,
+                    "Y": 40,
+                    "rel": "m.e"
+                },
+                {
+                    "mel": 398,
+                    "X": 340,
+                    "Y": 41,
+                    "rel": ".me"
+                },
+                {
+                    "mel": 399,
+                    "X": 193,
+                    "Y": 148,
+                    "rel": "ppm"
+                }
+            ],
+            [
+                {
+                    "mel": 41,
+                    "X": 60,
+                    "Y": 40,
+                    "rel": "m.e"
+                },
+                {
+                    "mel": 79,
+                    "X": 340,
+                    "Y": 41,
+                    "rel": ".me"
+                },
+                {
+                    "mel": 400,
+                    "X": 193,
+                    "Y": 148,
+                    "rel": "ppm"
+                }
+            ]
         ],
         "prefix": "m",
         "name": "Mélodies",
@@ -4052,9 +5199,8 @@
             {
                 "mel": 334,
                 "ref": "AU2a12",
-                "titre": "Valse à 5 temps",
+                "titre": "Valse à 5 temps ",
                 "musicien": "YD",
-                "commentaire": "'Madeleine' sur la jaquette de la cassette?",
                 "sxs": ";.mp3;"
             },
             {
@@ -4556,84 +5702,84 @@
                 "mel": 75,
                 "ref": "AU8a14",
                 "titre": "Salamandre",
-                "musicien": "BSM",
+                "musicien": "BS",
                 "sxs": ";.mp3;"
             },
             {
                 "mel": 263,
                 "ref": "AU8a15",
                 "titre": "Mazurka",
-                "musicien": "BSM",
+                "musicien": "BS",
                 "sxs": ";.mp3;"
             },
             {
                 "mel": 265,
                 "ref": "AU8a16",
                 "titre": "Rhinlander",
-                "musicien": "BSM",
+                "musicien": "BS",
                 "sxs": ";.mp3;"
             },
             {
                 "mel": 65,
                 "ref": "AU8a17",
                 "titre": "Gemutlichkeit",
-                "musicien": "BSM",
+                "musicien": "BS",
                 "sxs": ";.mp3;"
             },
             {
                 "mel": 375,
                 "ref": "AU8a18",
                 "titre": "Valse des Violettes",
-                "musicien": "BSM",
+                "musicien": "BS",
                 "sxs": ";.mp3;"
             },
             {
                 "mel": 297,
                 "ref": "AU8b1",
                 "titre": "Hop Marianele",
-                "musicien": "BSM",
+                "musicien": "BS",
                 "sxs": ";.mp3;"
             },
             {
                 "mel": 172,
                 "ref": "AU8b2",
                 "titre": "Varsovienne",
-                "musicien": "BSM",
+                "musicien": "BS",
                 "sxs": ";.mp3;"
             },
             {
                 "mel": 90,
                 "ref": "AU8b3",
                 "titre": "Schottisch",
-                "musicien": "BSM",
+                "musicien": "BS",
                 "sxs": ";.mp3;"
             },
             {
                 "mel": 359,
                 "ref": "AU8b4",
                 "titre": "Valse Voltée",
-                "musicien": "BSM",
+                "musicien": "BS",
                 "sxs": ";.mp3;"
             },
             {
                 "mel": 269,
                 "ref": "AU8b5",
                 "titre": "Siehstewohl",
-                "musicien": "BSM",
+                "musicien": "BS",
                 "sxs": ";.mp3;"
             },
             {
                 "mel": 227,
                 "ref": "AU8b6",
                 "titre": "Rutsch Hin, Rutsch Her",
-                "musicien": "BSM",
+                "musicien": "BS",
                 "sxs": ";.mp3;"
             },
             {
                 "mel": 284,
                 "ref": "AU8b7",
                 "titre": "Polka des Bébés",
-                "musicien": "BSM",
+                "musicien": "BS",
                 "sxs": ";.mp3;"
             },
             {
@@ -5351,49 +6497,49 @@
                 "mel": 194,
                 "ref": "AU16a1",
                 "titre": "Branle des Bergers",
-                "musicien": "BSM",
+                "musicien": "BS",
                 "sxs": ";.mp3;"
             },
             {
                 "mel": 295,
                 "ref": "AU16a2",
                 "titre": "Sept Pas de Berstett",
-                "musicien": "BSM",
+                "musicien": "BS",
                 "sxs": ";.mp3;"
             },
             {
                 "mel": 331,
                 "ref": "AU16a3",
                 "titre": "Verriers",
-                "musicien": "BSM",
+                "musicien": "BS",
                 "sxs": ";.mp3;"
             },
             {
                 "mel": 300,
                 "ref": "AU16a4",
                 "titre": "Polka Piquée Tournée de Berstett",
-                "musicien": "BSM",
+                "musicien": "BS",
                 "sxs": ";.mp3;"
             },
             {
                 "mel": 190,
                 "ref": "AU16a5",
                 "titre": "Hans em Schnockeloch",
-                "musicien": "BSM",
+                "musicien": "BS",
                 "sxs": ";.mp3;"
             },
             {
                 "mel": 322,
                 "ref": "AU16a6",
                 "titre": "Impaire d'Oderen",
-                "musicien": "BSM",
+                "musicien": "BS",
                 "sxs": ";.mp3;"
             },
             {
                 "mel": 285,
                 "ref": "AU16a7",
                 "titre": "Allumettes",
-                "musicien": "BSM",
+                "musicien": "BS",
                 "sxs": ";.mp3;"
             },
             {
@@ -6371,6 +7517,20 @@
                 "sxs": ";.mp3;"
             },
             {
+                "mel": 77,
+                "ref": "AU31.4",
+                "titre": "Uns komt ein schif gevaren",
+                "commentaire": "PSB",
+                "sxs": ";.mp3;"
+            },
+            {
+                "mel": 298,
+                "ref": "AU31.6",
+                "titre": "Das Meisle pfîft",
+                "commentaire": "PSB",
+                "sxs": ";.mp3;"
+            },
+            {
                 "mel": 1,
                 "ref": "AU31.7",
                 "titre": "Der Heiden Heiland",
@@ -6382,6 +7542,13 @@
                 "ref": "AU37.4",
                 "titre": "Holdriboldri",
                 "commentaire": "RE",
+                "sxs": ";.mp3;"
+            },
+            {
+                "mel": 87,
+                "ref": "AU38.1",
+                "titre": "Wyn un Wasser",
+                "commentaire": "JPA",
                 "sxs": ";.mp3;"
             },
             {
@@ -6854,7 +8021,7 @@
                 "mel": 342,
                 "ref": "AU51a6",
                 "titre": "Branle Asymétrique",
-                "musicien": "TW_EW",
+                "musicien": "TE",
                 "sxs": ";.mp4;"
             },
             {
@@ -7055,21 +8222,21 @@
                 "mel": 342,
                 "ref": "AU53b15",
                 "titre": "Branle asymétrique",
-                "musicien": "TW_EW",
+                "musicien": "TE",
                 "sxs": ";.mp4;"
             },
             {
                 "mel": 69,
                 "ref": "AU53b16",
                 "titre": "Régine",
-                "musicien": "TW_EW",
+                "musicien": "TE",
                 "sxs": ";.mp4;"
             },
             {
                 "mel": 202,
                 "ref": "AU53b17",
                 "titre": "Branle de Sarreguemines ",
-                "musicien": "TW_EW",
+                "musicien": "TE",
                 "sxs": ";.mp4;"
             },
             {
@@ -7279,14 +8446,12 @@
                 "mel": 139,
                 "ref": "AU63.1",
                 "titre": "Widele, Waddele ; Les noces du mendiant",
-                "musicien": "GAP",
                 "sxs": ";.m4a;"
             },
             {
                 "mel": 410,
                 "ref": "AU63.7",
-                "titre": "S'Elsass unser Landel ; Que notre Alsace est belle",
-                "musicien": "GAP"
+                "titre": "S'Elsass unser Landel ; Que notre Alsace est belle"
             },
             {
                 "mel": 129,
@@ -9160,7 +10325,7 @@
                 "ref": "DS#impaire",
                 "url": "1QN968X7vIKWv1PJuOnfdPQM6fxRRMH38jY7W4F6ut0Q",
                 "sxs": ".url;;",
-                "mels": "34,35,39,79,81,82,83,121,122,123,124,125,126,127,128,164,308,319,320,321,324,326,327,329,337,338,339,340,341,343"
+                "mels": "34,35,39,79,81,82,83,121,122,123,124,125,126,127,128,164,308,319,320,321,324,326,327,329,337,339,340,341,343"
             },
             {
                 "ref": "DS#landler",
@@ -11924,7 +13089,7 @@
                 "sxs": ".jpg;;"
             },
             {
-                "mel": 341,
+                "mel": 419,
                 "ref": "LP3p137",
                 "titre": "Das Lied vom Ackermann",
                 "sxs": ".jpg;;"

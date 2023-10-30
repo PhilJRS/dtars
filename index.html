@@ -4,17 +4,18 @@
     <meta charset="utf-8">
     <title>DTA-RS</title> 
     <link href="style.css" rel="stylesheet" type="text/css">
-     <!--script src="jquery-3.7.0.js"></script-->
-    <script
-			  src="https://code.jquery.com/jquery-3.7.1.js"
-			  integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
-			  crossorigin="anonymous"></script>
-    <script src="main.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7/dist/jquery.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@svgdotjs/svg.js@3.1/dist/svg.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@svgdotjs/svg.draggable.js/dist/svg.draggable.js"></script>
+
+    <!--script src="jquery-3.7.0.js"></script>
+    <script src="svg.js"></script>
+    <script src="svg.draggable.js"></script>
+    <script src="svg.draw.js"></script-->
   </head>
   <body> 
-   
+    <script src="main.js"></script>
     <script src="famGraph.js"></script> 
     <div><p id="DTstats"></div>
     <label for="togglePanel">❔</label>
@@ -44,9 +45,9 @@
     </aside>
     <script>
       function closePanel() {
-        makeDocTable('m')
-        makeDocTable('c')
-        showGraph(curGraph)
+        docTable($('#mel')[0]?.firstChild.nodeValue.split(' ')[1])
+        docTable(prefixes[curColNb])
+        if ($('#fPaper').children(0).length) showGraph($('#fPaper').attr("fam"))
         $('#togglePanel')[0].checked = false
       }
     </script>
