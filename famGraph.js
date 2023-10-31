@@ -136,45 +136,40 @@ function showGraph(f) {   //f est un n°
                   g0.sort((a,b)=>a.mel>b.mel)
                   clearGraph(g.f)
                   showGraph(0)
-                } else { //at least 3 mels here
+                } else { //at least 3 mels in g
                   [i,j].forEach(k => g[k].rel=stringMark(g[k].rel, k==i?j:i, '.')) //effacer le marquage de cette relation ('p' 'e' ou 's')
-                  var part=parting(i)
-                  if (part.length) { // extract new graph
-                    //console.log(`${part.join()} parting from`)
-                    //console.log(g.map(m=>[m.mel,m.rel])) 
+                  var newGraph=closure(i) //empty array if graph does not split
+                  if (newGraph.length) { // extract new graph
                     g.forEach((m, i)=>{  //pour chaque ligne du vieux graphe
-                      var part_includes_i = part.includes(i)
+                      var part_includes_i = newGraph.includes(i)
                       var r =''
                       m.rel.split('').forEach((c,j)=> {  //pour chaque caractère de cette ligne
-                        var part_includes_j = part.includes(j)
+                        var part_includes_j = newGraph.includes(j)
                         r= part_includes_i ? part_includes_j?r+c:r : part_includes_j?r:r+c 
                       })
                       m.rel=r
                     })
                     var nG = gold.m.graphs[nGnb = newEmptyGroupNb()]
-                    part.forEach(m => nG.push(g[m]))
-                    part.reverse().forEach(m => g.splice(m,1))  //reverse ordered, or else it gets messy!!
-                    //console.log(g.map(m=>[m.mel,m.rel])) 
-                    //console.log(nG.map(m=>[m.mel,m.rel]))
+                    newGraph.forEach(m => nG.push(g[m]))
+                    newGraph.reverse().forEach(m => g.splice(m,1))  //reverse ordered, or else it gets messy!!
                   }        
                   showGraph(f)
 
-                  function parting (i) { // i is in a (new) parting group if closure of i doesn't contain j
-                    var closure = new Set(immediateClosure(i))
-                    var examined=new Set([i])
-                    do for (const m of closure) if (!examined.has(m)) {
-                          immediateClosure(m).forEach(n=>closure.add(n))
-                          examined.add(m)
-                    } while ((examined.length != closure.length) ||  closure.has(j))
-                    if (closure.has(j)) return []
-                  
-                    if (closure.length*2 > g.length)  //c'est le + petit sous-groupe qui doit partir
-                        closure = g.map((m,i)=>i).filter(i=>closure.has(i))
-                    return (Array.from(closure)).sort();
+                  function closure(i) { // i is in a (new) parting group if closure of i doesn't contain j
 
-                    function immediateClosure(i) {
+                    function directRels(i) {
                       return g[i].rel.split('').reduce((acc, m, n) => 'pes'.includes(m) ? acc.concat(n) : acc , [])
                     }
+                    var closure = new Set(directRels(i))
+                    var doneSet = new Set([i])
+                    do for (const m of closure) if (!doneSet.has(m)) {
+                          directRels(m).forEach(n=>closure.add(n))
+                          doneSet.add(m)
+                    } while ((doneSet.size != closure.size) &&  !closure.has(j))
+                    if (closure.has(j)) return []  //no split
+                    if (closure.size*2 > g.length)  //c'est le + petit sous-groupe qui doit partir
+                        closure = g.map((m,i)=>i).filter(i=>closure.has(i))
+                    return (Array.from(closure)).sort();
                   }
                 }
                 edited()
