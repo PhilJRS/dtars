@@ -1,77 +1,76 @@
-var curGraph //n'a de sens que si 1 seul graph est visible à la fois.
+//var curGraph //n'a de sens que si 1 seul graph est visible à la fois.
 const elL = 60, elH = 40 //largeur et hauteur des ellipses
-
-
 var selArr =[]
-var selSvgGrp, firstMelforRel, oldFirstMelForRelFill 
+var selSvgGrp, firstMelforRel, oldFirstMelForRelFill
 
-function stringMark(rel, index, char) { 
-  var arr=rel.split('')
-  arr.splice(index,1,char); 
-  return arr.join('')
+
+function initGraphMel(mel) { 
+  graphs ??= []
+  mel.f ??= 0
+  graphs[mel.f] ??=[]
+  graphs[mel.f].push(mel)
+  mel.f = graphs[mel.f]
 }
 
-function initGraph() {  //il faut une version qui construit maintenant graphs à partir de mels
-  gold.m.graphs.forEach((g, i) => g.forEach(m => {
-    m.grp = g
-    gold.m.refs[m.mel].graph = m  
-  }))
-  gold.m.graphs.forEach((g, f) => {
+function initGraph() {  // construit maintenant graphs à partir de mels
+  graphs.forEach((g, f) => {
     g.f=f
     //nettoyage des vieux "e"
     if (f) { //ne rien faire avec le graphe 0
       g.forEach(m=>m.rel = m.rel.replaceAll('e','.'))
       //replace les "e" en réciproques de chaque "p") 
       g.forEach((m,i)=> m.rel.split('').forEach((r,j)=>{
-        if(r=='p') g[j].rel = stringMark(g[j].rel, i, 'e')
+        if(r=='p') g[j].rel = g[j].rel.split('').with(i, 'e').join('')
       }))
     }
-    makeDTfamBttns(f)
+    makeDTradioBttn('Graph',f, showGraph)
   }
 )}
 
-function clearGraph(f) {
-  gold.m.graphs[f]=[]
-  if (gold.m.graphs.length == f+1) {
+function recycleEmptyGraph(f) {
+  graphs[f]=[]
+  if (graphs.length == f+1) {
     document.querySelector('#fBt'+f).remove()
-    gold.m.graphs.length--
+    graphs.length--
   }
 }
 
-function makeDTfamBttns(f) {
-  $('#DTfamBttns').append($('<button id="fBt'+f+'"/>').text(f))
-  document.querySelector('#fBt'+f).addEventListener('click', function() {
-      if (curGraph != null) document.querySelector('#fBt'+curGraph).style.backgroundColor = "#ccc"  //reset du bouton actif
-      if (curGraph == f) {
-        $('#fPaper').empty().height("0px")
-        curGraph = null
-      } else {
-        curGraph = f
-        document.querySelector('#fBt'+curGraph).style.backgroundColor = 'lightgreen';
-        $('#fPaper').empty()
-        $('#audio')[0].pause()
-        showGraph(f)
-}})}
-
-function newEmptyGroupNb() { //returns number of new (or recycled) empty group 
-  var n = gold.m.graphs.findIndex((g,i)=>i && g.length==0) //no empty group to recycle
+function newEmptyGraph(mList) { //returns new (or recycled) empty group 
+  var n = graphs.findIndex((g,i)=>i && g.length==0) //no empty group to recycle
   if (n == -1) {
-    n = gold.m.graphs.push([])-1
-    gold.m.graphs[n].f=n
-    makeDTfamBttns(n)
+    n = graphs.length
+    makeDTradioBttn('Graph',n, showGraph)
   }
-  return n
+  graphs[n] = mList
+  graphs[n].f = n   //(utile même si on avait trouvé un graphe vide)
+  graphs[n].forEach(m=>m.f = graphs[n])
+  return graphs[n]
 }
- 
 
-function showGraph(f) {   //f est un n°
-  if (f == null) {$('#fPaper').empty(); return}
-  if ($('#fPaper').children(0).length) $('#fPaper').empty()
-  curGraph = f
-  var g = gold.m.graphs[f]
+function refreshGraphPanelForMel(m) { //3 cas selon m : null, 0, ou ...
+ var postedFam = $('#GraphPanel').attr("dt_label") //ce qui est déjà dessiné
+ fam = m == null ? null : mels[m].f.f //changer (ou fermer) le graphe affiché:
+ if (fam != postedFam) {
+   if (fam) showGraph(fam) //il n'affiche le graphe 0 que s'il est déjà affiché
+   else {
+    $('#BtGraph'+postedFam).css("backgroundColor","gainsboro")  //nettoyage bouton
+    $('#GraphPanel').attr('dt_label', null).empty().height("0px") 
+   }
+ }
+ if ($('#GraphPanel').height()) {  //si le panneau est visible (donc sur la bonne famille déjà)
+   $('#GraphPanel g ellipse').css("stroke-width", "1px" )        // "déhighligther" l'ancienne méllipse
+   $('#GraphPanel g#m'+m+' ellipse').css("stroke-width", "3px" ) // "highligther" la nouvelle méllipse
+ }
+}
+
+function showGraph(f) {   //f est un n°de famille (ou "null", pour fermer le panel)
+  $('#DTGraphBttns button').css("backgroundColor","gainsboro")  //reset (massif) du bouton précédent
+  $('#BtGraph'+f).css("background-color","lightgreen") 
+  $('#GraphPanel').empty().attr("dt_label",f)
+  if (f == null) return
+  var g = graphs[f]
   if (f==0) {  
-    //On "calcule" de fait le graphe [0]
-    //en rangeant les m dans un carré de "units" unités de côté
+    //On "range les méls du graphe [0] dans un carré de "units" d'ellipses de côté
     var units = Math.round(Math.sqrt(g.length))
     g.forEach((m,i)=>{
       m.X = (elL+10)*(i%units)
@@ -84,145 +83,32 @@ function showGraph(f) {   //f est un n°
   g.forEach(m => {m.X-=minX; m.Y-=minY})
   var graphWidth = elL + g.reduce((max, m) => Math.max(m.X, max), 0)
   var graphHeigth = elH + g.reduce((max, m) => Math.max(m.Y, max), 0)
-  $('#fPaper')
+  $('#GraphPanel')
     .width(graphWidth)
     .height(graphHeigth)
-    .attr("fam",f)
- 
-  g.ppr = SVG().addTo('#fPaper')
-  function elliPath(ell1, ell2) {
-    var x1 = ell1.attr("cx"), y1 = ell1.attr("cy"), x2 = ell2.attr("cx"), y2 = ell2.attr("cy")
-    , dx = x2-x1    , dy = y2-y1
-    , dist = Math.sqrt(dx*dx + dy*dy)
-    , xRatio = dx/dist, yRatio = dy/dist
-    return ["M", x1 + ell1.attr("rx")*xRatio, y1 + ell1.attr("ry")*yRatio, "L", x2 - ell2.attr("rx")*xRatio, y2 - ell2.attr("ry")*yRatio].join(" ")
-  }
-  
-  g.forEach((m,i) => {   //on dessine chaque mélodie, et renseigne l'attribut m.shape                                                    
+    .attr("dt_label",f)
+  g.ppr = SVG().addTo('#GraphPanel')
+
+  g.forEach((m,i) => {   //on dessine chaque mélodie, et créé/renseigne l'attribut m.shape                                                    
     var group = g.ppr.group()
-    group.id ("m"+m.mel)
+    group.id ("m"+m.mel)  //**************ça sert où à part l'inspecteur? // double l'info de g.text
+    //group.class ("melodie")
     group.ellipse(elL, elH).stroke({color: '#000',width : 1}).fill(m.rel.includes("p") ? "#d4e1f5" : "#FFF2CC"), // bleu, jaune 
     group.text(m.mel).font('size', 10).center(elL/2, elH/3)
-    var rsRef = gold.m.refs[m.mel]?.docs?.find(d=>d.ref.startsWith('RS'))?.ref
+    var rsRef = mels[m.mel]?.docs?.find(d=>d.ref.startsWith('RS'))?.ref
     if (rsRef) group.text(rsRef).font('size', 9).center(elL/2, elH*2/3)
     m.shapes = group.move(m.X, m.Y)
   })
-                  
-  function drawGraphArrows() {  //(re-)dessin des flèches du graphe (à partir de gold.m.graph "pur"?)
-    g.rels=[]                               
-    g.forEach((m, i) => { 
-      m.rel.split('').forEach((c,j)=> {
-        switch(c) { case 'p':; case 's': //ignore cases "m", "." and "e"
-          var arrowNb = g.rels.push({
-            from: i, 
-            to  : j,
-            line: (l = g.ppr.path(elliPath(g[i].shapes.first(), g[j].shapes.first()))
-              .stroke({width: 2})
-              .stroke(c == "p" ? {color: '#000'} : {color: '#f06', dasharray: '5, 2'})
-              .attr("marker-end", "url(#"+(c == "p"? "black": "red")+"Arrow")
-            )
-          })
-          if ($('#editeur')[0].checked) l.on('click', e => {   //***********************FSA d'interaction sur les flèches: 
-            if (e.metaKey)
-              if (e.target.getAttribute("stroke-width") == "5") {
-                e.target.remove();
-                g.rels.splice(arrowNb,1) //removes corresponding arrow line from rels
-                if (g.length == 2) {  //fini, vidons le graphe :
-                  g0=gold.m.graphs[0];
-                  [i,j].forEach(k=> {
-                    g[k].grp=g0
-                    g0.push(g[k])
-                  })
-                  g0.sort((a,b)=>a.mel>b.mel)
-                  clearGraph(g.f)
-                  showGraph(0)
-                } else { //at least 3 mels in g
-                  [i,j].forEach(k => g[k].rel=stringMark(g[k].rel, k==i?j:i, '.')) //effacer le marquage de cette relation ('p' 'e' ou 's')
-                  var newGraph=closure(i) //empty array if graph does not split
-                  if (newGraph.length) { // extract new graph
-                    g.forEach((m, i)=>{  //pour chaque ligne du vieux graphe
-                      var part_includes_i = newGraph.includes(i)
-                      var r =''
-                      m.rel.split('').forEach((c,j)=> {  //pour chaque caractère de cette ligne
-                        var part_includes_j = newGraph.includes(j)
-                        r= part_includes_i ? part_includes_j?r+c:r : part_includes_j?r:r+c 
-                      })
-                      m.rel=r
-                    })
-                    var nG = gold.m.graphs[nGnb = newEmptyGroupNb()]
-                    newGraph.forEach(m => nG.push(g[m]))
-                    newGraph.reverse().forEach(m => g.splice(m,1))  //reverse ordered, or else it gets messy!!
-                  }        
-                  showGraph(f)
-
-                  function closure(i) { // i is in a (new) parting group if closure of i doesn't contain j
-
-                    function directRels(i) {
-                      return g[i].rel.split('').reduce((acc, m, n) => 'pes'.includes(m) ? acc.concat(n) : acc , [])
-                    }
-                    var closure = new Set(directRels(i))
-                    var doneSet = new Set([i])
-                    do for (const m of closure) if (!doneSet.has(m)) {
-                          directRels(m).forEach(n=>closure.add(n))
-                          doneSet.add(m)
-                    } while ((doneSet.size != closure.size) &&  !closure.has(j))
-                    if (closure.has(j)) return []  //no split
-                    if (closure.size*2 > g.length)  //c'est le + petit sous-groupe qui doit partir
-                        closure = g.map((m,i)=>i).filter(i=>closure.has(i))
-                    return (Array.from(closure)).sort();
-                  }
-                }
-                edited()
-                }
-              else e.target.setAttribute("stroke-width","5")
-            else e.target.setAttribute("stroke-width","2")
-          })
-  }})})}
   drawGraphArrows()
   selSvgGrp = g.ppr.group()
-
-  
-  function edited() { //makes sure this graph's changes are remembered and recorded by user
-    if (g.geoChanged)  return
-    g.geoChanged = true
-    var changed = gold.m.graphs.map((g,i)=>g.geoChanged?i:0).filter(g=>g!=0).join()
-    $('#saveBtn').text('enregistrer graphe'+(changed.length >2?'s ':' ')+ changed).click(saveGraph).show()
-    function saveGraph() {
-      updates=JSON.stringify(
-        //gold.m.graphs.map(g=>g.map(m=>({mel: m.mel, X: m.X, Y: m.Y, rel: m.rel})))
-        gold.m.refs.map(m=>({
-          mel: m.mel,
-          ds: m?.ds?.join(),
-          titre: m.titre,
-          music: m.music,
-          mscz: m.mscz,
-          commentaire: m.commentaire,
-          sxs: m?.sxs?.join(),
-          mscz: m.mscz,
-          f: m.graph.f,
-          X: m.X, 
-          Y: m.Y, 
-          rel: m.rel //,
-          //docs: m?.docs?.map(d=>d.ref).join()
-        }))
-        //gold.m.refs.
-        , null, "  ")
-      console.log(updates)
-      gold.m.graphs.forEach(g =>g.geoChanged = false)
-      $('#saveBtn').hide()
-    }
-  }
-
-  
   g.forEach((m, i) => {    //***********************FSA d'interaction sur les ellipses: 
-    m.shapes.first().on('click', $('#editeur')[0].checked ? e=>defaultEditorsClick(e) :  toggleMel)
+    m.shapes.first().on('click', $('#editeur')[0].checked ? e=>defaultEditorsClick(e) :  e=>toggleMel(e))
 
     function defaultEditorsClick(e) {
       if (e.shiftKey && e.metaKey) return console.log('ignored "shift + meta" click')
       if (e.shiftKey) {  //on veut draguer (1 mél ou +, à voir)
-        if(selArr.length ==0 ) $('#audio')[0].pause()  //on fait silence pour l'édition!
-        if(selArr.includes(m)) 
-            unselectFromDrag(m)   //il shift-key 2 fois la même mélodie: on l'enlève
+        if(selArr.length ==0 ) $('#AudPanel')[0].pause()  //on fait silence pour l'édition!
+        if(selArr.includes(m)) unselectFromDrag(m)   //il shift-key 2 fois la même mélodie: on l'enlève
         else  selectForDrag(m)    // cette mélodie n'est pas déjà dans le groupe de drague
       }    
       else {// no shift key 
@@ -230,142 +116,202 @@ function showGraph(f) {   //f est un n°
         else if (e.metaKey) {  //on ajoute une relation
             if (firstMelforRel) {  //on vient de sélectionner la 2e mélodie
               if (firstMelforRel!=m) {
-                setRel(firstMelforRel, m)
-                //console.log(`from m${m.mel} to m${firstMelforRel.mel} in`)
-                //console.log(g.map(m=>[m.mel,m.rel]))
+                showGraph(createRelation(firstMelforRel, m))
                 edited()
               }
-              unselectFromRel()
-            }else {
+              unselectFromRel(e)
+            } else {
               firstMelforRel=m
               oldFirstMelForRelFill= m.shapes.first().fill()
               m.shapes.first().fill('#00ff00')
               //console.log(`Sélectionner une autre mélodie à relier à m${m.mel}`)
             }
-          } else if (firstMelforRel) unselectFromRel()
-                  else toggleMel()
+          } else if (firstMelforRel) unselectFromRel(e)
+                 else                toggleMel(e)
       }
     }
 
-    function toggleMel() {
-      var audio = $("#audio")
-      if (audio.attr("mel") != m.mel) {
-        audio[0].pause()
-        audio.attr("src", null)
-        $('#titre').text("")
-        return showMelPanel(m.mel)
-      }
-      audio[0].paused ? audio[0].play() : audio[0].pause()
+    function toggleMel(e) {    // comparer à playAV(s, doc) 
+      var m=e.rangeParent.id.substring(1)
+      if(m == $('#MelPanel').attr('dt_label')) {
+        if ((audio = $("#AudPanel")).attr("mel") == m) audio[0].paused ? audio[0].play() : audio[0].pause()
+      } else showMelPanel(m)
     }
 
-    function setRel(enf, par, sim) { //prérequis: même graphe!  //sim = opt boolean (not tested yet)
-      var e ='e', p ='p'
-      if (sim) { e = 's'; p = 's'}
-      var pGrp = par.grp, eGrp = enf.grp
-      if (pGrp == eGrp) { 
-        if (pGrp == gold.m.graphs[0]) {  //CAS 1: il sont tous deux célibataires, il faut faire une nouvelle famille
-            var dGrpNb = newEmptyGroupNb()
-            var dGrp = gold.m.graphs[dGrpNb];
-            [par,enf].forEach(mel => {
-              gold.m.graphs[0] = gold.m.graphs[0].filter(m=>m!=mel)
-              gold.m.refs[mel.mel].graph.grp = dGrp
-            })
-            dGrp.push(par.graph = { mel: par.mel, X: 60, Y:  30, rel: "me", grp:dGrp })
-            dGrp.push(enf.graph = { mel: enf.mel, X: 80, Y: 100, rel: "pm", grp:dGrp })
-            gold.m.graphs[0] = gold.m.graphs[0].filter(m=>![par.mel,enf.mel].includes(m.mel))
-            showGraph(dGrpNb)
-
-        } 
-        else {   //CAS 2: simple màj de la table des rels du graphe
-          par.rel = stringMark(par.rel, enf.rel.indexOf("m"), e )
-          enf.rel = stringMark(enf.rel, par.rel.indexOf("m"), p )
-        }
-      } 
-      else if (pGrp == gold.m.graphs[0] || eGrp == gold.m.graphs[0]) { //CAS 3 , faut rattacher la mélodie solitaire mS à la famille f
-          //anonymisation des mélodies : SOLitaire (avant) ou GREgaire et du groupe de Destination
-        var [sol, gre, dGrp] = (pGrp == gold.m.graphs[0]) ?  [par,enf, eGrp] : [enf, par, pGrp]
-        gold.m.graphs[0].splice(gold.m.graphs[0].findIndex(i=>i.mel == sol.mel), 1) //on sort le solitaire de sa liste du graph[0]
-        gold.m.refs[sol.mel].graph.grp = dGrp
-        var j = gre.rel.indexOf('m') //position de gre dans son groupe (Destination de sol)
-        dGrp.forEach((m,i) => m.rel += (i==j?(gre==par? 'e':'p'):'.')) //on rallonge chaque ligne du groupe
-        dGrp.push(sol.graph = {                                  //on ajoute la nouvelle ligne})
-            mel: sol.mel, X: 60 + (Math.floor(Math.random() *30)), Y: 30+ (Math.floor(Math.random() *30)),
-            rel: ('.'.repeat(j) + (gre==par ? 'p' : 'e')).padEnd(dGrp.length, '.') + 'm' 
-        })
-        showGraph(gold.m.graphs.findIndex(g=>g==dGrp))
-        //console.log(dGrp)
-      } else {            /*  CAS 4 : 2 vraies familles à merger! conventions: 
-                                            1) on garde la famille la plus nombreuse)
-                                            2) on met le parent en haut à gauche, l'enfant en bas à droite*/
-        //step 1) màj des rels du graphe "parent"
-        var newLength = pGrp.length + eGrp.length 
-        //step 2) màj des rels, X et Y du graphe "enfant"
-        pGrp.forEach(m=>m.rel=m.rel.padEnd(newLength, '.'))  
-        offsetX = pGrp.reduce((max, m) => Math.max(m.X, max), 0)
-        offsetY = pGrp.reduce((max, m) => Math.max(m.Y, max), 0)
-        eGrp.forEach(m=>{
-            m.X +=offsetX
-            m.Y +=offsetY
-            m.rel =  m.rel.padStart(newLength, '.')
-        })
-        par.rel = stringMark(par.rel, enf.rel.indexOf("m"), e )
-        enf.rel = stringMark(enf.rel, par.rel.indexOf("m"), p )
-        //step 2) on ajoute le plus petit graphe au plus grand  
-
-        var pGrpN = gold.m.graphs.indexOf(pGrp) //on s'en passera dès que le Graph sera de nouveau un numéro
-        var eGrpN = gold.m.graphs.indexOf(eGrp)
-        var [big, small] = pGrp.length > eGrp.length ? [pGrpN, eGrpN] : [eGrpN, pGrpN]
-        gold.m.graphs[big] = pGrp.concat(eGrp)
-        gold.m.graphs[small] = []
-        //console.log(gold.m.graphs[big].map(m=>[m.mel,m.rel]))
-        showGraph(big)
-      }
-    }
-
-    function unselectFromRel() {
+    function unselectFromRel(e) {
       firstMelforRel.shapes.first().fill(oldFirstMelForRelFill)
       firstMelforRel = undefined
-      defaultBehaviour(m)
+      defaultBehaviour()
     }
     
     function moveArrows() {
-      g.rels.filter(c=> c.from==i || c.to ==i).forEach(c =>     //redessine les flèches concernées
+      g.arrows.filter(c=> c.from==i || c.to ==i).forEach(c =>     //redessine les flèches concernées
         c.line.plot(elliPath(g[c.from].shapes.first(), g[c.to].shapes.first()))
     )}
 
-    function defaultBehaviour(m) {
+    function defaultBehaviour() {
       m.shapes.first()    
-      .click(toggleMel)
-      .touchstart(toggleMel)
+      .click(e=>toggleMel(e))
+      .touchstart(e=>toggleMel(e))
     }
     function selectForDrag(m) { 
       selArr.push(m)            
-        m.shapes.first().stroke({width:5})
-        selSvgGrp.add(m.shapes)
-        selSvgGrp.draggable()
-          .on('dragmove', ()=>   moveArrows() )
-          .on('dragend' , ()=> { 
-            moveArrows()
-            selArr.forEach(m=>{
-              [m.X, m.Y] = [m.shapes.first().x(), m.shapes.first().y()]
-              //m.shapes.click(unselectFromDrag(m))
-            })
-            edited()
-          }
-    )}
-    function unselectAllFromDrag(e) { 
+      //m.shapes.first().stroke({width:5})
+      m.shapes.first().css("stroke-width", "5px")
+      selSvgGrp.add(m.shapes)
+      selSvgGrp.draggable()
+        .on('dragmove', ()=> moveArrows())
+        .on('dragend' , ()=> { 
+          moveArrows()
+          selArr.forEach(m=>{
+            [m.X, m.Y] = [m.shapes.first().x(), m.shapes.first().y()]
+            m.shapes.click(unselectFromDrag(m))
+          })
+          edited()
+        })
+    }
+    function unselectAllFromDrag() { 
       if (selArr.length==0) return    
       selSvgGrp.draggable(false)//on arrête le groupe : faut enregistrer
       selSvgGrp.off()
       selArr.forEach(m=>unselectFromDrag(m))
       selArr =[]  //useless?
-      defaultEditorsClick(e)
+      m.shapes.first().on('click', e=>defaultEditorsClick(e))
     }
     function unselectFromDrag(m) { 
       g.ppr.add(m.shapes)
       m.shapes.first().stroke({width:1})
       selArr = selArr.filter(mel => mel != m)
-      defaultBehaviour(m)
+      defaultBehaviour()
     } 
   })
+
+  function elliPath(ell1, ell2) {
+    var x1 = ell1.attr("cx"), y1 = ell1.attr("cy"), x2 = ell2.attr("cx"), y2 = ell2.attr("cy")
+    , dx = x2-x1    , dy = y2-y1
+    , dist = Math.sqrt(dx*dx + dy*dy)
+    , xRatio = dx/dist, yRatio = dy/dist
+    return ["M", x1 + ell1.attr("rx")*xRatio, y1 + ell1.attr("ry")*yRatio, "L", x2 - ell2.attr("rx")*xRatio, y2 - ell2.attr("ry")*yRatio].join(" ")
+  }
+              
+  function drawGraphArrows() {  //(re-)dessin des flèches du graphe (à partir de gold.m.graph "pur"?)
+    g.arrows=[]                               
+    g.forEach((m, i) => {   
+      m.rel.split('').forEach((c,j)=> {
+        switch(c) { case 'p':; case 's': //ignore cases "m", "." and "e"
+          var arrowNb = g.arrows.push({
+            from: i, 
+            to  : j,
+            line: (l = g.ppr.path(elliPath(g[i].shapes.first(), g[j].shapes.first()))
+              .stroke({width: 2})
+              .stroke(c == "p" ? {color: '#000'} : {color: '#f06', dasharray: '5, 2'})
+              .attr("marker-end", "url(#"+(c == "p"? "black": "red")+"Arrow")
+          )})   
+          if ($('#editeur')[0].checked) l.on('click', e => {   //***********************FSA d'interaction sur les flèches: 
+            if (e.metaKey)
+              if (e.target.getAttribute("stroke-width") == "5") { 
+                showGraph(deleteRelation(g[i], g[j]))
+                edited()
+              }  
+              else e.target.setAttribute("stroke-width","5")
+            else e.target.setAttribute("stroke-width","2")
+  })}})})}  
+
+  function edited() { //makes sure this graph's changes are remembered and recorded by user
+    drawGraphArrows()  //pouquoi??
+    if (g.geoChanged)  return
+    g.geoChanged = true
+    var changed = graphs.map((g,i)=>g.geoChanged?i:0).filter(g=>g!=0).join()
+    $('#saveBtn').text('enregistrer graphe'+(changed.length >2?'s ':' ')+ changed).click(saveGraph).show()
+    function saveGraph() {
+      updated_m_jsonFile=JSON.stringify(
+        { refs: mels.map(m=>(Object.assign(
+          {
+            mel: m.mel,
+            ds: m?.ds?.join(),
+            titre: m.titre,
+            music: m.music,
+            mscz: m.mscz,
+            commentaire: m.commentaire,
+            //docs: m?.docs?.map(d=>d.ref).join()
+            sxs: m?.sxs?.join(),
+            mscz: m.mscz
+          }, 
+          m.f.f? {
+            f: m.f.f,
+            X: m.X, 
+            Y: m.Y, 
+            rel: m.rel
+          }:{}))),
+          prefix: 'm',
+          name: 'Mélodies',
+          core: '[0-9]{1,3}',
+          suffix: ',m',
+          media: '0,0',
+          colldoc: '1XwAzAO4ltdPSggO5ZX38d9YiCJbL_h54OhtxDWd0D2c'
+        }
+      , null, "  ")
+      console.log(updated_m_jsonFile)
+      graphs.forEach(g =>g.geoChanged = false)
+      $('#saveBtn').hide()
+    }
+  }
+ 
+  function createRelation(from, to, sim) { //sim = opt boolean (not tested yet)
+    var [e, p] = sim ? ['s', 's'] : ['e', 'p']
+    function markRel(par, enf) {
+      par.rel = par.rel.split('').with(enf.rel.indexOf("m"), e).join('')
+      enf.rel = enf.rel.split('').with(par.rel.indexOf("m"), p).join('')
+    }
+    function grpSize(mel) { return mel.f.f ? mel.f.length : 1 }
+    var newLength = grpSize(from) + grpSize(to);            // rallonge des rels
+    (from.f.f ? from.f : [from]).forEach(m=>m.rel=m.rel.padStart(newLength, '.'));  // le groupe de "from" sera en début de dGrp (gauche des rel)
+    (  to.f.f ? to.f   : [to]  ).forEach(m=>m.rel=m.rel.padEnd  (newLength, '.'));  // le groupe de  "to" sera en fin de dGrp (droite des rel)
+    markRel(to, from) 
+    if (from.f.f * to.f.f) {  // s'il y avait 2 vrais graphes, on place celui de "to" (parent) en haut à gauche
+      offsetX = to.f.reduce((max, m) => Math.max(m.X, max), 0)
+      offsetY = to.f.reduce((max, m) => Math.max(m.Y, max), 0)
+      from.f.forEach(m=>{ m.X +=offsetX; m.Y +=offsetY })           
+    }
+    var dGrp = (to.f.f ? to.f :[to]).concat(from.f.f ? from.f : [from])
+    var sGrp //source group :le plus petit des deux, qu'on va vider et jeter
+    [dGrp.f, sGrp] = (gf=grpSize(from)) > (gt=grpSize(to)) ? [from.f.f, to.f] : 
+         gf*gt==1 ? [newEmptyGraph([to, from]).f, graphs[0]] : [to.f.f, from.f]  // *****en examen pour les 3 cas où g0 intervient
+    dGrp.forEach(m=> m.f = dGrp) // on màj les refs au graphe dans les mels 
+    graphs[dGrp.f] = dGrp
+    graphs[sGrp.f] = graphs[sGrp.f].filter(m=>!dGrp.includes(m)) //on nettoie (voire vide!) le petit graphe
+    //console.log(dGrp.map(m=>[m.mel,m.rel]))
+    return dGrp.f
+  }
+
+  function deleteRelation(from, to) {  // 'from' and 'to' are mel objects
+    var g = from.f                     // same group as to.f (since one arrow joined them)
+    var i = g.findIndex(m=>m==from)
+    var j = g.findIndex(m=>m==to);  
+    [i,j].forEach(k => g[k].rel=g[k].rel.split('').with(k==i ? j : i, '.').join(''))   // enlever cette relation ('p' 'e' ou 's')
+    function relNorm(i) {return g[i].rel.replaceAll(/[pes]/g,'R')}     // par ex: "m..es.p" => "m..RR.R"
+    var closures = relNorm(i)                                          // initialement, pour finir par ex en '.m.mmm....'
+    while (closures.includes('R')) {
+      function merge(a,b) {return a.split('').reduce ((acc, _, i) => acc + (a.charCodeAt(i)>b.charCodeAt(i) ? a[i] : b[i]),'')}
+      closures = merge(closures, relNorm(closures.search('R')))
+    } 
+    if (closures.includes('.')) {                                      // case where 2 subgraphs are identified
+      const closureKey = ['m', '.']
+      closureKey.map(ch=> g.filter((_m, j)=> closures[j] == ch)).forEach((dG, j) => {
+        dG.f = (l=dG.length)==1 ? 0  : l*2 > (cl=closures.length) ? g.f  : j ? g.f  : newEmptyGraph([]).f   // what group #?      
+        if (dG.f) graphs[dG.f]= dG    //on écrase l'ancien graphe
+        else {
+            graphs[0].push(dG[0])               //il n'y a qu'1 mél dans ce sous-graphe, on la vire en g0
+            graphs[0].sort((a,b)=>a.mel>b.mel)
+            if (g.length == 2 && j) g.length=0  //  on vide le graphe d'origine
+        }  
+        dG.forEach(m=> {
+          m.rel = m.rel.split('').filter((_, i)=>closures[i]==closureKey[j]).join('')
+          m.f = graphs[dG.f]
+    })})}
+    return g.length ? g.f : 0  //le graphe à présenter
+  }
 }
+
+
+

@@ -19,7 +19,10 @@ th {
   font-weight: bold
 }
 
-* { box-sizing: border-box; }
+* { 
+  box-sizing: border-box; 
+}
+
 body {
   font: 16px Arial;
 }

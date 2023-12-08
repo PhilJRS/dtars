@@ -21,11 +21,19 @@ collNames.forEach(coll1 => { //vérifier l'inter-compatibilité des préfixes
 }
 const mediaExtensions = ['jpg|pdf|png', 'mp3|mp4|m4a', 'mp4|mov']
 const gold = {}
-collNames.forEach(prefix => { //B)  Pour chaque nom de collection....
+collNames.forEach((prefix,i) => { //B)  Pour chaque nom de collection....
    function collPrompt(txt) { prompt(prefix.padEnd(6) + txt) } //erreur bloquante
    function collReport(txt) { console.log(prefix.padEnd(6) + txt) } //simple signalement
+   if (i) gold[prefix]=JSON.parse(fs.readFileSync(`${path}backOffice/CollM/${prefix}.json`, 'utf8'))
+   else {//m
+      oldGold = JSON.parse(fs.readFileSync(`${path}gold.json`, 'utf8'))
+      gold['m'] = oldGold.m  //faut aussi enlever les propriétés sxs et mscz
+      gold['m'].refs.forEach(mel=>{
+         if (mel?.sxs ) mel.sxs  = undefined
+         if (mel?.mscz) mel.mscz = undefined 
+      })
 
-   gold[prefix] = JSON.parse(fs.readFileSync(`${path}backOffice/CollM/${prefix}.json`, 'utf8'))
+   }
    var coll = gold[prefix] //forme abrégée
    var keys = Object.keys(coll)
 
@@ -35,22 +43,21 @@ collNames.forEach(prefix => { //B)  Pour chaque nom de collection....
    if (coll.prefix != prefix) collPrompt(`mauvais prefixe`)
    if (!keys.includes("media")) collReport(`pas de media`)
    else {
-      if (!coll.media.match(/^([pav],)*[pav]$/)) collPrompt(`propriété media ${coll.media} mal formattée)}`)
+      if (!coll.media.match(/^([0-2],)*[0-2]$/)) collPrompt(`propriété media ${coll.media} mal formattée`)      
       if (coll.media.length > 1) { //il faut donc des suffixes, vérifions-les:
          if (keys.includes("suffix")) {
-            if (!coll.suffix.match(/^,([A-Z],)*[A-Z]|m$/)) collPrompt(`propriété suffix ${coll.suffix} mal formattée`)
-            if (coll.suffix.length + 1 != coll.media.length) collPrompt(`propriété media ${coll.media} incompatible (en nombre) avec la propriété suffix ${coll.suffix}`)
+            if (!coll.suffix.match(/^[.],([A-Z],)*[A-Z]|m$/)) collPrompt(`propriété suffix ${coll.suffix} mal formattée`)
+            if (coll.suffix.length != (coll?.media.length ?? 0)) collPrompt(`propriété media ${coll.media} incompatible (en nombre) avec la propriété suffix ${coll.suffix}`)
          } else collPrompt(`media "long" sans "suffix"`)
       }
-      //B.2) reformattages métadonnées pour le calcul en C), mais aussi conservés dans le gold:
-      coll.suffix = (coll.suffix?.split(',') ?? [])
-      coll.suffix[0] = '.'                                         // ",A,B,C" => ".,A,B,C"
-      coll.media = coll.media.split(',').map(m => 'pav'.indexOf(m))  // "p,p,a,v" => "0,0,1,2"
+      //B.2) reformattage suffix pour le calcul en C),reformatté dans le gold:
+      coll.suffix = (coll.suffix?.split(',') ?? [])   // ".,A,B,C" =>['.', 'A', 'B', 'C']
    }
    if (!keys.includes("colldoc")) collReport(`pas de colldoc`)
    if (!keys.includes("core")) collReport(`pas de core`)
 
    //B.3) Vérifier la syntaxe des références (dans m et les collections)
+   //collPrompt('on commence')
    if (prefix == 'm') {
       kSet = new Set 
       coll.refs.forEach((ref, i) => {  // la collection "spéciale" des mélodies
@@ -66,9 +73,10 @@ collNames.forEach(prefix => { //B)  Pour chaque nom de collection....
       if (coll.refs) coll.refs.forEach((ref, i) => {
          if (ref.ref == undefined) missingRefAt.push(i)
          else {
+            if (!re.test(ref.ref)) collReport(`${ref.ref} fails ${re}`)
             if (compaRef(oldRef, ref.ref) != -1) collReport(` ${ref.ref} (${i}e référence) hors séquence alphalogique dans .json.`)
             oldRef = ref.ref
-            if (!re.test(ref.ref)) collReport(`${ref.ref} fails ${re}`)
+           
          }
          if (ref?.mel >= gold.m.refs.length)
             if (prompt(`création du n° de mélodie ${ref.mel} pour ${ref.ref}(max: ${gold.m.refs.length - 1})? o/n: `) == 'o')
@@ -93,9 +101,9 @@ collNames.forEach(prefix => { //B)  Pour chaque nom de collection....
       return false
    })
 
-   var sfxRegEx = []    // jeu de regExps  pour trouver les fichiers derrière chaque suffixe d'une réf 
+   var sfxRegEx =    []    // jeu de regExps  pour trouver les fichiers derrière chaque suffixe d'une réf 
    coll.suffix?.forEach((suffix, i) => {
-      sfxRegEx[i] = new RegExp('^' + (i ? suffix : '') + '[.](' + mediaExtensions[coll.media[i]] + ')')
+      sfxRegEx[i] = new RegExp('^' + (i ? suffix : '') + '[.](' + mediaExtensions[coll.media.split(',')[i]] + ')')
    })
    var refWithoutaMediaFile = []
    coll.refs.forEach((doc, i) => {
@@ -118,28 +126,32 @@ collNames.forEach(prefix => { //B)  Pour chaque nom de collection....
             // "validation des suffixes (-.{0,10})|(m(u|([1-9]?[.])?[1-9]))" à faire un jour...
             return false // OK, traité
          }
-         var sufIndex = coll.suffix.findIndex(s => s == sufChar)
-         if (sufIndex == -1) {
+         var sufIndex = coll.suffix.findIndex(s => s == sufChar)  //cherchons les extensions (.xxx) autorisées pour ce suffixe dans cette coll
+          if (sufIndex == -1) {
             collReport(`fichier ${fName} avec un suffixe ${sufChar} introuvable dans ${coll.suffix.join('|')}`)
             return true  //... traité, mais inclassable
          }
          if (fName.substring(refLen).match(sfxRegEx[sufIndex])) {
-            var pav = coll.media[sufIndex]  // 0, 1 ou 2 pour p,a ou v
+            var pav = coll.media.split(',')[sufIndex]  // 0, 1 ou 2 pour p,a ou v
             sxs[pav].push(fName.slice(refLen))   //et si ce sxs[med] contient déjà une url??
             return false //OK, classé
          }
          else return true // pas traité par cette référence.
       })
-      if (!sxs.flat().length) refWithoutaMediaFile.push(doc.ref ?? String(i)) //mettre sur la liste des refs du json sans aucun fichier media associé
+      if (!sxs.flat().length) {
+            refWithoutaMediaFile.push(doc.ref ?? String(i)) //mettre sur la liste des refs du json sans aucun fichier media associé
+            doc.sxs = undefined
+      }
       else doc.sxs = sxs.map(e => e.join()).join(';')
       if (mscz.length) doc.mscz = mscz.join()
+      else doc.mscz = undefined
       /* after change for non-empty mscz spurs above last 2 lines should become:
       if (sxs.flat().length + mscz.length > 0) doc.sxs = sxs.map(e => e.join()).concat(mscz.join()).join(';')
       */
    })
    if (refWithoutaMediaFile.length + fNames.length) {
       //collReport(`${refWithoutaMediaFile.length} réf${refWithoutaMediaFile.length>1 ?'s':''} dans .json sans fichier media correspondant${refWithoutaMediaFile.length ?  ' : '+refWithoutaMediaFile.join(', '):' .'}`)
-      collReport(`${fNames.length} fichier${fNames.length > 1 ? 's' : ''} sans réf correspondante dans .json${fNames.length ? ' : ' + fNames.join(', ') : ' .'}`)
+      if (fNames.length) collReport(`${fNames.length} fichier${fNames.length > 1 ? 's' : ''} sans réf correspondante dans .json${fNames.length ? ' : ' + fNames.join(', ') : ' .'}`)
    } else collReport(`fichiers et réfs.json alignés`)
 
    //C.2  Examen des URL de la collection, et mise en obsolescence selon les fichiers trouvés
@@ -149,7 +161,7 @@ collNames.forEach(prefix => { //B)  Pour chaque nom de collection....
          if (keys.indexOf(key) === -1) keys.push(key)
       })
    })
-   //collReport(`clés: ${keys.join(', ')}`)
+   collReport(`clés: ${keys.join(', ')}`)
    keys.forEach(key => {
       if (key.startsWith('url')) {
          if (key.length > 4) {
@@ -158,14 +170,14 @@ collNames.forEach(prefix => { //B)  Pour chaque nom de collection....
          }
          var suffChar = (key.length > 3 ? key[3] : '.')
          if (!coll.suffix.includes(suffChar)) {
-            collPrompt('url: suffixe: ' + suffChar + ' manquant en métadonnées de la collection (suffix = ' + coll.suffix + ')')
+            collPrompt('url: suffixe: ' + suffChar + ' manquant en métadonnées de la collection (suffix = ' + coll.suffix.join() + ')')
             return
          }
          if (!coll.hasOwnProperty(key + 'Pref')) {
             collPrompt(' métadonnée ' + key + 'Pref' + ' manquante.')
             return
          }
-         var pav = coll.media[coll.suffix.findIndex(s => s == suffChar)]  // média associé à cette url par les métadonnées de coll
+         var pav = coll.media.split(',')[coll.suffix.findIndex(s => s == suffChar)]  // média associé à cette url par les métadonnées de coll
          //vérifier que chaque doc qui a une url avec cette clé n'a pas déjà un fichier associé:
          coll.refs.forEach(doc => {
             if (doc.hasOwnProperty(key)) {
@@ -214,25 +226,10 @@ gold.m.refs.forEach((mel, i) => {
    })
 })
 
-//D3 : graphes : ventilation des données de graphe vers m.refs  et réciproque
-gold.m.graphs.forEach((g, i) => g.forEach(m => {
-   if (m.grp) {
-      var otherGraph = gold.m.graphs.findIndex(g=>g.includes(m.grp))
-      prompt(`m.json incohérent: mel${m.mel} appears both in graphs ${i} and ${otherGraph}.`)
-   } else m.grp = g
-   if (i) gold.m.refs[m.mel].graph = m  
-}))
-
-//D4 : ajout de relations (et melodies) par l'Utilisateur
+//D3 :  ajout de  melodies par l'Utilisateur
 //pour la portabilité du code qui suit, je cherche  
 //la similitude parfaite des structure et nommages de données dans gold.m.refs et gold.m. graph
 
-
-function stringMark(rel, index, char) { 
-   var arr=rel.split('')
-   arr.splice(index,1,char); 
-   return arr.join('')
- }
 
  function setRel(par, enf, sim) { //prérequis: même graphe!  //sim = opt boolean (not tested yet)
    var e ='e', p ='p'
@@ -254,75 +251,26 @@ do {
       console.log (JSON.stringify(m, ["mel", "music", "rel"], 2))
       return [m, m?.graph?.grp ?? gold.m.graphs[0]]  
    }
-   switch (input = prompt(`créer une nouvelle mélodie m${gold.m.refs.length} (m), une nouvelle relation (r) ou sauter cette étape ()?`)) {
+   switch (input = prompt(`créer une nouvelle mélodie m${gold.m.refs.length} (m), ou sauter cette étape ()?`)) {
       case 'm':
          gold.m.refs[newMel] = { "mel": newMel }
          if (input = prompt(`commentaire pour m${newMel}?`)) gold.m.refs[newMel].commentaire = input
          if (input = prompt(`musique en ABC pour m${newMel}?`)) gold.m.refs[newMel].music = input
          break
-      case 'r': 
-         var [par, pGrp] = melInput('parente (utilisée)')
-         var [enf, eGrp] = melInput('enfant (utilisante)')
-         if (pGrp == eGrp) { 
-            if (pGrp[0]?.rel ?? false) {       //CAS 1: il sont tous deux célibataires, il faut faire une nouvelle famille
-                //new family number
-               var nGrp =[]
-               gold.m.graphs.push(nGrp)
-               nGrp.push(par.graph = { mel: par.mel, X: 60, Y: 30, rel: "me", grp:nGrp })
-               nGrp.push(enf.graph = { mel: enf.mel, X: 80, Y: 80, rel: "pm", grp:nGrp })
-            } 
-            else setRel(par, enf)   //CAS 2: simple màj de la table des rels du graphe
-         } 
-         else if ((pGrp[0]?.rel ?? false )||( eGrp[0]?.rel ?? false)) { //CAS 3 , faut rattacher la mélodie solitaire mS à la famille f
-              //anonymisation des mélodies : SOLitaire (avant) ou GREgaire et du groupe de Destination
-            var [sol, gre, dGrp] = (pGrp[0]?.rel ?? false) ? [enf, par, pGrp] : [par,enf, eGrp]
-            var newsoli = gold.m.graphs[0].findIndex(i=>i.mel == sol.mel)//index de sol dans 0, sa pseudo-famille d'origine
-            gold.m.graphs[0].splice(newsoli, 1) //on sort le solitaire de sa liste du graph[0]
-            var j = gre.graph.rel.indexOf('m') //position de gre dans son groupe (Destination de sol)
-            dGrp.forEach((m,i) => m.rel += (i==j?(gre==par? 'e':'p'):'.')) //on rallonge chaque ligne du groupe
-            dGrp.push(sol.graph = {                                  //on ajoute la nouvelle ligne})
-               mel: sol.mel, X: 60 + (Math.floor(Math.random() *30)), Y: 30+ (Math.floor(Math.random() *30)),
-               rel: ('.'.repeat(j) + (gre==par ? 'p' : 'e')).padEnd(dGrp.length, '.') + 'm' 
-            })
-            console.log(dGrp)
-         } else {                   //CAS 4 : 2 familles non vides à merger!convention: on garde la famille du parent
-            //complète le graphe
-            var newLength = pGrp.length + eGrp.length  
-            offsetX = pGrp.reduce((max, m) => Math.max(m.graph.X, max), 0)
-            offsetY = pGrp.reduce((max, m) => Math.max(m.graph.Y, max), 0)
-            pGrp.forEach(m=>m.rel.padEnd(newLength, '.'))
-            eGrp.forEach(m=>{
-               m.X +=offsetX
-               m.Y +=offsetY
-               m.rel.padStart(newLength, '.')
-            })
-            pGrp.concat(eGrp)
-            setRel(par, enf)
-            gold.m.graphs.splice(gold.m.graphs.indexOf(eGrp),1)  //on libère le groupe vide (pour ne pas laisser [] traîner?)
-         }
-         //console.log (par)
-         //console.log (enf)
       }
 } while (input != '')
 
-console.log(`${gold.m.graphs.length} graphes pour m.js:`)
-
-
-if (prompt("enregistrer m.graphs.json o/n? (défaut: oui) ") !='n')
-fs.writeFileSync(path + "m.graphs.json", JSON.stringify(gold.m.graphs, ["mel","X","Y","rel"], 2), (err) => {
-   if (err) throw err;
-})
 
 //enregistrer le gold
 
 function replacer(key, value) { // Filtering out properties for JSON.stringify of colls
    switch (key) {
       case 'ds':
+      //case 'media':
       case 'suffix':
-      case 'mels':                       //dans DS [et m.fam]
-      case 'media': return value?.join()  //break inutile car "return"
-      case 'graph' : return undefined
-      case 'grp' : return undefined
+      case 'mels':  return value?.join()  //break inutile car "return"
+      case 'graph' : return undefined  //yapu
+      case 'grp' : return undefined   //yapu
       default: return value;
    }
 }

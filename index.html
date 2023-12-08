@@ -14,29 +14,30 @@
     <script src="svg.draggable.js"></script>
     <script src="svg.draw.js"></script-->
   </head>
-  <body> 
+  <body>
+    <script src="famGraph.js"></script>  
     <script src="main.js"></script>
-    <script src="famGraph.js"></script> 
+   
     <div><p id="DTstats"></div>
     <label for="togglePanel">❔</label>
     <input type="checkbox" id="togglePanel"></input>
     <aside><h2>Options</h2>
       <div><label for="editeur">Editeur</label>
-        <input id="editeur" type="checkbox" onclick="closePanel()" ></input>
+        <input id="editeur" type="checkbox" onclick="closeSettings()" ></input>
       </div><div><label for="videoOptions">Vidéo :</label>
-          <select id="videoOptions" onclick="closePanel()" >
+          <select id="videoOptions" onclick="closeSettings()" >
               <option value=2>son+image</option>
               <option value=1>son seul</option>
               <option value=0>ignorer</option>
           </select>
       </div><div><label for="etcOptions">Détail des documents: </label>
-          <select id="etcOptions" onclick="closePanel()" >
+          <select id="etcOptions" onclick="closeSettings()" >
               <option value=0>réduits </option>
               <option value=1>colonne 'etc'</option>
               <option value=2>tous</option>
           </select>
       </div><div><label for="msczOptions">Fichiers .mscz</label>
-        <input id="msczOptions" type="checkbox" onclick="closePanel()" ></input>
+        <input id="msczOptions" type="checkbox" onclick="closeSettings()" ></input>
       </div>
       <!--form action="enlist.html" method="post">
         Email Address: <input type="email" name="emailAddress" required><br>
@@ -44,16 +45,15 @@
       </form-->
     </aside>
     <script>
-      function closePanel() {
-        docTable($('#mel')[0]?.firstChild.nodeValue.split(' ')[1])
-        docTable(prefixes[curColNb])
-        if ($('#fPaper').children(0).length) showGraph($('#fPaper').attr("fam"))
+      function closeSettings() {
+        docTable($('#MelPanel').attr('dt_label')) //updates MelPanel
+        docTable($('#ColPanel').attr('dt_label')) //updates CollPanel
         $('#togglePanel')[0].checked = false
       }
     </script>
     <button id="saveBtn"></button>
-    <div id="DTfamBttns"></div>
-    <svg id="fPaper" height="0" ></svg>
+    <div id="DTGraphBttns"></div>
+    <svg id="GraphPanel" ></svg>   
     <svg height="0">
       <defs>
         <marker
@@ -65,9 +65,10 @@
       </defs>
     </svg>
     <div class="audio-clip">
-      <figcaption id="titre">ref. courte</figcaption>
+      <figcaption id="AudTitre">ref. courte</figcaption>
       <audio
-          id="audio"
+          style="width: 100%"
+          id="AudPanel"
           controls
           preload
           autoplay
@@ -80,9 +81,9 @@
       </div>
     </form>
     <table id="aeTb" border="1" ></table> 
-    <table id="mPanel" border="1"></table>
-    <p id="DTcollBttns"></p>
-    <div id="collectionTable" class="tableFixHead">
+    <table id="MelPanel" border="1"></table>
+    <p id="DTCollBttns"></p>              
+    <div id="CollPanel" class="tableFixHead">
       <table id="cTbl" border="0" ></table> 
     </div>
 </body>
