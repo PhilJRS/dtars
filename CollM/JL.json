@@ -81,6 +81,11 @@
             "titre": "E Bürebiewala mag i net"
         },
         {
+            "mel": 113,
+            "ref": "JL2.119",
+            "titre": "Wir Burschen müssen Soldaten sein"
+        },
+        {
             "mel": 293,
             "ref": "JL2.121",
             "titre": "Belacker-Lied"
@@ -174,5 +179,6 @@
     "name": "Joseph Lefftz",
     "core": "[123][.][1-9][0-9]{0,2}(a|b|([.][1-9]))?",
     "colldoc": "1-qayvW-V-bCfQTqde7l8VvJao2BS8KGENidTw1kKtL0",
-    "media": "p"
+    "suffix": ".",
+    "media": "0"
 }

@@ -169,7 +169,7 @@
             "titre": "O Soldat"
         },
         {
-            "mel": 341,
+            "mel": 419,
             "ref": "LP3p137",
             "titre": "Das Lied vom Ackermann"
         },
@@ -382,7 +382,7 @@
     "prefix": "LP",
     "name": "Louis Pinck",
     "core": "[1-5]p[1-9][0-9]{0,2}([.][12])?",
-    "suffix": ",A,C",
-    "media": "p,a,p",
+    "suffix": ".,A,C",
+    "media": "0,1,0",
     "colldoc": "1FwfYOai1-sMZotYvuLh_u2cywD4vN2WXDSpOkoiQ9dw"
 }

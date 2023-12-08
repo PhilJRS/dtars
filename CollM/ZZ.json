@@ -1,288 +1,348 @@
 {
     "refs": [
-		{
-		"mel": 259,
-		"ref": "ZZAlexa1",
-		"titre": "Dans la nuit tiède ; Z'Nacht wenn der Mond schynt",
-		"commentaire": "A.Alexandre p36"
-	},{
-		"mel": 288,
-		"ref": "ZZArBre1",
-		"commentaire": "Achim von Arnim, Clemens Brentano, Des Knaben Wunderhorn"
-	},{
-		"mel": 66,
-		"ref": "ZZBarTo4-120-2",
-		"titre": "Sur le pont de Nantes",
-		"commentaire": "Barbillat Touraine 1912",
-		"urlM": "BT4-120-2"
-	},{
-		"mel": 34,
-		"ref": "ZZBoehm288",
-		"titre": "Alter Tanz der Kochelsberger Bauern"
-	},{
-		"ref": "ZZBoehm289",
-		"titre": "Der Kochelsperger Tanz"
-	},{
-		"mel": 417,
-		"ref": "ZZCante1p66",
-		"titre": "Lou roussignou che vola ; Le rossignol qui vole"
-	},{
-		"mel": 48,
-		"ref": "ZZCante3p296",
-		"titre": "Mon peihre tô m'ai mariai ; Mon père tôt m'a mariée ; chant de mal mariée"
-	},{
-		"mel": 41,
-		"ref": "ZZCante3p301",
-		"titre": "Vetia veni lo zouli ma ; Voici venir le joli mai ; Chant pour le mois de mai",
-		"commentaire": "mel OK"
-	},{
-		"mel": 46,
-		"ref": "ZZCante3p314",
-		"titre": "I t'airai, mai brunette ; Je t'aurai, ma brunette",
-		"commentaire": "mel OK"
-	},{
-		"mel": 203,
-		"ref": "ZZCante3p376",
-		"titre": "Voici la Saint Jean et la Saint Pierre",
-		"commentaire": "mel OK"
-	},{
-		"mel": 216,
-		"ref": "ZZCante3p378",
-		"titre": "Mon pèr' m'envoie-t-a l'herbe",
-		"commentaire": "mel OK"
-	},{
-		"mel": 298,
-		"ref": "ZZCante3p394",
-		"titre": "Des Maisel Pfifft ; Le pison chante",
-		"commentaire": "mel OK"
-	},{
-		"mel": 353,
-		"ref": "ZZCante3p396",
-		"titre": "Herzig's Marianel ; Chère Marianne",
-		"commentaire": "mel OK"
-	},{
-		"mel": 221,
-		"ref": "ZZCante3p397",
-		"titre": "In Lauterbach ; A Lauterbach",
-		"commentaire": "mel OK"
-	},{
-		"mel": 213,
-		"ref": "ZZCante3p412",
-		"titre": "Veile, Rose, Bliemele! ; Des violettes et des roses!",
-		"commentaire": "mel OK"
-	},{
-		"mel": 0,
-		"ref": "ZZCante3p416",
-		"titre": "Ich wünsch euch ; Je vous souhaite",
-		"commentaire": "mel OK"
-	},{
-		"mel": 299,
-		"ref": "ZZCante3p417",
-		"titre": "Es, es, es un es ; C'est, c'est, c'est, oui c'est",
-		"commentaire": "mel OK"
-	},{
-		"mel": 188,
-		"ref": "ZZCante3p438",
-		"titre": "Der Hans im Schnokeloch ; Le Jean du Schnokeloch",
-		"commentaire": "mel OK"
-	},{
-		"mel": 145,
-		"ref": "ZZCante3p443",
-		"titre": "S isch noch nitt lang ; Il y a peu de temps qu'il a plu",
-		"commentaire": "mel OK"
-	},{
-		"mel": 27,
-		"ref": "ZZCante3p446",
-		"titre": "Heissa Kathrinele ; Allons! Cathr'rine",
-		"commentaire": "mel OK"
-	},{
-		"mel": 8,
-		"ref": "ZZDecitre2p41",
-		"titre": "Le Branle de la St Jean ; Branle des Granvalliers",
-		"commentaire": "notée par M. Henry-Rosier"
-	},{
-		"mel": 41,
-		"ref": "ZZDecitre2p46",
-		"titre": "La Léchette",
-		"commentaire": "Zouli mà, un trimazo"
-	},{
-		"mel": 290,
-		"ref": "ZZFabricius",
-		"titre": "Gut Gsell un du musst wandern"
-	},{
-		"mel": 61,
-		"ref": "ZZGRieb1",
-		"commentaire": "Géo Rieb 1936"
-	},{
-		"mel": 385,
-		"ref": "ZZGRieb2",
-		"commentaire": "Géo Rieb 1947"
-	},{
-		"mel": 257,
-		"ref": "ZZGRieb3",
-		"commentaire": "Géo Rieb Sundgau 1860"
-	},{
-		"mel": 90,
-		"ref": "ZZHirle1",
-		"titre": "Baesedanz ; La danse des balais",
-		"commentaire": "Mario Hirlé",
-		"urlB": "12148/cb177974767"
-	},{
-		"mel": 172,
-		"ref": "ZZHvdAu0",
-		"commentaire": "Hans von der Au, Bitche 1941"
-	},{
-		"mel": 193,
-		"ref": "ZZHvdAup19",
-		"commentaire": "Hans von der Au"
-	},{
-		"mel": 88,
-		"ref": "ZZHvdAup23",
-		"commentaire": "Hans von der Au"
-	},{
-		"mel": 43,
-		"ref": "ZZHvdAup42",
-		"commentaire": "Hans von der Au"
-	},{
-		"mel": 120,
-		"ref": "ZZKasse1"
-	},{
-		"mel": 166,
-		"ref": "ZZKasse2"
-	},{
-		"mel": 43,
-		"ref": "ZZKasse3"
-	},{
-		"mel": 50,
-		"ref": "ZZKasse4",
-		"titre": "Der Apfelgrüne Marsch",
-		"urlB": "9758185t/f72"
-	},{
-		"mel": 172,
-		"ref": "ZZKasse5",
-		"commentaire": "Obermodern 1850"
-	},{
-		"mel": 89,
-		"ref": "ZZKasse6.1927.p81",
-		"commentaire": "Neuer Elsässer Kalender"
-	},{
-		"mel": 384,
-		"ref": "ZZKasse7.1954"
-	},{
-		"mel": 257,
-		"ref": "ZZKasse8.p81"
-	},{
-		"mel": 62,
-		"ref": "ZZKasse9",
-		"commentaire": "Sprüchle"
-	},{
-		"mel": 92,
-		"ref": "ZZKasse10",
-		"commentaire": "Sprüchle"
-	},{
-		"mel": 152,
-		"ref": "ZZKasse11",
-		"commentaire": "Sprüchle"
-	},{
-		"mel": 170,
-		"ref": "ZZKasse12",
-		"commentaire": "Sprüchle"
-	},{
-		"mel": 302,
-		"ref": "ZZKasse13",
-		"commentaire": "Sprüchle"
-	},{
-		"mel": 356,
-		"ref": "ZZKasse14",
-		"titre": "Zwei rèwer, Zwei néwer",
-		"commentaire": "Sprüchle"
-	},{
-		"mel": 195,
-		"ref": "ZZMayer1",
-		"commentaire": "Jules Mayer 1946"
-	},{
-		"mel": 85,
-		"ref": "ZZOSchn1",
-		"commentaire": "Tanz Lexikon, Otto Schneider p180"
-	},{
-		"mel": 216,
-		"ref": "ZZPuyma10.1",
-		"titre": "L'Alouette et la jeune Femme",
-		"urlB": "281566/f295.item",
-		"urlM": "PuymaigreM-1865-238-10-1"
-	},{
-		"mel": 203,
-		"ref": "ZZPuyma11.2",
-		"titre": "La Saint Jean d'été",
-		"urlB": "281566/f296.item#",
-		"urlM": "PuymaigreM-1865-264-11-2"
-	},{
-		"mel": 270,
-		"ref": "ZZReysz1",
-		"commentaire": "Carl Reysz 1935"
-	},{
-		"mel": 53,
-		"ref": "ZZRomin0",
-		"titre": "Arme Seelenlied",
-		"commentaire": "G. Röminger: Elsässicher Liederkrantz"
-	},{
-		"mel": 36,
-		"ref": "ZZRomin5.63",
-		"titre": "Conscritlied",
-		"commentaire": "G. Röminger ed5 n°63p124"
-	},{
-		"mel": 369,
-		"ref": "ZZRomin5.183",
-		"titre": "Hinterem Münster",
-		"commentaire": "G. Röminger"
-	},{
-		"mel": 367,
-		"ref": "ZZRomin5.184",
-		"titre": "D'Meiselocker vu Strossburg",
-		"commentaire": "G. Röminger"
-	},{
-		"mel": 61,
-		"ref": "ZZRomin160",
-		"titre": "Das verliebte Bauernmädchen",
-		"commentaire": "G. Röminger ed"
-	},{
-		"mel": 17,
-		"ref": "ZZStoeb1.1850",
-		"commentaire": "Auguste Stoeber"
-	},{
-		"mel": 213,
-		"ref": "ZZStoeb2.p114",
-		"commentaire": "Auguste Stoeber"
-	},{
-		"mel": 152,
-		"ref": "ZZStoeb3",
-		"commentaire": "Auguste Stoeber"
-	},{
-		"mel": 41,
-		"ref": "ZZWestp365.3",
-		"titre": "Vettia veni lo zouli mâ",
-		"commentaire": "Westphalen",
-		"urlB": "33668k/f373.item",
-		"urlM": "WestphalenT-365-3"
-	},{
-		"mel": 198,
-		"ref": "ZZWestp368.2",
-		"titre": "En revenant dreuvan les champs",
-		"commentaire": "Westphalen 1913",
-		"urlB": "33668k/f376.item",
-		"urlM": "WestphalenT-368-2"
-	},{
-		"mel": 290,
-		"ref": "ZZZupfgp5",
-		"titre": "Gut Gsell un du musst wandern",
-		"commentaire": "Zupfgeigenhansel 5"
-	}
-],
+        {
+            "mel": 259,
+            "ref": "ZZAlexa1",
+            "titre": "Dans la nuit tiède ; Z'Nacht wenn der Mond schynt",
+            "commentaire": "A.Alexandre p36"
+        },
+        {
+            "mel": 288,
+            "ref": "ZZArBre1",
+            "commentaire": "Achim von Arnim, Clemens Brentano, Des Knaben Wunderhorn"
+        },
+        {
+            "mel": 66,
+            "ref": "ZZBarTo4-120-2",
+            "titre": "Sur le pont de Nantes",
+            "commentaire": "Barbillat Touraine 1912",
+            "urlM": "BT4-120-2"
+        },
+        {
+            "mel": 34,
+            "ref": "ZZBoehm288",
+            "titre": "Alter Tanz der Kochelsberger Bauern"
+        },
+        {
+            "ref": "ZZBoehm289",
+            "titre": "Der Kochelsperger Tanz"
+        },
+        {
+            "mel": 417,
+            "ref": "ZZCante1p66",
+            "titre": "Lou roussignou che vola ; Le rossignol qui vole"
+        },
+        {
+            "mel": 48,
+            "ref": "ZZCante3p296",
+            "titre": "Mon peihre tô m'ai mariai ; Mon père tôt m'a mariée ; chant de mal mariée"
+        },
+        {
+            "mel": 41,
+            "ref": "ZZCante3p301",
+            "titre": "Vetia veni lo zouli ma ; Voici venir le joli mai ; Chant pour le mois de mai",
+            "commentaire": "mel OK"
+        },
+        {
+            "mel": 46,
+            "ref": "ZZCante3p314",
+            "titre": "I t'airai, mai brunette ; Je t'aurai, ma brunette",
+            "commentaire": "mel OK"
+        },
+        {
+            "mel": 203,
+            "ref": "ZZCante3p376",
+            "titre": "Voici la Saint Jean et la Saint Pierre",
+            "commentaire": "mel OK"
+        },
+        {
+            "mel": 216,
+            "ref": "ZZCante3p378",
+            "titre": "Mon pèr' m'envoie-t-a l'herbe",
+            "commentaire": "mel OK"
+        },
+        {
+            "mel": 298,
+            "ref": "ZZCante3p394",
+            "titre": "Des Maisel Pfifft ; Le pison chante",
+            "commentaire": "mel OK"
+        },
+        {
+            "mel": 353,
+            "ref": "ZZCante3p396",
+            "titre": "Herzig's Marianel ; Chère Marianne",
+            "commentaire": "mel OK"
+        },
+        {
+            "mel": 221,
+            "ref": "ZZCante3p397",
+            "titre": "In Lauterbach ; A Lauterbach",
+            "commentaire": "mel OK"
+        },
+        {
+            "mel": 213,
+            "ref": "ZZCante3p412",
+            "titre": "Veile, Rose, Bliemele! ; Des violettes et des roses!",
+            "commentaire": "mel OK"
+        },
+        {
+            "mel": 0,
+            "ref": "ZZCante3p416",
+            "titre": "Ich wünsch euch ; Je vous souhaite",
+            "commentaire": "mel OK"
+        },
+        {
+            "mel": 299,
+            "ref": "ZZCante3p417",
+            "titre": "Es, es, es un es ; C'est, c'est, c'est, oui c'est",
+            "commentaire": "mel OK"
+        },
+        {
+            "mel": 188,
+            "ref": "ZZCante3p438",
+            "titre": "Der Hans im Schnokeloch ; Le Jean du Schnokeloch",
+            "commentaire": "mel OK"
+        },
+        {
+            "mel": 145,
+            "ref": "ZZCante3p443",
+            "titre": "S isch noch nitt lang ; Il y a peu de temps qu'il a plu",
+            "commentaire": "mel OK"
+        },
+        {
+            "mel": 27,
+            "ref": "ZZCante3p446",
+            "titre": "Heissa Kathrinele ; Allons! Cathr'rine",
+            "commentaire": "mel OK"
+        },
+        {
+            "mel": 8,
+            "ref": "ZZDecitre2p41",
+            "titre": "Le Branle de la St Jean ; Branle des Granvalliers",
+            "commentaire": "notée par M. Henry-Rosier"
+        },
+        {
+            "mel": 41,
+            "ref": "ZZDecitre2p46",
+            "titre": "La Léchette",
+            "commentaire": "Zouli mà, un trimazo"
+        },
+        {
+            "mel": 290,
+            "ref": "ZZFabricius",
+            "titre": "Gut Gsell un du musst wandern"
+        },
+        {
+            "mel": 61,
+            "ref": "ZZGRieb1",
+            "commentaire": "Géo Rieb 1936"
+        },
+        {
+            "mel": 385,
+            "ref": "ZZGRieb2",
+            "commentaire": "Géo Rieb 1947"
+        },
+        {
+            "mel": 257,
+            "ref": "ZZGRieb3",
+            "commentaire": "Géo Rieb Sundgau 1860"
+        },
+        {
+            "mel": 90,
+            "ref": "ZZHirle1",
+            "titre": "Baesedanz ; La danse des balais",
+            "commentaire": "Mario Hirlé",
+            "urlB": "12148/cb177974767"
+        },
+        {
+            "mel": 172,
+            "ref": "ZZHvdAu0",
+            "commentaire": "Hans von der Au, Bitche 1941"
+        },
+        {
+            "mel": 193,
+            "ref": "ZZHvdAup19",
+            "commentaire": "Hans von der Au"
+        },
+        {
+            "mel": 88,
+            "ref": "ZZHvdAup23",
+            "commentaire": "Hans von der Au"
+        },
+        {
+            "mel": 43,
+            "ref": "ZZHvdAup42",
+            "commentaire": "Hans von der Au"
+        },
+        {
+            "mel": 120,
+            "ref": "ZZKasse1"
+        },
+        {
+            "mel": 166,
+            "ref": "ZZKasse2"
+        },
+        {
+            "mel": 43,
+            "ref": "ZZKasse3"
+        },
+        {
+            "mel": 50,
+            "ref": "ZZKasse4",
+            "titre": "Der Apfelgrüne Marsch",
+            "urlB": "9758185t/f72"
+        },
+        {
+            "mel": 172,
+            "ref": "ZZKasse5",
+            "commentaire": "Obermodern 1850"
+        },
+        {
+            "mel": 89,
+            "ref": "ZZKasse6.1927.p81",
+            "commentaire": "Neuer Elsässer Kalender"
+        },
+        {
+            "mel": 384,
+            "ref": "ZZKasse7.1954"
+        },
+        {
+            "mel": 257,
+            "ref": "ZZKasse8.p81"
+        },
+        {
+            "mel": 62,
+            "ref": "ZZKasse9",
+            "commentaire": "Sprüchle"
+        },
+        {
+            "mel": 92,
+            "ref": "ZZKasse10",
+            "commentaire": "Sprüchle"
+        },
+        {
+            "mel": 152,
+            "ref": "ZZKasse11",
+            "commentaire": "Sprüchle"
+        },
+        {
+            "mel": 170,
+            "ref": "ZZKasse12",
+            "commentaire": "Sprüchle"
+        },
+        {
+            "mel": 302,
+            "ref": "ZZKasse13",
+            "commentaire": "Sprüchle"
+        },
+        {
+            "mel": 356,
+            "ref": "ZZKasse14",
+            "titre": "Zwei rèwer, Zwei néwer",
+            "commentaire": "Sprüchle"
+        },
+        {
+            "mel": 195,
+            "ref": "ZZMayer1",
+            "commentaire": "Jules Mayer 1946"
+        },
+        {
+            "mel": 85,
+            "ref": "ZZOSchn1",
+            "commentaire": "Tanz Lexikon, Otto Schneider p180"
+        },
+        {
+            "mel": 216,
+            "ref": "ZZPuyma10.1",
+            "titre": "L'Alouette et la jeune Femme",
+            "urlB": "281566/f295.item",
+            "urlM": "PuymaigreM-1865-238-10-1"
+        },
+        {
+            "mel": 203,
+            "ref": "ZZPuyma11.2",
+            "titre": "La Saint Jean d'été",
+            "urlB": "281566/f296.item#",
+            "urlM": "PuymaigreM-1865-264-11-2"
+        },
+        {
+            "mel": 270,
+            "ref": "ZZReysz1",
+            "commentaire": "Carl Reysz 1935"
+        },
+        {
+            "mel": 53,
+            "ref": "ZZRomin0",
+            "titre": "Arme Seelenlied",
+            "commentaire": "G. Röminger: Elsässicher Liederkrantz"
+        },
+        {
+            "mel": 36,
+            "ref": "ZZRomin5.63",
+            "titre": "Conscritlied",
+            "commentaire": "G. Röminger ed5 n°63p124"
+        },
+        {
+            "mel": 369,
+            "ref": "ZZRomin5.183",
+            "titre": "Hinterem Münster",
+            "commentaire": "G. Röminger"
+        },
+        {
+            "mel": 367,
+            "ref": "ZZRomin5.184",
+            "titre": "D'Meiselocker vu Strossburg",
+            "commentaire": "G. Röminger"
+        },
+        {
+            "mel": 61,
+            "ref": "ZZRomin160",
+            "titre": "Das verliebte Bauernmädchen",
+            "commentaire": "G. Röminger ed"
+        },
+        {
+            "mel": 17,
+            "ref": "ZZStoeb1.1850",
+            "commentaire": "Auguste Stoeber"
+        },
+        {
+            "mel": 213,
+            "ref": "ZZStoeb2.p114",
+            "commentaire": "Auguste Stoeber"
+        },
+        {
+            "mel": 152,
+            "ref": "ZZStoeb3",
+            "commentaire": "Auguste Stoeber"
+        },
+        {
+            "mel": 41,
+            "ref": "ZZWestp365.3",
+            "titre": "Vettia veni lo zouli mâ",
+            "commentaire": "Westphalen",
+            "urlB": "33668k/f373.item",
+            "urlM": "WestphalenT-365-3"
+        },
+        {
+            "mel": 198,
+            "ref": "ZZWestp368.2",
+            "titre": "En revenant dreuvan les champs",
+            "commentaire": "Westphalen 1913",
+            "urlB": "33668k/f376.item",
+            "urlM": "WestphalenT-368-2"
+        },
+        {
+            "mel": 290,
+            "ref": "ZZZupfgp5",
+            "titre": "Gut Gsell un du musst wandern",
+            "commentaire": "Zupfgeigenhansel 5"
+        }
+    ],
     "prefix": "ZZ",
-	"name": "Sources diverses",
+    "name": "Sources diverses",
     "core": "[0-9a-zA-Z]+",
-    "suffix":",M,B",
-    "media": "p,p,p",
+    "suffix": ".,M,B",
+    "media": "0,0,0",
     "colldoc": "1Aef_osZkHVaBH1MbxQev_KQtRq3oq2ujVBmXgK87SF8",
     "urlBPref": "https://gallica.bnf.fr/ark:/12148/bpt6k/",
     "urlMPref": "https://www.aepem.com/wp-content/uploads/Media/MUS/",

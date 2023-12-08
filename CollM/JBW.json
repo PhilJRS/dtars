@@ -207,8 +207,8 @@
     "prefix": "JBW",
     "name": "Jean-Baptiste Weckerlin",
     "core": "[12]p[1-9][0-9]{0,2}",
-    "suffix": ",M",
-    "media": "p,p",
+    "suffix": ".,M",
+    "media": "0,0",
     "colldoc": "1Jtt0zBWsxMMDx8nf6-ZznixUfu817nOaZI4iYpHYCgw",
     "urlMPref": "https://www.aepem.com/wp-content/uploads/Media/MUS/WeckerlinA-",
     "urlMSuf": ".myrweb.html"

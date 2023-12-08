@@ -122,7 +122,7 @@
     "prefix": "DTA",
     "name": "Danses Traditionnelles d'Alsace",
     "core": "7[68][.][1-9][0-9]?",
-    "suffix": ",V",
-    "media": "a,v",
+    "suffix": ".,V",
+    "media": "1,2",
     "colldoc": "1PmliVGsi_p7YBoW7sETCzh58taFUpzk0YFOk5AlgOCs"
 }

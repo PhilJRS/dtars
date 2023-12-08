@@ -27,9 +27,56 @@
             "ref": "GF2.5"
         },
         {
+            "mel": 428,
             "ref": "GF3.1",
+            "titre": "Uff-Marsch",
+            "nomDuGroupe": "Groupe folklorique des Marcaires de la Vallée de Munster"
+        },
+        {
+            "ref": "GF3.2",
+            "titre": "Schottisch",
             "nomDuGroupe": "Groupe folklorique des Marcaires de la Vallée de Munster",
-            "commentaire": "Uff Marsch, Schottisch, Les trois valses, Polka Piquée"
+            "commentaire": "séquence de 3 mélodies à identifier"
+        },
+        {
+            "mel": 363,
+            "ref": "GF3.3",
+            "titre": "Trois valses de Munster"
+        },
+        {
+            "mel": 297,
+            "ref": "GF3.4",
+            "titre": "Polka piquée"
+        },
+        {
+            "mel": 65,
+            "ref": "GF3.5",
+            "titre": "Gemütlichkeit"
+        },
+        {
+            "ref": "GF3.6",
+            "titre": "Müsschnackadantz",
+            "commentaire": "Mélodie à écrire"
+        },
+        {
+            "mel": 144,
+            "ref": "GF3.7",
+            "titre": "S'Annameyala (Danse des 7 pas)"
+        },
+        {
+            "ref": "GF3.8",
+            "titre": "Valse Munsterienne",
+            "commentaire": "vA=m356:  vA, B, vA, C, vA, B, vA, C, vA, B, "
+        },
+        {
+            "mel": 129,
+            "ref": "GF3.9",
+            "titre": "Polka des conscrits"
+        },
+        {
+            "ref": "GF3.10",
+            "titre": "Florian (Rheinländer)",
+            "commentaire": "pA, pBbombomstand ou équivalent, pA, pC, pA, pD,pA"
         },
         {
             "mel": 385,
@@ -129,9 +176,9 @@
         }
     ],
     "prefix": "GF",
-    "name": "Groupes folkloriques",										
+    "name": "Groupes folkloriques",
     "core": "[1-9][0-9]?[.][1-9][0-9]?",
-    "suffix": ",A,B,C,D,E",
-    "media": "v,a,v,v,v,a",
+    "suffix": ".,A,B,C,D,E",
+    "media": "2,1,2,2,2,1",
     "colldoc": "1Oc-WqBEU7O9zkJSOgBlz8trHsd-_zL6oagRU4D8YBPs"
 }

@@ -1,115 +1,140 @@
 {
     "refs": [
         {
-		"mel": 75,
-		"ref": "CDTS1",
-		"titre": "Salamandre"
-	},{
-		"mel": 365,
-		"ref": "CDTS2",
-		"titre": "Trois valses de Strasbourg"
-	},{
-		"mel": 144,
-		"ref": "CDTS3",
-		"titre": "Sept pas de Munster"
-	},{
-		"mel": 76,
-		"ref": "CDTS4",
-		"titre": "Sarabande"
-	},{
-		"mel": 68,
-		"ref": "CDTS5",
-		"titre": "Quatre pas"
-	},{
-		"mel": 317,
-		"ref": "CDTS6",
-		"titre": "Le pré aux alouettes"
-	},{
-		"mel": 119,
-		"ref": "CDTS7",
-		"titre": "Rhinlander"
-	},{
-		"mel": 173,
-		"ref": "CDTS8",
-		"titre": "Mazurka, varsovienne"
-	},{
-		"mel": 297,
-		"ref": "CDTS9",
-		"titre": "Hop Mariannele"
-	},{
-		"mel": 238,
-		"ref": "CDTS10",
-		"titre": "Petite suite de danses très anciennes"
-	},{
-		"mel": 194,
-		"ref": "CDTS10.1",
-		"titre": "Branle des bergers"
-	},{
-		"mel": 198,
-		"ref": "CDTS10.2",
-		"titre": "Trimazo"
-	},{
-		"mel": 218,
-		"ref": "CDTS10.3",
-		"titre": "Sept sauts"
-	},{
-		"mel": 208,
-		"ref": "CDTS10.4",
-		"titre": "Monôme de carnaval - Entrée des filles"
-	},{
-		"mel": 233,
-		"ref": "CDTS10.5",
-		"titre": "Schwitzemann"
-	},{
-		"mel": 16,
-		"ref": "CDTS11",
-		"titre": "Drapeaux"
-	},{
-		"mel": 291,
-		"ref": "CDTS12",
-		"titre": "Trois branles"
-	},{
-		"mel": 60,
-		"ref": "CDTS13",
-		"titre": "Pavane ; Liewer Owestarn"
-	},{
-		"mel": 155,
-		"ref": "CDTS14",
-		"titre": "Triolets"
-	},{
-		"mel": 376,
-		"ref": "CDTS15",
-		"titre": "Valse des violettes"
-	},{
-		"mel": 331,
-		"ref": "CDTS16",
-		"titre": "Polka des verriers"
-	},{
-		"mel": 174,
-		"ref": "CDTS17",
-		"titre": "Mazurka, varsovienne, polonaise"
-	},{
-		"mel": 322,
-		"ref": "CDTS18",
-		"commentaire": "cloutier, impaire d'Oderen"
-	},{
-		"mel": 371,
-		"ref": "CDTS19",
-		"commentaire": "Valse des violettes"
-	},{
-		"mel": 403,
-		"ref": "CDTS20",
-		"commentaire": "Danse militaire. (musique: Gavotte Provençale) (coupé)"
-	},{
-		"mel": 404,
-		"ref": "CDTS21",
-		"commentaire": "Rhinlander"
-	}
-],
+            "mel": 75,
+            "ref": "CDTS1",
+            "titre": "Salamandre"
+        },
+        {
+            "mel": 365,
+            "ref": "CDTS2",
+            "titre": "Trois valses de Strasbourg"
+        },
+        {
+            "mel": 144,
+            "ref": "CDTS3",
+            "titre": "Sept pas de Munster"
+        },
+        {
+            "mel": 76,
+            "ref": "CDTS4",
+            "titre": "Sarabande"
+        },
+        {
+            "mel": 68,
+            "ref": "CDTS5",
+            "titre": "Quatre pas"
+        },
+        {
+            "mel": 317,
+            "ref": "CDTS6",
+            "titre": "Le pré aux alouettes"
+        },
+        {
+            "mel": 119,
+            "ref": "CDTS7",
+            "titre": "Rhinlander"
+        },
+        {
+            "mel": 173,
+            "ref": "CDTS8",
+            "titre": "Mazurka, varsovienne"
+        },
+        {
+            "mel": 297,
+            "ref": "CDTS9",
+            "titre": "Hop Mariannele"
+        },
+        {
+            "mel": 238,
+            "ref": "CDTS10",
+            "titre": "Petite suite de danses très anciennes"
+        },
+        {
+            "mel": 194,
+            "ref": "CDTS10.1",
+            "titre": "Branle des bergers"
+        },
+        {
+            "mel": 198,
+            "ref": "CDTS10.2",
+            "titre": "Trimazo"
+        },
+        {
+            "mel": 218,
+            "ref": "CDTS10.3",
+            "titre": "Sept sauts"
+        },
+        {
+            "mel": 208,
+            "ref": "CDTS10.4",
+            "titre": "Monôme de carnaval - Entrée des filles"
+        },
+        {
+            "mel": 233,
+            "ref": "CDTS10.5",
+            "titre": "Schwitzemann"
+        },
+        {
+            "mel": 16,
+            "ref": "CDTS11",
+            "titre": "Drapeaux"
+        },
+        {
+            "mel": 291,
+            "ref": "CDTS12",
+            "titre": "Trois branles"
+        },
+        {
+            "mel": 60,
+            "ref": "CDTS13",
+            "titre": "Pavane ; Liewer Owestarn"
+        },
+        {
+            "mel": 155,
+            "ref": "CDTS14",
+            "titre": "Triolets"
+        },
+        {
+            "mel": 376,
+            "ref": "CDTS15",
+            "titre": "Valse des violettes"
+        },
+        {
+            "mel": 331,
+            "ref": "CDTS16",
+            "titre": "Polka des verriers"
+        },
+        {
+            "mel": 174,
+            "ref": "CDTS17",
+            "titre": "Mazurka, varsovienne, polonaise"
+        },
+        {
+            "mel": 322,
+            "ref": "CDTS18",
+            "commentaire": "cloutier, impaire d'Oderen"
+        },
+        {
+            "mel": 371,
+            "ref": "CDTS19",
+            "commentaire": "Valse des violettes"
+        },
+        {
+            "mel": 403,
+            "ref": "CDTS20",
+            "commentaire": "Danse militaire. (musique: Gavotte Provençale) (coupé)"
+        },
+        {
+            "mel": 404,
+            "ref": "CDTS21",
+            "commentaire": "Rhinlander"
+        }
+    ],
     "prefix": "CDTS",
-    "name": "Compagnie de Danses Traditionnelles de Strasbourg",										
+    "name": "Compagnie de Danses Traditionnelles de Strasbourg",
     "core": "[1-9][0-9]?([.][1-9])?",
-    "suffix": ",O,N",
-    "media": "a,v,v",
+    "suffix": ".,O,N",
+    "media": "1,2,2",
     "colldoc": "12HWiCPsIZU0tME0RzTbkAmtheUQHSLnsOMlg_gHigw8"
 }

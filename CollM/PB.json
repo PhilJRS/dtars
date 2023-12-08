@@ -407,7 +407,7 @@
     "prefix": "PB",
     "name": "Paul Boistelle",
     "core": "[1-9][0-9]?",
-    "suffix": ",C",
-    "media": "a",
+    "suffix": ".,C",
+    "media": "1",
     "colldoc": "1IsE5BcabTFl76VJOnXIinSKU61y4zV5GM_seLoYAFyE"
 }

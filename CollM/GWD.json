@@ -180,7 +180,7 @@
     "prefix": "GWD",
     "name": "Géranium, Waschba Folk, Dampfiffla",
     "core": "[1-9][0-9]?(.[1-9])?",
-    "suffix": ",T,F",
-    "media": "a,v,v",
+    "suffix": ".,T,F",
+    "media": "1,2,2",
     "colldoc": "1GSu3GrYb5AiYW_ZG-yI3lPqiZadlL6TKu9cU-LpblUs"
 }

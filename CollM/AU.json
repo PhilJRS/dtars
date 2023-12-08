@@ -149,7 +149,7 @@
         {
             "mel": 334,
             "ref": "AU2a12",
-            "titre": "Valse à 5 temps  (Madeleine)",
+            "titre": "Valse à 5 temps ",
             "musicien": "YD"
         },
         {
@@ -577,73 +577,73 @@
             "mel": 75,
             "ref": "AU8a14",
             "titre": "Salamandre",
-            "musicien": "BSM"
+            "musicien": "BS"
         },
         {
             "mel": 263,
             "ref": "AU8a15",
             "titre": "Mazurka",
-            "musicien": "BSM"
+            "musicien": "BS"
         },
         {
             "mel": 265,
             "ref": "AU8a16",
             "titre": "Rhinlander",
-            "musicien": "BSM"
+            "musicien": "BS"
         },
         {
             "mel": 65,
             "ref": "AU8a17",
             "titre": "Gemutlichkeit",
-            "musicien": "BSM"
+            "musicien": "BS"
         },
         {
             "mel": 375,
             "ref": "AU8a18",
             "titre": "Valse des Violettes",
-            "musicien": "BSM"
+            "musicien": "BS"
         },
         {
             "mel": 297,
             "ref": "AU8b1",
             "titre": "Hop Marianele",
-            "musicien": "BSM"
+            "musicien": "BS"
         },
         {
             "mel": 172,
             "ref": "AU8b2",
             "titre": "Varsovienne",
-            "musicien": "BSM"
+            "musicien": "BS"
         },
         {
             "mel": 90,
             "ref": "AU8b3",
             "titre": "Schottisch",
-            "musicien": "BSM"
+            "musicien": "BS"
         },
         {
             "mel": 359,
             "ref": "AU8b4",
             "titre": "Valse Voltée",
-            "musicien": "BSM"
+            "musicien": "BS"
         },
         {
             "mel": 269,
             "ref": "AU8b5",
             "titre": "Siehstewohl",
-            "musicien": "BSM"
+            "musicien": "BS"
         },
         {
             "mel": 227,
             "ref": "AU8b6",
             "titre": "Rutsch Hin, Rutsch Her",
-            "musicien": "BSM"
+            "musicien": "BS"
         },
         {
             "mel": 284,
             "ref": "AU8b7",
             "titre": "Polka des Bébés",
-            "musicien": "BSM"
+            "musicien": "BS"
         },
         {
             "mel": 234,
@@ -1256,43 +1256,43 @@
             "mel": 194,
             "ref": "AU16a1",
             "titre": "Branle des Bergers",
-            "musicien": "BSM"
+            "musicien": "BS"
         },
         {
             "mel": 295,
             "ref": "AU16a2",
             "titre": "Sept Pas de Berstett",
-            "musicien": "BSM"
+            "musicien": "BS"
         },
         {
             "mel": 331,
             "ref": "AU16a3",
             "titre": "Verriers",
-            "musicien": "BSM"
+            "musicien": "BS"
         },
         {
             "mel": 300,
             "ref": "AU16a4",
             "titre": "Polka Piquée Tournée de Berstett",
-            "musicien": "BSM"
+            "musicien": "BS"
         },
         {
             "mel": 190,
             "ref": "AU16a5",
             "titre": "Hans em Schnockeloch",
-            "musicien": "BSM"
+            "musicien": "BS"
         },
         {
             "mel": 322,
             "ref": "AU16a6",
             "titre": "Impaire d'Oderen",
-            "musicien": "BSM"
+            "musicien": "BS"
         },
         {
             "mel": 285,
             "ref": "AU16a7",
             "titre": "Allumettes",
-            "musicien": "BSM"
+            "musicien": "BS"
         },
         {
             "mel": 346,
@@ -2126,6 +2126,18 @@
             "commentaire": "PSB"
         },
         {
+            "mel": 77,
+            "ref": "AU31.4",
+            "titre": "Uns komt ein schif gevaren",
+            "commentaire": "PSB"
+        },
+        {
+            "mel": 298,
+            "ref": "AU31.6",
+            "titre": "Das Meisle pfîft",
+            "commentaire": "PSB"
+        },
+        {
             "mel": 1,
             "ref": "AU31.7",
             "titre": "Der Heiden Heiland",
@@ -2136,6 +2148,12 @@
             "ref": "AU37.4",
             "titre": "Holdriboldri",
             "commentaire": "RE"
+        },
+        {
+            "mel": 87,
+            "ref": "AU38.1",
+            "titre": "Wyn un Wasser",
+            "commentaire": "JPA"
         },
         {
             "mel": 66,
@@ -2535,7 +2553,7 @@
             "mel": 342,
             "ref": "AU51a6",
             "titre": "Branle Asymétrique",
-            "musicien": "TW_EW"
+            "musicien": "TE"
         },
         {
             "mel": 64,
@@ -2707,19 +2725,19 @@
             "mel": 342,
             "ref": "AU53b15",
             "titre": "Branle asymétrique",
-            "musicien": "TW_EW"
+            "musicien": "TE"
         },
         {
             "mel": 69,
             "ref": "AU53b16",
             "titre": "Régine",
-            "musicien": "TW_EW"
+            "musicien": "TE"
         },
         {
             "mel": 202,
             "ref": "AU53b17",
             "titre": "Branle de Sarreguemines ",
-            "musicien": "TW_EW"
+            "musicien": "TE"
         },
         {
             "mel": 300,
@@ -2898,14 +2916,12 @@
         {
             "mel": 139,
             "ref": "AU63.1",
-            "titre": "Widele, Waddele ; Les noces du mendiant",
-            "musicien": "GAP"
+            "titre": "Widele, Waddele ; Les noces du mendiant"
         },
         {
             "mel": 410,
             "ref": "AU63.7",
-            "titre": "S'Elsass unser Landel ; Que notre Alsace est belle",
-            "musicien": "GAP"
+            "titre": "S'Elsass unser Landel ; Que notre Alsace est belle"
         },
         {
             "mel": 129,
@@ -3007,5 +3023,6 @@
     "name": "Fichiers audio divers",
     "core": "[1-9][0-9]?([.]|a|b)[1-9][0-9]?",
     "colldoc": "1Pvxj2ffY0GhXDRhGmzrZWPgSfqf5RVwaQ2cUxM1S4eU",
-    "media": "a"
+    "suffix": ".",
+    "media": "1"
 }

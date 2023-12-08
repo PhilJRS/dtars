@@ -338,7 +338,7 @@
     "prefix": "CDF",
     "name": "Chants et Danses de France",
     "core": "[123][.][1-9][0-9]?",
-    "suffix": ",A,V,S",
-    "media": "p,a,v,v",
+    "suffix": ".,A,V,S",
+    "media": "0,1,2,2",
     "colldoc": "1QlhCbwrePitvMX_fK8jpUlfhkm5epfwNU6jaoHsa8ok"
 }

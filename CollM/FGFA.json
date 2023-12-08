@@ -1,245 +1,245 @@
 {
     "refs": [
-		{
-			"mel": "75",
-			"ref": "FGFA1",
-			"titre": "Salamandre",
-			"partition": "anon",
-			"titreSmmle": "D’r Alamànder ; La Salamandre",
-			"urlV": "10-La-salamandre",
-			"urlO": "dr-alamander-la-salamandre"
-		},
-		{
-			"mel": "218",
-			"ref": "FGFA2",
-			"titre": "Les 7 sauts",
-			"partition": "anon",
-			"titreSmmle": "D'r Siewenersprùng ; Les sept sauts",
-			"urlV": "09_les_7_sauts",
-			"urlO": "dr-siewenersprung-les-sept-sauts"
-		},
-		{
-			"mel": "295",
-			"ref": "FGFA3",
-			"titre": "Les 7 pas",
-			"partition": "anon",
-			"titreSmmle": "Danse des 7 pas",
-			"urlV": "10_les_7_pas_de_berstett",
-			"urlO": "danse-des-7-pas"
-		},
-		{
-			"mel": 129,
-			"ref": "FGFA4",
-			"titre": "Polka des Conscrits",
-			"partition": "anon",
-			"titreSmmle": "D’r Conscrit-Tànz ; La polka des conscrits",
-			"urlV": "07-La-polka-des-conscrits",
-			"urlO": "dr-conscrit-tanz-la-polka-des-conscrits"
-		},
-		{
-			"mel": 297,
-			"ref": "FGFA5",
-			"titre": "Polka piquée",
-			"partition": "anon",
-			"titreSmmle": "La Polka piquée alsacienne",
-			"urlV": "11_la_polka_piquee_alsacienne",
-			"urlO": "la-polka-piquee-alsacienne"
-		},
-		{
-			"mel": 225,
-			"ref": "FGFA6",
-			"titre": "Chibreli Alsacien",
-			"partition": "anon",
-			"titreSmmle": "Rutsch hin, rutsch her ; Chibreli alsacien",
-			"urlV": "05_le_chibreli_alsacien",
-			"urlO": "rutsch-hin-rutsch-her-chibreli-alsacien"
-		},
-		{
-			"mel": 359,
-			"ref": "FGFA7",
-			"titre": "Valse voltée",
-			"partition": "anon",
-			"titreSmmle": "Rìngeldanz ; Valse voltée",
-			"urlV": "04_valse_voltee",
-			"urlO": "ringeldanz-valse-voltee"
-		},
-		{
-			"mel": 171,
-			"ref": "FGFA8",
-			"titre": "La Varsovienne",
-			"partition": "anon",
-			"titreSmmle": "D'Warschauer ; La Varsovienne",
-			"urlV": "08_la_varsovienne",
-			"urlO": "dwarschauer-la-varsovienne"
-		},
-		{
-			"mel": 284,
-			"ref": "FGFA9",
-			"titre": "Klatschdanz",
-			"partition": "anon",
-			"titreSmmle": "D’r Klàtschtànz - La polka des bébés",
-			"urlV": "01-La-polka-des-bebes",
-			"urlO": "dr-klatschtanz-la-polka-des-bebes"
-		},
-		{
-			"mel": 265,
-			"ref": "FGFA10",
-			"titre": "Rhinländer",
-			"partition": "anon",
-			"commentaire": "m118 pour PB",
-			"titreSmmle": "De Rhinlander ; La gavotte rhénane",
-			"urlV": "07_la_gavotte_rhenane",
-			"urlO": "de-rhinlander-la-gavotte-rhenane"
-		},
-		{
-			"mel": 375,
-			"ref": "FGFA11",
-			"titre": "Valse des Violettes",
-			"partition": "anon",
-			"commentaire": "m386 pour PB",
-			"titreSmmle": "Valse des violettes",
-			"urlV": "02_ronde_des_violettes",
-			"urlO": "valse-des-violettes"
-		},
-		{
-			"mel": 65,
-			"ref": "FGFA12",
-			"titre": "La Gemûtlichkeit",
-			"partition": "anon",
-			"titreSmmle": "D’Gemüetlichkeit ; Au bal du village",
-			"urlV": "09-Au-bal-du-village",
-			"urlO": "dgemuetlichkeit-au-bal-du-village"
-		},
-		{
-			"mel": 272,
-			"ref": "FGFA13",
-			"titre": "Valse des Roses",
-			"partition": "anon",
-			"commentaire": "pas de version PB"
-		},
-		{
-			"mel": 144,
-			"ref": "FGFA14",
-			"titre": "S'Annemeiala",
-			"partition": "arr PB",
-			"titreSmmle": "‘s Annemeiala ; Les sept pas de Munster",
-			"urlV": "06-Les-sept-pas-de-Munster",
-			"urlO": "s-annemeiala-les-sept-pas-de-munster"
-		},
-		{
-			"mel": 160,
-			"ref": "FGFA15",
-			"titre": "Bier her",
-			"partition": "arr PB",
-			"titreSmmle": "Bier her - Dansons, chantons",
-			"urlV": "02-Dansons-chantons",
-			"urlO": "bier-her-dansons-chantons"
-		},
-		{
-			"mel": 385,
-			"ref": "FGFA16",
-			"titre": "Buecheleklopfer",
-			"partition": "arr PB",
-			"commentaire": "m388 pour PB",
-			"titreSmmle": "D’r Büecheleklopfer ; La danse des casse-faînes",
-			"urlV": "08-La-danse-des-casse-faines",
-			"urlO": "dr-buecheleklopfer-la-danse-des-casse-faines"
-		},
-		{
-			"mel": 10,
-			"ref": "FGFA17",
-			"titre": "Damewahl",
-			"partition": "PB",
-			"commentaire": "voir Seebach pour l'origine",
-			"titreSmmle": "Dàmewàhl ; Le choix des dames",
-			"urlV": "03-Le-choix-des-dames",
-			"urlO": "damewahl-le-choix-des-dames"
-		},
-		{
-			"mel": 102,
-			"ref": "FGFA18",
-			"titre": "Danz Gretel",
-			"partition": "PB",
-			"commentaire": "remplace la m262 de Schnewele",
-			"titreSmmle": "Tànz Gretel ; La mazurka alsacienne",
-			"urlV": "11-La-mazurka-alsacienne",
-			"urlO": "tanz-gretel-la-mazurka-alsacienne"
-		},
-		{
-			"mel": 318,
-			"ref": "FGFA19",
-			"titre": "D'Lerchematt",
-			"partition": "arr PB",
-			"commentaire": "recombine m316 et m317",
-			"titreSmmle": "D’Lerchemàtt ; Le chant des alouettes",
-			"urlV": "05-Le-chant-des-Alouettes",
-			"urlO": "dlerchematt-le-chant-des-alouettes"
-		},
-		{
-			"mel": 331,
-			"ref": "FGFA20",
-			"titre": "D'r Meisethaler",
-			"partition": "arr PB",
-			"titreSmmle": "D'r Meisethàler ; La polka des verriers",
-			"urlV": "03_polka_des_verriers",
-			"urlO": "dr-meisethaler-la-polka-des-verriers"
-		},
-		{
-			"mel": 220,
-			"ref": "FGFA21",
-			"titre": "D'r Muckedanz",
-			"partition": "arr PB",
-			"titreSmmle": "D'r Mùckedanz ; Charivari des conscrits",
-			"urlV": "06_charivari_des_conscrits",
-			"urlO": "dr-muckedanz-charivari-des-conscrits"
-		},
-		{
-			"mel": 35,
-			"ref": "FGFA22",
-			"titre": "S'Müehlrad",
-			"partition": "PB",
-			"commentaire": "Remplace les Impaires d'Oderen",
-			"titreSmmle": "‘s Müehlràd ; Les impairs du moulin",
-			"urlV": "12-Les-impairs-du-moulin",
-			"urlO": "s-muehlrad-les-impairs-du-moulin"
-		},
-		{
-			"mel": 67,
-			"ref": "FGFA23",
-			"titre": "D'r Quadrille vo Colmar",
-			"partition": "arr PB",
-			"commentaire": "voir Vogésia Colmar pour l'origine",
-			"titreSmmle": "D’r Quadrille vùn Colmar ; Le quadrille de Colmar",
-			"urlV": "12_le_quadrille_de_colmar",
-			"urlO": "dr-quadrille-vun-colmar-le-quadrille-de-colmar"
-		},
-		{
-			"mel": 285,
-			"ref": "FGFA24",
-			"titre": "D'Schwäwehöeltzle",
-			"partition": "arr PB",
-			"titreSmmle": "D'Schwäwehöelzle ; Les allumettes",
-			"urlV": "01_polka_des_allumettes",
-			"urlO": "dschwawehoelzle-les-allumettes"
-		},
-		{
-			"mel": 162,
-			"ref": "FGFA25",
-			"titre": "D'r Seebacher Karwedanz",
-			"partition": "PB",
-			"commentaire": "voir Seebach pour l'origine",
-			"titreSmmle": "D’r Seebàcher Kaarwetànz ; La danse de Seebach",
-			"urlV": "04-La-danse-de-Seebach",
-			"urlO": "dr-seebacher-kaarwetanz-la-danse-de-seebach"
-		}
-	],
+        {
+            "mel": "75",
+            "ref": "FGFA1",
+            "titre": "Salamandre",
+            "partition": "anon",
+            "titreSmmle": "D’r Alamànder ; La Salamandre",
+            "urlV": "10-La-salamandre",
+            "urlO": "dr-alamander-la-salamandre"
+        },
+        {
+            "mel": "218",
+            "ref": "FGFA2",
+            "titre": "Les 7 sauts",
+            "partition": "anon",
+            "titreSmmle": "D'r Siewenersprùng ; Les sept sauts",
+            "urlV": "09_les_7_sauts",
+            "urlO": "dr-siewenersprung-les-sept-sauts"
+        },
+        {
+            "mel": "295",
+            "ref": "FGFA3",
+            "titre": "Les 7 pas",
+            "partition": "anon",
+            "titreSmmle": "Danse des 7 pas",
+            "urlV": "10_les_7_pas_de_berstett",
+            "urlO": "danse-des-7-pas"
+        },
+        {
+            "mel": 129,
+            "ref": "FGFA4",
+            "titre": "Polka des Conscrits",
+            "partition": "anon",
+            "titreSmmle": "D’r Conscrit-Tànz ; La polka des conscrits",
+            "urlV": "07-La-polka-des-conscrits",
+            "urlO": "dr-conscrit-tanz-la-polka-des-conscrits"
+        },
+        {
+            "mel": 297,
+            "ref": "FGFA5",
+            "titre": "Polka piquée",
+            "partition": "anon",
+            "titreSmmle": "La Polka piquée alsacienne",
+            "urlV": "11_la_polka_piquee_alsacienne",
+            "urlO": "la-polka-piquee-alsacienne"
+        },
+        {
+            "mel": 225,
+            "ref": "FGFA6",
+            "titre": "Chibreli Alsacien",
+            "partition": "anon",
+            "titreSmmle": "Rutsch hin, rutsch her ; Chibreli alsacien",
+            "urlV": "05_le_chibreli_alsacien",
+            "urlO": "rutsch-hin-rutsch-her-chibreli-alsacien"
+        },
+        {
+            "mel": 359,
+            "ref": "FGFA7",
+            "titre": "Valse voltée",
+            "partition": "anon",
+            "titreSmmle": "Rìngeldanz ; Valse voltée",
+            "urlV": "04_valse_voltee",
+            "urlO": "ringeldanz-valse-voltee"
+        },
+        {
+            "mel": 171,
+            "ref": "FGFA8",
+            "titre": "La Varsovienne",
+            "partition": "anon",
+            "titreSmmle": "D'Warschauer ; La Varsovienne",
+            "urlV": "08_la_varsovienne",
+            "urlO": "dwarschauer-la-varsovienne"
+        },
+        {
+            "mel": 284,
+            "ref": "FGFA9",
+            "titre": "Klatschdanz",
+            "partition": "anon",
+            "titreSmmle": "D’r Klàtschtànz - La polka des bébés",
+            "urlV": "01-La-polka-des-bebes",
+            "urlO": "dr-klatschtanz-la-polka-des-bebes"
+        },
+        {
+            "mel": 265,
+            "ref": "FGFA10",
+            "titre": "Rhinländer",
+            "partition": "anon",
+            "commentaire": "m118 pour PB",
+            "titreSmmle": "De Rhinlander ; La gavotte rhénane",
+            "urlV": "07_la_gavotte_rhenane",
+            "urlO": "de-rhinlander-la-gavotte-rhenane"
+        },
+        {
+            "mel": 375,
+            "ref": "FGFA11",
+            "titre": "Valse des Violettes",
+            "partition": "anon",
+            "commentaire": "m386 pour PB",
+            "titreSmmle": "Valse des violettes",
+            "urlV": "02_ronde_des_violettes",
+            "urlO": "valse-des-violettes"
+        },
+        {
+            "mel": 65,
+            "ref": "FGFA12",
+            "titre": "La Gemûtlichkeit",
+            "partition": "anon",
+            "titreSmmle": "D’Gemüetlichkeit ; Au bal du village",
+            "urlV": "09-Au-bal-du-village",
+            "urlO": "dgemuetlichkeit-au-bal-du-village"
+        },
+        {
+            "mel": 272,
+            "ref": "FGFA13",
+            "titre": "Valse des Roses",
+            "partition": "anon",
+            "commentaire": "pas de version PB"
+        },
+        {
+            "mel": 144,
+            "ref": "FGFA14",
+            "titre": "S'Annemeiala",
+            "partition": "arr PB",
+            "titreSmmle": "‘s Annemeiala ; Les sept pas de Munster",
+            "urlV": "06-Les-sept-pas-de-Munster",
+            "urlO": "s-annemeiala-les-sept-pas-de-munster"
+        },
+        {
+            "mel": 160,
+            "ref": "FGFA15",
+            "titre": "Bier her",
+            "partition": "arr PB",
+            "titreSmmle": "Bier her - Dansons, chantons",
+            "urlV": "02-Dansons-chantons",
+            "urlO": "bier-her-dansons-chantons"
+        },
+        {
+            "mel": 385,
+            "ref": "FGFA16",
+            "titre": "Buecheleklopfer",
+            "partition": "arr PB",
+            "commentaire": "m388 pour PB",
+            "titreSmmle": "D’r Büecheleklopfer ; La danse des casse-faînes",
+            "urlV": "08-La-danse-des-casse-faines",
+            "urlO": "dr-buecheleklopfer-la-danse-des-casse-faines"
+        },
+        {
+            "mel": 10,
+            "ref": "FGFA17",
+            "titre": "Damewahl",
+            "partition": "PB",
+            "commentaire": "voir Seebach pour l'origine",
+            "titreSmmle": "Dàmewàhl ; Le choix des dames",
+            "urlV": "03-Le-choix-des-dames",
+            "urlO": "damewahl-le-choix-des-dames"
+        },
+        {
+            "mel": 102,
+            "ref": "FGFA18",
+            "titre": "Danz Gretel",
+            "partition": "PB",
+            "commentaire": "remplace la m262 de Schnewele",
+            "titreSmmle": "Tànz Gretel ; La mazurka alsacienne",
+            "urlV": "11-La-mazurka-alsacienne",
+            "urlO": "tanz-gretel-la-mazurka-alsacienne"
+        },
+        {
+            "mel": 318,
+            "ref": "FGFA19",
+            "titre": "D'Lerchematt",
+            "partition": "arr PB",
+            "commentaire": "recombine m316 et m317",
+            "titreSmmle": "D’Lerchemàtt ; Le chant des alouettes",
+            "urlV": "05-Le-chant-des-Alouettes",
+            "urlO": "dlerchematt-le-chant-des-alouettes"
+        },
+        {
+            "mel": 331,
+            "ref": "FGFA20",
+            "titre": "D'r Meisethaler",
+            "partition": "arr PB",
+            "titreSmmle": "D'r Meisethàler ; La polka des verriers",
+            "urlV": "03_polka_des_verriers",
+            "urlO": "dr-meisethaler-la-polka-des-verriers"
+        },
+        {
+            "mel": 220,
+            "ref": "FGFA21",
+            "titre": "D'r Muckedanz",
+            "partition": "arr PB",
+            "titreSmmle": "D'r Mùckedanz ; Charivari des conscrits",
+            "urlV": "06_charivari_des_conscrits",
+            "urlO": "dr-muckedanz-charivari-des-conscrits"
+        },
+        {
+            "mel": 35,
+            "ref": "FGFA22",
+            "titre": "S'Müehlrad",
+            "partition": "PB",
+            "commentaire": "Remplace les Impaires d'Oderen",
+            "titreSmmle": "‘s Müehlràd ; Les impairs du moulin",
+            "urlV": "12-Les-impairs-du-moulin",
+            "urlO": "s-muehlrad-les-impairs-du-moulin"
+        },
+        {
+            "mel": 67,
+            "ref": "FGFA23",
+            "titre": "D'r Quadrille vo Colmar",
+            "partition": "arr PB",
+            "commentaire": "voir Vogésia Colmar pour l'origine",
+            "titreSmmle": "D’r Quadrille vùn Colmar ; Le quadrille de Colmar",
+            "urlV": "12_le_quadrille_de_colmar",
+            "urlO": "dr-quadrille-vun-colmar-le-quadrille-de-colmar"
+        },
+        {
+            "mel": 285,
+            "ref": "FGFA24",
+            "titre": "D'Schwäwehöeltzle",
+            "partition": "arr PB",
+            "titreSmmle": "D'Schwäwehöelzle ; Les allumettes",
+            "urlV": "01_polka_des_allumettes",
+            "urlO": "dschwawehoelzle-les-allumettes"
+        },
+        {
+            "mel": 162,
+            "ref": "FGFA25",
+            "titre": "D'r Seebacher Karwedanz",
+            "partition": "PB",
+            "commentaire": "voir Seebach pour l'origine",
+            "titreSmmle": "D’r Seebàcher Kaarwetànz ; La danse de Seebach",
+            "urlV": "04-La-danse-de-Seebach",
+            "urlO": "dr-seebacher-kaarwetanz-la-danse-de-seebach"
+        }
+    ],
     "prefix": "FGFA",
-	"name": "Fédération des Groupes Folklorique d'Alsace",										
+    "name": "Fédération des Groupes Folklorique d'Alsace",
     "core": "[1-9][0-9]?",
-    "suffix": ",O,V",
-    "media": "p,p,v",
+    "suffix": ".,O,V",
+    "media": "0,0,2",
     "colldoc": "12R8Ts0jD00DBsFIc2W3S-gvaiEWESi-fqLg4d3rlpRc",
-	"urlOPref": "http://www.sammle.org/fr/",
-	"urlVPref": "http://vod.ctai.fr:8080/sammle/",
-	"urlVSuf": ".mp4"
+    "urlOPref": "http://www.sammle.org/fr/",
+    "urlVPref": "http://vod.ctai.fr:8080/sammle/",
+    "urlVSuf": ".mp4"
 }

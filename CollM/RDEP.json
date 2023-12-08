@@ -100,7 +100,7 @@
     "prefix": "RDEP",
     "name": "Renouveau des Danses d'Expression Populaire",
     "core": "[1-9][0-9]?",
-    "suffix": ",A",
-    "media": "p,a",
+    "suffix": ".,A",
+    "media": "0,1",
     "colldoc": "1GtrmAvV-_qCNztlK6WmndULTq3ezf6C4pXmwhccHnZg"
 }

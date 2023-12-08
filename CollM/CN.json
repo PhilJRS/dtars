@@ -482,7 +482,7 @@
     "prefix": "CN",
     "name": "Charles Niessberger",
     "core": "[1-9][0-9]?",
-    "suffix": ",A|V|S",
-    "media": "p",
+    "suffix": ".",
+    "media": "0",
     "colldoc": "1uoJMVLKxRpae9iboSKNbIH5zxngngR3FmpTrxg9uL_M"
 }

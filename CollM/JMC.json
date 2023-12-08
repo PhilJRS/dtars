@@ -44,7 +44,7 @@
     "prefix": "JMC",
     "name": "Jeran-Michel Corgeron",
     "core": "1[3-7]",
-    "suffix": ",T|F",
-    "media": "a",
+    "suffix": ".,T,F",
+    "media": "1",
     "colldoc": "10fW8wS8snyI1vYyks7zflhJwRq0HmnVUmPm92myF4OE"
 }

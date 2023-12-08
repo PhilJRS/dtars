@@ -107,8 +107,9 @@
         }
     ],
     "prefix": "FW",
-    "name": "Frédéric Wilhelm",										
+    "name": "Frédéric Wilhelm",
     "core": "p[1-9][0-9]?",
-    "media": "p",
+    "suffix": ".",
+    "media": "0",
     "colldoc": "1J877DKvWQIJE93e9PbxsvEAIC1pXgqNCc6ssEHFCoU4"
 }
