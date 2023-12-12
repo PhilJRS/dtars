@@ -105,7 +105,6 @@
             "titreMusica": "Es Kommt ein Schiff ; arrive un beau navire"
         },
         {
-            "mel": 194,
             "ref": "RTF2.3",
             "titre": "Mittle in dr Nacht ; Dans la pleine nuit",
             "jpbarcr": "CR",
@@ -198,6 +197,7 @@
             "titreMusica": "Dr Vehrele ; Cet Alexis"
         },
         {
+            "mel": 110,
             "ref": "RTF3.5",
             "titre": "Dü eifaltig Birschtle ; Petit gars simplet",
             "jpbarcr": "JPB",
