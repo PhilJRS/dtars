@@ -129,7 +129,7 @@ function audioEnded() {
   console.log("audio ended")
 }
 
-function playAV(s, doc) { // comparer à playAV(s, doc) toggleMel()
+function playAV(s, doc) { // comparer à toggleMel()
   if (s==null) {
     $('#AudPanel')[0].pause()
     $('#AudPanel').attr("mel",undefined).attr("src", undefined)
@@ -270,7 +270,7 @@ function docTable(topRef, dcfa) {  //topRef= n° de mél ou préfixe de coll
     else hideKeys.push('attributsDeMel') //only used in 'AU' (for now?)
     if (!$('#msczOptions')[0].checked) hideKeys.push('mscz')
     var shownKeys = Array.from(keySet).filter(key => !hideKeys.includes(key))
-    const firstKeys = ['mel','f', 'ref','titre','musicien','commentaire', 'etc']  // used for column order and etcKeys definition
+    const firstKeys = ['mel','f', 'ref','mels','titre','musicien','commentaire', 'etc']  // used for column order and etcKeys definition
     var etcKeys = []                                   
     var etcSettings = Number($('#etcOptions')[0].value) //0=réduit, 1=etc, 2=toutes les colonnes
     if (etcSettings < 2) etcKeys = shownKeys.filter(key => !firstKeys.includes(key))
@@ -298,12 +298,12 @@ function docTable(topRef, dcfa) {  //topRef= n° de mél ou préfixe de coll
     $(dcm+'TblBd').append($('<tr id="doc'+cm+i+'"/>')) 
     var ddcmi ='#doc'+cm+i  //identifiant DOM de la ligne du tableau (collection ou mélodie) concerné
     var flatSxs = []      //tableau d'objets donnant {pav, char, butId, address, label} pour tous les suffixes d'un doc
-    doc.sxs?.forEach((sxm, j) => {
-       if (j==2 && !vidSettings) return // purge des vidéos si demandé
+    doc.sxs?.forEach((sxm, pav) => {
+       if (pav==2 && !vidSettings) return // purge des vidéos si demandé
        sxm.split(',').forEach(sx => {
           if (sx) {
             var s = {}
-            s.pav = j
+            s.pav = pav
             s.char = sx[0].replace('.','') //le fameux suffChar, éventuellement vide!!
             s.address = (sx.slice(-4)=='.url' 
                 ? col[doc.col]['url'+s.char+'Pref'] + doc['url'+s.char] + (col[doc.col]['url'+s.char+'Suf'] ?? '')
@@ -331,7 +331,7 @@ function docTable(topRef, dcfa) {  //topRef= n° de mél ou préfixe de coll
         case 'ref':
           var htmlText = ''
           if ((flatSxs[0]?.label ?? 0) != doc.ref) htmlText = doc.ref 
-          flatSxs.forEach(s => {htmlText += ' <button id="'+s.butId+'Bt" class="DtaMedia'+s.pav+'">'+s.label+ '</button>'})
+          flatSxs.forEach(s => {htmlText += ' <button id="'+s.butId+'Bt" class="DtaMedia'+s.pav+(s.pav==2 && vidSettings==1 ? 'a">' : '">') +s.label+ '</button>'})
           $(ddcmi).append($('<td/>').html(htmlText))
           flatSxs.forEach(s => { 
             document.querySelector('#'+s.butId+'Bt').addEventListener('click', function() {

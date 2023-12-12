@@ -938,6 +938,7 @@
             },
             {
                 "mel": 163,
+                "ds": "46",
                 "music": "GCDEC::GCDEF::AGABbACBF#G:AFEDE:"
             },
             {
@@ -8206,19 +8207,6 @@
                 "sxs": ";;.url"
             },
             {
-                "mel": 218,
-                "ref": "DLA17",
-                "titre": "D'r Sewenersprung",
-                "commentaire": "FR3 DTA Elter/RS",
-                "url": "Ads5z3oACyA",
-                "Compte YT": "Dancilla",
-                "urlP": "D%27r_Sewenersprung",
-                "Groupe": "Robertsau Carillon",
-                "mise en ligne": "07/03/2020",
-                "date": 1978,
-                "sxs": "P.url;;.url"
-            },
-            {
                 "mel": 171,
                 "ref": "DLA18",
                 "titre": "D'r Warschauer",
@@ -8300,18 +8288,6 @@
                 "mise en ligne": "08/03/2020",
                 "date": 2004,
                 "sxs": "P.url;;.url"
-            },
-            {
-                "mel": 109,
-                "ref": "DLA26",
-                "titre": "Eiertanz",
-                "commentaire": "F3 DTA Elter/RS",
-                "url": "kihckWtOBfc",
-                "Compte YT": "1FuchsFranz",
-                "Groupe": "Robertsau Carillon",
-                "mise en ligne": "05/11/2015",
-                "date": 1978,
-                "sxs": ";;.url"
             },
             {
                 "mel": 77,
@@ -8409,30 +8385,6 @@
                 "Groupe": "Bouxwiller",
                 "mise en ligne": "21/10/2010",
                 "date": 2004,
-                "sxs": ";;.url"
-            },
-            {
-                "mel": 166,
-                "ref": "DLA37",
-                "titre": "La Varsovienne",
-                "commentaire": "F3 DTA Elter/RS",
-                "url": "2YVG1UllTW0",
-                "Compte YT": "Dancilla",
-                "Groupe": "Robertsau Carillon",
-                "mise en ligne": "09/09/2016",
-                "date": 1978,
-                "sxs": ";;.url"
-            },
-            {
-                "mel": 194,
-                "ref": "DLA38",
-                "titre": "Le Branle des Bergers",
-                "commentaire": "F3 DTA Elter/RS",
-                "url": "yD-TkQ7YG9M",
-                "Compte YT": "Dancilla",
-                "Groupe": "Robertsau Carillon",
-                "mise en ligne": "22/10/2010",
-                "date": 1978,
                 "sxs": ";;.url"
             },
             {
@@ -8928,7 +8880,7 @@
                 "ref": "DScarole",
                 "url": "document/d/1VXm_FcaSsjLAOfpsS2A4ucOexpEzLshX3eL5oeZvJKg",
                 "sxs": ".url;;",
-                "mels": ""
+                "mels": "163"
             },
             {
                 "ref": "DScharmant.rosier",
@@ -10401,6 +10353,13 @@
                 "titre": "Donne-moi ton Bouquet",
                 "commentaire": "AH_JPS 2018",
                 "sxs": ";E.mp3;"
+            },
+            {
+                "mel": 163,
+                "ref": "GF4.19",
+                "titre": "Carole",
+                "commentaire": "Des Alsaciens et des Noëls 2019",
+                "sxs": ";;.mp4"
             }
         ],
         "prefix": "GF",
@@ -10654,21 +10613,21 @@
                 "ref": "IKE3",
                 "titre": "Les impaires d'Oderen",
                 "commentaire": "D'Rhinwagges arrgt. P. Boistelle",
-                "sxs": ";;.mp4,C.mp4"
+                "sxs": ";;C.mp4"
             },
             {
                 "mel": 144,
                 "ref": "IKE4",
                 "titre": "Les 7 pas de Munster",
                 "commentaire": "D'Rhinwagges arrgt. P. Boistelle",
-                "sxs": ";;.mov,C.mp4"
+                "sxs": ";;C.mp4"
             },
             {
                 "mel": 318,
                 "ref": "IKE5",
                 "titre": "Le chant des alouettes",
                 "commentaire": "D'Rhinwagges arrgt. P. Boistelle",
-                "sxs": ";;.mov,C.mp4"
+                "sxs": ";;C.mp4"
             },
             {
                 "mel": 218,
@@ -12726,7 +12685,7 @@
                 "origjmc": "Trad. Alsace",
                 "rangjmcfev2022": 377,
                 "k7": "1.B5",
-                "sxs": ".pdf;A.m4a,A.mp3;"
+                "sxs": ".pdf;A.m4a;"
             },
             {
                 "mel": 29,
@@ -20209,7 +20168,6 @@
                 "sxs": ".url;;"
             },
             {
-                "mel": 194,
                 "ref": "RTF2.3",
                 "titre": "Mittle in dr Nacht ; Dans la pleine nuit",
                 "jpbarcr": "CR",
@@ -20315,6 +20273,7 @@
                 "sxs": ".url;;"
             },
             {
+                "mel": 110,
                 "ref": "RTF3.5",
                 "titre": "Dü eifaltig Birschtle ; Petit gars simplet",
                 "jpbarcr": "JPB",

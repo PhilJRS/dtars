@@ -1,0 +1,523 @@
+{
+    "refs": [
+        {
+            "ref": "DLA1",
+            "titre": "Bändertanz (Elsass)",
+            "url": "uT7TGFY3bp0",
+            "Compte YT": "swisscondor77",
+            "Groupe": "Kaysersberg",
+            "mise en ligne": "23/09/2013"
+        },
+        {
+            "ref": "DLA2",
+            "titre": "Bonjour Josephine",
+            "commentaire": "René Egles Maikäfer Fleij",
+            "url": "yNH4onOWAvs",
+            "Compte YT": "fchevallet",
+            "urlP": "Bonjour_Josephine",
+            "Groupe": "Geudertheim",
+            "mise en ligne": "04/03/2020"
+        },
+        {
+            "mel": 253,
+            "ref": "DLA3",
+            "titre": "Courante",
+            "commentaire": "2 courante +Hilf O Himmel",
+            "url": "N4px-Vc5O60",
+            "Compte YT": "1FuchsFranz",
+            "Groupe": "Souffelweyersheim d'Kochloeffel",
+            "mise en ligne": "12/11/2015",
+            "date": 2003
+        },
+        {
+            "mel": 318,
+            "ref": "DLA4",
+            "titre": "D' Lerchematt",
+            "commentaire": "Boistelle chant des allouettes",
+            "url": "lixA6-q33Lc",
+            "Compte YT": "Dancilla",
+            "Groupe": "Kuttolsheim",
+            "mise en ligne": "13/11/2011",
+            "date": 2003
+        },
+        {
+            "ref": "DLA5",
+            "titre": "D' Schuhmacher",
+            "commentaire": "Schustertanz, Ja so wickle mir, rädel, rädel...",
+            "url": "q_Nwt_2ITcA",
+            "Compte YT": "Dancilla",
+            "Groupe": "Souffelweyersheim d'Kochloeffel",
+            "mise en ligne": "20/06/2014",
+            "date": 2003
+        },
+        {
+            "mel": 285,
+            "ref": "DLA6",
+            "titre": "D' Schwäwelhöelze",
+            "commentaire": "Vidéo Kutt, Souffel",
+            "url": "-GGfsN1Zc_4",
+            "Compte YT": "Dancilla",
+            "Groupe": "Kuttolsheim",
+            "mise en ligne": "13/11/2011",
+            "date": 2003
+        },
+        {
+            "mel": 265,
+            "ref": "DLA7",
+            "titre": "D' Wechsberscht",
+            "url": "pwPKjxzLHL0",
+            "Compte YT": "1FuchsFranz",
+            "urlP": "D%27_Wechsbersch",
+            "Groupe": "Bouxwiller",
+            "mise en ligne": "05/03/2020",
+            "date": 2004
+        },
+        {
+            "mel": 75,
+            "ref": "DLA8",
+            "titre": "D'r Alamander",
+            "url": "VXFsOrVQzoA",
+            "Compte YT": "Dancilla",
+            "urlP": "D%27r_Alamander",
+            "Groupe": "Bouxwiller",
+            "mise en ligne": "28/03/2020",
+            "date": 2004
+        },
+        {
+            "mel": 385,
+            "ref": "DLA9",
+            "titre": "D'r Büecheleklopfer",
+            "url": "RhHxWnq4d8o",
+            "Compte YT": "1FuchsFranz",
+            "urlP": "D%27r_B%C3%BCecheleklopfer",
+            "Groupe": "Souffelweyersheim d'Kochloeffel",
+            "mise en ligne": "08/06/2021",
+            "date": 2003
+        },
+        {
+            "mel": 129,
+            "ref": "DLA10",
+            "titre": "D'r Conscritdanz",
+            "url": "dqBXsXwYlTM",
+            "Compte YT": "Dancilla",
+            "Groupe": "Kuttolsheim",
+            "mise en ligne": "20/06/2013",
+            "date": 2003
+        },
+        {
+            "mel": 375,
+            "ref": "DLA11",
+            "titre": "D'r Familiewalzer",
+            "commentaire": "Valse des violettes",
+            "url": "JdPQhRL9qWQ",
+            "Compte YT": "Dancilla",
+            "urlP": "D%27r_Familiewalzer",
+            "Groupe": "Souffelweyersheim d'Kochloeffel",
+            "mise en ligne": "05/03/2020",
+            "date": 2003
+        },
+        {
+            "mel": 284,
+            "ref": "DLA12",
+            "titre": "D'r Klatschdanz",
+            "url": "xqO9KZ6kjNA",
+            "Compte YT": "Dancilla",
+            "Groupe": "Bouxwiller",
+            "mise en ligne": "01/12/2010",
+            "date": 2004
+        },
+        {
+            "mel": 331,
+            "ref": "DLA13",
+            "titre": "D'r Meisethaler",
+            "url": "Z0SVg6QIiVI",
+            "Compte YT": "Dancilla",
+            "Groupe": "Bouxwiller",
+            "mise en ligne": "30/11/2010",
+            "date": 2004
+        },
+        {
+            "mel": 67,
+            "ref": "DLA14",
+            "titre": "D'r Quadrille vo Colmer",
+            "url": "lCi6fNpW5pk",
+            "Compte YT": "EMFHIRSINGUE",
+            "Groupe": "Hirsingue",
+            "mise en ligne": "20/06/2013",
+            "date": 2009
+        },
+        {
+            "mel": 359,
+            "ref": "DLA15",
+            "titre": "D'r Ringeldanz",
+            "url": "emybOBz0UwY",
+            "Compte YT": "Dancilla",
+            "Groupe": "Bouxwiller",
+            "mise en ligne": "30/11/2010",
+            "date": 2004
+        },
+        {
+            "mel": 295,
+            "ref": "DLA16",
+            "titre": "D'r Sewenerschritt",
+            "commentaire": "DTA= scottisch KUTT= 7 pas de Berstett SOUFFEL = 7 pas de Munster",
+            "url": "lYWuu5NrwMg",
+            "Compte YT": "Dancilla",
+            "Groupe": "Kuttolsheim",
+            "mise en ligne": "30/11/2010",
+            "date": 2003
+        },
+        {
+            "mel": 171,
+            "ref": "DLA18",
+            "titre": "D'r Warschauer",
+            "url": "ULjT5UvD6bg",
+            "Compte YT": "Dancilla",
+            "Groupe": "Kuttolsheim",
+            "mise en ligne": "21/11/2012",
+            "date": 2003
+        },
+        {
+            "ref": "DLA19",
+            "titre": "Danse Alsacienne",
+            "urlT": "Danse_Alsacienne",
+            "mise en ligne": "21/06/2010"
+        },
+        {
+            "ref": "DLA20",
+            "titre": "De Bür",
+            "url": "oawD_fobEok",
+            "Compte YT": "1FuchsFranz",
+            "urlP": "De_B%C3%BCr",
+            "Groupe": "Bouxwiller",
+            "mise en ligne": "07/03/2020",
+            "date": 2004
+        },
+        {
+            "ref": "DLA21",
+            "titre": "De Büreboe",
+            "url": "pKHTE97TtJA",
+            "Compte YT": "Dancilla",
+            "Groupe": "Bouxwiller",
+            "mise en ligne": "16/10/2014",
+            "date": 2004
+        },
+        {
+            "mel": 140,
+            "ref": "DLA22",
+            "titre": "De Büredanz_Elsässer Bauerntanz",
+            "url": "UKjnQNGyJTs",
+            "Compte YT": "Dancilla",
+            "Groupe": "Bouxwiller",
+            "mise en ligne": "20/06/2013",
+            "date": 2004
+        },
+        {
+            "mel": 68,
+            "ref": "DLA23",
+            "titre": "De Haxedanz",
+            "commentaire": "4 pas",
+            "url": "hFjqs6mCAys",
+            "Compte YT": "1FuchsFranz",
+            "Groupe": "Bouxwiller",
+            "mise en ligne": "04/11/2015",
+            "date": 2004
+        },
+        {
+            "ref": "DLA24",
+            "titre": "De Meller",
+            "url": "qoxGEtSpuA4",
+            "Compte YT": "1FuchsFranz",
+            "Groupe": "Bouxwiller",
+            "mise en ligne": "04/11/2015",
+            "date": 2004
+        },
+        {
+            "ref": "DLA25",
+            "titre": "De Schnieder",
+            "url": "S8Ak_ekWMMo",
+            "Compte YT": "1FuchsFranz",
+            "urlP": "De_Schnieder",
+            "Groupe": "Bouxwiller",
+            "mise en ligne": "08/03/2020",
+            "date": 2004
+        },
+        {
+            "mel": 77,
+            "ref": "DLA27",
+            "titre": "Es kommt ein Schiff gefahren",
+            "url": "WEoa63MZDQw",
+            "Compte YT": "1FuchsFranz",
+            "Groupe": "Souffelweyersheim d'Kochloeffel",
+            "mise en ligne": "15/06/2016",
+            "date": 2003
+        },
+        {
+            "mel": 331,
+            "ref": "DLA28",
+            "titre": "Glasbläsertanz",
+            "url": "sw0SP8oUz3g",
+            "Compte YT": "Dancilla",
+            "Groupe": "Souffelweyersheim d'Kochloeffel",
+            "mise en ligne": "21/10/2010",
+            "date": 2003
+        },
+        {
+            "ref": "DLA29",
+            "titre": "Grünes Gras",
+            "commentaire": "René Egles",
+            "url": "ViUIDVWxp9Y",
+            "Compte YT": "1FuchsFranz",
+            "urlP": "Gr%C3%BCnes_Gras",
+            "Groupe": "Souffelweyersheim d'Kochloeffel",
+            "mise en ligne": "16/03/2020",
+            "date": 2003
+        },
+        {
+            "mel": 28,
+            "ref": "DLA31",
+            "titre": "Herr Schmidt",
+            "url": "gmAU4RCSKYI",
+            "Compte YT": "1FuchsFranz",
+            "Groupe": "Souffelweyersheim d'Kochloeffel",
+            "mise en ligne": "07/01/2022",
+            "date": 2003
+        },
+        {
+            "mel": 31,
+            "ref": "DLA32",
+            "titre": "Hischt oder Hott",
+            "commentaire": "KL 2003",
+            "url": "6psdVofxg4I",
+            "Compte YT": "1FuchsFranz",
+            "Groupe": "Souffelweyersheim d'Kochloeffel",
+            "mise en ligne": "07/11/2015",
+            "date": 2003
+        },
+        {
+            "mel": 34,
+            "ref": "DLA33",
+            "titre": "Kochersberger Büredanz",
+            "urlT": "Kochersberger_B%C3%BCredanz",
+            "mise en ligne": "21/09/2016"
+        },
+        {
+            "mel": 118,
+            "ref": "DLA34",
+            "titre": "Komm min Maidele",
+            "url": "-JjoNByMdcI",
+            "Compte YT": "Raheltorgo",
+            "Groupe": "Obermodern",
+            "mise en ligne": "20/10/2016"
+        },
+        {
+            "mel": 269,
+            "ref": "DLA35",
+            "titre": "Kritzpolka",
+            "commentaire": "Kuttolsheim 2003",
+            "url": "_kwkVukPflU",
+            "Compte YT": "Dancilla",
+            "Groupe": "Kuttolsheim",
+            "mise en ligne": "24/01/2011",
+            "date": 2003
+        },
+        {
+            "mel": 20,
+            "ref": "DLA36",
+            "titre": "La Gavotte des filles de Hochfelden",
+            "url": "NwRK3vvjg5Y",
+            "Compte YT": "Dancilla",
+            "Groupe": "Bouxwiller",
+            "mise en ligne": "21/10/2010",
+            "date": 2004
+        },
+        {
+            "ref": "DLA39",
+            "titre": "Le Rhinländer",
+            "commentaire": "Chorégraphie d'un Rhinländer des Kochloeffel",
+            "url": "2Sup71baFac",
+            "Compte YT": "Dancilla",
+            "Groupe": "Souffelweyersheim d'Kochloeffel",
+            "mise en ligne": "17/10/2019",
+            "date": 2003
+        },
+        {
+            "ref": "DLA40",
+            "titre": "Lumpe, Altise, Schokoladpapier",
+            "commentaire": "Lumpe, Altise = entrée. Miesel est le jeu des Kochloeffel",
+            "url": "6bmOz0uM6mc",
+            "Compte YT": "Dancilla",
+            "Groupe": "Souffelweyersheim d'Kochloeffel",
+            "mise en ligne": "21/10/2014",
+            "date": 2003
+        },
+        {
+            "mel": 297,
+            "ref": "DLA41",
+            "titre": "Mariannele",
+            "url": "9yTatqxVOsw",
+            "Compte YT": "fchevallet",
+            "urlP": "Mariannele",
+            "Groupe": "Geudertheim",
+            "mise en ligne": "22/11/2019",
+            "date": 2009
+        },
+        {
+            "ref": "DLA42",
+            "titre": "Min Mobbele",
+            "commentaire": "Scottisch Boistelle, mon petit chou",
+            "url": "bMYBrb5oW6E",
+            "Compte YT": "1FuchsFranz",
+            "Groupe": "Kuttolsheim",
+            "mise en ligne": "23/09/2013",
+            "date": 2003
+        },
+        {
+            "mel": 397,
+            "ref": "DLA43",
+            "titre": "Mueder, isch will e Ding",
+            "url": "kyCoXqCjYpY",
+            "Compte YT": "Dancilla",
+            "Groupe": "Souffelweyersheim d'Kochloeffel",
+            "mise en ligne": "21/10/2014",
+            "date": 2003
+        },
+        {
+            "ref": "DLA44",
+            "titre": "Müsschneckatzdanz",
+            "commentaire": "René Egles Maikäfer Fleij",
+            "url": "akLfsFmFqQk",
+            "Compte YT": "Dancilla",
+            "urlP": "M%C3%BCsschneckatzdanz",
+            "Groupe": "Souffelweyersheim d'Kochloeffel",
+            "mise en ligne": "29/12/2021",
+            "date": 2003
+        },
+        {
+            "mel": 70,
+            "ref": "DLA45",
+            "titre": "Reihe Reihe Rose",
+            "url": "DtB2NR67_eA",
+            "Compte YT": "Dancilla",
+            "urlP": "Reihe_Reihe_Rose",
+            "Groupe": "Souffelweyersheim d'Kochloeffel",
+            "mise en ligne": "07/09/2020",
+            "date": 2003
+        },
+        {
+            "mel": 225,
+            "ref": "DLA46",
+            "titre": "Rutsch hin, rutsch her - Le chibreli alsacien",
+            "url": "huhSCQc8xgU",
+            "Compte YT": "Dancilla",
+            "Groupe": "Bouxwiller",
+            "mise en ligne": "14/12/2010",
+            "date": 2004
+        },
+        {
+            "mel": 35,
+            "ref": "DLA47",
+            "titre": "s Müehlrad",
+            "url": "pFu74Ww_EVs",
+            "Compte YT": "Dancilla",
+            "Groupe": "Kuttolsheim",
+            "mise en ligne": "22/02/2011",
+            "date": 2003
+        },
+        {
+            "ref": "DLA48",
+            "titre": "Saulocker (Elsass)",
+            "url": "gUO3tLHIdBE",
+            "Compte YT": "EMFHIRSINGUE",
+            "Groupe": "Hizsingue",
+            "mise en ligne": "17/11/2016",
+            "date": 2008
+        },
+        {
+            "ref": "DLA49",
+            "titre": "Schlof min kleiner Dicksack",
+            "url": "t7xkzM0Cspc",
+            "Compte YT": "1FuchsFranz",
+            "Groupe": "Kuttolsheim",
+            "mise en ligne": "04/11/2015",
+            "date": 2003
+        },
+        {
+            "ref": "DLA50",
+            "titre": "Schustertanz (Ja so wickeln wir)",
+            "url": "UHSeHzf9zXU",
+            "Compte YT": "Dancilla",
+            "Groupe": "Kuttolsheim",
+            "mise en ligne": "04/11/2015",
+            "date": 2003
+        },
+        {
+            "ref": "DLA51",
+            "titre": "Süsser Käfer",
+            "commentaire": "Rhinländer Hunpach",
+            "url": "QeVPA4dbhHk",
+            "Compte YT": "Blason67",
+            "Groupe": "Hunspach",
+            "mise en ligne": "16/02/2010"
+        },
+        {
+            "mel": 155,
+            "ref": "DLA52",
+            "titre": "Triolets",
+            "url": "nSq0CHYnevI",
+            "Compte YT": "Dancilla",
+            "Groupe": "Bouxwiller",
+            "mise en ligne": "05/07/2013"
+        },
+        {
+            "ref": "DLA53",
+            "titre": "Zeckele",
+            "commentaire": "René Egles",
+            "url": "ZgGdZ2RWNxo",
+            "Compte YT": "Dancilla",
+            "Groupe": "Souffelweyersheim d'Kochloeffel",
+            "mise en ligne": "23/10/2014",
+            "date": 2003
+        },
+        {
+            "mel": 396,
+            "ref": "DLA54",
+            "titre": "Zeigt her eure Füße_D' Waschfraue_Les lavandières",
+            "url": "-bsgGnpmqO0",
+            "Compte YT": "1FuchsFranz",
+            "urlP": "Zeigt_her_eure_F%C3%BC%C3%9Fe",
+            "urlT": "Zeigt_her_eure_F%C3%BC%C3%9Fe",
+            "Groupe": "Bouxwiller",
+            "mise en ligne": "18/12/2021",
+            "date": 2004
+        },
+        {
+            "ref": "DLA55",
+            "titre": "Zopf Hopf",
+            "url": "zvQGmWOlJOA",
+            "Compte YT": "Dancilla",
+            "Groupe": "Souffelweyersheim d'Kochloeffel",
+            "mise en ligne": "23/10/2014",
+            "date": 2003
+        },
+        {
+            "ref": "DLA56",
+            "titre": "Zuem Danze",
+            "commentaire": "René Egles Maikäfer Fleij",
+            "url": "63UBcjK5RmY",
+            "Compte YT": "Dancilla",
+            "Groupe": "Kuttolsheim",
+            "mise en ligne": "23/10/2014",
+            "date": 2003
+        }
+    ],
+    "prefix": "DLA",
+    "name": "Dancilla, portail de danses du monde",
+    "core": "[1-9][0-9]?",
+    "media": "2,0,0",
+    "suffix": ".,P,T",
+    "colldoc": "1lrwjaTwFjMN-uJYSEhYiexU0KJv_zRoW7HX_Kaarp50",
+    "urlPref": "https://www.youtube.com/watch?v=",
+    "urlPPref": "https://www.dancilla.com/wiki/index.php?title=",
+    "urlTPref": "https://www.dancilla.com/wiki/index.php?title="
+}
