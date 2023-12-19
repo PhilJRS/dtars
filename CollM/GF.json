@@ -184,7 +184,7 @@
     "prefix": "GF",
     "name": "Groupes folkloriques",
     "core": "[1-9][0-9]?[.][1-9][0-9]?",
-    "suffix": ".,A,B,C,D,E",
-    "media": "2,1,2,2,2,1",
+    "suffix": ".,A,B,C,D,E,F",
+    "media": "2,1,2,2,2,1,2",
     "colldoc": "1Oc-WqBEU7O9zkJSOgBlz8trHsd-_zL6oagRU4D8YBPs"
 }
