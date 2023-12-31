@@ -8,7 +8,7 @@ var curMelNb = null
 var dansesCumReport
 const separatorRegEx = /_| |-|, |'/
 const urlHeadG = 'https://docs.google.com/document/d/'
-const urlHeadC = 'Collections/'
+const urlHeadC = 'https://dta.philiole.fr/Collections/'
 
 window.onload = function() {
   $.get("gold.json", function(goldFile) {
