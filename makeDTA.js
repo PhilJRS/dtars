@@ -27,10 +27,9 @@ collNames.forEach((prefix,i) => { //B)  Pour chaque nom de collection....
    if (i) gold[prefix]=JSON.parse(fs.readFileSync(`${path}backOffice/CollM/${prefix}.json`, 'utf8'))
    else {//m
       oldGold = JSON.parse(fs.readFileSync(`${path}gold.json`, 'utf8'))
-      gold['m'] = oldGold.m  //faut aussi enlever les propriétés sxs et mscz
+      gold['m'] = oldGold.m  //faut aussi enlever les propriétés sxs
       gold['m'].refs.forEach(mel=>{
          if (mel?.sxs ) mel.sxs  = undefined
-         if (mel?.mscz) mel.mscz = undefined 
       })
 
    }
@@ -89,8 +88,8 @@ collNames.forEach((prefix,i) => { //B)  Pour chaque nom de collection....
 
 
 
-   //C.1  Valider les noms de fichiers du répertoire correspondant, et noter les extensions des noms valides dans sxs et mscz 
-   // (2 nouvelles propriétés de chaque doc) 
+   //C.1  Valider les noms de fichiers du répertoire correspondant, et noter les extensions des noms valides dans sxs
+   // (nouvelle propriété opt. de chaque doc) 
    var fNames = fs.readdirSync(path + 'Collections/' + prefix)
    fNames.sort(compaRef)//useless??
    const fNameRegEx0 = new RegExp(`^(${prefix}( Annexes| Coll[.].+|[.]json))|^([.].*)$`)
@@ -107,8 +106,7 @@ collNames.forEach((prefix,i) => { //B)  Pour chaque nom de collection....
    })
    var refWithoutaMediaFile = []
    coll.refs.forEach((doc, i) => {
-      var mscz = [] //suffixes mscz trouvés et conformes pour cette réf
-      var sxs = [[], [], []] //suffixes (+ extensions) trouvés et conformes pour cette réf, pour p,a,v // peut-être une 4e col pour les mscx
+      var sxs = [[], [], [], []] //suffixes (+ extensions) trouvés et conformes pour cette réf, pour p,a,v // peut-être une 4e col pour les mscx
       var ref = doc.ref ?? ('m' + i) //seule la coll m n'a pas de propriété "ref""
       var refLen = ref.length
       fNames = fNames.filter(fName => {
@@ -116,10 +114,11 @@ collNames.forEach((prefix,i) => { //B)  Pour chaque nom de collection....
          //c'est ici qu'on sait déjà si une URL peut être obsolète
          if (!(fName.startsWith(ref) && coll.suffix.includes(sufChar)))
             return true // core doesn't match: not for this doc
-         if (fName.endsWith(".mscz")) {
-            mscz.push(fName.substring(refLen, fName.length - 5))  //collecte des .mscz (sans l'extension): généralement ""
-            //non-empty mscz spurs: should collect these with at least their dot ".", to cumulate in sxs[3] instead of the special mscz property
-            return false //  OK, traité
+         if (fName.endsWith(".mscz")) 
+            if (fName!=ref+".mscz") return true
+            else {
+               sxs[3].push(".")  // collecte des .mscz
+               return false //  OK, traité
          }
          if (prefix == 'm') {
             sxs[0].push(fName.substring(refLen))  //  p de pav
@@ -143,11 +142,6 @@ collNames.forEach((prefix,i) => { //B)  Pour chaque nom de collection....
             doc.sxs = undefined
       }
       else doc.sxs = sxs.map(e => e.join()).join(';')
-      if (mscz.length) doc.mscz = mscz.join()
-      else doc.mscz = undefined
-      /* after change for non-empty mscz spurs above last 2 lines should become:
-      if (sxs.flat().length + mscz.length > 0) doc.sxs = sxs.map(e => e.join()).concat(mscz.join()).join(';')
-      */
    })
    if (refWithoutaMediaFile.length + fNames.length) {
       //collReport(`${refWithoutaMediaFile.length} réf${refWithoutaMediaFile.length>1 ?'s':''} dans .json sans fichier media correspondant${refWithoutaMediaFile.length ?  ' : '+refWithoutaMediaFile.join(', '):' .'}`)
