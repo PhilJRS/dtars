@@ -193,9 +193,9 @@ function showMelPanel(j) {   // param: j :  soit "null", soit un n°de mel soit 
           }
         }
     }
-    if (mel.mscz != undefined &&  $('#msczOptions')[0].checked) $('#hdrTab').append($('<div/>').text('mscz: '+mel.mscz))
     if (mel.titre != undefined) $('#hdrTab').append($('<div/>').html('titre add: '+mel.titre.replaceAll('_','<br>')))
     if (mel.sxs != undefined) {
+      if (mel.sxs[3] != "" &&  $('#msczOptions')[0].checked) $('#hdrTab').append($('<div/>').text('m'+mel.mel+'.mscz'))
       $('#MelPanel').append($('<tr/>').append($('<table id="scores"/>')))
       mel.sxs[0].split(',').forEach((sx, i) => { //seulement pour les mini-partitions niveau mélodie
         if (sx.endsWith('.png')) {
@@ -301,17 +301,20 @@ function docTable(topRef, dcfa) {  //topRef= n° de mél ou préfixe de coll
     doc.sxs?.forEach((sxm, pav) => {
        if (pav==2 && !vidSettings) return // purge des vidéos si demandé
        sxm.split(',').forEach(sx => {
-          if (sx) {
-            var s = {}
-            s.pav = pav
-            s.char = sx[0].replace('.','') //le fameux suffChar, éventuellement vide!!
-            s.address = (sx.slice(-4)=='.url' 
-                ? col[doc.col]['url'+s.char+'Pref'] + doc['url'+s.char] + (col[doc.col]['url'+s.char+'Suf'] ?? '')
-                : urlHeadC + prefixes[doc.col] + '/' + doc.ref+sx)
-            s.butId = (doc.ref + sx).replaceAll('.','_').replaceAll('#','_')
-            if (s.char) { s.label = s.char  ;  flatSxs.push(s)    } 
-            else        { s.label = doc.ref ;  flatSxs.unshift(s) } //pour montrer le n° de mél sur le 1er bouton à gauche
-    }})})
+          if (sx ) 
+            if (pav == 3) doc.mscz = "."  //je créé cet attribut provisoire (c'est dégueu!)
+            else {
+              var s = {}
+              s.pav = pav
+              s.char = sx[0].replace('.','') //le fameux suffChar, éventuellement vide!!
+              s.address = (sx.slice(-4)=='.url' 
+                  ? col[doc.col]['url'+s.char+'Pref'] + doc['url'+s.char] + (col[doc.col]['url'+s.char+'Suf'] ?? '')
+                  : urlHeadC + prefixes[doc.col] + '/' + doc.ref+sx)
+              s.butId = (doc.ref + sx).replaceAll('.','_').replaceAll('#','_')
+              if (s.char) { s.label = s.char  ;  flatSxs.push(s)    } 
+              else        { s.label = doc.ref ;  flatSxs.unshift(s) } //pour montrer le n° de mél sur le 1er bouton à gauche
+           }
+    })})
     var etcText = []
     if (etcSettings==0) {
       shownKeys = shownKeys.filter(k => !etcKeys.includes(k))
@@ -356,7 +359,8 @@ function docTable(topRef, dcfa) {  //topRef= n° de mél ou préfixe de coll
           $(ddcmi).append($('<td/>').text( doc.f.f))
           break
         case 'mscz':
-          $(ddcmi).append($('<td/>').text( doc.ref+(doc.mscz == '' ? '.' :doc.mscz)+'mscz'))
+          $(ddcmi).append($('<td/>').text(doc.ref+doc.sxs[3]+'mscz'))
+          doc.mscz = undefined //cleanup!!
           break
         case 'titre':
           $(ddcmi).append($('<td/>').html(doc.titre.replaceAll(' ; ','<br>')))
