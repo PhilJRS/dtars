@@ -13,22 +13,28 @@ const urlHeadC = 'https://dta.philiole.fr/Collections/'
 window.onload = function() {
   $.get("gold.json", function(goldFile) {
     gold = goldFile
-    flatColls = Object.values(gold).flatMap(x => x.refs) //index direct sur les docs référencés (3000+)
-    prefixes =  Object.values(gold).flatMap(x => x.prefix) //index
+    flatColls = Object.values(gold).flatMap(x => x.refs) //index direct sur les (3000+) réfs 
+    prefixes = Object.keys(gold) 
     mels = gold.m.refs
     document.querySelector('#DTstats').textContent = "DTA-RS : "
-    +mels.length+ " mélodies, "
-    +flatColls.reduce((acc, cur) => acc + ((cur?.sxs?.replaceAll(';',',').split(',').filter(e=>e.length>0).length) ?? 0),0) 
-    + " documents, " +Object.keys(flatColls).length +" références, "
-    +Object.keys(gold).length +" collections."
+      +mels.length+ " mélodies, "
+      +flatColls.reduce((acc, cur) => acc + ((cur?.sxs?.replaceAll(';',',').split(',').filter(e=>e.length>0).length) ?? 0),0) 
+      + " documents, " +Object.keys(flatColls).length +" références, "
+      +prefixes.length +" collections."
     //tableau des premiers indices de chaque coll dans flatColl:
     prefixes.forEach((prefix, i) => {
       flatCollFirst[i+1] = flatCollFirst[i]+gold[prefix].refs.length
       col[i] = gold[prefix]
     })
-    mels.forEach(mel => {  //expansions des listes de non-docs   //deréférencement souhaitable?
+    mels.forEach((mel, i) => {  //expansions des listes de non-docs   //deréférencement souhaitable?
       initGraphMel(mel)
-      if (mel.hasOwnProperty('ds')) mel.ds = mel.ds.split(",").map(d=>Number(d))
+      if (mel.hasOwnProperty('ds')) {
+        mel.ds = mel.ds.split(",").map(d=>Number(d))
+        mel.ds.forEach(d => {
+          if (d>=gold.DS.refs.length) prompt(`m.json incohérent avec ds.json: mel ${i} a une ds inconnue "${ds}".`)
+          else gold.DS.refs[d].mels.push(i)
+       })
+      }
       if (mel.hasOwnProperty('sxs')) mel.sxs = mel.sxs.split(";")
       //if (mel.hasOwnProperty('titre')) mel.tit = mel.titre.split("_")   //expansion de la liste des titres "manquants" de la mel
     })
