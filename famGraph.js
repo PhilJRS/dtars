@@ -222,39 +222,10 @@ function showGraph(f) {   //f est un n°de famille (ou "null", pour fermer le pa
     if (g.geoChanged)  return
     g.geoChanged = true
     var changed = graphs.map((g,i)=>g.geoChanged?i:0).filter(g=>g!=0).join()
-    $('#saveBtn').text('enregistrer graphe'+(changed.length >2?'s ':' ')+ changed).click(saveGraph).show()
-    function saveGraph() {
-      updated_m_jsonFile=JSON.stringify(
-        { refs: mels.map(m=>(Object.assign(
-          {
-            mel: m.mel,
-            ds: m?.ds?.join(),
-            titre: m.titre,
-            music: m.music,
-            mscz: m.mscz,
-            commentaire: m.commentaire,
-            //docs: m?.docs?.map(d=>d.ref).join()
-            sxs: m?.sxs?.join(),
-            mscz: m.mscz
-          }, 
-          m.f.f? {
-            f: m.f.f,
-            X: m.X, 
-            Y: m.Y, 
-            rel: m.rel
-          }:{}))),
-          prefix: 'm',
-          name: 'Mélodies',
-          core: '[0-9]{1,3}',
-          suffix: ',m',
-          media: '0,0',
-          colldoc: '1XwAzAO4ltdPSggO5ZX38d9YiCJbL_h54OhtxDWd0D2c'
-        }
-      , null, "  ")
-      console.log(updated_m_jsonFile)
-      graphs.forEach(g =>g.geoChanged = false)
-      $('#saveBtn').hide()
-    }
+    $('#saveBtn').text(`enregistrer graphe${(changed.length >2?'s ':' ')+changed}`).click(()=>{
+      console.log(`graph${(changed.length >2?'s ':' ')+changed} changed`)
+      saveColl_m()
+    }).show()
   }
  
   function createRelation(from, to, sim) { //sim = opt boolean (not tested yet)
@@ -312,6 +283,3 @@ function showGraph(f) {   //f est un n°de famille (ou "null", pour fermer le pa
     return g.length ? g.f : 0  //le graphe à présenter
   }
 }
-
-
-
