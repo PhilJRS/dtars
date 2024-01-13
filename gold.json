@@ -3391,6 +3391,11 @@
                 "mel": 428,
                 "music": "EEEEEEEGCEDDDDDD,DDDDDDBCDE",
                 "commentaire": "Uff Marsch"
+            },
+            {
+                "mel": 429,
+                "music": "CCCCEDBCCEDEGFFDDE",
+                "commentaire": "fiche C inedite"
             }
         ],
         "prefix": "m",
@@ -11458,6 +11463,11 @@
                 "sxs": ".jpg;;;"
             },
             {
+                "mel": 429,
+                "ref": "LP3p140",
+                "titre": "Der Wikmen und der Esel"
+            },
+            {
                 "mel": 199,
                 "ref": "LP3p143",
                 "titre": "Der Essigkrug",
@@ -11504,6 +11514,11 @@
                 "ref": "LP3p333",
                 "titre": "Die Zwanzig Mörder",
                 "sxs": ".jpg;;;"
+            },
+            {  
+                "mel": 429,
+                "ref": "LP3p413",
+                "titre": "Et war e Wanter hort a kal"
             },
             {
                 "mel": 205,
@@ -13285,6 +13300,7 @@
                 "sxs": ".jpg;A.mp3;;."
             },
             {
+                "mel": 429,
                 "ref": "RSD107",
                 "titre": "Guillaume et son âne",
                 "sxs": ".jpg,C.jpg;A.mp3;;."
@@ -18858,245 +18874,206 @@
             {
                 "mel": 115,
                 "ref": "RSEp2241.1",
-                "titre": "La légende de Bacqueville",
-                "sxs": ".jpg;;;"
+                "titre": "La légende de Bacqueville"
             },
             {
                 "mel": 66,
                 "ref": "RSEp2241.2",
-                "titre": "Su'l' pont du nord un bal y est donné",
-                "sxs": ".jpg;;;"
+                "titre": "Su'l' pont du nord un bal y est donné"
             },
             {
                 "mel": 339,
                 "ref": "RSEp2245.1",
-                "titre": "Le cloutier",
-                "sxs": ".jpg;;;"
+                "titre": "Le cloutier"
             },
             {
                 "mel": 218,
                 "ref": "RSEp2245.2",
-                "titre": "Siwenersprung",
-                "sxs": ".jpg;;;"
+                "titre": "Siwenersprung"
             },
             {
                 "mel": 80,
                 "ref": "RSEp2245.3",
-                "titre": "Danse des tisserands",
-                "sxs": ".jpg;;;"
+                "titre": "Danse des tisserands"
             },
             {
                 "mel": 93,
                 "ref": "RSEp2246.1",
-                "titre": "Die Nacht ist ja stockfinster",
-                "sxs": ".jpg;;;"
+                "titre": "Die Nacht ist ja stockfinster"
             },
             {
                 "mel": 326,
                 "ref": "RSEp2246.2",
-                "titre": "La tombe du marin",
-                "sxs": ".jpg;;;"
+                "titre": "La tombe du marin"
             },
             {
                 "mel": 385,
                 "ref": "RSEp2249.1",
-                "titre": "De Haystàll fällt um",
-                "sxs": ".jpg;;;"
+                "titre": "De Haystàll fällt um"
             },
             {
                 "mel": 182,
                 "ref": "RSEp2249.2",
-                "titre": "La Corante du Roy",
-                "sxs": ".jpg;;;"
+                "titre": "La Corante du Roy"
             },
             {
                 "mel": 71,
                 "ref": "RSEp2253.1",
-                "titre": "Réveil au clairon",
-                "sxs": ".jpg;;;"
+                "titre": "Réveil au clairon"
             },
             {
                 "mel": 324,
                 "ref": "RSEp2253.2",
-                "titre": "La mort du soldat",
-                "sxs": ".jpg;;;"
+                "titre": "La mort du soldat"
             },
             {
                 "mel": 60,
                 "ref": "RSEp2254",
-                "titre": "L'étoile du soir",
-                "sxs": ".jpg;;;"
+                "titre": "L'étoile du soir"
             },
             {
                 "mel": 135,
                 "ref": "RSEp2255",
-                "titre": "Un joyeux cimetière",
-                "sxs": ".jpg;;;"
+                "titre": "Un joyeux cimetière"
             },
             {
                 "mel": 134,
                 "ref": "RSEp2256",
-                "titre": "Newe Almayne",
-                "sxs": ".jpg;;;"
+                "titre": "Newe Almayne"
             },
             {
                 "mel": 7,
                 "ref": "RSEp2257.1",
-                "titre": "L'amour perdu",
-                "sxs": ".jpg;;;"
+                "titre": "L'amour perdu"
             },
             {
                 "mel": 65,
                 "ref": "RSEp2257.2",
-                "titre": "De Gemietlichkeit’s Walzer",
-                "sxs": ".jpg;;;"
+                "titre": "De Gemietlichkeit’s Walzer"
             },
             {
                 "mel": 53,
                 "ref": "RSEp2258.1",
-                "titre": "La pauvre âme",
-                "sxs": ".jpg;;;"
+                "titre": "La pauvre âme"
             },
             {
                 "mel": 23,
                 "ref": "RSEp2258.2",
-                "titre": "J'entends la faucille",
-                "sxs": ".jpg;;;"
+                "titre": "J'entends la faucille"
             },
             {
                 "mel": 20,
                 "ref": "RSEp2260.1",
-                "titre": "La flûte du berger",
-                "sxs": ".jpg;;;"
+                "titre": "La flûte du berger"
             },
             {
                 "mel": 92,
                 "ref": "RSEp2260.2",
-                "titre": "Si tu ne me veux pas",
-                "sxs": ".jpg;;;"
+                "titre": "Si tu ne me veux pas"
             },
             {
                 "mel": 151,
                 "ref": "RSEp2263.1",
-                "titre": "La chanson du café",
-                "sxs": ".jpg;;;"
+                "titre": "La chanson du café"
             },
             {
                 "mel": 22,
                 "ref": "RSEp2263.2",
-                "titre": "Crêpes à la bavaroise",
-                "sxs": ".jpg;;;"
+                "titre": "Crêpes à la bavaroise"
             },
             {
                 "mel": 91,
                 "ref": "RSEp2264",
-                "titre": "Le retour",
-                "sxs": ".jpg;;;"
+                "titre": "Le retour"
             },
             {
                 "mel": 272,
                 "ref": "RSEp2265.1",
-                "titre": "Danse des rubans",
-                "sxs": ".jpg;;;"
+                "titre": "Danse des rubans"
             },
             {
                 "mel": 95,
                 "ref": "RSEp2265.2",
-                "titre": "E àrmer Büe",
-                "sxs": ".jpg;;;"
+                "titre": "E àrmer Büe"
             },
             {
                 "mel": 50,
                 "ref": "RSEp2266.1",
-                "titre": "Le Royal-Suédois",
-                "sxs": ".jpg;;;"
+                "titre": "Le Royal-Suédois"
             },
             {
                 "mel": 28,
                 "ref": "RSEp2266.2",
-                "titre": "Herr Schmitt",
-                "sxs": ".jpg;;;"
+                "titre": "Herr Schmitt"
             },
             {
                 "mel": 36,
                 "ref": "RSEp2267.1",
-                "titre": "Valse des conscrits",
-                "sxs": ".jpg;;;"
+                "titre": "Valse des conscrits"
             },
             {
                 "mel": 89,
                 "ref": "RSEp2267.2",
-                "titre": "Un die Butell isch leer",
-                "sxs": ".jpg;;;"
+                "titre": "Un die Butell isch leer"
             },
             {
                 "mel": 133,
                 "ref": "RSEp2268.1",
-                "titre": "Polka des conscrits",
-                "sxs": ".jpg;;;"
+                "titre": "Polka des conscrits"
             },
             {
                 "mel": 269,
                 "ref": "RSEp2268.2",
-                "titre": "Polka croisée",
-                "sxs": ".jpg;;;"
+                "titre": "Polka croisée"
             },
             {
                 "mel": 68,
                 "ref": "RSEp2269.1",
-                "titre": "Danse des 4 pas",
-                "sxs": ".jpg;;;"
+                "titre": "Danse des 4 pas"
             },
             {
                 "mel": 40,
                 "ref": "RSEp2269.2",
-                "titre": "Le juif de Seebach",
-                "sxs": ".jpg;;;"
+                "titre": "Le juif de Seebach"
             },
             {
                 "mel": 62,
                 "ref": "RSEp2269.3",
-                "titre": "Les bottes cirées",
-                "sxs": ".jpg;;;"
+                "titre": "Les bottes cirées"
             },
             {
                 "mel": 161,
                 "ref": "RSEp2270.1",
-                "titre": "Drum si m'r Luschtig",
-                "sxs": ".jpg;;;"
+                "titre": "Drum si m'r Luschtig"
             },
             {
                 "mel": 103,
                 "ref": "RSEp2270.2",
-                "titre": "Nostalgie",
-                "sxs": ".jpg;;;"
+                "titre": "Nostalgie"
             },
             {
                 "mel": 43,
                 "ref": "RSEp2271",
-                "titre": "De Kehrüs",
-                "sxs": ".jpg;;;"
+                "titre": "De Kehrüs"
             },
             {
                 "mel": 218,
                 "ref": "RSFp64",
                 "titre": "Danse des sept sauts",
-                "mm75": "p10",
-                "sxs": ".jpg;;;"
+                "mm75": "p10"
             },
             {
                 "mel": 233,
                 "ref": "RSFp71",
                 "titre": "Schwitzemann",
                 "mm75": "p13",
-                "sxs": ".jpg;;;."
+                "sxs": ";;;."
             },
             {
                 "mel": 6,
                 "ref": "RSFp73",
                 "titre": "Courante de nouvel-an",
-                "mm75": "p15",
-                "sxs": ".jpg;;;"
+                "mm75": "p15"
             },
             {
                 "mel": 154,
@@ -19109,85 +19086,73 @@
                 "mel": 225,
                 "ref": "RSFp76",
                 "titre": "Rutsch hin, Rutsch her",
-                "mm75": "p18",
-                "sxs": ".jpg;;;"
+                "mm75": "p18"
             },
             {
                 "mel": 43,
                 "ref": "RSFp83",
                 "titre": "La balayeuse",
-                "mm75": "p25",
-                "sxs": ".jpg;;;"
+                "mm75": "p25"
             },
             {
                 "mel": 14,
                 "ref": "RSFp84",
                 "titre": "La danse du coq",
-                "mm75": "p26",
-                "sxs": ".jpg;;;"
+                "mm75": "p26"
             },
             {
                 "mel": 213,
                 "ref": "RSFp87",
                 "titre": "Quête du mardi-gras",
-                "mm75": "p29",
-                "sxs": ".jpg;;;"
+                "mm75": "p29"
             },
             {
                 "mel": 45,
                 "ref": "RSFp88.1",
                 "titre": "Madeleine et la mort",
-                "mm75": "p30.1",
-                "sxs": ".jpg;;;"
+                "mm75": "p30.1"
             },
             {
                 "mel": 138,
                 "ref": "RSFp88.2",
                 "titre": "Geh m'r nit uewer min Mattele",
-                "mm75": "p30.2",
-                "sxs": ".jpg;;;"
+                "mm75": "p30.2"
             },
             {
                 "mel": 194,
                 "ref": "RSFp89",
                 "titre": "Danse des bergers",
-                "mm75": "p31",
-                "sxs": ".jpg;;;"
+                "mm75": "p31"
             },
             {
                 "mel": 70,
                 "ref": "RSFp110",
                 "titre": "Ronde des roses",
-                "mm75": "p52",
-                "sxs": ".jpg;;;"
+                "mm75": "p52"
             },
             {
                 "mel": 105,
                 "ref": "RSFp115",
                 "titre": "Le petit moulin",
-                "mm75": "p57",
-                "sxs": ".jpg;;;"
+                "mm75": "p57"
             },
             {
                 "mel": 170,
                 "ref": "RSFp117",
                 "titre": "La varsovienne",
-                "mm75": "p59",
-                "sxs": ".jpg;;;"
+                "mm75": "p59"
             },
             {
                 "mel": 19,
                 "ref": "RSFp118",
                 "titre": "L'amour secret",
-                "mm75": "p60",
-                "sxs": ".jpg;;;"
+                "mm75": "p60"
             },
             {
                 "mel": 258,
                 "ref": "RSFp119",
                 "titre": "Scottischs Alsaciennes",
-                "mm75": "p61",
-                "sxs": ".jpg;;;"
+                "mm75": "p61"
             },
             {
                 "mel": 255,
@@ -19211,22 +19176,19 @@
                 "mel": 146,
                 "ref": "RSFp122",
                 "titre": "Danse des sept pas",
-                "mm75": "p64",
-                "sxs": ".jpg;;;"
+                "mm75": "p64"
             },
             {
                 "mel": 297,
                 "ref": "RSFp123.1",
                 "titre": "Hop Marianne",
-                "mm75": "p69.1",
-                "sxs": ".jpg;;;"
+                "mm75": "p69.1"
             },
             {
                 "mel": 17,
                 "ref": "RSFp123.2",
                 "titre": "Trois guêtres de cuir",
-                "mm75": "p69.2",
-                "sxs": ".jpg;;;"
+                "mm75": "p69.2"
             }
         ],
         "prefix": "RS",
