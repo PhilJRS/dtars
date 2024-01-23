@@ -5299,7 +5299,7 @@
                 "ref": "AU18a3",
                 "titre": "Ouvre Moi",
                 "commentaire": "FRD",
-                "sxs": ";.m4a;;"
+                "sxs": ";.m4a,.mp3;;"
             },
             {
                 "mel": 333,
@@ -8573,989 +8573,1149 @@
     "DS": {
         "refs": [
             {
-                "ref": "DS#allemande",
-                "url": "document/d/1iaYAADjEJz1zKGNZMTzqOUldKQ89Ljd3lrZg9RY19kE",
-                "sxs": ".url;;",
-                "mels": "134,250,251,316,317"
+              "ref": "DS#allemande",
+              "url": "spreadsheets/d/1ePHKdLHVTF4hnSJ4X3bJfUJecJQ61-v837C6-B-8nwI",
+              "sxs": ".url;;",
+              "mels": "134,250,251,316,317",
+              "url--2": "spreadsheets/d/1ePHKdLHVTF4hnSJ4X3bJfUJecJQ61-v837C6-B-8nwI"
             },
             {
-                "ref": "DS#badoise",
-                "url": "document/d/1QQZ1h--IGptey2Ru99yPLUEJIkdgwZPeLK8k2HCpizU",
-                "sxs": ".url;;",
-                "mels": "17,63,95,142,283"
+              "ref": "DS#badoise",
+              "url": "spreadsheets/d/1rc9fzK7TM7UleHwMloG6i-VMzWyiU5i2mqrz5YE9h1w",
+              "sxs": ".url;;",
+              "mels": "17,63,95,142,283",
+              "url--2": "spreadsheets/d/1rc9fzK7TM7UleHwMloG6i-VMzWyiU5i2mqrz5YE9h1w"
             },
             {
-                "ref": "DS#branle",
-                "url": "document/d/1avx-SbnOfAbHM01vBvGr_apGJq99ZJIr-pvw3ifCYRQ",
-                "sxs": ".url;;",
-                "mels": "1,2,3,4,5,7,8,9,15,18,21,25,29,41,45,46,47,48,52,56,59,66,69,85,96,115,157,158,159,194,197,199,203,205,213,235,288,289,290,308"
+              "ref": "DS#branle",
+              "url": "spreadsheets/d/1KmKBrwN1koQJbjJNhWFJsKoNRvLIvOj2oBm0KpLfbiw",
+              "sxs": ".url;;",
+              "mels": "1,2,3,4,5,7,8,9,15,18,21,25,29,41,45,46,47,48,52,5...",
+              "url--2": "spreadsheets/d/1KmKBrwN1koQJbjJNhWFJsKoNRvLIvOj2oBm0KpLfbiw"
             },
             {
-                "ref": "DS#branle.gai",
-                "url": "document/d/1yCmsW0UWItUYwP4kGoSOeZE8vYm5zfN6vyZ8DUIj6Wc",
-                "sxs": ".url;;",
-                "mels": "6,7,135,136,137,138,230,231"
+              "ref": "DS#branle.gai",
+              "url": "spreadsheets/d/190aJJNctriQ-7sSH0xw4oKRQy1BQ64ZlL1nYwLvV05o",
+              "sxs": ".url;;",
+              "mels": "6,7,135,136,137,138,230,231",
+              "url--2": "spreadsheets/d/190aJJNctriQ-7sSH0xw4oKRQy1BQ64ZlL1nYwLvV05o"
             },
             {
-                "ref": "DS#chibreli",
-                "url": "document/d/10ISMa31_ywLI9WEPnEZmX36ltCQ7922Uqnf9TMWvC_g",
-                "sxs": ".url;;",
-                "mels": "28,74,154,193,225,226,278"
+              "ref": "DS#chibreli",
+              "url": "spreadsheets/d/1IH1XdnOHqDV0HioNwx8cS2q_eONFGLIn4hW2JqJVapI",
+              "sxs": ".url;;",
+              "mels": "28,74,154,193,225,226,278",
+              "url--2": "spreadsheets/d/1IH1XdnOHqDV0HioNwx8cS2q_eONFGLIn4hW2JqJVapI"
             },
             {
-                "ref": "DS#courante",
-                "url": "document/d/1AkqAB-06OBc1IYPEVLO1CQqCwqJ4CPgzOSGs7Af0pOo",
-                "sxs": ".url;;",
-                "mels": "0,6,7,30,33,54,71,182,196,213,249,253"
+              "ref": "DS#courante",
+              "url": "spreadsheets/d/1HCV6JQdE3ZM-rXjuQQ_6ErUwJ61RihOcU5b1e8EPN2c",
+              "sxs": ".url;;",
+              "mels": "0,6,7,30,33,54,71,182,196,213,249,253",
+              "url--2": "spreadsheets/d/1HCV6JQdE3ZM-rXjuQQ_6ErUwJ61RihOcU5b1e8EPN2c"
             },
             {
-                "ref": "DS#gaillarde",
-                "url": "document/d/1kHusNnr57-0hzZFq8xk8Bap7-wvkwPHCa5dWIx4cFWo",
-                "sxs": ".url;;",
-                "mels": "134,196,251"
+              "ref": "DS#gaillarde",
+              "url": "spreadsheets/d/1W9yD0Yz4rXne7ssihlYcrqa7L3R0CaLp35bhQ9LVs3A",
+              "sxs": ".url;;",
+              "mels": "134,196,251",
+              "url--2": "spreadsheets/d/1W9yD0Yz4rXne7ssihlYcrqa7L3R0CaLp35bhQ9LVs3A"
             },
             {
-                "ref": "DS#galop",
-                "url": "document/d/1xkE7yYOhubcXu6T0pCkyRmGBe9wDUHCeR-8aN3ZkFr8",
-                "sxs": ".url;;",
-                "mels": "22,43,55"
+              "ref": "DS#galop",
+              "url": "spreadsheets/d/13Cd-qJhQDhTnMNEYNTi6ryb4602n2-wx-0tMpz-kKoM",
+              "sxs": ".url;;",
+              "mels": "22,43,55",
+              "url--2": "spreadsheets/d/13Cd-qJhQDhTnMNEYNTi6ryb4602n2-wx-0tMpz-kKoM"
             },
             {
-                "ref": "DS#gavotte",
-                "url": "document/d/1Dty0lyY-EVeEqHGLJGGjnZLmXFSt1HhNyWD_5MgnZj4",
-                "sxs": ".url;;",
-                "mels": "19,20,23,24,51,132,313"
+              "ref": "DS#gavotte",
+              "url": "spreadsheets/d/1TUHfgNP9-SpMiNqNbTyM0wzfuX6nXM7hwCdXzyjPle8",
+              "sxs": ".url;;",
+              "mels": "19,20,23,24,51,132,313",
+              "url--2": "spreadsheets/d/1TUHfgNP9-SpMiNqNbTyM0wzfuX6nXM7hwCdXzyjPle8"
             },
             {
-                "ref": "DS#impaire",
-                "url": "document/d/1QN968X7vIKWv1PJuOnfdPQM6fxRRMH38jY7W4F6ut0Q",
-                "sxs": ".url;;",
-                "mels": "34,35,39,79,81,82,83,121,122,123,124,125,126,127,128,164,308,319,320,321,324,326,327,329,337,339,340,341,343"
+              "ref": "DS#impaire",
+              "url": "spreadsheets/d/1xFVlAp8PwQESIPHKxYBbXlpgJssNLOL_WatlsSusaxQ",
+              "sxs": ".url;;",
+              "mels": "34,35,39,79,81,82,83,121,122,123,124,125,126,127,1...",
+              "url--2": "spreadsheets/d/1xFVlAp8PwQESIPHKxYBbXlpgJssNLOL_WatlsSusaxQ"
             },
             {
-                "ref": "DS#landler",
-                "url": "document/d/1ga4wKm4iV_E7eG-lyUfq5hh9l5an78MAmQInBXtsePM",
-                "sxs": ".url;;",
-                "mels": "117"
+              "ref": "DS#landler",
+              "url": "spreadsheets/d/1LScNtXQTV6qLyWDJSFbKXJMlEFxKMp0pHIN-iY4_PYQ",
+              "sxs": ".url;;",
+              "mels": 117,
+              "url--2": "spreadsheets/d/1LScNtXQTV6qLyWDJSFbKXJMlEFxKMp0pHIN-iY4_PYQ"
             },
             {
-                "ref": "DS#marche",
-                "url": "document/d/1iVuLbKsrPXvX2JS-L7mi9_qiyJamBjDYuzr2t-rPukE",
-                "sxs": ".url;;",
-                "mels": "11,49,50,55,70,75,186,187,188"
+              "ref": "DS#marche",
+              "url": "spreadsheets/d/1FiHeR870UjK5kimBB9Jc1RdtegNZmKDcXoDFk54D8g0",
+              "sxs": ".url;;",
+              "mels": "11,49,50,55,70,75,186,187,188",
+              "url--2": "spreadsheets/d/1FiHeR870UjK5kimBB9Jc1RdtegNZmKDcXoDFk54D8g0"
             },
             {
-                "ref": "DS#mazurka",
-                "url": "document/d/1EKTH_eHGKal5Eor7gkdhez7egBzzQfUGhTgv53QZuTQ",
-                "sxs": ".url;;",
-                "mels": "99,100,101,102,103,104,105,106,107,168,176,262,302"
+              "ref": "DS#mazurka",
+              "url": "spreadsheets/d/1iN-bxVuv6apkxN3bzmmk320GiVRkCCCPYNLQ7xX6Kq8",
+              "sxs": ".url;;",
+              "mels": "99,100,101,102,103,104,105,106,107,168,176,262,302",
+              "url--2": "spreadsheets/d/1iN-bxVuv6apkxN3bzmmk320GiVRkCCCPYNLQ7xX6Kq8"
             },
             {
-                "ref": "DS#menuet",
-                "url": "document/d/1IpPx8xO3GJbPL0yxnbVnzF3rlzcoo9-ieVdxIxGroC4",
-                "sxs": ".url;;",
-                "mels": "53"
+              "ref": "DS#menuet",
+              "url": "spreadsheets/d/1dhQ75fTL-jWrTrh2zytJn25yKpSotVA8ig3cybUDP_w",
+              "sxs": ".url;;",
+              "mels": 53,
+              "url--2": "spreadsheets/d/1dhQ75fTL-jWrTrh2zytJn25yKpSotVA8ig3cybUDP_w"
             },
             {
-                "ref": "DS#polka",
-                "url": "document/d/1HBy9KkAXkOf6REkpLbCjVmaVple9mygJmK5Q-6P1XwI",
-                "sxs": ".url;;",
-                "mels": "10,14,40,42,43,61,62,68,72,109,129,133,219,273,277,287,331"
+              "ref": "DS#polka",
+              "url": "spreadsheets/d/1nSthfBjekJSo4tQXegk0M1Rm_D5iBxzdLLGVqhqgB44",
+              "sxs": ".url;;",
+              "mels": "10,14,40,42,43,61,62,68,72,109,129,133,219,273,277...",
+              "url--2": "spreadsheets/d/1nSthfBjekJSo4tQXegk0M1Rm_D5iBxzdLLGVqhqgB44"
             },
             {
-                "ref": "DS#polka.piquee",
-                "url": "document/d/1z5SKrLEU8QOsLkBVgT_0OwnCX6o8alD0lmEQxANRxFw",
-                "sxs": ".url;;",
-                "mels": "64,114,214,269,287,297,298,299"
+              "ref": "DS#polka.piquee",
+              "url": "spreadsheets/d/1n9vx1CnV0q3T_nCirJcLe_HQ7AbM2Yr-TQfiqCH4blM",
+              "sxs": ".url;;",
+              "mels": "64,114,214,269,287,297,298,299",
+              "url--2": "spreadsheets/d/1n9vx1CnV0q3T_nCirJcLe_HQ7AbM2Yr-TQfiqCH4blM"
             },
             {
-                "ref": "DS#quadrille",
-                "url": "document/d/1QZW8NY5HDPw01EDx2jdVIlzl80J_6HXTZQBY7LE4sd0",
-                "sxs": ".url;;",
-                "mels": "67"
+              "ref": "DS#quadrille",
+              "url": "spreadsheets/d/1U1l-074iViRttrx5dCsQtVIzQUBqj5j9ybdpEGKiguI",
+              "sxs": ".url;;",
+              "mels": 67,
+              "url--2": "spreadsheets/d/1U1l-074iViRttrx5dCsQtVIzQUBqj5j9ybdpEGKiguI"
             },
             {
-                "ref": "DS#rhinlander",
-                "url": "document/d/1bDBLnyHjrZg2G3QnMqbVIcPNYbPBQE_seZXM0ULgrLc",
-                "sxs": ".url;;",
-                "mels": "90,118,119,120,265"
+              "ref": "DS#rhinlander",
+              "url": "spreadsheets/d/1wS1DdeEgckLTCPVEkAcFIRF74Ol54o3QAq-kV0aIIpo",
+              "sxs": ".url;;",
+              "mels": "90,118,119,120,265",
+              "url--2": "spreadsheets/d/1wS1DdeEgckLTCPVEkAcFIRF74Ol54o3QAq-kV0aIIpo"
             },
             {
-                "ref": "DS#ronde",
-                "url": "document/d/1z3ml0Lvmu4JijQBXh5aQGWTTRg-CzFDXw75MwZr8sa4",
-                "sxs": ".url;;",
-                "mels": "70,75,131,198"
+              "ref": "DS#ronde",
+              "url": "spreadsheets/d/1DJqUCG_wGFDpqy0jjHi7izKJLb5sbA6wzwJH9VajNNY",
+              "sxs": ".url;;",
+              "mels": "70,75,131,198",
+              "url--2": "spreadsheets/d/1DJqUCG_wGFDpqy0jjHi7izKJLb5sbA6wzwJH9VajNNY"
             },
             {
-                "ref": "DS#sarabande",
-                "url": "document/d/1FeoIUSklYHTvDGGnUHkcYU1sBy463LlSTGxjT7aaFUc",
-                "sxs": ".url;;",
-                "mels": "15,76,202"
+              "ref": "DS#sarabande",
+              "url": "spreadsheets/d/13utVAYPYbJjX8zeIY7a_6SjvOmm4MG3NmtXcYQpAbTQ",
+              "sxs": ".url;;",
+              "mels": "15,76,202",
+              "url--2": "spreadsheets/d/13utVAYPYbJjX8zeIY7a_6SjvOmm4MG3NmtXcYQpAbTQ"
             },
             {
-                "ref": "DS#scottisch",
-                "url": "document/d/1UXxb3cHY0HjH0GTI2ym0BRNt0c5Qhhkpv-fmrCA5pVM",
-                "sxs": ".url;;",
-                "mels": "13,24,26,57,84,89,90,94,119,161,208,255,256,257,259,264,313,314,315"
+              "ref": "DS#scottisch",
+              "url": "spreadsheets/d/1dj86IcoSCeprd2iRZFj3IhqYU23Qt6oz0uu1V4SyBkw",
+              "sxs": ".url;;",
+              "mels": "13,24,26,57,84,89,90,94,119,161,208,255,256,257,25...",
+              "url--2": "spreadsheets/d/1dj86IcoSCeprd2iRZFj3IhqYU23Qt6oz0uu1V4SyBkw"
             },
             {
-                "ref": "DS#sept.pas",
-                "url": "document/d/1sUKl-1_2nPztXqqZdaWAqsNAzL7M74JAiXX8TcNV7Hs",
-                "sxs": ".url;;",
-                "mels": "144,145,146,149,150,151,152,293"
+              "ref": "DS#sept.pas",
+              "url": "spreadsheets/d/1ppHdNaXEtezIswM3V52y-uoBE-gIXDb2HdBGm19HPyE",
+              "sxs": ".url;;",
+              "mels": "144,145,146,149,150,151,152,293",
+              "url--2": "spreadsheets/d/1ppHdNaXEtezIswM3V52y-uoBE-gIXDb2HdBGm19HPyE"
             },
             {
-                "ref": "DS#sept.sauts",
-                "url": "document/d/1pmEKtUE_k6vGdAQqglIgsx4OAeQmc-7IZxCelNkJ75U",
-                "sxs": ".url;;",
-                "mels": "218,239,240,241,242,243,244,245,246,247,248"
+              "ref": "DS#sept.sauts",
+              "url": "spreadsheets/d/1jShmcUaXdgyfe7rLSpMvx9Lbg2wxgKmW194Vjkj_yfY",
+              "sxs": ".url;;",
+              "mels": "218,239,240,241,242,243,244,245,246,247,248",
+              "url--2": "spreadsheets/d/1jShmcUaXdgyfe7rLSpMvx9Lbg2wxgKmW194Vjkj_yfY"
             },
             {
-                "ref": "DS#valse",
-                "url": "document/d/1pmEKtUE_k6vGdAQqglIgsx4OAeQmc-7IZxCelNkJ75U",
-                "sxs": ".url;;",
-                "mels": "13,27,31,36,37,44,65,73,77,78,80,87,91,92,93,110,111,116,117,139,140,141,161,162,221,223,224,228,270,271,281,353,354,355,358,359,361,367,369,371,385"
+              "ref": "DS#valse",
+              "url": "spreadsheets/d/1NHCqGK9oywM54y08f0wV5r9kLGRIq8EIm7J9tO7ZZhE",
+              "sxs": ".url;;",
+              "mels": "13,27,31,36,37,44,65,73,77,78,80,87,91,92,93,110,1...",
+              "url--2": "spreadsheets/d/1NHCqGK9oywM54y08f0wV5r9kLGRIq8EIm7J9tO7ZZhE"
             },
             {
-                "ref": "DS#valse.impaire",
-                "url": "document/d/109xNO4_AdZPKcOc7WwH1EwLa86_S7R9mko3YTcLE_Gk",
-                "sxs": ".url;;",
-                "mels": "35,36,39,79,81,82,83,97,98,112,113,121,125,126,128,322,323,326,327,329,332,333,334,337,339,341,343"
+              "ref": "DS#valse.impaire",
+              "url": "spreadsheets/d/147hdimREedqhSgR58DSsfTZ9UKBwQ3qClBw4c1Gamsc",
+              "sxs": ".url;;",
+              "mels": "35,36,39,79,81,82,83,97,98,112,113,121,125,126,128...",
+              "url--2": "spreadsheets/d/147hdimREedqhSgR58DSsfTZ9UKBwQ3qClBw4c1Gamsc"
             },
             {
-                "ref": "DS#varsovienne",
-                "url": "document/d/1j8aSQyvlCYymRdIdEUDnsYb6hQ1627L5j1qVL_o59Ys",
-                "sxs": ".url;;",
-                "mels": "108,166,167"
+              "ref": "DS#varsovienne",
+              "url": "spreadsheets/d/1W4dsWMgleloUoVLYV7IWVABRF--jbsa_48z-0aTVGdY",
+              "sxs": ".url;;",
+              "mels": "108,166,167",
+              "url--2": "spreadsheets/d/1W4dsWMgleloUoVLYV7IWVABRF--jbsa_48z-0aTVGdY"
             },
             {
-                "ref": "DS#zwiefacher",
-                "url": "document/d/1OrmX7khIN6PgCoA61jfxD3T_sUGIAttv9FPf2q5MCiI",
-                "sxs": ".url;;",
-                "mels": "32,34,160"
+              "ref": "DS#zwiefacher",
+              "url": "spreadsheets/d/127MshHIgu-E5PO4lBT8w53dW7R6rxmsw1IEXT0wNAto",
+              "sxs": ".url;;",
+              "mels": "32,34,160",
+              "url--2": "spreadsheets/d/127MshHIgu-E5PO4lBT8w53dW7R6rxmsw1IEXT0wNAto"
             },
             {
-                "ref": "DSallemande.a.4",
-                "url": "document/d/1BGKIgeWIT3VKZUopRx201VuU-KgesDyhDy_P24d5E58",
-                "sxs": ".url;;",
-                "mels": "316,317"
+              "ref": "DSallemande.a.4",
+              "url": "spreadsheets/d/1usM0Zjaf4EdS2Rn55EkoO5mLoM72rij35FjXjErrurk",
+              "sxs": ".url;;",
+              "mels": "316,317",
+              "url--2": "spreadsheets/d/1usM0Zjaf4EdS2Rn55EkoO5mLoM72rij35FjXjErrurk"
             },
             {
-                "ref": "DSallemande.tripla",
-                "url": "document/d/10ZfSWp3XnZDDMge5DXthPM76Un6Rn-Q3hOXzmR5J6Go",
-                "sxs": ".url;;",
-                "mels": "251"
+              "ref": "DSallemande.tripla",
+              "url": "spreadsheets/d/1BRblKC5K9mJTTo3Ebr-H14p3klvvXyEEruni39IhMj0",
+              "sxs": ".url;;",
+              "mels": 251,
+              "url--2": "spreadsheets/d/1BRblKC5K9mJTTo3Ebr-H14p3klvvXyEEruni39IhMj0"
             },
             {
-                "ref": "DSallumettes",
-                "url": "document/d/1gVFkCrp4k04K-9YDznsuSK4PYSBHcWRBARekPR11D4s",
-                "sxs": ".url;;",
-                "mels": "285"
+              "ref": "DSallumettes",
+              "url": "spreadsheets/d/1p71H3pjnRzq4tgSeJMjnB2NC4hlzVIDYFFfMepX2-8A",
+              "sxs": ".url;;",
+              "mels": 285,
+              "url--2": "spreadsheets/d/1p71H3pjnRzq4tgSeJMjnB2NC4hlzVIDYFFfMepX2-8A"
             },
             {
-                "ref": "DSanneau",
-                "url": "spreadsheets/d/1e00DnjaOLkJMRbd8IOSm4d4wfQfIo_FO0aCy40UV5qE",
-                "sxs": ".url;;",
-                "mels": "29"
+              "ref": "DSanneau",
+              "url": "spreadsheets/d/1TYLA-N9z_ygEatg9IuHZqDHUdBSY6YtuI_7Qvq64orY",
+              "sxs": ".url;;",
+              "mels": 29,
+              "url--2": "spreadsheets/d/1TYLA-N9z_ygEatg9IuHZqDHUdBSY6YtuI_7Qvq64orY"
             },
             {
-                "ref": "DSarmer.bue",
-                "url": "document/d/1p0AqGNzSfuxrHEfAwFa8xVr7NyBg0sXQdmTkLQDQ5hE",
-                "sxs": ".url;;",
-                "mels": "95"
+              "ref": "DSarmer.bue",
+              "url": "spreadsheets/d/1Rn8-yw_owlTY_WrB_W5pF8KJMd_XBpFMbp5mStp8T3o",
+              "sxs": ".url;;",
+              "mels": 95,
+              "url--2": "spreadsheets/d/1Rn8-yw_owlTY_WrB_W5pF8KJMd_XBpFMbp5mStp8T3o"
             },
             {
-                "ref": "DSbain.belle",
-                "url": "document/d/1alXvC6Rn2l_wLmL16UoMbgwT4x4tx1yZR4y1arNBNvE",
-                "sxs": ".url;;",
-                "mels": "205"
+              "ref": "DSbain.belle",
+              "url": "spreadsheets/d/1obBk2ghHDDvFIY6yQjYGvMdb4aVaM0dbq0uvCgrk1s0",
+              "sxs": ".url;;",
+              "mels": 205,
+              "url--2": "spreadsheets/d/1obBk2ghHDDvFIY6yQjYGvMdb4aVaM0dbq0uvCgrk1s0"
             },
             {
-                "ref": "DSballade.ste.odile",
-                "url": "document/d/1w_AdlSnQJLUj21ePq0voASvMJ0r6h6WrqN1CCCyEcs8",
-                "sxs": ".url;;",
-                "mels": "157"
+              "ref": "DSballade.ste.odile",
+              "url": "spreadsheets/d/14Gkjxr3I6T-GD_D5MwioGwVCPamVVse6vD_N2UcirnE",
+              "sxs": ".url;;",
+              "mels": 157,
+              "url--2": "spreadsheets/d/14Gkjxr3I6T-GD_D5MwioGwVCPamVVse6vD_N2UcirnE"
             },
             {
-                "ref": "DSbattelied",
-                "url": "document/d/1mvFWzKsVcmhzOQnHdx-6AL0oRl_z8ksR4CMtM-JeuR0",
-                "craKl": "x",
-                "sxs": ".url;;",
-                "mels": "158"
+              "ref": "DSbattelied",
+              "url": "spreadsheets/d/16Xr5NQjhyt8m1bf5YxRqWRps_GuQ9SZsGq-0HKcNfyo",
+              "craKl": "x",
+              "sxs": ".url;;",
+              "mels": 158,
+              "url--2": "spreadsheets/d/16Xr5NQjhyt8m1bf5YxRqWRps_GuQ9SZsGq-0HKcNfyo"
             },
             {
-                "ref": "DSberger.baron",
-                "url": "document/d/1UTMEZHjjk9VuLjndeyqFmbGgdDmx5Eo2lVP_0hN37Eo",
-                "sxs": ".url;;",
-                "mels": "159"
+              "ref": "DSberger.baron",
+              "url": "spreadsheets/d/1jSqmceyYXWkljNvV7J-PAA3_MQnd58sPHGzv6Nd8c-0",
+              "sxs": ".url;;",
+              "mels": 159,
+              "url--2": "spreadsheets/d/1jSqmceyYXWkljNvV7J-PAA3_MQnd58sPHGzv6Nd8c-0"
             },
             {
-                "ref": "DSbier.her",
-                "url": "document/d/1zpX3Fp-ZBbOzg5SYqjUIgOuUgk4vGEy9WaCkZDo6YaU",
-                "sxs": ".url;;",
-                "mels": "160"
+              "ref": "DSbier.her",
+              "url": "spreadsheets/d/1EQaTWfV5z2DvNcxY_GEV-KPkX0xR52iRSYJnLoAfILk",
+              "sxs": ".url;;",
+              "mels": 160,
+              "url--2": "spreadsheets/d/1EQaTWfV5z2DvNcxY_GEV-KPkX0xR52iRSYJnLoAfILk"
             },
             {
-                "ref": "DSbonne.annee",
-                "url": "document/d/1W_PHmbBlP0XiXMwOJAFPIdGVBQ0Dp5G5emn5H5NRxkk",
-                "craKl": "x",
-                "sxs": ".url;;",
-                "mels": "0"
+              "ref": "DSbonne.annee",
+              "url": "spreadsheets/d/1EAzsJKgdMaGeTsLjkwIe11zJM-cCLrSRY_96Jo3ruTI",
+              "craKl": "x",
+              "sxs": ".url;;",
+              "mels": 0,
+              "url--2": "spreadsheets/d/1EAzsJKgdMaGeTsLjkwIe11zJM-cCLrSRY_96Jo3ruTI"
             },
             {
-                "ref": "DSbougies",
-                "url": "document/d/1r4eQabngT8ENpq2LSfBddfItxIooTKCQVeKyMY1x8AY",
-                "craKl": "x",
-                "sxs": ".url;;",
-                "mels": "1"
+              "ref": "DSbougies",
+              "url": "spreadsheets/d/1qVKDIdJbVfDnYxp1WyWKWVN1-bfcJPyPMiujPZXmZ_o",
+              "craKl": "x",
+              "sxs": ".url;;",
+              "mels": 1,
+              "url--2": "spreadsheets/d/1qVKDIdJbVfDnYxp1WyWKWVN1-bfcJPyPMiujPZXmZ_o"
             },
             {
-                "ref": "DSbranle.a.5",
-                "url": "document/d/1ua1S-tkvAsGbq6Vcvz7-I3pzglD8Pu5pWxv2sacmVJs",
-                "sxs": ".url;;",
-                "mels": "3"
+              "ref": "DSbranle.a.5",
+              "url": "spreadsheets/d/1a5xQHEWOac1rzBBJplFfQBbiIX5P1Z43KdRBdGXyEn4",
+              "sxs": ".url;;",
+              "mels": 3,
+              "url--2": "spreadsheets/d/1a5xQHEWOac1rzBBJplFfQBbiIX5P1Z43KdRBdGXyEn4"
             },
             {
-                "ref": "DSbranle.a.6",
-                "url": "document/d/1d4jckxmIGFQtRXycXtHvsQmykAfD6Qfv6DCUSeYsLt4",
-                "sxs": ".url;;",
-                "mels": "5"
+              "ref": "DSbranle.a.6",
+              "url": "spreadsheets/d/1ZT8Y4rL6qje7yy8BNbvfbpIIMcaSMwFoT-lyrPN7Pus",
+              "sxs": ".url;;",
+              "mels": 5,
+              "url--2": "spreadsheets/d/1ZT8Y4rL6qje7yy8BNbvfbpIIMcaSMwFoT-lyrPN7Pus"
             },
             {
-                "ref": "DSbranle.a.7",
-                "url": "document/d/12G64qMBqxB8XZRXwKLqh71PIcfbcId3Gc_Vy-nFJkqg",
-                "sxs": ".url;;",
-                "mels": "4"
+              "ref": "DSbranle.a.7",
+              "url": "spreadsheets/d/1izyWfgMZeqo6jhbKbcD3N5ftFObl3ScCE1Ojgiykdx0",
+              "sxs": ".url;;",
+              "mels": 4,
+              "url--2": "spreadsheets/d/1izyWfgMZeqo6jhbKbcD3N5ftFObl3ScCE1Ojgiykdx0"
             },
             {
-                "ref": "DSbranle.bergers",
-                "url": "document/d/1MiQvJDrhA0ebEtrw4sqfMHf9GS548lAHcG76DKmGksw",
-                "sxs": ".url;;",
-                "mels": "194"
+              "ref": "DSbranle.bergers",
+              "url": "spreadsheets/d/1OwKluDfnI7djNsx6e6Q5Wt5wx5HCILbsLOMbhGGW-js",
+              "sxs": ".url;;",
+              "mels": 194,
+              "url--2": "spreadsheets/d/1OwKluDfnI7djNsx6e6Q5Wt5wx5HCILbsLOMbhGGW-js"
             },
             {
-                "ref": "DSbranle.gai.schwitzemann",
-                "url": "spreadsheets/d/14jHCI0ADF8efT7Nq48DRR3DFYwJgqTb2qzJ-4YZb0qI",
-                "sxs": ".url;;",
-                "mels": "234"
+              "ref": "DSbranle.gai.schwitzemann",
+              "url": "spreadsheets/d/14jHCI0ADF8efT7Nq48DRR3DFYwJgqTb2qzJ-4YZb0qI",
+              "sxs": ".url;;",
+              "mels": 234,
+              "url--2": "spreadsheets/d/14jHCI0ADF8efT7Nq48DRR3DFYwJgqTb2qzJ-4YZb0qI"
             },
             {
-                "ref": "DSbranle.oeuf",
-                "url": "document/d/15A8TzcgtQ2nlHX73YilnKDmAQYSi4f79YSwXnoYpiGM",
-                "sxs": ".url;;",
-                "mels": "8"
+              "ref": "DSbranle.oeuf",
+              "url": "spreadsheets/d/16bBqQca7ZG2JfWlNL51DmdylnhEDU7idiXubtJs9ItA",
+              "sxs": ".url;;",
+              "mels": 8,
+              "url--2": "spreadsheets/d/16bBqQca7ZG2JfWlNL51DmdylnhEDU7idiXubtJs9ItA"
             },
             {
-                "ref": "DSbuecheleklopfer",
-                "url": "document/d/17qn13Ww44B7Gk68ZW4sApJQegNgTy6dtV6ZECPDrMTg",
-                "sxs": ".url;;",
-                "mels": "385"
+              "ref": "DSbuecheleklopfer",
+              "url": "spreadsheets/d/152FgTk1EflXOxcCGsCSHgZkn3h0TT20pnsBw_hWvgCg",
+              "sxs": ".url;;",
+              "mels": 385,
+              "url--2": "spreadsheets/d/152FgTk1EflXOxcCGsCSHgZkn3h0TT20pnsBw_hWvgCg"
             },
             {
-                "ref": "DScarole",
-                "url": "document/d/1VXm_FcaSsjLAOfpsS2A4ucOexpEzLshX3eL5oeZvJKg",
-                "sxs": ".url;;",
-                "mels": "163"
+              "ref": "DScarole",
+              "url": "spreadsheets/d/1ky-0sfstg8Sv0APSanYMm4Ou4DTYWTiwjjhCXRxbAX8",
+              "sxs": ".url;;",
+              "mels": 163,
+              "url--2": "spreadsheets/d/1ky-0sfstg8Sv0APSanYMm4Ou4DTYWTiwjjhCXRxbAX8"
             },
             {
-                "ref": "DScharmant.rosier",
-                "url": "document/d/1lCywlg06ywJ0amm00wHP3bUUknOZT-nPhot4mRbAftU",
-                "sxs": ".url;;",
-                "mels": "9"
+              "ref": "DScharmant.rosier",
+              "url": "spreadsheets/d/1OxlU7YR6Ljcuj1KTvwN_T1cnLWlj5Nw6WYiJbZWI5s8",
+              "sxs": ".url;;",
+              "mels": 9,
+              "url--2": "spreadsheets/d/1OxlU7YR6Ljcuj1KTvwN_T1cnLWlj5Nw6WYiJbZWI5s8"
             },
             {
-                "ref": "DSchoix.dames",
-                "url": "document/d/1WJUU1w81q4Ijhbyk5VgoAxSTuZDj20PHZXD0nJePwDY",
-                "sxs": ".url;;",
-                "mels": "10"
+              "ref": "DSchoix.dames",
+              "url": "spreadsheets/d/1FSz8Mxcb6gQqazmIKObGYmsV3kxx1k7DyzvTAComWMI",
+              "sxs": ".url;;",
+              "mels": 10,
+              "url--2": "spreadsheets/d/1FSz8Mxcb6gQqazmIKObGYmsV3kxx1k7DyzvTAComWMI"
             },
             {
-                "ref": "DScloutier",
-                "url": "document/d/1UQnTVE1oWu_UUlj6dlXm-hScwTJObcXa-ue2Sx-JO9g",
-                "sxs": ".url;;",
-                "mels": "342"
+              "ref": "DScloutier",
+              "url": "spreadsheets/d/1SZxgu2j2XA952gOfPrOgJh4JhN8wKOQHo32bpr0Y0W0",
+              "sxs": ".url;;",
+              "mels": 342,
+              "url--2": "spreadsheets/d/1SZxgu2j2XA952gOfPrOgJh4JhN8wKOQHo32bpr0Y0W0"
             },
             {
-                "ref": "DSconscrits",
-                "url": "document/d/1TNMhW69reKBzMYazt_c3CV-u3KguRZLv55R3JNgnNHE",
-                "sxs": ".url;;",
-                "mels": "219"
+              "ref": "DSconscrits",
+              "url": "spreadsheets/d/1X11qQk0f6cXZoJ92Zfm4FxXMdqhrqip73AWD5Qg_ndc",
+              "sxs": ".url;;",
+              "mels": 219,
+              "url--2": "spreadsheets/d/1X11qQk0f6cXZoJ92Zfm4FxXMdqhrqip73AWD5Qg_ndc"
             },
             {
-                "ref": "DSconscrits.trimazo",
-                "url": "document/d/18fBHUj4GX4w94Lymcs8Gb8Hab_S9pXTyb1akrlWcPyg",
-                "sxs": ".url;;",
-                "mels": "220"
+              "ref": "DSconscrits.trimazo",
+              "url": "spreadsheets/d/1ZbVZ44ckR1SmMm-avWVGrMpWrYza99eOnLUVvMEsHMk",
+              "sxs": ".url;;",
+              "mels": 220,
+              "url--2": "spreadsheets/d/1ZbVZ44ckR1SmMm-avWVGrMpWrYza99eOnLUVvMEsHMk"
             },
             {
-                "ref": "DSconscrits.trimazo.maitre.maison.rutsch.hin",
-                "url": "document/d/1pfLO8TWrIutqcRUzKfUDb_xZcs-bWbYrsDgKfYOYYBc",
-                "sxs": ".url;;",
-                "mels": "237"
+              "ref": "DSconscrits.trimazo.maitre.maison.rutsch.hin",
+              "url": "spreadsheets/d/1XZFOLr6-ORGDerhNE28IvEdzBH2Bvval185eFmBLgWI",
+              "sxs": ".url;;",
+              "mels": 237,
+              "url--2": "spreadsheets/d/1XZFOLr6-ORGDerhNE28IvEdzBH2Bvval185eFmBLgWI"
             },
             {
-                "ref": "DScourante.nouvel.an",
-                "url": "document/d/1A98jZqjMiMnp-9dsA67jKArJ3YWPo9x9c7rMIn5pIzs",
-                "craKl": "X",
-                "sxs": ".url;;",
-                "mels": "6"
+              "ref": "DScourante.nouvel.an",
+              "url": "spreadsheets/d/14Q90xUcpeuSAFJawGKwPqECfgl8cwzXXWY3LDXjE3Tw",
+              "craKl": "X",
+              "sxs": ".url;;",
+              "mels": 6,
+              "url--2": "spreadsheets/d/14Q90xUcpeuSAFJawGKwPqECfgl8cwzXXWY3LDXjE3Tw"
             },
             {
-                "ref": "DScourante.roy",
-                "url": "document/d/1VGF9BFj_onhcJvebOXQ--sOHkDU-ncYY6Q4uaZAA83U",
-                "sxs": ".url;;",
-                "mels": "182"
+              "ref": "DScourante.roy",
+              "url": "spreadsheets/d/11HiGnLFhfU6NV2VVp5tXbrKbwTLKMbtmLe2mYqKU9Zc",
+              "sxs": ".url;;",
+              "mels": 182,
+              "url--2": "spreadsheets/d/11HiGnLFhfU6NV2VVp5tXbrKbwTLKMbtmLe2mYqKU9Zc"
             },
             {
-                "ref": "DSdampfwaltzer",
-                "url": "document/d/1Pro5pWLfvV7HQ2BPSSeq5_Xi6y_gWuGuSsuFgORr4S8",
-                "sxs": ".url;;",
-                "mels": "13"
+              "ref": "DSdampfwaltzer",
+              "url": "spreadsheets/d/1i7lU3DGgCACIRVqprE27-UrkRcF-EFTb82KCqJ8PzfE",
+              "sxs": ".url;;",
+              "mels": 13,
+              "url--2": "spreadsheets/d/1i7lU3DGgCACIRVqprE27-UrkRcF-EFTb82KCqJ8PzfE"
             },
             {
-                "ref": "DSdanse.coq",
-                "url": "document/d/1c_5EE4hLcEtX-WdTtinL1XA-m3VAJPINL5HAraeRjjM",
-                "sxs": ".url;;",
-                "mels": "14"
+              "ref": "DSdanse.coq",
+              "url": "spreadsheets/d/1jxpT5kuSsgjM3dBL-W6eULJo7ADivtsSNv57fUL3lB4",
+              "sxs": ".url;;",
+              "mels": 14,
+              "url--2": "spreadsheets/d/1jxpT5kuSsgjM3dBL-W6eULJo7ADivtsSNv57fUL3lB4"
             },
             {
-                "ref": "DSdanse.œuf",
-                "url": "document/d/1EM50XoIsY7jvu-R32ytRchbTjr0A8vC7XtBVNh3DedE",
-                "sxs": ".url;;",
-                "mels": "109"
+              "ref": "DSdanse.œuf",
+              "url": "spreadsheets/d/1ulL1srvd8Hb6v5YqL3XU5EaElcR0DQC5VaRxENc3ySo",
+              "sxs": ".url;;",
+              "mels": 109,
+              "url--2": "spreadsheets/d/1ulL1srvd8Hb6v5YqL3XU5EaElcR0DQC5VaRxENc3ySo"
             },
             {
-                "ref": "DSderniere.danse",
-                "url": "document/d/1pAo_1h_wWRHrIqb3olgQ-ylGpTiMuemHUQaxTrItGxc",
-                "sxs": ".url;;",
-                "mels": "15"
+              "ref": "DSderniere.danse",
+              "url": "spreadsheets/d/1GbddOURndv2JLcc8T5Xbar236QrXu8oc5_Hg5xLVpcg",
+              "sxs": ".url;;",
+              "mels": 15,
+              "url--2": "spreadsheets/d/1GbddOURndv2JLcc8T5Xbar236QrXu8oc5_Hg5xLVpcg"
             },
             {
-                "ref": "DSdonne.moi.ton.bouquet",
-                "url": "document/d/1relzM7_DQqssXgdVHD4b_L5_BC1rgGH31tF6RTakqiQ",
-                "sxs": ".url;;",
-                "mels": "196"
+              "ref": "DSdonne.moi.ton.bouquet",
+              "url": "spreadsheets/d/1xjvsBQoUbMav0uxQBXiE9AiDJDXF0vwEtjVfBeuqNhg",
+              "sxs": ".url;;",
+              "mels": 196,
+              "url--2": "spreadsheets/d/1xjvsBQoUbMav0uxQBXiE9AiDJDXF0vwEtjVfBeuqNhg"
             },
             {
-                "ref": "DSdrapeaux",
-                "url": "document/d/1D7E42V20G09uj7QR0Owg18Lw-NeSLHSxjJNXhr3f6B4",
-                "sxs": ".url;;",
-                "mels": "16"
+              "ref": "DSdrapeaux",
+              "url": "spreadsheets/d/1ylsVFyYUAZftOmYUCBLkTNBmQlj-y95HcFc0JIGpdEE",
+              "sxs": ".url;;",
+              "mels": 16,
+              "url--2": "spreadsheets/d/1ylsVFyYUAZftOmYUCBLkTNBmQlj-y95HcFc0JIGpdEE"
             },
             {
-                "ref": "DSdrei.ladrigi.strempf",
-                "url": "document/d/1afJMfJN-0lQAkCxHR4Tl20VbPk3jxFVWPpP81l9YPm4",
-                "sxs": ".url;;",
-                "mels": "17"
+              "ref": "DSdrei.ladrigi.strempf",
+              "url": "spreadsheets/d/1nXwkkwXilW2WDuLg54QosiBdyFGy3pxKFLvY5uRdDEk",
+              "sxs": ".url;;",
+              "mels": 17,
+              "url--2": "spreadsheets/d/1nXwkkwXilW2WDuLg54QosiBdyFGy3pxKFLvY5uRdDEk"
             },
             {
-                "ref": "DSempoisonneuse",
-                "url": "document/d/1_AhvYw_rJT44HClCyznLHsGt65d01eo3XOWcxYuvIEQ",
-                "sxs": ".url;;",
-                "mels": "319"
+              "ref": "DSempoisonneuse",
+              "url": "spreadsheets/d/1BBRX8eJAQTNGqQ5d1EsiDlsGXXE3ItDtWAQNX9BTGqg",
+              "sxs": ".url;;",
+              "mels": 319,
+              "url--2": "spreadsheets/d/1BBRX8eJAQTNGqQ5d1EsiDlsGXXE3ItDtWAQNX9BTGqg"
             },
             {
-                "ref": "DSepees",
-                "url": "document/d/1xcR3snNk3k8KVhN67HWZRlvYHduEsHHkD0KH5bsD164",
-                "sxs": ".url;;",
-                "mels": ""
+              "ref": "DSepees",
+              "url": "spreadsheets/d/1aZ_zajnAwtLBBEf_a6dF3zkQLQx9eXH2FHujscrZEJk",
+              "sxs": ".url;;",
+              "url--2": "spreadsheets/d/1aZ_zajnAwtLBBEf_a6dF3zkQLQx9eXH2FHujscrZEJk"
             },
             {
-                "ref": "DSepreuve.amour",
-                "url": "document/d/1Big2m_vz5Oa2yqOiOXdplmXMMPAfaeo-pFsiDVHUEeg",
-                "sxs": ".url;;",
-                "mels": "18"
+              "ref": "DSepreuve.amour",
+              "url": "spreadsheets/d/1kYSy3IE8jelg3atCLpOb0yMdYqamQlBpCO_gv9CBHug",
+              "sxs": ".url;;",
+              "mels": 18,
+              "url--2": "spreadsheets/d/1kYSy3IE8jelg3atCLpOb0yMdYqamQlBpCO_gv9CBHug"
             },
             {
-                "ref": "DSfille.meunier.prince",
-                "url": "document/d/1xiG1cJslV4DJNiLhKI5lI3CbqC8n59bpIIM9jaYwDYA",
-                "sxs": ".url;;",
-                "mels": "137"
+              "ref": "DSfille.meunier.prince",
+              "url": "spreadsheets/d/1ZdtEACqNwghA4Wd5jrrindRiv45rU3jEyRTa0E2s1ZI",
+              "sxs": ".url;;",
+              "mels": 137,
+              "url--2": "spreadsheets/d/1ZdtEACqNwghA4Wd5jrrindRiv45rU3jEyRTa0E2s1ZI"
             },
             {
-                "ref": "DSfilles.hochfelden",
-                "url": "document/d/13GXCJHRKQ0jsDUzbMQKwFzMp1dWCfRKgf7VOtJZj3uQ",
-                "sxs": ".url;;",
-                "mels": "20"
+              "ref": "DSfilles.hochfelden",
+              "url": "spreadsheets/d/1IB0iw5eJaPGK02sALbRiKZIuSkrPWF_lL4_O77ppcY4",
+              "sxs": ".url;;",
+              "mels": 20,
+              "url--2": "spreadsheets/d/1IB0iw5eJaPGK02sALbRiKZIuSkrPWF_lL4_O77ppcY4"
             },
             {
-                "ref": "DSfriehjohr.sproch",
-                "url": "document/d/1XOYRyJ03WjGjzytNUk86qg2WWHq3JkLlFJFDpG0h2_c",
-                "craKl": "x",
-                "sxs": ".url;;",
-                "mels": "21"
+              "ref": "DSfriehjohr.sproch",
+              "url": "spreadsheets/d/15Nn_i-wbUZG5Rsj4Lyu9GZhN1MnMQZhiA7Yhbhp7vn4",
+              "craKl": "x",
+              "sxs": ".url;;",
+              "mels": 21,
+              "url--2": "spreadsheets/d/15Nn_i-wbUZG5Rsj4Lyu9GZhN1MnMQZhiA7Yhbhp7vn4"
             },
             {
-                "ref": "DSgemutlichkeit",
-                "url": "document/d/1ZPMwD8HPEsaNgnPj7XPNVqDUMTbVhDvwHzkAvDRgXTo",
-                "sxs": ".url;;",
-                "mels": "65"
+              "ref": "DSgemutlichkeit",
+              "url": "spreadsheets/d/1v0MmF1RvpjzfL2goqFqJ_aXS31z3xFtKh3Nm9u1DSns",
+              "sxs": ".url;;",
+              "mels": 65,
+              "url--2": "spreadsheets/d/1v0MmF1RvpjzfL2goqFqJ_aXS31z3xFtKh3Nm9u1DSns"
             },
             {
-                "ref": "DSgraf.backewil",
-                "url": "document/d/1zluuwge5U7x-mp5AN-LXawLU_ze81HKUDQY20_IM-Hg",
-                "sxs": ".url;;",
-                "mels": "115"
+              "ref": "DSgraf.backewil",
+              "url": "spreadsheets/d/1dt_b2G_GuMLtqFzKCi2NnTn2AamhyrEGDeHD9XSdEko",
+              "sxs": ".url;;",
+              "mels": 115,
+              "url--2": "spreadsheets/d/1dt_b2G_GuMLtqFzKCi2NnTn2AamhyrEGDeHD9XSdEko"
             },
             {
-                "ref": "DShans.schnockeloch",
-                "url": "document/d/1ubo1zET1afYXsvF6jiPD5cP8ooyfQ9mVwIJ6EKmMLFA",
-                "sxs": ".url;;",
-                "mels": "188"
+              "ref": "DShans.schnockeloch",
+              "url": "spreadsheets/d/1TvtjkqFHhzk-zmtYm7-kLPnNK5IwzEMAks71ibpJWzQ",
+              "sxs": ".url;;",
+              "mels": 188,
+              "url--2": "spreadsheets/d/1TvtjkqFHhzk-zmtYm7-kLPnNK5IwzEMAks71ibpJWzQ"
             },
             {
-                "ref": "DSheissa.kathrinele",
-                "url": "document/d/1P-1Q_RsbvSGQ1SvizEjTQng5d-NepmJynq07Uanw6IE",
-                "sxs": ".url;;",
-                "mels": "27"
+              "ref": "DSheissa.kathrinele",
+              "url": "spreadsheets/d/1R-hsCe5AGG9g5S_nF5fo3YFP4l1Q49132rFV4U5sLmM",
+              "sxs": ".url;;",
+              "mels": 27,
+              "url--2": "spreadsheets/d/1R-hsCe5AGG9g5S_nF5fo3YFP4l1Q49132rFV4U5sLmM"
             },
             {
-                "ref": "DSherr.schmitt",
-                "url": "document/d/14NiJ-MfWyB-nqR3HqXdDOaUps0ipWM_2-VM9a_mCLuM",
-                "sxs": ".url;;",
-                "mels": "28"
+              "ref": "DSherr.schmitt",
+              "url": "spreadsheets/d/1UKVuD5ZGUE2Wo5x9SaElVvxuA0hYe7oEUr40uXJ9YdA",
+              "sxs": ".url;;",
+              "mels": 28,
+              "url--2": "spreadsheets/d/1UKVuD5ZGUE2Wo5x9SaElVvxuA0hYe7oEUr40uXJ9YdA"
             },
             {
-                "ref": "DShilf.o.himmel",
-                "url": "document/d/1kp-Wxtsl0GWYB95aTwyYhaeLw8AktEJaSWaj-x7GRn8",
-                "sxs": ".url;;",
-                "mels": "253"
+              "ref": "DShilf.o.himmel",
+              "url": "spreadsheets/d/1hEjekg_Anak-BtOohPZ0f2EERR_8OFEDhdRpCEeyZiA",
+              "sxs": ".url;;",
+              "mels": 253,
+              "url--2": "spreadsheets/d/1hEjekg_Anak-BtOohPZ0f2EERR_8OFEDhdRpCEeyZiA"
             },
             {
-                "ref": "DShirte.courante",
-                "url": "document/d/1TZ3okU_s2C3UTrgvWIMd81r7uvTdr4auV2DHgos9Qp0",
-                "sxs": ".url;;",
-                "mels": "30"
+              "ref": "DShirte.courante",
+              "url": "spreadsheets/d/1d5IWl1EyICxMNBsSD5bnZudFiegy-glmaa5vnWZdWYQ",
+              "sxs": ".url;;",
+              "mels": 30,
+              "url--2": "spreadsheets/d/1d5IWl1EyICxMNBsSD5bnZudFiegy-glmaa5vnWZdWYQ"
             },
             {
-                "ref": "DShischt.hott",
-                "url": "document/d/1V9h8quHv5fRm4EbEvVwE0fse0Q5Y_hCxdxEgKli7_zA",
-                "sxs": ".url;;",
-                "mels": "31"
+              "ref": "DShischt.hott",
+              "url": "spreadsheets/d/1WOzdHWV7CYL6gUickDaMW3rk0zNERhIyfedbaRKhb7Q",
+              "sxs": ".url;;",
+              "mels": 31,
+              "url--2": "spreadsheets/d/1WOzdHWV7CYL6gUickDaMW3rk0zNERhIyfedbaRKhb7Q"
             },
             {
-                "ref": "DSholdri.boldri",
-                "url": "document/d/1T5efwDFc7rDcA-vGebm3EWFtiQTTFS7inA6IWMyAuwU",
-                "sxs": ".url;;",
-                "mels": "32"
+              "ref": "DSholdri.boldri",
+              "url": "spreadsheets/d/1AiyrzrzGMke7kaNQJ6zQ8GM4JOqeFPgg1OJzYmC7nq4",
+              "sxs": ".url;;",
+              "mels": 32,
+              "url--2": "spreadsheets/d/1AiyrzrzGMke7kaNQJ6zQ8GM4JOqeFPgg1OJzYmC7nq4"
             },
             {
-                "ref": "DShop.marianele",
-                "url": "document/d/1FXZsXEsCpsCrTSqroy5dPGNTrythX03PxcmP212aWeU",
-                "sxs": ".url;;",
-                "mels": "297"
+              "ref": "DShop.marianele",
+              "url": "spreadsheets/d/1Ts7axTf7fBFJG-42WCpDNwb-4bG5LJA0VWWzBjz8pCQ",
+              "sxs": ".url;;",
+              "mels": 297,
+              "url--2": "spreadsheets/d/1Ts7axTf7fBFJG-42WCpDNwb-4bG5LJA0VWWzBjz8pCQ"
             },
             {
-                "ref": "DShupf.courante",
-                "url": "document/d/1mZA8PasPBUSh0SFTImTocYXEXG0_CS0beqmkRZyII-A",
-                "sxs": ".url;;",
-                "mels": "33"
+              "ref": "DShupf.courante",
+              "url": "spreadsheets/d/16zSarXbf0F5_cxEoi9qvg72XMyFpjiwZiyu-bAANRJc",
+              "sxs": ".url;;",
+              "mels": 33,
+              "url--2": "spreadsheets/d/16zSarXbf0F5_cxEoi9qvg72XMyFpjiwZiyu-bAANRJc"
             },
             {
-                "ref": "DSimpaire.kochersberg",
-                "url": "document/d/1PMrVOU0_i85Le_y8_FoXiAIlNJurIew-uD8bNzcTwY8",
-                "sxs": ".url;;",
-                "mels": "34"
+              "ref": "DSimpaire.kochersberg",
+              "url": "spreadsheets/d/17nt25HNKDSCQmzj7T5u3GBUoy4f1-UFgxxYfoFPDC_o",
+              "sxs": ".url;;",
+              "mels": 34,
+              "url--2": "spreadsheets/d/17nt25HNKDSCQmzj7T5u3GBUoy4f1-UFgxxYfoFPDC_o"
             },
             {
-                "ref": "DSimpaire.laufenberg",
-                "url": "document/d/1TVe_Bp8o1S0plLfLCbxEXDRLm1y-IFIE1V59iHjqgVo",
-                "sxs": ".url;;",
-                "mels": "347"
+              "ref": "DSimpaire.laufenberg",
+              "url": "spreadsheets/d/1XuBiPJXDe2QvBjo7RDafgUlUmUcnGF-NLiTK8gl8HtQ",
+              "sxs": ".url;;",
+              "mels": 347,
+              "url--2": "spreadsheets/d/1XuBiPJXDe2QvBjo7RDafgUlUmUcnGF-NLiTK8gl8HtQ"
             },
             {
-                "ref": "DSimpaire.mort.jeune.fille",
-                "url": "document/d/1F-cEG5QexcyNTc8umo4qB93MIHZqB-1Xf4TNXc2steo",
-                "sxs": ".url;;",
-                "mels": "325"
+              "ref": "DSimpaire.mort.jeune.fille",
+              "url": "spreadsheets/d/1JxmakpzWQfumKKUTGwXlN6IY9uuIMa-Sz2ADzYUg9sY",
+              "sxs": ".url;;",
+              "mels": 325,
+              "url--2": "spreadsheets/d/1JxmakpzWQfumKKUTGwXlN6IY9uuIMa-Sz2ADzYUg9sY"
             },
             {
-                "ref": "DSimpaire.moulin",
-                "url": "document/d/1tcijy6_a1rJ3WBaDZEB8NQQ-l-Gf-KiGfwkyaeV3U3Y",
-                "sxs": ".url;;",
-                "mels": "35"
+              "ref": "DSimpaire.moulin",
+              "url": "spreadsheets/d/12V-P9H50iUnmpGRCgnJEzF6PLzF0Tz9BrNjcnGszO3c",
+              "sxs": ".url;;",
+              "mels": 35,
+              "url--2": "spreadsheets/d/12V-P9H50iUnmpGRCgnJEzF6PLzF0Tz9BrNjcnGszO3c"
             },
             {
-                "ref": "DSimpaire.oderen",
-                "url": "document/d/1nlNcX8qbHQFjVG2wPNk0gO2syIhJoWPbLxxm0LW0Cio",
-                "sxs": ".url;;",
-                "mels": "322"
+              "ref": "DSimpaire.oderen",
+              "url": "spreadsheets/d/1ewteA3x4DrsRQ6fXx0rXVPcBoVO3vEQl7SmYXgZeHDo",
+              "sxs": ".url;;",
+              "mels": 322,
+              "url--2": "spreadsheets/d/1ewteA3x4DrsRQ6fXx0rXVPcBoVO3vEQl7SmYXgZeHDo"
             },
             {
-                "ref": "DSimpaire.sept.bouquets",
-                "url": "document/d/16DJBi_h6x_npNu-NAvKdBCgcxWyDd5gTzycPO_g4nZU",
-                "sxs": ".url;;",
-                "mels": "39"
+              "ref": "DSimpaire.sept.bouquets",
+              "url": "spreadsheets/d/1rTuqn-DnP400sKvhPHNkqp1XZec_myJmucJ7IATiIXg",
+              "sxs": ".url;;",
+              "mels": 39,
+              "url--2": "spreadsheets/d/1rTuqn-DnP400sKvhPHNkqp1XZec_myJmucJ7IATiIXg"
             },
             {
-                "ref": "DSjeune.soldat.blesse",
-                "url": "document/d/1iVh9fpMZw_RkHphvuMX95nXbwzuFE3HOGEl5NyKlsuo",
-                "sxs": ".url;;",
-                "mels": "324"
+              "ref": "DSjeune.soldat.blesse",
+              "url": "spreadsheets/d/1e0EfH67xCylzX47-8gQm0hSIvu8W-HiF6BCMpOa0xfE",
+              "sxs": ".url;;",
+              "mels": 324,
+              "url--2": "spreadsheets/d/1e0EfH67xCylzX47-8gQm0hSIvu8W-HiF6BCMpOa0xfE"
             },
             {
-                "ref": "DSjoli.mai",
-                "url": "document/d/1t_eLaaPt8dLCLfNaDA5LM0zZVBBkzwKtNDw1dNMmziQ",
-                "sxs": ".url;;",
-                "mels": "41"
+              "ref": "DSjoli.mai",
+              "url": "spreadsheets/d/1OSvQuJOD5y3Vpf0GFmbnEe25tkbWLr31hGQGOLyu-1s",
+              "sxs": ".url;;",
+              "mels": 41,
+              "url--2": "spreadsheets/d/1OSvQuJOD5y3Vpf0GFmbnEe25tkbWLr31hGQGOLyu-1s"
             },
             {
-                "ref": "DSjuif.seebach",
-                "url": "document/d/1FPKdaRbdMx9tuHnU5o9C2gD0vfL432lYSJQF850u1Rs",
-                "sxs": ".url;;",
-                "mels": "40"
+              "ref": "DSjuif.seebach",
+              "url": "spreadsheets/d/1zmi89mIcfs3m5a0-UlB0W_MWOMnXwyjiBA90NElHP-c",
+              "sxs": ".url;;",
+              "mels": 40,
+              "url--2": "spreadsheets/d/1zmi89mIcfs3m5a0-UlB0W_MWOMnXwyjiBA90NElHP-c"
             },
             {
-                "ref": "DSjuronde",
-                "url": "document/d/1-UJ6H5RtWVB3Iegpryp1OilS6v7kC03bUsYk2rOB0MQ",
-                "sxs": ".url;;",
-                "mels": "197"
+              "ref": "DSjuronde",
+              "url": "spreadsheets/d/1i8-127jC7w3qEc3HozhwW3jzXZz68fRX-iUIShZVDzs",
+              "sxs": ".url;;",
+              "mels": 197,
+              "url--2": "spreadsheets/d/1i8-127jC7w3qEc3HozhwW3jzXZz68fRX-iUIShZVDzs"
             },
             {
-                "ref": "DSkehrus.zainer",
-                "url": "document/d/1rcVTBSZhootxfX-huBEb7jKjFrp0r_xIn1b7dTTKpP4",
-                "sxs": ".url;;",
-                "mels": "43"
+              "ref": "DSkehrus.zainer",
+              "url": "spreadsheets/d/1othtYM9Whrc7UtI6NJ-AfL44cOS6HKTRlPv9XmBtOIM",
+              "sxs": ".url;;",
+              "mels": 43,
+              "url--2": "spreadsheets/d/1othtYM9Whrc7UtI6NJ-AfL44cOS6HKTRlPv9XmBtOIM"
             },
             {
-                "ref": "DSklepermann",
-                "url": "document/d/1_QlRpZ-5aClfImNf2_49q3-jqsbOjYmlfj9SbSSrIhw",
-                "sxs": ".url;;",
-                "mels": "278"
+              "ref": "DSklepermann",
+              "url": "spreadsheets/d/1bb5WCHgYRD7SDxsT1PQwgmdPiI_Zkt_H3EVFgenUGXs",
+              "sxs": ".url;;",
+              "mels": 278,
+              "url--2": "spreadsheets/d/1bb5WCHgYRD7SDxsT1PQwgmdPiI_Zkt_H3EVFgenUGXs"
             },
             {
-                "ref": "DSkritzpolka",
-                "url": "document/d/1UR5lKVCzB4BJCWyZnVNkJJRQCFq1BixUgzIeEIxogTE",
-                "sxs": ".url;;",
-                "mels": "267,268"
+              "ref": "DSkritzpolka",
+              "url": "spreadsheets/d/13gWcQw4YpCEUxdH_xKM-FV8Yk7UncLkO7tXNoDBGA6c",
+              "sxs": ".url;;",
+              "mels": "267,268",
+              "url--2": "spreadsheets/d/13gWcQw4YpCEUxdH_xKM-FV8Yk7UncLkO7tXNoDBGA6c"
             },
             {
-                "ref": "DSkunkelstube",
-                "url": "document/d/15fsfQAUQAa25bunM4ZvbfzPq0jqiTN_vrgUM5R8l2vc",
-                "sxs": ".url;;",
-                "mels": "45"
+              "ref": "DSkunkelstube",
+              "url": "spreadsheets/d/1HkMOHZQZisbejBt942wLZz95FxUm4m7mElSlkU51ZvI",
+              "sxs": ".url;;",
+              "mels": 45,
+              "url--2": "spreadsheets/d/1HkMOHZQZisbejBt942wLZz95FxUm4m7mElSlkU51ZvI"
             },
             {
-                "ref": "DSliewer.owestern",
-                "url": "document/d/1EmAhcZuNM7FmOJBD07LvisdvMTVKJboi1jvjinuPsKQ",
-                "sxs": ".url;;",
-                "mels": "60"
+              "ref": "DSliewer.owestern",
+              "url": "spreadsheets/d/1ZxIzHraVKhMFTXoeCzrJI6tlIhT1RnzMpyrWpuOmHtg",
+              "sxs": ".url;;",
+              "mels": 60,
+              "url--2": "spreadsheets/d/1ZxIzHraVKhMFTXoeCzrJI6tlIhT1RnzMpyrWpuOmHtg"
             },
             {
-                "ref": "DSma.brunette",
-                "url": "document/d/1UDwQVuQRcytmlvSiOBfbh0pS6gq0rCGGEkmw06sYe4g",
-                "sxs": ".url;;",
-                "mels": "46"
+              "ref": "DSma.brunette",
+              "url": "spreadsheets/d/1QB5dOT_7lACTCtAoONVnSa6jYRBIkc2_gNi1swEUUpE",
+              "sxs": ".url;;",
+              "mels": 46,
+              "url--2": "spreadsheets/d/1QB5dOT_7lACTCtAoONVnSa6jYRBIkc2_gNi1swEUUpE"
             },
             {
-                "ref": "DSma.grand.mere",
-                "url": "document/d/1IlYwl3Hcw_4hp5g-Rr0QOY8COSBKYWDQC9bZsdqFXec",
-                "sxs": ".url;;",
-                "mels": "47"
+              "ref": "DSma.grand.mere",
+              "url": "spreadsheets/d/1xt0jioPiHHXL_nsd-VqzwkpyMmr2dn3TDSm5xFfPx0Y",
+              "sxs": ".url;;",
+              "mels": 47,
+              "url--2": "spreadsheets/d/1xt0jioPiHHXL_nsd-VqzwkpyMmr2dn3TDSm5xFfPx0Y"
             },
             {
-                "ref": "DSmaitre.maison",
-                "url": "document/d/1lX5DSuObFYcgU28j0Tpn6xOhD3JQgJgFIO761OWh0yY",
-                "sxs": ".url;;",
-                "mels": "201"
+              "ref": "DSmaitre.maison",
+              "url": "spreadsheets/d/1h6nELKEtybeLdVDkHq0i33rf1H_jYSTAFF3pLNiXKqY",
+              "sxs": ".url;;",
+              "mels": 201,
+              "url--2": "spreadsheets/d/1h6nELKEtybeLdVDkHq0i33rf1H_jYSTAFF3pLNiXKqY"
             },
             {
-                "ref": "DSmal.mariee",
-                "url": "document/d/1Xw5xKjQfKB--LmjXVNDTmOjiiWI27T0O6l9Z1MBUzgI",
-                "sxs": ".url;;",
-                "mels": "48"
+              "ref": "DSmal.mariee",
+              "url": "spreadsheets/d/1hhwMd78kjObWK3gNRpJCRW0dx9nFDTG_dwEnk55uEEk",
+              "sxs": ".url;;",
+              "mels": 48,
+              "url--2": "spreadsheets/d/1hhwMd78kjObWK3gNRpJCRW0dx9nFDTG_dwEnk55uEEk"
             },
             {
-                "ref": "DSmalbrough",
-                "url": "document/d/1p903eS1XAyxTod6M63RYiUrWO15CjhTTyslnaqNu54A",
-                "sxs": ".url;;",
-                "mels": "49"
+              "ref": "DSmalbrough",
+              "url": "spreadsheets/d/1hrx_IdegAUO8fbGOcbk5U7lI1-SHCQe3NGVmSHQDHCE",
+              "sxs": ".url;;",
+              "mels": 49,
+              "url--2": "spreadsheets/d/1hrx_IdegAUO8fbGOcbk5U7lI1-SHCQe3NGVmSHQDHCE"
             },
             {
-                "ref": "DSmarche.pelerins",
-                "url": "document/d/1xpgKlBOvlJibPu22rDRXuil_eSV9zjYoakFnhdSmnjw",
-                "sxs": ".url;;",
-                "mels": "52"
+              "ref": "DSmarche.pelerins",
+              "url": "spreadsheets/d/1FYlGo8J01grV37lGFK7uyiHctYYU5NsECj9yn1Vt3Ws",
+              "sxs": ".url;;",
+              "mels": 52,
+              "url--2": "spreadsheets/d/1FYlGo8J01grV37lGFK7uyiHctYYU5NsECj9yn1Vt3Ws"
             },
             {
-                "ref": "DSmariette",
-                "url": "document/d/1Rzuk-v2gtUByDtB0IVQ0Sr2X5r7L_g60v0QFnng_meQ",
-                "craKl": "x",
-                "sxs": ".url;;",
-                "mels": "51"
+              "ref": "DSmariette",
+              "url": "spreadsheets/d/1TFoGuoss5KNT94eDj0Y9OVlFCYt02uQcMvM9uvjWezY",
+              "craKl": "x",
+              "sxs": ".url;;",
+              "mels": 51,
+              "url--2": "spreadsheets/d/1TFoGuoss5KNT94eDj0Y9OVlFCYt02uQcMvM9uvjWezY"
             },
             {
-                "ref": "DSmer.lit.land",
-                "url": "document/d/1vhwbMKFd1Rk18R4exQGifRAStkzFj5NjfZjlh7_rXa8",
-                "sxs": ".url;;",
-                "mels": "249"
+              "ref": "DSmer.lit.land",
+              "url": "spreadsheets/d/10ciBohECj-frJsIjPtFpC4ci84Sk7BPb-4g2Ryx3V7Y",
+              "sxs": ".url;;",
+              "mels": 249,
+              "url--2": "spreadsheets/d/10ciBohECj-frJsIjPtFpC4ci84Sk7BPb-4g2Ryx3V7Y"
             },
             {
-                "ref": "DSmessti.lied",
-                "url": "document/d/1X5DV7YUxdKyfbJNxPEvjAaJsUaOX_74XupQ1m6WWCVA",
-                "sxs": ".url;;",
-                "mels": "54"
+              "ref": "DSmessti.lied",
+              "url": "spreadsheets/d/1RZy196hso4Lq9Udlog5GbmhA1N45jK1Mgy6x_UTO214",
+              "sxs": ".url;;",
+              "mels": 54,
+              "url--2": "spreadsheets/d/1RZy196hso4Lq9Udlog5GbmhA1N45jK1Mgy6x_UTO214"
             },
             {
-                "ref": "DSmonome.carnaval",
-                "url": "document/d/1F7OmYXGcSX0hYHNG0a1m2r2oBQcGHf4EYt3cr-HQ270",
-                "sxs": ".url;;",
-                "mels": "208"
+              "ref": "DSmonome.carnaval",
+              "url": "spreadsheets/d/1YrmZVzcY9dIBC6X_rsD7ZbEQMe29Xnfyjly4AwR_F7o",
+              "sxs": ".url;;",
+              "mels": 208,
+              "url--2": "spreadsheets/d/1YrmZVzcY9dIBC6X_rsD7ZbEQMe29Xnfyjly4AwR_F7o"
             },
             {
-                "ref": "DSmoulin.guebwiller",
-                "url": "document/d/1v3ihfzNYR6JGKc8ugIITe9vERuuryWoFy1aAduuVlzE",
-                "sxs": ".url;;",
-                "mels": "55"
+              "ref": "DSmoulin.guebwiller",
+              "url": "spreadsheets/d/1515Q0qLClbzxhzV-WTw7o_9s804dL_IniSCqevmzq7o",
+              "sxs": ".url;;",
+              "mels": 55,
+              "url--2": "spreadsheets/d/1515Q0qLClbzxhzV-WTw7o_9s804dL_IniSCqevmzq7o"
             },
             {
-                "ref": "DSne.m.oublie.pas",
-                "url": "document/d/1MpwTLb2jzcxdvlYsygaQn29luIVj-n4Uf_jgAwzRLro",
-                "sxs": ".url;;",
-                "mels": "56"
+              "ref": "DSne.m.oublie.pas",
+              "url": "spreadsheets/d/1OG1B9OZeDKBW373QZfoStXkVqBJ0qbYpWlpScKIIfNs",
+              "sxs": ".url;;",
+              "mels": 56,
+              "url--2": "spreadsheets/d/1OG1B9OZeDKBW373QZfoStXkVqBJ0qbYpWlpScKIIfNs"
             },
             {
-                "ref": "DSniedsack",
-                "url": "document/d/1LjVHUlFsitdlv3CjWGPaR_w4pOxbhvJLsU-BPHIWLVc",
-                "craKl": "x",
-                "sxs": ".url;;",
-                "mels": "57"
+              "ref": "DSniedsack",
+              "url": "spreadsheets/d/1JS20LmOdUUPQxaDGPJcS3be9DgJaSQ2hcB9m3-xg37c",
+              "craKl": "x",
+              "sxs": ".url;;",
+              "mels": 57,
+              "url--2": "spreadsheets/d/1JS20LmOdUUPQxaDGPJcS3be9DgJaSQ2hcB9m3-xg37c"
             },
             {
-                "ref": "DSnouvel.an",
-                "url": "document/d/17oUzSkT7kgGgcbPo748T1v5Qfhs99103uHYMX8Rv8zo",
-                "craKl": "x",
-                "sxs": ".url;;",
-                "mels": "58"
+              "ref": "DSnouvel.an",
+              "url": "spreadsheets/d/1Y8xL4bVFAXsjMEqh_DVYRzYYl_O-c_gQQ83WBsb_iCo",
+              "craKl": "x",
+              "sxs": ".url;;",
+              "mels": 58,
+              "url--2": "spreadsheets/d/1Y8xL4bVFAXsjMEqh_DVYRzYYl_O-c_gQQ83WBsb_iCo"
             },
             {
-                "ref": "DSouvre.moi",
-                "url": "document/d/11rBWFZtpcATUQupc6ORWYFd3rT1nCgFsAAGH2vl-gfg",
-                "sxs": ".url;;",
-                "mels": "59"
+              "ref": "DSouvre.moi",
+              "url": "spreadsheets/d/1HXn7SvLqmenIG2ofNzf1adFde5w4yoFmm_ZTH31Plms",
+              "sxs": ".url;;",
+              "mels": 59,
+              "url--2": "spreadsheets/d/1HXn7SvLqmenIG2ofNzf1adFde5w4yoFmm_ZTH31Plms"
             },
             {
-                "ref": "DSparisienne",
-                "url": "document/d/1QcwDmkgAxOE4S_gB0X932OIo4AiuNw1xiMrZkC78jgQ",
-                "sxs": ".url;;",
-                "mels": "109"
+              "ref": "DSparisienne",
+              "url": "spreadsheets/d/1boVcvh5yy-fjg4ThdhxGTWeuNXm6SuNm-_Cqp-fmOH4",
+              "sxs": ".url;;",
+              "mels": 109,
+              "url--2": "spreadsheets/d/1boVcvh5yy-fjg4ThdhxGTWeuNXm6SuNm-_Cqp-fmOH4"
             },
             {
-                "ref": "DSpauvre.ame",
-                "url": "document/d/1CKMMpfI4ePEbDOcVyXt7sG7enaMiQLlTH5xS5LsN39g",
-                "sxs": ".url;;",
-                "mels": "53"
+              "ref": "DSpauvre.ame",
+              "url": "spreadsheets/d/1oosqW9jpTvvBwXTnKFF6AX0Hz1tx0tRGQr315uPREOw",
+              "sxs": ".url;;",
+              "mels": 53,
+              "url--2": "spreadsheets/d/1oosqW9jpTvvBwXTnKFF6AX0Hz1tx0tRGQr315uPREOw"
             },
             {
-                "ref": "DSpetit.jean",
-                "url": "document/d/1Sk8lRY3NfNH-p8ERb_BkWLRNCKN4To3TnTQl27KdUkg",
-                "sxs": ".url;;",
-                "mels": "61"
+              "ref": "DSpetit.jean",
+              "url": "spreadsheets/d/1PnLtNd_6omLI-lx6wDitaNTqXS9Z-EQYPqu-BKdrGPs",
+              "sxs": ".url;;",
+              "mels": 61,
+              "url--2": "spreadsheets/d/1PnLtNd_6omLI-lx6wDitaNTqXS9Z-EQYPqu-BKdrGPs"
             },
             {
-                "ref": "DSpolka.bebes",
-                "url": "document/d/1YUAQpHVb8nVi5EWA5rDM2kRmSH55tOxvNSN7Z2ydwa4",
-                "sxs": ".url;;",
-                "mels": "284"
+              "ref": "DSpolka.bebes",
+              "url": "spreadsheets/d/1PNTBZv8mxIfz41mMqNz0eGIh4_Bhw6BVaHXtLnolz6g",
+              "sxs": ".url;;",
+              "mels": 284,
+              "url--2": "spreadsheets/d/1PNTBZv8mxIfz41mMqNz0eGIh4_Bhw6BVaHXtLnolz6g"
             },
             {
-                "ref": "DSpolka.conscrits",
-                "url": "document/d/1XKJMYqIn0Gdhpgt40TIch15ElAxE6NFJpKMtOZAel_M",
-                "sxs": ".url;;",
-                "mels": "129,133"
+              "ref": "DSpolka.conscrits",
+              "url": "spreadsheets/d/18GbmFzQSa3WUQdr2d5A9QGKTy-wVfBq6eVLQeldD_X0",
+              "sxs": ".url;;",
+              "mels": "129,133",
+              "url--2": "spreadsheets/d/18GbmFzQSa3WUQdr2d5A9QGKTy-wVfBq6eVLQeldD_X0"
             },
             {
-                "ref": "DSpolka.grandfontaine",
-                "url": "document/d/1BAafYPFKkzWYLUnUPkjbpd8iHMXxDFj3DX9sd7xNMII",
-                "sxs": ".url;;",
-                "mels": "64"
+              "ref": "DSpolka.grandfontaine",
+              "url": "spreadsheets/d/1TGBHLSUg1P72mFzHbNDC82OJZz_SeK_gvlY9fSeA_fM",
+              "sxs": ".url;;",
+              "mels": 64,
+              "url--2": "spreadsheets/d/1TGBHLSUg1P72mFzHbNDC82OJZz_SeK_gvlY9fSeA_fM"
             },
             {
-                "ref": "DSpolka.piquee.tournee.berstett",
-                "url": "document/d/1tt00BMswtZbjmC4v_4R16K5LeDRvfUO3E9I-QyvkCo8",
-                "sxs": ".url;;",
-                "mels": "286,300"
+              "ref": "DSpolka.piquee.tournee.berstett",
+              "url": "spreadsheets/d/1KomVuoVwSFSupOkWge-BMnVVQih5dZ995jUkSssED_o",
+              "sxs": ".url;;",
+              "mels": "286,3",
+              "url--2": "spreadsheets/d/1KomVuoVwSFSupOkWge-BMnVVQih5dZ995jUkSssED_o"
             },
             {
-                "ref": "DSpont.nord",
-                "url": "document/d/1MOkBItDdXM-vYTR3JJULXoETvM6-Dw_MgGZNWaCyu9w",
-                "sxs": ".url;;",
-                "mels": "66"
+              "ref": "DSpont.nord",
+              "url": "spreadsheets/d/1k0MTpwOciCpxIFPjJno9qkNLCgmi1lPNV5GN-4eO1hM",
+              "sxs": ".url;;",
+              "mels": 66,
+              "url--2": "spreadsheets/d/1k0MTpwOciCpxIFPjJno9qkNLCgmi1lPNV5GN-4eO1hM"
             },
             {
-                "ref": "DSquadrille.colmar",
-                "url": "document/d/1dj0WiYxfWcPcqoXsC_sMlkk9VsU3nbs42_-fUVuDBJE",
-                "sxs": ".url;;",
-                "mels": "67"
+              "ref": "DSquadrille.colmar",
+              "url": "spreadsheets/d/1W1WmOddqCBU6f5AKRcHicOd3Po0wO1tDohWW5MQhlNs",
+              "sxs": ".url;;",
+              "mels": 67,
+              "url--2": "spreadsheets/d/1W1WmOddqCBU6f5AKRcHicOd3Po0wO1tDohWW5MQhlNs"
             },
             {
-                "ref": "DSquatre.pas",
-                "url": "document/d/1sWv75Q_3Rj7LoECMlD68ZC8OTt62UujZACW9mcl93CA",
-                "sxs": ".url;;",
-                "mels": "68"
+              "ref": "DSquatre.pas",
+              "url": "spreadsheets/d/1C9WGKRPt5EZ7s9lbT6-WQCUiE7OwzheXUqdBcgIhi8U",
+              "sxs": ".url;;",
+              "mels": 68,
+              "url--2": "spreadsheets/d/1C9WGKRPt5EZ7s9lbT6-WQCUiE7OwzheXUqdBcgIhi8U"
             },
             {
-                "ref": "DSregine",
-                "url": "document/d/1_JdrgRfSkkClC8KdiA7NOEKEItuzmDwzLrwDj5dFiM0",
-                "sxs": ".url;;",
-                "mels": "69"
+              "ref": "DSregine",
+              "url": "spreadsheets/d/1Nc6lMBLeJg_zjxKoMUTEr8Q9lu65lpaylkd7khGiFGc",
+              "sxs": ".url;;",
+              "mels": 69,
+              "url--2": "spreadsheets/d/1Nc6lMBLeJg_zjxKoMUTEr8Q9lu65lpaylkd7khGiFGc"
             },
             {
-                "ref": "DSreihe.reihe.rose",
-                "url": "document/d/1_Ny1WEa_KmLWdhCa2Qx64Oaqq8H8jlO_96_MTjonYxo",
-                "sxs": ".url;;",
-                "mels": "70"
+              "ref": "DSreihe.reihe.rose",
+              "url": "spreadsheets/d/151MDTcT0_pg9IRCJeHGZrcA3bDg65kkbA1B-tkTVXgg",
+              "sxs": ".url;;",
+              "mels": 70,
+              "url--2": "spreadsheets/d/151MDTcT0_pg9IRCJeHGZrcA3bDg65kkbA1B-tkTVXgg"
             },
             {
-                "ref": "DSreveil.clairon",
-                "url": "document/d/1UiA-r8yFlWu-G9cwzoSJZNFIzRXwauEht0Qqjhnzgo4",
-                "sxs": ".url;;",
-                "mels": "71"
+              "ref": "DSreveil.clairon",
+              "url": "spreadsheets/d/1MqANJyPmLEohi9vtoIpvE0wWAbapn_7RJlyvky_FSmE",
+              "sxs": ".url;;",
+              "mels": 71,
+              "url--2": "spreadsheets/d/1MqANJyPmLEohi9vtoIpvE0wWAbapn_7RJlyvky_FSmE"
             },
             {
-                "ref": "DSrhinfischer",
-                "url": "document/d/1qeqZclJda24niJsULOsG63hkSiAS0AhJQvCK8dghZqc",
-                "craKl": "x",
-                "sxs": ".url;;",
-                "mels": "72"
+              "ref": "DSrhinfischer",
+              "url": "spreadsheets/d/1_U5FDqA81ATPtiXhLPO_2K7XUT2bp9riYkXZklYFpxs",
+              "craKl": "x",
+              "sxs": ".url;;",
+              "mels": 72,
+              "url--2": "spreadsheets/d/1_U5FDqA81ATPtiXhLPO_2K7XUT2bp9riYkXZklYFpxs"
             },
             {
-                "ref": "DSronde.lorraine",
-                "url": "document/d/1C4FWcCdmUlbkZHOKXd2d29wZItRoOQrOJnH2MiMucZE",
-                "sxs": ".url;;",
-                "mels": "214"
+              "ref": "DSronde.lorraine",
+              "url": "spreadsheets/d/1Pj5iALebutBBQO8i9bEt3rtHJfNsZX6sqk7ix0aR7Rk",
+              "sxs": ".url;;",
+              "mels": 214,
+              "url--2": "spreadsheets/d/1Pj5iALebutBBQO8i9bEt3rtHJfNsZX6sqk7ix0aR7Rk"
             },
             {
-                "ref": "DSronde.st.jean",
-                "url": "document/d/1vhFO0G_V1jAZSRVWdiN6gUy7DQJP7Sd-ic4KeWfx72I",
-                "sxs": ".url;;",
-                "mels": "203"
+              "ref": "DSronde.st.jean",
+              "url": "spreadsheets/d/1_fgIWrqm4gJb9dVnMv-mkzckYyjRNJhJ3XheFZ8dy78",
+              "sxs": ".url;;",
+              "mels": 203,
+              "url--2": "spreadsheets/d/1_fgIWrqm4gJb9dVnMv-mkzckYyjRNJhJ3XheFZ8dy78"
             },
             {
-                "ref": "DSrutsch.hin",
-                "url": "document/d/17hQutVrI1tr-2gUVk0rJjFTt7jFqGGAwVCl_mSm2-oY",
-                "sxs": ".url;;",
-                "mels": "193,225,226"
+              "ref": "DSrutsch.hin",
+              "url": "spreadsheets/d/1oY94SSiBBZ_LMKjqxV7t-hXRKWHO0UpTp4R-CqMNgbU",
+              "sxs": ".url;;",
+              "mels": "193,225,226",
+              "url--2": "spreadsheets/d/1oY94SSiBBZ_LMKjqxV7t-hXRKWHO0UpTp4R-CqMNgbU"
             },
             {
-                "ref": "DSs.rabelt",
-                "url": "document/d/1rBDrC8bcJoTxDEG67Z05pKz5PN7nRIND4JWA0kSCMkY",
-                "sxs": ".url;;",
-                "mels": "261"
+              "ref": "DSs.rabelt",
+              "url": "spreadsheets/d/1FUB4m5Dsq3x_9UwFa10ukPK1YR5Y_QHGyzmkfxXv8ik",
+              "sxs": ".url;;",
+              "mels": 261,
+              "url--2": "spreadsheets/d/1FUB4m5Dsq3x_9UwFa10ukPK1YR5Y_QHGyzmkfxXv8ik"
             },
             {
-                "ref": "DSsalamandre",
-                "url": "document/d/1yrlNToPgQEWdtTQ59b8ue5bBkdWwCVXeatTIjTcJ0x8",
-                "sxs": ".url;;",
-                "mels": "75"
+              "ref": "DSsalamandre",
+              "url": "spreadsheets/d/1WX3N1BQqgLwhpsniDF4-DlWoB2deMJrKx-3s-WPeZ_U",
+              "sxs": ".url;;",
+              "mels": 75,
+              "url--2": "spreadsheets/d/1WX3N1BQqgLwhpsniDF4-DlWoB2deMJrKx-3s-WPeZ_U"
             },
             {
-                "ref": "DSsarabande.croix",
-                "url": "document/d/13yzKoSAmJHBO4--PI0jDny5jaRBzwEg5BZ2zUebRaX0",
-                "sxs": ".url;;",
-                "mels": "202"
+              "ref": "DSsarabande.croix",
+              "url": "spreadsheets/d/1ktciOXdOITKzBUTa8hooep5Hmkugzd7Vn9Q6XOCuzYY",
+              "sxs": ".url;;",
+              "mels": 202,
+              "url--2": "spreadsheets/d/1ktciOXdOITKzBUTa8hooep5Hmkugzd7Vn9Q6XOCuzYY"
             },
             {
-                "ref": "DSschiff",
-                "url": "document/d/1prF7xXeQyvDFS5JcHRndVGuLbtP7jy1Tln8wjITjS9A",
-                "craKl": "x ",
-                "sxs": ".url;;",
-                "mels": "77"
+              "ref": "DSschiff",
+              "url": "spreadsheets/d/1q4lTxP_GU_CG_secjxpusKsYxPIdiPHkk1HBCkXtTLg",
+              "craKl": "x",
+              "sxs": ".url;;",
+              "mels": 77,
+              "url--2": "spreadsheets/d/1q4lTxP_GU_CG_secjxpusKsYxPIdiPHkk1HBCkXtTLg"
             },
             {
-                "ref": "DSschlumpftrappler",
-                "url": "document/d/13aEzH3ctcSGWQ2KkL3pKJhbjyenFg7zEQEVKNTkcnYw",
-                "sxs": ".url;;",
-                "mels": "281"
+              "ref": "DSschlumpftrappler",
+              "url": "spreadsheets/d/1uRotKWHJ4aWHWv288Z3k2wAAgmlXU3xK8aas740oKmc",
+              "sxs": ".url;;",
+              "mels": 281,
+              "url--2": "spreadsheets/d/1uRotKWHJ4aWHWv288Z3k2wAAgmlXU3xK8aas740oKmc"
             },
             {
-                "ref": "DSschwarzbrun.maidele",
-                "url": "document/d/1p_kQqjcf0rqekYUGb03a97zpDZ7JBA5WXCytDqUKhsA",
-                "sxs": ".url;;",
-                "mels": "7"
+              "ref": "DSschwarzbrun.maidele",
+              "url": "spreadsheets/d/1C4gPKAgUTXhkXRYAev1sZZfLCqLZcRXNmN1S52dfmhM",
+              "sxs": ".url;;",
+              "mels": 7,
+              "url--2": "spreadsheets/d/1C4gPKAgUTXhkXRYAev1sZZfLCqLZcRXNmN1S52dfmhM"
             },
             {
-                "ref": "DSschwitzemann",
-                "url": "document/d/1-bHmCT7eTyI9_LDirnIMNotX9b3owWdDGuKvC54kFjg",
-                "sxs": ".url;;",
-                "mels": "233"
+              "ref": "DSschwitzemann",
+              "url": "spreadsheets/d/1bhKi23athAE9DS3IRUhTdM34BQ-fNZckLZjd-KPk01o",
+              "sxs": ".url;;",
+              "mels": 233,
+              "url--2": "spreadsheets/d/1bhKi23athAE9DS3IRUhTdM34BQ-fNZckLZjd-KPk01o"
             },
             {
-                "ref": "DSscottisch.moissons",
-                "url": "document/d/15Wr1x3Kegrai-FENYOYmYyl8XxDxvwL7qumwmzv0XtQ",
-                "craKl": "x",
-                "sxs": ".url;;",
-                "mels": "26"
+              "ref": "DSscottisch.moissons",
+              "url": "spreadsheets/d/16Q3uucCu1ynUtXqLeza87zZ0zkK4-b1WWgb7DNY_OfM",
+              "craKl": "x",
+              "sxs": ".url;;",
+              "mels": 26,
+              "url--2": "spreadsheets/d/16Q3uucCu1ynUtXqLeza87zZ0zkK4-b1WWgb7DNY_OfM"
             },
             {
-                "ref": "DSseebach.danse",
-                "url": "document/d/1j4g5PlWy6QbV7KWq9Q57YWJ1wLEPfctqqvrIAeoSwdQ",
-                "sxs": ".url;;",
-                "mels": "162"
+              "ref": "DSseebach.danse",
+              "url": "spreadsheets/d/1btUqj5ah_At07D_H5uzhY_HWQV9Rzl71ceynTjSKDRU",
+              "sxs": ".url;;",
+              "mels": 162,
+              "url--2": "spreadsheets/d/1btUqj5ah_At07D_H5uzhY_HWQV9Rzl71ceynTjSKDRU"
             },
             {
-                "ref": "DSsept.pas.berstett",
-                "url": "document/d/1fmVTkqsGDHexV1jwf_uRn9qjW-S6LHTxTK46WFngg0w",
-                "sxs": ".url;;",
-                "mels": "295"
+              "ref": "DSsept.pas.berstett",
+              "url": "spreadsheets/d/1BIgm3_U6o4K5A1JrQ2xBLpUhE_xkUK44DRP5Jw6ClzM",
+              "sxs": ".url;;",
+              "mels": 295,
+              "url--2": "spreadsheets/d/1BIgm3_U6o4K5A1JrQ2xBLpUhE_xkUK44DRP5Jw6ClzM"
             },
             {
-                "ref": "DSsept.pas.guebwiller",
-                "url": "document/d/1bzDcq7wjsx_SWhMxF6Ngak1vra3a5Ow94HSrbxa_Mq4",
-                "sxs": ".url;;",
-                "mels": "145"
+              "ref": "DSsept.pas.guebwiller",
+              "url": "spreadsheets/d/1F4YaiOEV_5WS5XxJceUASxukswqSvWyWupdkc0xnJYE",
+              "sxs": ".url;;",
+              "mels": 145,
+              "url--2": "spreadsheets/d/1F4YaiOEV_5WS5XxJceUASxukswqSvWyWupdkc0xnJYE"
             },
             {
-                "ref": "DSsept.pas.ingolsheim",
-                "url": "document/d/1e70IA5XyiKuaqg6NrfZNMHNT628gxXg9ga_6LLF-rqM",
-                "sxs": ".url;;",
-                "mels": "146"
+              "ref": "DSsept.pas.ingolsheim",
+              "url": "spreadsheets/d/1oljeGIlqSmP2Car1fHUyNkzXpBIA5HSryLsfm9bPMgY",
+              "sxs": ".url;;",
+              "mels": 146,
+              "url--2": "spreadsheets/d/1oljeGIlqSmP2Car1fHUyNkzXpBIA5HSryLsfm9bPMgY"
             },
             {
-                "ref": "DSsept.pas.munster",
-                "url": "document/d/1FjtHahXzpefqEGIn0_i8lvKzfrv53ues6mcfqwt7m2s",
-                "sxs": ".url;;",
-                "mels": "144"
+              "ref": "DSsept.pas.munster",
+              "url": "spreadsheets/d/1PypBi_Jdg0irDgz7VqREELqWFrANg_G8IfPwjxI31bs",
+              "sxs": ".url;;",
+              "mels": 144,
+              "url--2": "spreadsheets/d/1PypBi_Jdg0irDgz7VqREELqWFrANg_G8IfPwjxI31bs"
             },
             {
-                "ref": "DSsouffel.deborde",
-                "url": "document/d/1obK_c_At3lnEkBkkg7M_lpvHm0VJX1se5peMM9vMJng",
-                "craKl": "x",
-                "sxs": ".url;;",
-                "mels": "79"
+              "ref": "DSsouffel.deborde",
+              "url": "spreadsheets/d/172J51n_hMPeuve8zcJKuHXA9EsPwDN-1r4jUEEw86N0",
+              "craKl": "x",
+              "sxs": ".url;;",
+              "mels": 79,
+              "url--2": "spreadsheets/d/172J51n_hMPeuve8zcJKuHXA9EsPwDN-1r4jUEEw86N0"
             },
             {
-                "ref": "DSsteht.miehl",
-                "url": "document/d/1QQRhnzxdsYbAcejfSbLDmU-M9Wd-WxMdtLs12KAvM6Q",
-                "sxs": ".url;;",
-                "mels": "2"
+              "ref": "DSsteht.miehl",
+              "url": "spreadsheets/d/144wpQIWuVpBoQdzuMyHCxna866_-wv-gPVjXlN6NGoI",
+              "sxs": ".url;;",
+              "mels": 2,
+              "url--2": "spreadsheets/d/144wpQIWuVpBoQdzuMyHCxna866_-wv-gPVjXlN6NGoI"
             },
             {
-                "ref": "DSsuite.lorraine",
-                "url": "document/d/1ZQW3lauAsCVDsuzWuRiG2pndO-DCpCg2VMYHWLHAoaI",
-                "sxs": ".url;;",
-                "mels": "217"
+              "ref": "DSsuite.lorraine",
+              "url": "spreadsheets/d/1pLjFzDWmtoNDqrSQePUlQFiTGoAHQkoi_yp5Xbz1ZVw",
+              "sxs": ".url;;",
+              "mels": 217,
+              "url--2": "spreadsheets/d/1pLjFzDWmtoNDqrSQePUlQFiTGoAHQkoi_yp5Xbz1ZVw"
             },
             {
-                "ref": "DStais.toi",
-                "url": "document/d/1ku6IndLHWNUbzSHdhqgZfweiUQedTmJt84yGCpks4XI",
-                "sxs": ".url;;",
-                "mels": "235"
+              "ref": "DStais.toi",
+              "url": "spreadsheets/d/1HXbL9yqiNa_PDaY86YIVaQLkb3kK8zjdvGZ4OmIAJOA",
+              "sxs": ".url;;",
+              "mels": 235,
+              "url--2": "spreadsheets/d/1HXbL9yqiNa_PDaY86YIVaQLkb3kK8zjdvGZ4OmIAJOA"
             },
             {
-                "ref": "DStisserands",
-                "url": "document/d/1LwkP3AlCKkvk8BRoxjaIRtCEeW7Ri6TfaJJOW8l8gJM",
-                "craKl": "x",
-                "sxs": ".url;;",
-                "mels": "80"
+              "ref": "DStisserands",
+              "url": "spreadsheets/d/1rc9Y5O-fY3nuDzQ5Qo-RXpNU7CSOUq43syMDoJydGZM",
+              "craKl": "x",
+              "sxs": ".url;;",
+              "mels": 80,
+              "url--2": "spreadsheets/d/1rc9Y5O-fY3nuDzQ5Qo-RXpNU7CSOUq43syMDoJydGZM"
             },
             {
-                "ref": "DStrimazo",
-                "url": "document/d/1OyqnIjX0MsbjXifmxJBidTJJJaSXykg8XIL0-ycC7pU",
-                "sxs": ".url;;",
-                "mels": "198"
+              "ref": "DStrimazo",
+              "url": "spreadsheets/d/1TbwjLptRU-GWpvc_5W4wVlpmyCmHogMNSFVxQnPqZHI",
+              "sxs": ".url;;",
+              "mels": 198,
+              "url--2": "spreadsheets/d/1TbwjLptRU-GWpvc_5W4wVlpmyCmHogMNSFVxQnPqZHI"
             },
             {
-                "ref": "DStriolets",
-                "url": "document/d/1uS364URmse8ZQAZROLJwnyRT5X_4lDagTx1wKCitctc",
-                "sxs": ".url;;",
-                "mels": "155"
+              "ref": "DStriolets",
+              "url": "spreadsheets/d/1wRBQDds4Pl2-PEqNABJ-8RPt9iYK_UK9nxNxGhfpFPw",
+              "sxs": ".url;;",
+              "mels": 155,
+              "url--2": "spreadsheets/d/1wRBQDds4Pl2-PEqNABJ-8RPt9iYK_UK9nxNxGhfpFPw"
             },
             {
-                "ref": "DStrois.branles",
-                "url": "document/d/10FULGVmMt54O16IW3hOvbhPL8l8EFjYSsK6xNnC-8tM",
-                "sxs": ".url;;",
-                "mels": "291"
+              "ref": "DStrois.branles",
+              "url": "spreadsheets/d/1hb3OFTTYxNaP9EyXHpPagPzyxGvHKQeHWKoNXOuSBb8",
+              "sxs": ".url;;",
+              "mels": 291,
+              "url--2": "spreadsheets/d/1hb3OFTTYxNaP9EyXHpPagPzyxGvHKQeHWKoNXOuSBb8"
             },
             {
-                "ref": "DStrois.valses",
-                "url": "document/d/1i8I0gx9wBOqE1n6rJeGXYokfC0VEZhJo1hMt02LNvvc",
-                "sxs": ".url;;",
-                "mels": "362,363"
+              "ref": "DStrois.valses",
+              "url": "spreadsheets/d/191QeDv0P3lxGbXCQoBmVhBcNY9mAQuKL8H_zPtj1E0A",
+              "sxs": ".url;;",
+              "mels": "362,363",
+              "url--2": "spreadsheets/d/191QeDv0P3lxGbXCQoBmVhBcNY9mAQuKL8H_zPtj1E0A"
             },
             {
-                "ref": "DSvalet.ruse",
-                "url": "document/d/1doeu--cNRrkUKaff3eyY1DVSvB6XVHcNEIMrY6lflAk",
-                "sxs": ".url;;",
-                "mels": "309"
+              "ref": "DSvalet.ruse",
+              "url": "spreadsheets/d/1WdwaqAMRuP6BLgRRrnvqi3o-aX6O-RTSZqL6ObdAQ_o",
+              "sxs": ".url;;",
+              "mels": 309,
+              "url--2": "spreadsheets/d/1WdwaqAMRuP6BLgRRrnvqi3o-aX6O-RTSZqL6ObdAQ_o"
             },
             {
-                "ref": "DSvalse.conscrits",
-                "url": "document/d/1-WLjWuYkMkUY2O5q9knSkTHwWNIVRDLIZe02QJQDU4s",
-                "sxs": ".url;;",
-                "mels": "36"
+              "ref": "DSvalse.conscrits",
+              "url": "spreadsheets/d/12dJrwRC_H_J3RQaerMtX6mGZIsEknNJzFKaPIX4ZqcQ",
+              "sxs": ".url;;",
+              "mels": 36,
+              "url--2": "spreadsheets/d/12dJrwRC_H_J3RQaerMtX6mGZIsEknNJzFKaPIX4ZqcQ"
             },
             {
-                "ref": "DSvalse.deux.mondes",
-                "url": "document/d/1bKhdaPJsVqV6KoNtbOt0YENE3hnnHxmKYaDbr0HUvvI",
-                "craKl": "x",
-                "sxs": ".url;;",
-                "mels": "116"
+              "ref": "DSvalse.deux.mondes",
+              "url": "spreadsheets/d/1Zcx6JEgNwVvvgr72IDu--Q4WSLDPmCid79xOOLEKyMI",
+              "craKl": "x",
+              "sxs": ".url;;",
+              "mels": 116,
+              "url--2": "spreadsheets/d/1Zcx6JEgNwVvvgr72IDu--Q4WSLDPmCid79xOOLEKyMI"
             },
             {
-                "ref": "DSvalse.munster",
-                "url": "document/d/1byODTALPxfBREVHEwJ1E-pF6nU-lIMNXg1KjDAQcMR8",
-                "craKl": "x ",
-                "sxs": ".url;;",
-                "mels": "117"
+              "ref": "DSvalse.munster",
+              "url": "spreadsheets/d/16MqrYGU8lDjXiLZEysCJu7CJKTuVcjhbd-QdfxxYSx0",
+              "craKl": "x",
+              "sxs": ".url;;",
+              "mels": 117,
+              "url--2": "spreadsheets/d/16MqrYGU8lDjXiLZEysCJu7CJKTuVcjhbd-QdfxxYSx0"
             },
             {
-                "ref": "DSvalse.roses",
-                "url": "document/d/139c7sYVLHcSVBhp9t2ff1PbWL7ebL6AGA0HA0uiXFxs",
-                "sxs": ".url;;",
-                "mels": "111,272,358,367,368,369"
+              "ref": "DSvalse.roses",
+              "url": "spreadsheets/d/1DC6H_5-hfNRU1MjHCZ8Ysa9pmcrbuHzgVNWTJClOhbY",
+              "sxs": ".url;;",
+              "mels": "111,272,358,367,368,369",
+              "url--2": "spreadsheets/d/1DC6H_5-hfNRU1MjHCZ8Ysa9pmcrbuHzgVNWTJClOhbY"
             },
             {
-                "ref": "DSvalse.violettes",
-                "url": "document/d/1in9MSwF48gKcg9xJXKD2FhEw9SFB5lPkYuiTroGS70A",
-                "sxs": ".url;;",
-                "mels": "371"
+              "ref": "DSvalse.violettes",
+              "url": "spreadsheets/d/1dnpEsG7eMDgX3DmKfBqRDo3NRAzUpHG4ClI674vkEIQ",
+              "sxs": ".url;;",
+              "mels": 371,
+              "url--2": "spreadsheets/d/1dnpEsG7eMDgX3DmKfBqRDo3NRAzUpHG4ClI674vkEIQ"
             },
             {
-                "ref": "DSvalse.voltee",
-                "url": "document/d/1UFd-Gq4zDSQzfvEu5vdYr32-XZ3sXQuFXRMHEVcj8V8",
-                "sxs": ".url;;",
-                "mels": "356"
+              "ref": "DSvalse.voltee",
+              "url": "spreadsheets/d/15hmftFrMBtaUBCFqikDudYU9HVS1lkKSAZIe8TM58TA",
+              "sxs": ".url;;",
+              "mels": 356,
+              "url--2": "spreadsheets/d/15hmftFrMBtaUBCFqikDudYU9HVS1lkKSAZIe8TM58TA"
             },
             {
-                "ref": "DSvanite",
-                "url": "document/d/1lAy7Hc625CRWgiLwG2LrA7YKn6SUu7zWrbcHOuOj0SE",
-                "sxs": ".url;;",
-                "mels": "25"
+              "ref": "DSvanite",
+              "url": "spreadsheets/d/1W7IvV0SIrr23-Zygwg-LR5cMZewgOHGb3FdvBPCawC8",
+              "sxs": ".url;;",
+              "mels": 25,
+              "url--2": "spreadsheets/d/1W7IvV0SIrr23-Zygwg-LR5cMZewgOHGb3FdvBPCawC8"
             },
             {
-                "ref": "DSvanniers",
-                "url": "document/d/13cAMkrHmDljuCzcxYc2TMcHQtef2tEJVqZ2Qt5AA_tQ",
-                "craKl": "x",
-                "sxs": ".url;;",
-                "mels": "135"
+              "ref": "DSvanniers",
+              "url": "spreadsheets/d/1KJEKgMZpf8HMqzj9oFZZB1Dd4_hU0MOlzz8tOqOA3co",
+              "craKl": "x",
+              "sxs": ".url;;",
+              "mels": 135,
+              "url--2": "spreadsheets/d/1KJEKgMZpf8HMqzj9oFZZB1Dd4_hU0MOlzz8tOqOA3co"
             },
             {
-                "ref": "DSveile.rose",
-                "url": "document/d/1fAsUKT0h6LV3_PP4VQrKi1x22jp8G0EBe-m4_nyFHq8",
-                "sxs": ".url;;",
-                "mels": "213"
+              "ref": "DSveile.rose",
+              "url": "spreadsheets/d/1b7plCzmZf0hLymN_MR8dX8GM4jH70Pz9OCVugvBxGx0",
+              "sxs": ".url;;",
+              "mels": 213,
+              "url--2": "spreadsheets/d/1b7plCzmZf0hLymN_MR8dX8GM4jH70Pz9OCVugvBxGx0"
             },
             {
-                "ref": "DSverriers",
-                "url": "document/d/1z_yRp-WucXMHJGoNZVXWJZTtTP4jgcQiSONencxF-TY",
-                "sxs": ".url;;",
-                "mels": "331"
+              "ref": "DSverriers",
+              "url": "spreadsheets/d/12LpqhVv_r6MECjCByAd8_4mDXfkU_MaA78jH3DzbkAw",
+              "sxs": ".url;;",
+              "mels": 331,
+              "url--2": "spreadsheets/d/12LpqhVv_r6MECjCByAd8_4mDXfkU_MaA78jH3DzbkAw"
             },
             {
-                "ref": "DSvogese.allemande",
-                "url": "document/d/1zFrut3tirBqrthh6HROAJi2jaOk1wK67SgXAf53_0LQ",
-                "sxs": ".url;;",
-                "mels": "250"
+              "ref": "DSvogese.allemande",
+              "url": "spreadsheets/d/1--QSiNh-11NF2d8ZCBHKH8TbbbSGKpZGGbrzfXd4Dis",
+              "sxs": ".url;;",
+              "mels": 250,
+              "url--2": "spreadsheets/d/1--QSiNh-11NF2d8ZCBHKH8TbbbSGKpZGGbrzfXd4Dis"
             },
             {
-                "ref": "DSwin.wasser",
-                "url": "document/d/1HqRm56G98Fxm7SSbCuai0U9lvIfJQHn-O7TwDxzOSIo",
-                "craKl": "x",
-                "sxs": ".url;;",
-                "mels": "87"
+              "ref": "DSwin.wasser",
+              "url": "spreadsheets/d/1zGQ1gP__p_XEyVEfygYFQ3xhy2k-MBgbbnsvD_GNG8Y",
+              "craKl": "x",
+              "sxs": ".url;;",
+              "mels": 87,
+              "url--2": "spreadsheets/d/1zGQ1gP__p_XEyVEfygYFQ3xhy2k-MBgbbnsvD_GNG8Y"
             }
-        ],
+          ],
         "prefix": "DS",
         "name": "Danses Schneideriennes (privé BS-PS)",
         "core": "#?([1-9a-z]+[.])*[1-9a-z]+",
@@ -10245,7 +10405,7 @@
                 "mel": 117,
                 "ref": "GF4.5",
                 "titre": "Valse de Munster",
-                "sxs": ";;.mp4,F.mp4;"
+                "sxs": ";A.mp4;.mp4;"
             },
             {
                 "mel": 31,
@@ -10281,13 +10441,13 @@
                 "mel": 319,
                 "ref": "GF4.11",
                 "titre": "L'empoisonneuse",
-                "sxs": ";;F.mp4;"
+                "sxs": ";A.mp4;;"
             },
             {
                 "mel": 26,
                 "ref": "GF4.12",
                 "titre": "Scottisch des moissons",
-                "sxs": ";;F.mp4;"
+                "sxs": ";A.mp4;;"
             },
             {
                 "mel": 400,
@@ -11515,7 +11675,7 @@
                 "titre": "Die Zwanzig Mörder",
                 "sxs": ".jpg;;;"
             },
-            {  
+            {
                 "mel": 429,
                 "ref": "LP3p413",
                 "titre": "Et war e Wanter hort a kal"
@@ -18874,206 +19034,245 @@
             {
                 "mel": 115,
                 "ref": "RSEp2241.1",
-                "titre": "La légende de Bacqueville"
+                "titre": "La légende de Bacqueville",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 66,
                 "ref": "RSEp2241.2",
-                "titre": "Su'l' pont du nord un bal y est donné"
+                "titre": "Su'l' pont du nord un bal y est donné",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 339,
                 "ref": "RSEp2245.1",
-                "titre": "Le cloutier"
+                "titre": "Le cloutier",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 218,
                 "ref": "RSEp2245.2",
-                "titre": "Siwenersprung"
+                "titre": "Siwenersprung",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 80,
                 "ref": "RSEp2245.3",
-                "titre": "Danse des tisserands"
+                "titre": "Danse des tisserands",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 93,
                 "ref": "RSEp2246.1",
-                "titre": "Die Nacht ist ja stockfinster"
+                "titre": "Die Nacht ist ja stockfinster",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 326,
                 "ref": "RSEp2246.2",
-                "titre": "La tombe du marin"
+                "titre": "La tombe du marin",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 385,
                 "ref": "RSEp2249.1",
-                "titre": "De Haystàll fällt um"
+                "titre": "De Haystàll fällt um",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 182,
                 "ref": "RSEp2249.2",
-                "titre": "La Corante du Roy"
+                "titre": "La Corante du Roy",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 71,
                 "ref": "RSEp2253.1",
-                "titre": "Réveil au clairon"
+                "titre": "Réveil au clairon",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 324,
                 "ref": "RSEp2253.2",
-                "titre": "La mort du soldat"
+                "titre": "La mort du soldat",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 60,
                 "ref": "RSEp2254",
-                "titre": "L'étoile du soir"
+                "titre": "L'étoile du soir",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 135,
                 "ref": "RSEp2255",
-                "titre": "Un joyeux cimetière"
+                "titre": "Un joyeux cimetière",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 134,
                 "ref": "RSEp2256",
-                "titre": "Newe Almayne"
+                "titre": "Newe Almayne",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 7,
                 "ref": "RSEp2257.1",
-                "titre": "L'amour perdu"
+                "titre": "L'amour perdu",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 65,
                 "ref": "RSEp2257.2",
-                "titre": "De Gemietlichkeit’s Walzer"
+                "titre": "De Gemietlichkeit’s Walzer",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 53,
                 "ref": "RSEp2258.1",
-                "titre": "La pauvre âme"
+                "titre": "La pauvre âme",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 23,
                 "ref": "RSEp2258.2",
-                "titre": "J'entends la faucille"
+                "titre": "J'entends la faucille",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 20,
                 "ref": "RSEp2260.1",
-                "titre": "La flûte du berger"
+                "titre": "La flûte du berger",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 92,
                 "ref": "RSEp2260.2",
-                "titre": "Si tu ne me veux pas"
+                "titre": "Si tu ne me veux pas",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 151,
                 "ref": "RSEp2263.1",
-                "titre": "La chanson du café"
+                "titre": "La chanson du café",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 22,
                 "ref": "RSEp2263.2",
-                "titre": "Crêpes à la bavaroise"
+                "titre": "Crêpes à la bavaroise",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 91,
                 "ref": "RSEp2264",
-                "titre": "Le retour"
+                "titre": "Le retour",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 272,
                 "ref": "RSEp2265.1",
-                "titre": "Danse des rubans"
+                "titre": "Danse des rubans",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 95,
                 "ref": "RSEp2265.2",
-                "titre": "E àrmer Büe"
+                "titre": "E àrmer Büe",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 50,
                 "ref": "RSEp2266.1",
-                "titre": "Le Royal-Suédois"
+                "titre": "Le Royal-Suédois",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 28,
                 "ref": "RSEp2266.2",
-                "titre": "Herr Schmitt"
+                "titre": "Herr Schmitt",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 36,
                 "ref": "RSEp2267.1",
-                "titre": "Valse des conscrits"
+                "titre": "Valse des conscrits",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 89,
                 "ref": "RSEp2267.2",
-                "titre": "Un die Butell isch leer"
+                "titre": "Un die Butell isch leer",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 133,
                 "ref": "RSEp2268.1",
-                "titre": "Polka des conscrits"
+                "titre": "Polka des conscrits",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 269,
                 "ref": "RSEp2268.2",
-                "titre": "Polka croisée"
+                "titre": "Polka croisée",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 68,
                 "ref": "RSEp2269.1",
-                "titre": "Danse des 4 pas"
+                "titre": "Danse des 4 pas",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 40,
                 "ref": "RSEp2269.2",
-                "titre": "Le juif de Seebach"
+                "titre": "Le juif de Seebach",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 62,
                 "ref": "RSEp2269.3",
-                "titre": "Les bottes cirées"
+                "titre": "Les bottes cirées",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 161,
                 "ref": "RSEp2270.1",
-                "titre": "Drum si m'r Luschtig"
+                "titre": "Drum si m'r Luschtig",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 103,
                 "ref": "RSEp2270.2",
-                "titre": "Nostalgie"
+                "titre": "Nostalgie",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 43,
                 "ref": "RSEp2271",
-                "titre": "De Kehrüs"
+                "titre": "De Kehrüs",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 218,
                 "ref": "RSFp64",
                 "titre": "Danse des sept sauts",
-                "mm75": "p10"
+                "mm75": "p10",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 233,
                 "ref": "RSFp71",
                 "titre": "Schwitzemann",
                 "mm75": "p13",
-                "sxs": ";;;."
+                "sxs": ".jpg;;;."
             },
             {
                 "mel": 6,
                 "ref": "RSFp73",
                 "titre": "Courante de nouvel-an",
-                "mm75": "p15"
+                "mm75": "p15",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 154,
@@ -19086,73 +19285,85 @@
                 "mel": 225,
                 "ref": "RSFp76",
                 "titre": "Rutsch hin, Rutsch her",
-                "mm75": "p18"
+                "mm75": "p18",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 43,
                 "ref": "RSFp83",
                 "titre": "La balayeuse",
-                "mm75": "p25"
+                "mm75": "p25",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 14,
                 "ref": "RSFp84",
                 "titre": "La danse du coq",
-                "mm75": "p26"
+                "mm75": "p26",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 213,
                 "ref": "RSFp87",
                 "titre": "Quête du mardi-gras",
-                "mm75": "p29"
+                "mm75": "p29",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 45,
                 "ref": "RSFp88.1",
                 "titre": "Madeleine et la mort",
-                "mm75": "p30.1"
+                "mm75": "p30.1",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 138,
                 "ref": "RSFp88.2",
                 "titre": "Geh m'r nit uewer min Mattele",
-                "mm75": "p30.2"
+                "mm75": "p30.2",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 194,
                 "ref": "RSFp89",
                 "titre": "Danse des bergers",
-                "mm75": "p31"
+                "mm75": "p31",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 70,
                 "ref": "RSFp110",
                 "titre": "Ronde des roses",
-                "mm75": "p52"
+                "mm75": "p52",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 105,
                 "ref": "RSFp115",
                 "titre": "Le petit moulin",
-                "mm75": "p57"
+                "mm75": "p57",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 170,
                 "ref": "RSFp117",
                 "titre": "La varsovienne",
-                "mm75": "p59"
+                "mm75": "p59",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 19,
                 "ref": "RSFp118",
                 "titre": "L'amour secret",
-                "mm75": "p60"
+                "mm75": "p60",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 258,
                 "ref": "RSFp119",
                 "titre": "Scottischs Alsaciennes",
-                "mm75": "p61"
+                "mm75": "p61",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 255,
@@ -19176,19 +19387,22 @@
                 "mel": 146,
                 "ref": "RSFp122",
                 "titre": "Danse des sept pas",
-                "mm75": "p64"
+                "mm75": "p64",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 297,
                 "ref": "RSFp123.1",
                 "titre": "Hop Marianne",
-                "mm75": "p69.1"
+                "mm75": "p69.1",
+                "sxs": ".jpg;;;"
             },
             {
                 "mel": 17,
                 "ref": "RSFp123.2",
                 "titre": "Trois guêtres de cuir",
-                "mm75": "p69.2"
+                "mm75": "p69.2",
+                "sxs": ".jpg;;;"
             }
         ],
         "prefix": "RS",
