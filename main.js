@@ -1,14 +1,16 @@
-var gold, flatColls, prefixes, dico, dicoArr, collPrfx, graphs,
-   col = [], 
-   mels = []
-var flatCollFirst=[0]
+var 
+  gold, flatColls, prefixes, dico, dicoArr, collPrfx, graphs,
+  col = [], 
+  mels = [],
+  flatCollFirst=[0],
+  curColNb = null,
+  curMelNb = null,
+  dansesCumReport
 
-var curColNb = null
-var curMelNb = null
-var dansesCumReport
-const separatorRegEx = /_| |-|, |'/
-const urlHeadG = 'https://docs.google.com/document/d/'
-const urlHeadC = 'https://dta.philiole.fr/Collections/'
+const 
+  separatorRegEx = /_| |-|, |'/,
+  urlHeadG = 'https://docs.google.com/document/d/',
+  urlHeadC = 'https://dta.philiole.fr/Collections/'
 
 window.onload = function() {
   $.get("gold.json", function(goldFile) {
@@ -26,6 +28,8 @@ window.onload = function() {
       flatCollFirst[i+1] = flatCollFirst[i]+gold[prefix].refs.length
       col[i] = gold[prefix]
     })
+    
+    gold.DS.refs.forEach(d => d.mels = []) // création du lien inverse dans DS 
     mels.forEach((mel, i) => {  //expansions des listes de non-docs   //deréférencement souhaitable?
       initGraphMel(mel)
       if (mel.hasOwnProperty('ds')) {
@@ -155,6 +159,38 @@ function playAV(s, doc) { // comparer à toggleMel()
   }
 }
 
+function saveColl_m() {  //un sous-gold! (ne sauve que la coll "m"   :  suffit tand qu'on n'édite (ne commente?) pas les vraies collections...)
+  var edited_m_jsonFile=JSON.stringify(
+    { refs: mels.map(m=>(Object.assign(
+      {
+        mel: m.mel,
+        ds: m?.ds?.join(),
+        titre: m.titre,
+        music: m.music,
+        commentaire: m.commentaire,
+        //docs: m?.docs?.map(d=>d.ref).join()
+        sxs: m?.sxs?.join(),
+        mscz: m.mscz
+      }, 
+      m.f.f? {
+        f: m.f.f,
+        X: m.X, 
+        Y: m.Y, 
+        rel: m.rel
+      }:{}))),
+      prefix: 'm',
+      name: 'Mélodies',
+      core: '[0-9]{1,3}',
+      suffix: ',m',
+      media: '0,0',
+      colldoc: '1XwAzAO4ltdPSggO5ZX38d9YiCJbL_h54OhtxDWd0D2c'
+    }
+  , null, "  ")
+  console.log(edited_m_jsonFile)
+  alert(`updated "m" json object available in console`)
+  $('#saveBtn').hide()
+}
+
 function showMelPanel(j) {   // param: j :  soit "null", soit un n°de mel soit un n° de doc (si > à  mels.length)
   $('#MelPanel').attr('dt_label', null).empty()  //n'y a-t-il pas besoin de cette mémoire pour limiter un refresh inutile?
   if (j != null) {
@@ -166,38 +202,28 @@ function showMelPanel(j) {   // param: j :  soit "null", soit un n°de mel soit 
         j= doc.mel //j est donc maintenant un n° de mel ( < à  mels.length)
     }  
     var mel = flatColls[j]
-    $('#MelPanel')
-      .attr('dt_label', j)
-      .append($('<tr/>')
-      .append($('<table id="hdrTab" />'))) // name="M'+j+'"  ne sert à rien?
+    $('#MelPanel').attr('dt_label', j).append($('<tr/>').append($('<table id="hdrTab" />'))) // name="M'+j+'"  ne sert à rien?
     $('#hdrTab').append($('<div id="mel"/>').html('Mélodie '+j))
-    
-  var fam = mel.f.f  //peut être 0
-  var fam = mel.f.f  //peut être 0
-  refreshGraphPanelForMel(j)
- 
     var fam = mel.f.f  //peut être 0
-  refreshGraphPanelForMel(j)
- 
+    refreshGraphPanelForMel(j)
     if (fam) {  //ya dla famille!
         mel?.shapes?.first()?.stroke({width:3})//=HighlightOn(j)
         $('#hdrTab').append($('<div id="famDv"/>').append($('<button id="famBt"/>').text( 'fam '+fam)))
         $('#famBt').click(()=>$('#BtGraph'+fam).click())
-        if (fam) { //pas pour les mélodies "sans famille" 
-          addButtons('par')
-          addButtons('enf') 
-          addButtons('sim')
-          function addButtons(key) {  //returns a string of button elements labelled with key and values in Array mel[]
-            var relMels =  mel.f.filter((_m,i)=>mel.rel[i]==key[0]).map(m=>m.mel) 
-            if (relMels.length==0) return
-            if (relMels.length==1) $('#famDv').append($('<button id="'+key+'Bt0"/>').text(key+' '+relMels[0]))
-            else {
-              $('#famDv').append($('<div/>').text(key+': '))
-              relMels.forEach((el, j) => {$('#famDv').append($('<button id="'+key+'Bt'+j+'"/>').text(el))})
-            }
-            relMels.forEach((el, j) => document.querySelector('#'+key+'Bt'+j).addEventListener('click', function() {showMelPanel(el)}))
+        addButtons('par'); addButtons('enf'); addButtons('sim')
+        function addButtons(key) {  //returns a string of button elements labelled with key and values in Array mel[]
+          var relMels =  mel.f.filter((_m,i)=>mel.rel[i]==key[0]).map(m=>m.mel) 
+          if (relMels.length==0) return
+          if (relMels.length==1) $('#famDv').append($('<button id="'+key+'Bt0"/>').text(key+' '+relMels[0]))
+          else {
+            $('#famDv').append($('<div/>').text(key+': '))
+            relMels.forEach((el, j) => {$('#famDv').append($('<button id="'+key+'Bt'+j+'"/>').text(el))})
           }
+          relMels.forEach((el, j) => document.querySelector('#'+key+'Bt'+j).addEventListener('click', function() {showMelPanel(el)}))
         }
+
+
+
     }
     if (mel.titre != undefined) $('#hdrTab').append($('<div/>').html('titre add: '+mel.titre.replaceAll('_','<br>')))
     if (mel.sxs != undefined) {
@@ -221,32 +247,39 @@ function showMelPanel(j) {   // param: j :  soit "null", soit un n°de mel soit 
     $('#MelPanel').append($('<td/>').text(mel.music)) //plante probablement si music de type []
     $('#MelPanel').append($('<td/>').text(mel.comment))
 
-    var dh =  fam ? dsHeritage(mel) : []
-    if (mel.ds || dh.length) {
-      $('#MelPanel').append($('<tr/>').append($('<table id="dsTab"/>')))
-      if (mel.ds != undefined) 
-        $('#dsTab').append($('<div/>').html('Danses propres: '+dsLinks(mel.ds)))
-      if (dh.length) $('#dsTab').append($('<div/>').html('Danses héritées: '+dsLinks(dh)))
-      
-      function dsLinks(dsArr) {  
-        links=[]
-        dsArr.forEach(el => links.push('<a href="'+gold.DS.urlPref + gold.DS.refs[el].url+'">' // doc or spreadsheet
-            +gold.DS.refs[el].ref.substring(2)+' </a>'))
-        return links.join(', ')
-      }
-    }
-
     function dsHeritage(mel) {  //mel: object, returns an array of danse numbers
-      return Array.from(new Set(ancestors(mel).reduce((acc, m ) => mels[m.mel]?.ds ? acc.concat(mels[m.mel].ds) : acc, [])))
+      return  Array.from(new Set(ancestors(mel).reduce((acc, m ) => mels[m.mel]?.ds ? acc.concat(mels[m.mel].ds) : acc, [])))
       function ancestors (mel) { //mel :object, returns an array of mel objects
         return (Array.from(new Set(parents(mel).reduce((acc, par)=> acc.concat(ancestors(par)), parents(mel)))))
         function parents(mel) {  //mel :object, returns an array of mel objects
-          return (mel?.graph?.rel.split('').reduce((acc, char, i) => char=='p' ? acc.concat([i]) : acc, [])
-            .map(i=>mel.graph.grp[i])) || []
+          return (mel?.rel?.split('').reduce((acc, char, i) => char=='p' ? acc.concat([i]) : acc, []).map(i=>graphs[fam][i])) || []
         }
       }
+    } 
+    var dh =  fam ? dsHeritage(mel) : []
+    if (mel.ds || dh.length) {
+      $('#MelPanel').append($('<tr/>').append($('<table id="dsTab"/>')))
+      if (mel.ds != undefined) {
+        if ((dups = mel.ds.filter(d=>dh.includes(d))).length) {
+          dups.forEach(dup => { 
+            console.log(`mel ${mel.mel}.ds déclare (mais hérite déjà de) ${gold.DS.refs[dup].ref}`)
+            mel.ds = mel.ds.filter(d => d != dup)
+            gold.DS.refs[dup].mels = gold.DS.refs[dup].mels.filter(m => m != mel)
+          })
+          saveColl_m()
+        }
+      }
+      $('#dsTab').append($('<div/>').html('Danses propres: '+dsLinks(mel.ds)))
     }
+    if (dh.length) $('#dsTab').append($('<div/>').html('Danses héritées: '+dsLinks(dh)))
     
+    function dsLinks(dsArr) {  
+      links=[]
+      dsArr.forEach(el => links.push('<a href="'+gold.DS.urlPref + gold.DS.refs[el].url+'">' // doc or spreadsheet
+          +gold.DS.refs[el].ref.substring(2)+' </a>'))
+      return links.join(', ')
+    }
+
     if ($('#AudPanel').attr("mel")!=j ) playAV(null) //reset éventuel de l'audio
     if (mel.docs?.length ?? 0) {
       $('#MelPanel').append($('<tr/>').append($('<table id="mTbl"/>')))
@@ -355,7 +388,7 @@ function docTable(topRef, dcfa) {  //topRef= n° de mél ou préfixe de coll
           break;
         case 'mels':  //seulement dans DS
           if (doc.mels) 
-            doc.mels.split(',').forEach(m => {
+            doc.mels.forEach(m => {
                   $(ddcmi).append($('<button id="m'+m+'Bt'+i+'"/>').text(m))
                   document.querySelector('#m'+m+'Bt'+i).addEventListener('click', () => {
                     showMelPanel(m)})
