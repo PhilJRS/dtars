@@ -13,7 +13,7 @@ const
   urlHeadC = 'https://dta.philiole.fr/Collections/'
 
 window.onload = function() {
-  $.get("https://dta.philiole.fr/gold.json", function(goldFile) {
+  $.get("gold.json", function(goldFile) {
     gold = goldFile
     flatColls = Object.values(gold).flatMap(x => x.refs) //index direct sur les (3000+) réfs 
     prefixes = Object.keys(gold) 
