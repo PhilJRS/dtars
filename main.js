@@ -221,9 +221,6 @@ function showMelPanel(j) {   // param: j :  soit "null", soit un n°de mel soit 
           }
           relMels.forEach((el, j) => document.querySelector('#'+key+'Bt'+j).addEventListener('click', function() {showMelPanel(el)}))
         }
-
-
-
     }
     if (mel.titre != undefined) $('#hdrTab').append($('<div/>').html('titre add: '+mel.titre.replaceAll('_','<br>')))
     if (mel.sxs != undefined) {
@@ -268,11 +265,10 @@ function showMelPanel(j) {   // param: j :  soit "null", soit un n°de mel soit 
           })
           saveColl_m()
         }
+        if (mel.ds.length) $('#dsTab').append($('<div/>').html('Danses propres: '+dsLinks(mel.ds)))
       }
-      $('#dsTab').append($('<div/>').html('Danses propres: '+dsLinks(mel.ds)))
+      if (dh.length) $('#dsTab').append($('<div/>').html('Danses héritées: '+dsLinks(dh)))
     }
-    if (dh.length) $('#dsTab').append($('<div/>').html('Danses héritées: '+dsLinks(dh)))
-    
     function dsLinks(dsArr) {  
       links=[]
       dsArr.forEach(el => links.push('<a href="'+gold.DS.urlPref + gold.DS.refs[el].url+'">' // doc or spreadsheet
