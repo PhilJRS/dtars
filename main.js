@@ -170,7 +170,7 @@ function saveColl_m() {  //un sous-gold! (ne sauve que la coll "m"   :  suffit t
         commentaire: m.commentaire,
         //docs: m?.docs?.map(d=>d.ref).join()
         sxs: m?.sxs?.join(),
-        mscz: m.mscz
+        //mscz: m.mscz  propriété temporaire redondante avec sxs[3], nettoyée ainsi en sortie
       }, 
       m.f.f? {
         f: m.f.f,
@@ -230,8 +230,8 @@ function showMelPanel(j) {   // param: j :  soit "null", soit un n°de mel soit 
         if (sx.endsWith('.png')) {
           var suffix = sx.substring(0, sx.length-4);
           $('#scores').append($('<tr id="melRow'+i+'"/>'))
-          $('#scoRow'+i).append($('<td/>').text(suffix))
-          $('#scoRow'+i).append($('<td/>').html('<img src='+urlHeadC+'m/m'+j+sx+' style="width:600px;height:40px;">'))
+          $('#scores').append($('<td/>').text(suffix))
+          $('#scores').append($('<td/>').html('<img src='+urlHeadC+'m/m'+j+sx+' style="width:600px;height:40px;">'))
       }}) 
     }
 
